@@ -1,0 +1,390 @@
+\def\Fileversion$#1: #2 ${\gdef\fileversion{#2}}
+\def\Filedate$#1: #2-#3-#4 #5 ${\gdef\filedate{#2/#3/#4}}
+\Fileversion$Revision: 460316 $
+\Filedate$Date: 2018-05-15 06:41:40 -0400 (Tue, 15 May 2018) $
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  CMS Common definitions style file
+%
+%  N.B. use of \newcommand rather than \newcommand means
+%       that a definition is ignored if already specified
+%
+%                                              L. Taylor 18 Feb 2005
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{ptdr-definitions}[\filedate\space CMS Additional Macro Definitions (\fileversion)]
+\RequirePackage{xspace}
+\RequirePackage{amsmath}
+
+% Some shorthand
+% turn off italics
+\newcommand {\etal}{\mbox{et al.}\xspace} %et al. - no preceding comma
+\newcommand {\ie}{\mbox{i.e.}\xspace}     %i.e.
+\newcommand {\eg}{\mbox{e.g.}\xspace}     %e.g.
+\newcommand {\etc}{\mbox{etc.}\xspace}     %etc.
+\newcommand {\vs}{\mbox{\textsl{vs.}}\xspace}      %vs.
+\newcommand {\mdash}{\ensuremath{\text{---}}} % for use within formulas
+\providecommand {\NA}{\ensuremath{\text{---}}}    % for Not applicable (or available). Needs to be renewcommanded for APS to \cdots
+
+% some terms whose definition we may change
+\newcommand {\Lone}{Level-1\xspace} % Level-1 or L1 ?
+\newcommand {\Ltwo}{Level-2\xspace}
+\newcommand {\Lthree}{Level-3\xspace}
+
+% Some software programs (alphabetized)
+\newcommand{\ACERMC} {\textsc{AcerMC}\xspace}
+\newcommand{\ALPGEN} {{\textsc{alpgen}}\xspace}
+\newcommand{\BLACKHAT} {{\textsc{BlackHat}}\xspace}
+\newcommand{\CALCHEP} {{\textsc{CalcHEP}}\xspace}
+\newcommand{\CHARYBDIS} {{\textsc{charybdis}}\xspace}
+\newcommand{\CMKIN} {\textsc{cmkin}\xspace}
+\newcommand{\CMSIM} {{\textsc{cmsim}}\xspace}
+\newcommand{\CMSSW} {{\textsc{cmssw}}\xspace}
+\newcommand{\COBRA} {{\textsc{cobra}}\xspace}
+\newcommand{\COCOA} {{\textsc{cocoa}}\xspace}
+\newcommand{\COMPHEP} {\textsc{CompHEP}\xspace}
+\newcommand{\EVTGEN} {{\textsc{evtgen}}\xspace}
+\newcommand{\FAMOS} {{\textsc{famos}}\xspace}
+\newcommand{\FASTJET} {{\textsc{FastJet}}\xspace}
+\newcommand{\FEWZ} {{\textsc{fewz}}\xspace}
+\newcommand{\GARCON} {\textsc{garcon}\xspace}
+\newcommand{\GARFIELD} {{\textsc{garfield}}\xspace}
+\newcommand{\GEANE} {{\textsc{geane}}\xspace}
+\newcommand{\GEANTfour} {{\textsc{Geant4}}\xspace}
+\newcommand{\GEANTthree} {{\textsc{geant3}}\xspace}
+\newcommand{\GEANT} {{\textsc{geant}}\xspace}
+\newcommand{\HDECAY} {\textsc{hdecay}\xspace}
+\newcommand{\HERWIG} {{\textsc{herwig}}\xspace}
+\newcommand{\HERWIGpp} {{\textsc{herwig++}}\xspace}
+\newcommand{\POWHEG} {{\textsc{powheg}}\xspace}
+\newcommand{\HIGLU} {{\textsc{higlu}}\xspace}
+\newcommand{\HIJING} {{\textsc{hijing}}\xspace}
+\newcommand{\HYDJET} {{\textsc{hydjet}}\xspace}
+\newcommand{\IGUANA} {\textsc{iguana}\xspace}
+\newcommand{\ISAJET} {{\textsc{isajet}}\xspace}
+\newcommand{\ISAPYTHIA} {{\textsc{isapythia}}\xspace}
+\newcommand{\ISASUGRA} {{\textsc{isasugra}}\xspace}
+\newcommand{\ISASUSY} {{\textsc{isasusy}}\xspace}
+\newcommand{\ISAWIG} {{\textsc{isawig}}\xspace}
+\newcommand{\MADGRAPH} {\textsc{MadGraph}\xspace}
+\newcommand{\MCATNLO} {\textsc{mc@nlo}\xspace}
+\newcommand{\MCFM} {\textsc{mcfm}\xspace}
+\newcommand{\MILLEPEDE} {{\textsc{millepede}}\xspace}
+\newcommand{\ORCA} {{\textsc{orca}}\xspace}
+\newcommand{\OSCAR} {{\textsc{oscar}}\xspace}
+\newcommand{\PHOTOS} {\textsc{photos}\xspace}
+\newcommand{\PROSPINO} {\textsc{prospino}\xspace}
+\newcommand{\PYTHIA} {{\textsc{pythia}}\xspace}
+\newcommand{\SHERPA} {{\textsc{sherpa}}\xspace}
+\newcommand{\TAUOLA} {\textsc{tauola}\xspace}
+\newcommand{\TOPREX} {\textsc{TopReX}\xspace}
+\newcommand{\XDAQ} {{\textsc{xdaq}}\xspace}
+\newcommand{\MGvATNLO}{\MADGRAPH{}5\_a\MCATNLO}
+
+
+%  Experiments
+\newcommand {\DZERO}{D0\xspace}     %etc.
+
+
+% Measurements and units...
+
+\newcommand{\de}{\ensuremath{^\circ}}
+\newcommand{\ten}[1]{\ensuremath{\times \text{10}^\text{#1}}}
+\newcommand{\unit}[1]{\ensuremath{\text{\,#1}}\xspace}
+\newcommand{\mum}{\ensuremath{\,\mu\text{m}}\xspace}
+\newcommand{\micron}{\ensuremath{\,\mu\text{m}}\xspace}
+\newcommand{\cm}{\ensuremath{\,\text{cm}}\xspace}
+\newcommand{\mm}{\ensuremath{\,\text{mm}}\xspace}
+\newcommand{\mus}{\ensuremath{\,\mu\text{s}}\xspace}
+\newcommand{\keV}{\ensuremath{\,\text{ke\hspace{-.08em}V}}\xspace}
+\newcommand{\MeV}{\ensuremath{\,\text{Me\hspace{-.08em}V}}\xspace}
+\newcommand{\MeVns}{\ensuremath{\text{Me\hspace{-.08em}V}}\xspace} % no leading thinspace
+\newcommand{\GeV}{\ensuremath{\,\text{Ge\hspace{-.08em}V}}\xspace}
+\newcommand{\GeVns}{\ensuremath{\text{Ge\hspace{-.08em}V}}\xspace} % no leading thinspace
+\newcommand{\gev}{\GeV}
+\newcommand{\TeV}{\ensuremath{\,\text{Te\hspace{-.08em}V}}\xspace}
+\newcommand{\TeVns}{\ensuremath{\text{Te\hspace{-.08em}V}}\xspace} % no leading thinspace
+\newcommand{\PeV}{\ensuremath{\,\text{Pe\hspace{-.08em}V}}\xspace}
+\newcommand{\keVc}{\ensuremath{{\,\text{ke\hspace{-.08em}V\hspace{-0.16em}/\hspace{-0.08em}}c}}\xspace}
+\newcommand{\MeVc}{\ensuremath{{\,\text{Me\hspace{-.08em}V\hspace{-0.16em}/\hspace{-0.08em}}c}}\xspace}
+\newcommand{\GeVc}{\ensuremath{{\,\text{Ge\hspace{-.08em}V\hspace{-0.16em}/\hspace{-0.08em}}c}}\xspace}
+\newcommand{\GeVcns}{\ensuremath{{\text{Ge\hspace{-.08em}V\hspace{-0.16em}/\hspace{-0.08em}}c}}\xspace} % no leading thinspace
+\newcommand{\TeVc}{\ensuremath{{\,\text{Te\hspace{-.08em}V\hspace{-0.16em}/\hspace{-0.08em}}c}}\xspace}
+\newcommand{\keVcc}{\ensuremath{{\,\text{ke\hspace{-.08em}V\hspace{-0.16em}/\hspace{-0.08em}}c^\text{2}}}\xspace}
+\newcommand{\MeVcc}{\ensuremath{{\,\text{Me\hspace{-.08em}V\hspace{-0.16em}/\hspace{-0.08em}}c^\text{2}}}\xspace}
+\newcommand{\GeVcc}{\ensuremath{{\,\text{Ge\hspace{-.08em}V\hspace{-0.16em}/\hspace{-0.08em}}c^\text{2}}}\xspace}
+\newcommand{\GeVccns}{\ensuremath{{\text{Ge\hspace{-.08em}V\hspace{-0.16em}/\hspace{-0.08em}}c^\text{2}}}\xspace} % no leading thinspace
+\newcommand{\TeVcc}{\ensuremath{{\,\text{Te\hspace{-.08em}V\hspace{-0.16em}/\hspace{-0.08em}}c^\text{2}}}\xspace}
+
+\newcommand{\abinv} {\mbox{\ensuremath{\,\text{ab}^{-1}}}\xspace}
+\newcommand{\fbinv} {\mbox{\ensuremath{\,\text{fb}^{-1}}}\xspace}
+\newcommand{\pbinv} {\mbox{\ensuremath{\,\text{pb}^{-1}}}\xspace}
+\newcommand{\nbinv} {\mbox{\ensuremath{\,\text{nb}^{-1}}}\xspace}
+\newcommand{\mubinv} {\ensuremath{\,\mu\text{b}^{-1}}\xspace}
+\newcommand{\mbinv} {\ensuremath{\,\text{mb}^{-1}}\xspace}
+\newcommand{\percms}{\ensuremath{\,\text{cm}^{-2}\,\text{s}^{-1}}\xspace}
+\newcommand{\lumi}{\ensuremath{\mathcal{L}}\xspace}
+\newcommand{\Lumi}{\ensuremath{\mathcal{L}}\xspace}%both upper and lower
+%
+% Need a convention here:
+\newcommand{\LvLow}  {\ensuremath{\mathcal{L}=\text{10}^\text{32}\,\text{cm}^\text{$-$2}\,\text{s}^\text{$-$1}}\xspace}
+\newcommand{\LLow}   {\ensuremath{\mathcal{L}=\text{10}^\text{33}\,\text{cm}^\text{$-$2}\,\text{s}^\text{$-$1}}\xspace}
+\newcommand{\lowlumi}{\ensuremath{\mathcal{L}=\text{2}\times \text{10}^\text{33}\,\text{cm}^\text{$-$2}\,\text{s}^\text{$-$1}}\xspace}
+\newcommand{\LMed}   {\ensuremath{\mathcal{L}=\text{2}\times \text{10}^\text{33}\,\text{cm}^\text{$-$2}\,\text{s}^\text{$-$1}}\xspace}
+\newcommand{\LHigh}  {\ensuremath{\mathcal{L}=\text{10}^\text{34}\,\text{cm}^\text{$-$2}\,\text{s}^\text{$-$1}}\xspace}
+\newcommand{\hilumi} {\ensuremath{\mathcal{L}=\text{10}^\text{34}\,\text{cm}^\text{$-$2}\,\text{s}^\text{$-$1}}\xspace}
+
+% Physics symbols ...
+
+\newcommand{\PT}{\ensuremath{p_{\mathrm{T}}}\xspace}
+\newcommand{\pt}{\ensuremath{p_{\mathrm{T}}}\xspace}
+\newcommand{\ET}{\ensuremath{E_{\mathrm{T}}}\xspace}
+\newcommand{\HT}{\ensuremath{H_{\mathrm{T}}}\xspace}
+\newcommand{\mT}{\ensuremath{m_{\mathrm{T}}}\xspace}
+\newcommand{\mTii}{\ensuremath{m_{\mathrm{T2}}}\xspace}
+\newcommand{\et}{\ensuremath{E_{\mathrm{T}}}\xspace}
+\newcommand{\Em}{\ensuremath{E\hspace{-0.6em}/}\xspace}
+\newcommand{\Pm}{\ensuremath{p\hspace{-0.5em}/}\xspace}
+\newcommand{\PTm}{\ensuremath{{p}_\mathrm{T}\hspace{-1.02em}/\kern 0.5em}\xspace}
+\newcommand{\PTslash}{\PTm}
+\newcommand{\ETm}{\ensuremath{E_{\mathrm{T}}^{\text{miss}}}\xspace}
+\newcommand{\MET}{\ETm}
+\newcommand{\ETmiss}{\ETm}
+\newcommand{\ptmiss}{\ensuremath{\pt^\text{miss}}\xspace}
+\newcommand{\ETslash}{\ensuremath{E_{\mathrm{T}}\hspace{-1.1em}/\kern0.45em}\xspace}
+\newcommand{\VEtmiss}{\ensuremath{{\vec E}_{\mathrm{T}}^{\text{miss}}}\xspace}
+\newcommand{\ptvec}{\ensuremath{{\vec p}_{\mathrm{T}}}\xspace}
+\newcommand{\ptvecmiss}{\ensuremath{{\vec p}_{\mathrm{T}}^{\kern1pt\text{miss}}}\xspace}
+\newcommand{\tauh}{\ensuremath{\PGt_\mathrm{h}}\xspace}
+\newcommand{\sqrtsNN}{\ensuremath{\sqrt{\smash[b]{s_{_{\mathrm{NN}}}}}}\xspace}
+\newcommand{\mht}{\ensuremath{H_{\mathrm{T}}^{\text{miss}}}\xspace}
+\newcommand{\htvecmiss}{\ensuremath{\vec{H}_{\text{T}}^{\text{miss}}}\xspace}
+
+% roman face derivative
+\newcommand{\dd}[2]{\ensuremath{\frac{\cmsSymbolFace{d} #1}{\cmsSymbolFace{d} #2}}}
+\newcommand{\ddinline}[2]{\ensuremath{\cmsSymbolFace{d} #1/\cmsSymbolFace{d} #2}}
+\newcommand{\rd}{\ensuremath{\cmsSymbolFace{d}}}
+\newcommand{\re}{\ensuremath{\cmsSymbolFace{e}}}
+% absolute value
+\newcommand{\abs}[1]{\ensuremath{\lvert #1 \rvert}}
+% misc
+\newcommand{\CL}{\ensuremath{\text{CL}}\xspace} % needs to be overridden to C.L. for APS. Look out for \CL.
+\newcommand{\CLs}{\ensuremath{\text{CL}_\text{s}}\xspace}
+\newcommand{\CLsb}{\ensuremath{\text{CL}_\text{s+b}}\xspace}
+
+
+
+%\ifthenelse{\boolean{cms@italic}}{\newcommand{\cmsSymbolFace}[1]{#1}}{\newcommand{\cmsSymbolFace}[1]{\mathrm{#1}}}
+
+% Particle names which track the italic/non-italic face convention
+\newcommand{\zp}{{\PZpr}\xspace} % plain Z'
+\newcommand{\JPsi}{{\PJGy}\xspace} % J/Psi (no mass)
+\newcommand{\Z}{{\PZ}\xspace} % plain Z (no superscript 0)
+\newcommand{\ttbar}{{\PQt{}\PAQt}\xspace} % t-tbar
+
+% Extensions for missing names in PENNAMES % note now has xspace, to match syntax in PENNAMES2
+\newcommand{\cPgn}{\PGn} % generic neutrino
+\providecommand{\Pgn}{\PGn}
+\newcommand{\cPagn}{\PAGn} % generic anti-neutrino
+\providecommand{\Pagn}{\PAGn}
+\newcommand{\cPgg}{\PGg} % gamma
+\newcommand{\cPJgy}{\PJGy} % J/Psi (no mass)
+\newcommand{\cPZ}{\PZ} % plain Z (no superscript 0)
+\newcommand{\cPZpr}{\PZpr} % plain Z'
+\newcommand{\cPqt}{\PQt} % t for t quark
+\newcommand{\cPqb}{\PQb} % b for b quark
+\newcommand{\cPqc}{\PQc} % c for c quark
+\newcommand{\cPqs}{\PQs} % s for s quark
+\newcommand{\cPqu}{\PQu} % u for u quark
+\newcommand{\cPqd}{\PQd} % d for d quark
+\newcommand{\cPq}{\PQq} % generic quark
+\newcommand{\cPg}{\Pg} % generic gluon
+\newcommand{\cPG}{\PXXG} % Graviton
+\newcommand{\cPaqt}{\PAQt} % t for t anti-quark
+\newcommand{\cPaqb}{\PAQb} % b for b anti-quark
+\newcommand{\cPaqc}{\PAQc} % c for c anti-quark
+\newcommand{\cPaqs}{\PAQs} % s for s anti-quark
+\newcommand{\cPaqu}{\PAQu} % u for u anti-quark
+\newcommand{\cPaqd}{\PAQd} % d for d anti-quark
+\newcommand{\cPaq}{\PAQq} % generic anti-quark
+\newcommand{\cPKstz}{\ensuremath{\PK^{\ast0}}\xspace}
+% in-between: ought to be in heppennames2, but isn't
+\newcommand{\PQT}{{\HepParticle{T}{}{}}\Xspace}
+\newcommand{\PQB}{{\HepParticle{B}{}{}}\Xspace}
+% our extensions for pennames2
+\providecommand{\Pepm}{\ensuremath{\Pe^\pm}\xspace}
+\providecommand{\Pemp}{\ensuremath{\Pe^\mp}\xspace}
+\providecommand{\PGmpm}{\ensuremath{\PGm^\pm}\xspace}
+\providecommand{\PGmmp}{\ensuremath{\PGm^\mp}\xspace} % not available in pennames2, AFAIK
+\providecommand{\PGUPnS}{\PGUP{nS}\xspace}% maps to \PGUP[nS]
+\providecommand{\PV}{{\HepParticle{V}{}{}}\Xspace} % generic vector boson
+\providecommand{\Pell}{\HepParticle{\ell}{}{}\Xspace} % generic lepton (like \Pl, but using \ell)
+\providecommand{\PQQ}{\HepParticle{Q}{}{}\Xspace} % generic heavy quark
+\providecommand{\PAQQ}{\HepAntiParticle{Q}{}{}\Xspace} % generic heavy antiquark
+
+% for APS style tables
+%\ifthenelse{\boolean{cms@external}}{%
+%\newenvironment{scotch}[1]{\protect\centering\ruledtabular\tabular{#1}}{\endtabular\endruledtabular}
+%}{
+%\newenvironment{scotch}[1]{\protect\centering\tabular{#1}}{\endtabular}
+%\newenvironment{turnpage}[1]{#1}{}
+%}
+% Other
+\newcommand{\MD}{\ensuremath{{M_\mathrm{D}}}\xspace}% ED mass
+\newcommand{\Mpl}{\ensuremath{{M_\mathrm{Pl}}}\xspace}% Planck mass
+\newcommand{\Rinv} {\ensuremath{{R}^{-1}}\xspace}
+
+% SM (still to be classified)
+
+\newcommand{\AFB}{\ensuremath{A_\text{FB}}\xspace}
+\newcommand{\wangle}{\ensuremath{\sin^{2}\theta_{\text{eff}}^\text{lept}(M^2_{\Z})}\xspace}
+\newcommand{\stat}{\ensuremath{\,\text{(stat)}}\xspace}
+\newcommand{\syst}{\ensuremath{\,\text{(syst)}}\xspace}
+\newcommand{\thy}{\ensuremath{\,\text{(theo)}}\xspace}
+\newcommand{\lum}{\ensuremath{\,\text{(lumi)}}\xspace}
+\newcommand{\kt}{\ensuremath{k_{\mathrm{T}}}\xspace}
+
+\newcommand{\BC}{\HepParticle{B}{c}{}{}\xspace}
+\newcommand{\bbarc}{\PAQb{}\PQc\xspace}
+\newcommand{\bbbar}{\PQb{}\PAQb\xspace}
+\newcommand{\ccbar}{\PQc{}\PAQc\xspace}
+\newcommand{\qqbar}{\ensuremath{\PQq\PAQq}\xspace}
+\newcommand{\bspsiphi}{\ensuremath{\PBs \to \JPsi\, \PGf}\xspace}
+\newcommand{\EE}{\Pep{}\Pem\xspace}
+\newcommand{\MM}{\PGmp{}\PGmm\xspace}
+\newcommand{\TT}{\PGtm{}\PGtp\xspace}
+
+%%%  E-gamma definitions
+\newcommand{\HGG}{\ensuremath{\PH\to\PGg\PGg}}
+\newcommand{\GAMJET}{\ensuremath{\PGg + \text{jet}}}
+\newcommand{\PPTOJETS}{\ensuremath{\Pp\Pp\to\text{jets}}}
+\newcommand{\PPTOGG}{\ensuremath{\Pp\Pp\to\PGg\PGg}}
+\newcommand{\PPTOGAMJET}{\ensuremath{\Pp\Pp\to\PGg + \text{jet}}}
+\newcommand{\MH}{\ensuremath{M_{\PH}}}
+\newcommand{\RNINE}{\ensuremath{R_\mathrm{9}}}
+\newcommand{\DR}{\ensuremath{\Delta R}}
+
+
+
+
+
+%%%%%%
+% From Albert
+%
+
+\newcommand{\ga}{\ensuremath{\gtrsim}}
+\newcommand{\la}{\ensuremath{\lesssim}}
+%
+\newcommand{\swsq}{\ensuremath{\sin^2\theta_{\PW}}\xspace}
+\newcommand{\cwsq}{\ensuremath{\cos^2\theta_{\PW}}\xspace}
+\newcommand{\tanb}{\ensuremath{\tan\beta}\xspace}
+\newcommand{\tanbsq}{\ensuremath{\tan^{2}\beta}\xspace}
+\newcommand{\sidb}{\ensuremath{\sin 2\beta}\xspace}
+\newcommand{\alpS}{\ensuremath{\alpha_S}\xspace}
+\newcommand{\alpt}{\ensuremath{\tilde{\alpha}}\xspace}
+
+\newcommand{\QL}{\HepParticle{Q}{L}{}{}\xspace}
+\newcommand{\sQ}{\HepSusyParticle{Q}{}{}{}\xspace}
+\newcommand{\sQL}{\HepSusyParticle{Q}{L}{}{}\xspace}
+\newcommand{\ULC}{\HepParticle{U}{L}{C}{}\xspace}
+\newcommand{\sUC}{\HepSusyParticle{U}{}{C}{}\xspace}
+\newcommand{\sULC}{\HepSusyParticle{U}{L}{C}{}\xspace}
+\newcommand{\DLC}{\HepParticle{D}{L}{C}{}\xspace}
+\newcommand{\sDC}{\HepSusyParticle{D}{}{C}{}\xspace}
+\newcommand{\sDLC}{\HepSusyParticle{D}{L}{C}{}\xspace}
+\newcommand{\LL}{\HepParticle{L}{L}{}{}\xspace}
+\newcommand{\sL}{\HepSusyParticle{L}{}{}{}\xspace}
+\newcommand{\sLL}{\HepSusyParticle{L}{L}{}{}\xspace}
+\newcommand{\ELC}{\HepParticle{E}{L}{C}{}\xspace}
+\newcommand{\sEC}{\HepSusyParticle{E}{}{C}{}\xspace}
+\newcommand{\sELC}{\HepSusyParticle{E}{L}{C}{}\xspace}
+\newcommand{\sEL}{\HepSusyParticle{E}{L}{}{}\xspace}
+\newcommand{\sER}{\HepSusyParticle{E}{R}{}{}\xspace}
+\newcommand{\sFer}{\HepSusyParticle{f}{}{}{}\xspace}
+\newcommand{\sQua}{\PSQ}
+\newcommand{\sUp}{\PSQu}
+\newcommand{\suL}{\PSQuL}
+\newcommand{\suR}{\PSQuR}
+\newcommand{\sDw}{\PSQd}
+\newcommand{\sdL}{\PSQdL}
+\newcommand{\sdR}{\PSQdR}
+\newcommand{\sTop}{\PSQt}
+\newcommand{\stL}{\PSQtL}
+\newcommand{\stR}{\PSQtR}
+\newcommand{\stone}{\PSQtDo}
+\newcommand{\sttwo}{\PSQtDt}
+\newcommand{\sBot}{\PSQb}
+\newcommand{\sbL}{\PSQbL}
+\newcommand{\sbR}{\PSQbR}
+\newcommand{\sbone}{\PSQbDo}
+\newcommand{\sbtwo}{\PSQbDt}
+\newcommand{\sLep}{\PSl}
+\newcommand{\sLepC}{\HepSusyParticle{l}{}{C}{}\xspace}
+\newcommand{\sEl}{\PSe}
+\newcommand{\sElC}{\HepSusyParticle{e}{}{C}{}\xspace}
+\newcommand{\seL}{\PSeL}
+\newcommand{\seR}{\PSeR}
+\newcommand{\snL}{\HepSusyParticle{\PGn}{L}{}{}\xspace}
+\newcommand{\sMu}{\PSGm}
+\newcommand{\sNu}{\PSGn}
+\newcommand{\sTau}{\PSGt}
+\newcommand{\Glu}{\Pg}
+\newcommand{\sGlu}{\PSg}
+\newcommand{\Wpm}{\PWpm}
+\newcommand{\sWpm}{\PSWpm}
+\newcommand{\Wz}{\HepParticle{W}{}{0}{}\xspace}
+\newcommand{\sWz}{\HepSusyParticle{W}{}{0}{}\xspace}
+\newcommand{\sWino}{\PSW}
+\newcommand{\Bz}{\HepParticle{B}{}{0}\xspace}
+\newcommand{\sBz}{\HepSusyParticle{B}{}{0}\xspace}
+\newcommand{\sBino}{\HepSusyParticle{B}{}{}\xspace}
+\newcommand{\Zz}{\PZz}
+\newcommand{\sZino}{\PSZz}
+\newcommand{\sGam}{\PSGg}
+\newcommand{\chiz}{\PSGcz}
+\newcommand{\chip}{\PSGcp}
+\newcommand{\chim}{\PSGcm}
+\newcommand{\chipm}{\PSGcpm}
+\newcommand{\Hone}{\HepParticle{H}{d}{}\xspace}
+\newcommand{\sHone}{\HepSusyParticle{H}{d}{}\xspace}
+\newcommand{\Htwo}{\HepParticle{H}{u}{}\xspace}
+\newcommand{\sHtwo}{\HepSusyParticle{H}{u}{}\xspace}
+\newcommand{\sHig}{\HepSusyParticle{H}{}{}{}\xspace}
+\newcommand{\sHa}{\HepSusyParticle{H}{a}{}{}\xspace}
+\newcommand{\sHb}{\HepSusyParticle{H}{b}{}{}\xspace}
+\newcommand{\sHpm}{\HepSusyParticle{H}{}{\pm}{}\xspace}
+\newcommand{\hz}{\PShz}
+\newcommand{\Hz}{\PHz}
+\newcommand{\Az}{\PSAz}
+\newcommand{\Hpm}{\PSHpm}
+\newcommand{\sGra}{\PXXSG}
+%
+\newcommand{\mtil}{\ensuremath{\widetilde{m}}\xspace}
+%
+\newcommand{\rpv}{\ensuremath{\rlap{\kern.2em/}R}\xspace}
+\newcommand{\LLE}{\ensuremath{LL\bar{E}}\xspace}
+\newcommand{\LQD}{\ensuremath{LQ\bar{D}}\xspace}
+\newcommand{\UDD}{\ensuremath{\overline{UDD}}\xspace}
+\newcommand{\Lam}{\ensuremath{\lambda}\xspace}
+\newcommand{\Lamp}{\ensuremath{\lambda'}\xspace}
+\newcommand{\Lampp}{\ensuremath{\lambda''}\xspace}
+%
+\newcommand{\spinbd}[2]{\ensuremath{\bar{#1}_{\dot{#2}}}\xspace}
+
+%pennames to heppenames2 translation
+%no longer include mass
+%PDstpm
+%PKst
+%
+%no j subscript, no tilde
+%PSHpm
+%PSHz
+%
+%Added overbar
+%PagXz
+%
+%Removed overbar
+%PgXz
+%
+%
+\endinput
