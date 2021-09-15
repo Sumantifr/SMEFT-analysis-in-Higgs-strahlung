@@ -80,6 +80,11 @@ C.~Grojean, M.~Montull, and M.~Riembau, {\it {Diboson at the LHC vs LEP}},
   {\em JHEP} {\bf 03} (2019) 020, [\href{http://arxiv.org/abs/1810.05149}{{\tt
   arXiv:1810.05149}}].
 
+\bibitem{Panico:2017frx}
+G.~Panico, F.~Riva, and A.~Wulzer, {\it {Diboson interference resurrection}},
+  {\em Phys. Lett. B} {\bf 776} (2018) 473,
+  [\href{http://arxiv.org/abs/1708.07823}{{\tt arXiv:1708.07823}}].
+
 \bibitem{Jenkins:2013zja}
 E.~E. Jenkins, A.~V. Manohar, and M.~Trott, {\it {Renormalization Group
   Evolution of the Standard Model Dimension Six Operators I: Formalism and
@@ -210,15 +215,27 @@ J.~J. Ethier, G.~Magni, F.~Maltoni, L.~Mantani, E.~R. Nocera, J.~Rojo,
    \href{http://arxiv.org/abs/2106.11082}{{\tt arXiv:2106.11082}}.
 
 \bibitem{LHC_EFT_WG}
-L.~P.~C. at~CERN, ``Lhc effective field theory wg.''
+``{LHC Effective Field Theory WG}.'' \url{https://lpcc.web.cern.ch/lhc-eft-wg}.
 
 \bibitem{All_EFT}
-{\it All things eft},  2021.
+``{All Things EFT}.'' \url{https://sites.google.com/view/all-things-eft}.
 
-\bibitem{Panico:2017frx}
-G.~Panico, F.~Riva, and A.~Wulzer, {\it {Diboson interference resurrection}},
-  {\em Phys. Lett. B} {\bf 776} (2018) 473,
-  [\href{http://arxiv.org/abs/1708.07823}{{\tt arXiv:1708.07823}}].
+\bibitem{Cohen:1997ac}
+A.~G. Cohen, A.~De~Rujula, and S.~Glashow, {\it {A matter - antimatter
+  universe?}},  {\em Astrophys. J.} {\bf 495} (1998) 539,
+  [\href{http://arxiv.org/abs/astro-ph/9707087}{{\tt astro-ph/9707087}}].
+
+\bibitem{Damgaard:2015con}
+P.~H. Damgaard, A.~Haarr, D.~O'Connell, and A.~Tranberg, {\it {Effective Field
+  Theory and Electroweak Baryogenesis in the Singlet-Extended Standard Model}},
+   {\em JHEP} {\bf 02} (2016) 107, [\href{http://arxiv.org/abs/1512.01963}{{\tt
+  arXiv:1512.01963}}].
+
+\bibitem{Grzadkowski:2018nbc}
+B.~Grzadkowski and D.~Huang, {\it {Spontaneous $CP$-Violating Electroweak
+  Baryogenesis and Dark Matter from a Complex Singlet Scalar}},  {\em JHEP}
+  {\bf 08} (2018) 135, [\href{http://arxiv.org/abs/1807.06987}{{\tt
+  arXiv:1807.06987}}].
 
 \bibitem{Bols:2020bkb}
 E.~Bols, J.~Kieseler, M.~Verzetti, M.~Stoye, and A.~Stakia, {\it {Jet flavour

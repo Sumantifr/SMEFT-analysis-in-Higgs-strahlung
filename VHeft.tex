@@ -52,6 +52,8 @@
 \newcommand{\PAd}{{{{\Paqd}}}\xspace}
 \newcommand{\PAu}{{{{\Paqu}}}\xspace}
 
+%\renewcommand{\Pl}{\ensuremath{\cmsSymbolFace{l}}\xspace}
+
 %\renewcommand{\PV}{{\ensuremath{{V}}}\xspace}
 \renewcommand{\PV}{{{{V}}}\xspace}
 %\providecommand{\PV}{{V}\Xspace} % generic vector boson
@@ -86,7 +88,7 @@ and is expected to deliver a larger amount of data in the near future
 to be compared with theoretical predictions. 
 During the Run~2 (2015--2018) era of LHC, CMS experiment~\cite{CMS_ex} has collected proton-proton collision data corresponding to an integrated luminosity of $\sim 140\fbinv$ corresponding to $\sim 10^{16}$ collisions and has been performing an extensive set of analyses to extract the maximum information from those.
 A few key milestones LHC reached in last ten years are the discovery of Higgs boson (\PH) in 2012~\cite{Aad:2012tfa,Chatrchyan:2012ufa} resulting in the completion of the standard model (SM) of particle physics. 
-This is followed by precision measurements of Higgs boson properties, such as mass~\cite{CMS:2017dib,CMS:2020xrn}, CP nature~\cite{CMS:2019jdw,CMS:2020cga}, coupling to Gauge bosons, third-generation fermions, and second-generation leptons~\cite{CMS-PAS-HIG-19-005}, among others.
+This is followed by precision measurements of Higgs boson properties, such as mass~\cite{CMS:2017dib,CMS:2020xrn}, charge-parity (CP) nature~\cite{CMS:2019jdw,CMS:2020cga}, coupling to Gauge bosons (\PW, \PZ, \Pgg), third-generation fermions (\Pb, \Pt), and second-generation leptons (\Pmu)~\cite{CMS-PAS-HIG-19-005}, among others.
 \begin{comment}
 \begin{itemize}
 \item Discovery of Higgs boson (\PH) in 2012~\cite{Aad:2012tfa,Chatrchyan:2012ufa} resulting in the completion of the standard model (SM) of particle physics. 
@@ -99,21 +101,24 @@ constructed to explain several observed phenomena and to provide an explanation 
 \end{comment}
 
 The lack of a smoking gun evidence of BSM physics predicting new particles within the LHC energy range has motivated the particle physicists to look for subtle deviations in measured distributions of observables from the SM predictions and by systematic field-theoretic extension of the SM Lagrangian adding higher-dimensional operators~\cite{Grinstein:1991cd,Chiu:2007dg,Passarino:2016pzb}.
-Higher-dimensional operators, in general, modify the couplings between different particles, which result to a smooth change in the shape of particular distributions as compared to SM predictions in precision measurements, and predict additional sources of CP violation. 
-Precision measurement of Higgs boson couplings, particularly to the vector bosons (\PV), is extremely important in pinning down the structure of the extended SM Lagrangian. 
+Higher-dimensional operators, in general, modify the couplings between different particles, which result to a smooth change in the shape of particular distributions as compared to SM predictions in precision measurements, and 
+also predict additional sources of CP violation. 
+Precision measurement of Higgs boson couplings, particularly to the vector bosons (\PV$=\PW^{\pm},\PZ$), is extremely important in pinning down the structure of the extended SM Lagrangian. 
 For example, the existence of a heavy Gauge boson of mass beyond the LHC reach can manifest itself modifying {\PH}-{\PV} couplings~\cite{Appelquist:1974tg}. 
 The second most dominant mechanism of Higgs boson production at LHC is in association with a vector boson, referred to as \VH production, which involves a $s$--channel vector boson. 
-The \VH production with \PV decaying to leptons is an ideal place to probe \PH in its dominant decay mode to a pair of \Pb quarks as the leptons can be used to select the targeted events and also to reduce the multijet background from quantum chromodynamics (QCD) interaction.
-The production of vector boson from quark-antiquark annihilation and the decay of \PH to a pair of \Pb quarks are sensitive to the footprint of new physics at respective vertices, namely vector couplings and Gauge couplings at \VH production and Yukawa coupling in $\PH \to \Pb \PAb$ decay. 
+The \VH production with \PV decaying to leptons is an ideal place to probe \PH in its dominant decay mode to a pair of \Pb quarks as the leptons can be used to select the targeted events at the trigger-level and also to reduce the multijet background from quantum chromodynamics (QCD) interaction.
+The production of \PV from quark-antiquark annihilation, the associated production of \PH from \PV, and the decay of \PH to a pair of \Pb quarks are sensitive to the footprint of new physics at respective vertices, namely vector couplings, Gauge couplings, and Yukawa couplings. %in $\PH \to \Pb \PAb$ decay. 
 A number of such couplings involving the Higgs boson can be directly probed for the first time at LHC~\cite{Gupta:2014rxa}.
 The rest of the couplings, which could have left signatures in earlier experiments like LEP, can also be probed with better accuracy at LHC because of the increase of their impact with energy~\cite{Ellis:2014jta,Grojean:2018dqj}.
 The \VH production also gives an unique opportunity to probe the CP-sensitivity in \PH--\PV coupling, 
-which can be probed using novel techniques developed very recently, known as interference resurrection~\cite{}, 
+which can be probed using novel techniques developed very recently, known as interference resurrection~\cite{Panico:2017frx}, 
 not explored so far in the Higgs sector. 
 The proposal changes the scenario in the area of experimental measurements.  
 
-The coupling measurements can already be performed with Run~2 LHC data. With the addition of $\sim 160\fbinv$ data to be delivered by LHC in Run~3 (2022--2024), these measurements are expected to have a significant leap in precision.
-Therefore, I propose performing an extensive measurement of the couplings relevant in \VH production, 
+
+The coupling measurements can already be performed with data collected during LHC Run~2. 
+With the addition of $\sim 160\fbinv$ data to be delivered by LHC in Run~3 (2022--2024), these measurements are expected to have a significant leap in precision.
+Therefore, I propose performing an extensive measurement of the couplings introduced by higher-dimensional operators relevant in \VH production, 
 including the ones modifying the CP-nature of \PH--\PV interaction,
 in the case where \PV decays leptonically and \PH decays to a pair of \Pb quarks, 
 using differential distributions of a number of observables, some of which have not been measured before.
@@ -133,7 +138,7 @@ In Eq.~\eqref{Eq:SMEFT}, $\Lambda$ denotes the cut-off scale which sets an upper
 The only possible operator at dimension-5, known as Weinberg operator~\cite{PhysRevLett.43.1566}, violates the lepton number conservation and generates Majorana mass to neutrinos~\cite{Bonnet:2009ej}; 
 the smallness of neutrino mass points to the relevance of this operator only at energy much higher than that relevant for LHC physics. 
 %Number of independent real parameters to describe Wilson coefficients at dimension-6 is known to be 2599~\cit{Alonso:2013hga}, 
-The number of independent dimension-6 operators that do not violate baryon and lepton number is known to be 2499,
+The number of independent dimension-6 operators that do not violate baryon and lepton number conservation is known to be 2499,
 which can be brought down to 76 assuming the maximum flavor symmetry, $U(3)^5$, 
 thereby ignoring differences between different fermion generations
 ~\cite{Alonso:2013hga}.
@@ -166,6 +171,7 @@ Dimension-6 operators in the Warsaw basis affecting the \VH production. %product
 First four operators in the left column of Table~\ref{Tab:Operators} introduce 4-point interactions, shown in Fig.~\ref{fig:Feynman_digarams} (left). 
 The same operators along with ${\cal O}_{HD}$ and ${\cal O}_{HWB}$ affect the coupling of \PV to fermions, shown in Fig.~\ref{fig:Feynman_digarams} (middle). 
 The remaining operators modifies \PH--\PV coupling as shown in Fig.~\ref{fig:Feynman_digarams} (right). 
+There is also the operator $H^\dagger H \bar{Q}\phi b$, which modifies the \PH--\Pb coupling, and thus changes $\PH \to \Pb \PAb$ decay rate. 
 \begin{figure*}[hbtp]
 \begin{center}
 \includegraphics[width=0.3\textwidth]{Figures/Feynman_diagrams/ffVh.png}
@@ -187,7 +193,7 @@ Fragments of the Feynman diagram for \VH production sensitive to different dimen
 
 Some of the operators at work here, which are of the form ${\PH}^2\mathcal{L}_{\text{SM}}$, can be directly probed for the first time at LHC.
 The methodology used in conventional measurements of SMEFT operators assumes that all the object and event selection conditions have the same efficiency and acceptance for the SM and SMEFT operators, 
-which is known to be not the case always, and also miss important subtle effects as will be shown in Sec.~\ref{sec:method}.
+which is known to be not the case always, and also miss important subtle effects by integrating over a number of important variables.% as will be shown in Sec.~\ref{sec:method}.
 The proposed measurement will probe the operators in Table~\ref{Tab:Operators} 
 using the kinematic variables exhibing the energy growth as well as the angular information, not considered in traditional measurements. 
 Ref.~\cite{Banerjee:2019twi} demonstrates that the angles involved in \VH production, followed by \PV$\to \Pl \Pl $ and \PH$\to \Pb \PAb$, as  shown in Fig.~\ref{fig:HelicityFrame} 
@@ -263,11 +269,11 @@ The proposed measurement will extend the scope of probing new physics scenarios 
 %A list of new things aimed to be developed and applied during the proposed measurements are the following:
 \begin{itemize}
 
-\item The complete multi-dimensional event information, parameterized by kinematic and angular variables, will be used for the first time in \VH production followed by \PV $\to$ \Pl \Pl and $\PH \to \Pb \PAb$. 
+\item The complete multi-dimensional event information, parameterized by kinematic and angular variables, will be used for the first time in \VH production.% followed by \PV $\to$ \Pl \Pl and $\PH \to \Pb \PAb$. 
 These will directly probe the dimension-6 operators in SMEFT which induce energy growth in the distribution of kinematic observables. 
 Angular information will add a further handle to disentangle the effects of different operators and 
 probe them simultaneously  up to the maximum extent possible.
-Similar angular variables have already shown to improve the constraints on a SMEFT operator involved in $\PW\Pg$ production by a factor of 10~\cite{CMS-PAS-SMP-20-005}.
+Similar angular variables have already shown to improve the constraints on a SMEFT operator involved in $\PW\Pgg$ production by almost a factor of 10~\cite{CMS-PAS-SMP-20-005}.
 
 \item Angular information, not explored previously in \VH (\PV $\to$ \Pl \Pl and $\PH \to \Pb \PAb$) production, will be used to probe the CP structure of SMEFT oeprators, thus will measure additional sources of CP violation beyond the SM.
 
@@ -276,25 +282,27 @@ Similar angular variables have already shown to improve the constraints on a SME
 In the journey to achieve the goals, there will be possibilties to improve the techniques used in experimental measurements. 
 For example, the group, where the proposer belongs to, has recently proposed a technique to separate the effects of SMEFT operators from the SM ones~\cite{Chatterjee:2021nms}.
 Development of the methods and applying those in a CMS measurement by the same group will greatly accelerate the preparation of the results. 
-Also, deep neural network based algorithms are used to identify \PH decaying to a pair of \Pb quarks, and efficiency of the tagger is conventionally measured in data and simulation in $\Pg \to \Pb \PAb$ process. However, \Pg and \PH are very different in mass, spin, and color properties. During the proposed work, an effort will be pursued to improve the calibration of the tagger, 
+Also, efficiency of the deep neural network (DNN) based algorithms, used to identify \PH decaying to a pair of \Pb quarks, \
+is conventionally measured in data and simulation in $\Pg \to \Pb \PAb$ process. 
+However, \Pg and \PH are very different in mass, spin, and color properties. During the proposed work, an effort will be pursued to improve the calibration of the tagger, 
 particularly using $\PZ \to \Pb \PAb$ decay.
 
 
 \section{Relevance to the research field}
 
 The idea of EFT has prevailed in the context of particle physics since as late as the 1930s with the Fermi theory of beta decay~\cite{Fermi:1934hr} and Yukawa theory of meson exchange~\cite{Yukawa:1935xg}.
-Those guided the particle physics community through a long and adventurous journey, 
-which has led to the development of the SM in its present form. 
+Those guided %the particle physics community through a long and adventurous journey, which has led to 
+the development of the SM in its present form. 
 The lack of convincing hints of new physics at LHC has automatically shifted the focus of the community's interests towards EFT as the future step~\cite{Ellis:2018gqa,Ellis:2020unq,Ethier:2021bye} 
 and measurements of higher-dimensional operators has started to take the center stage of LHC physics program~\cite{CMS:2021nnc,CMS:2021aly,CMS:2021gme}.
 The interests in both theory and experiment communities are growing at an increasing rate, 
-which can be gauged by the formation of the LHC EFT working group~\cite{LHC_EFT_WG} and the conduction of a series of lectures under the `All things EFT' forum~\cite{All_EFT}. 
+which can be gauged by the formation of the LHC EFT working group~\cite{LHC_EFT_WG} and the conduction of a series of lectures under the `All things EFT' forum~\cite{All_EFT}.
 So, it is a call of time to perform dedicated EFT measurements at LHC.
 
 The proposed measurement not only probes a set of unique EFT operators in the Higgs sector using multi-dimensional event information, including observables not explored before, 
 but also complements the ongoing measurements of EFT operators in the area of electroweak bosons and top quark and enhances the physics potential of LHC experiments on a broad scale. 
-For example, measurements of the vector couplings involving light quarks nicely complement the measurement of the similar couplings involving top quarks and they together can probe the flavor universality in quark sector.
-The results of these measurements will constitute the output from LHC to be used in a global EFT fit, combining results of many different experiments.
+For example, measurements of the vector couplings involving light quarks nicely complement the measurement of the similar couplings involving top quarks and they together can probe the flavor universality in quark sector in SMEFT.
+The results of these measurements will constitute the output from LHC to be used in a global EFT fit, combining results of many different experiments~\cite{Ellis:2018gqa,Ethier:2021bye}.
 Additionally, the CP-sensitivity of the measurement will probe the BSM sources of CP violation, 
 which have enormous significance in the explanation of the origin of the matter-antimatter asymmetry of the universe~\cite{Cohen:1997ac,Damgaard:2015con,Grzadkowski:2018nbc}.
 Therefore, it is high time for the group to perform the proposed measurement and strengthen its position in the international community. 
@@ -307,7 +315,7 @@ The target is to utilize the data available for physics analysis from LHC Run~2,
 With $\sim 45\%$ of the total dataset already in the disk, the strategy is to finalize the analysis procedures with Run~2 data and publish the first set of results, which will be followed by a final paper using data to be collected by 2024. 
 
 In the following, a brief discussion of the analysis strategy to achieve goals mentioned in Sec.~\ref{sec:objective} is made. The feasibility study reported here is performed focusing primarily on $\PW\PH$ production, 
-nevertheless, also some additional features available in $\PZ\PH$ are mentioned. 
+nevertheless, some additional features available in $\PZ\PH$ are also mentioned. 
 
 \subsection{Final states and observables}
 
@@ -319,9 +327,9 @@ The following final states are considered.
 %Since $\PH \to \Pb \PAb$ has the largest branching ratio, its use enables to improves the statistics of the analyzed event sample. 
 %Leptonic decay of the vector boson helps to get rid of the background from the multijet production in QCD, which is the dominant background in most of the hadronic final states. 
 
-As mentioned in Sec.~\ref{sec:research_hypo} and~\ref{sec:objective}, operators listed in Table.~\ref{Tab:Operators} introduce an energy growth, which will be visible in distributions of traditional kinematic observables, like \pt of vector boson or Higgs boson. 
+As mentioned in Sec.~\ref{sec:research_hypo} and~\ref{sec:objective}, operators listed in Table.~\ref{Tab:Operators} introduce an energy growth, which will be visible in distributions of traditional kinematic observables, for example, \pt of \PV or \PH. 
 However, only a few kinematic observables are not enough to disentangle the effects of a relatively large number of SMEFT operators. 
-A systematic analysis of \VH production process starting from helicity amplitudes, 
+A systematic analysis of \VH production process starting from helicity amplitudes and \PV decay,
 as performed in Ref.~\cite{Banerjee:2019twi}, 
 enables to learn about angular variables, shown in Fig.~\ref{fig:HelicityFrame}, 
 which are complementary to the kinematic variables exhibiting energy growth, and 
@@ -368,30 +376,30 @@ The lepton(s) from the vector boson also helps to trigger the events. The proces
 \subsection{Event selection and categorization}
 
 Lepton(s) from \PW or \PZ boson is (are) used to trigger the events to be analyzed. 
-CMS trigger system, developed centrally within the Collaboration, is used to select events with at least one lepton (\Pl) satisfying a threshold in {\pt}.
-At very high \pt of the vector boson, backup triggers requiring a considerable hadronic activity can be used particularly for the final state with electron(s). 
-Measurement of efficiency of the triggers both data and simulation is an essential step of the analysis to understand the modeling of the selected events in data by simulation.
+The trigger system, developed centrally within the CMS Collaboration, is used to select events with at least one lepton (\Pl) satisfying a threshold in {\pt}.
+At very high \pt of the vector boson, backup triggers requiring a considerable hadronic activity can be used, particularly for the final state with electron(s). 
+Measurement of efficiency of the triggers in both data and simulation is an essential step of the analysis to understand the modeling of event selection in data by simulation.
 Tag-and-probe method in $\PZ \to {\Pl}^{+} {\Pl}^{-}$ events will be used to measure the trigger efficiencies. Corrections will be derived in simulation to match the trigger efficiency in data.
 For the feasibility study, it is assumed that trigger efficiencies are the same in data and simulation.
 
 An event to be selected as a $\PW\PH$ candidate event is required to have an electron or a muon with \pt$>32$ and $>25$\GeV, respectively passing the identification conditions corresponding to 90 and 95\% efficiency for genuine electron and muon, respectively. 
 The four-momentum of neutrino is reconstructed using the missing transverse momentum vector (\ptvecmiss) and assuming that the invariant mass of neutrino and lepton system is always the value of $\PW$ boson mass provided by the particle data group. 
 This will be discussed further in Sec.~\ref{sec:neu_reco}. 
-The \PW boson reconstructed from lepton and neutrino momenta is required to satisfy $\pt > 150$\GeV, which brings down the contamination from multijet production to a negligible extent.
+The \PW boson reconstructed from lepton and neutrino momenta is required to satisfy $\pt > 150$\GeV, which brings down the contamination from multijet production in QCD to a negligible extent.
 The lepton and \ptvecmiss are required to satisfy $\Delta \phi > 2$ radian, where $\Delta \phi$ is the angular separation in the plane transverse to the collision axis.
 The event is also required not to contain any additional electrons or muons with $\pt>25$\GeV satisfying the identification requirement specified earlier.
 
 The selected events are further categorized into regions depending on the jet system. 
 If \PH has a large \pt, its decay products are merged into a large-sized jet. 
-In this case, referred to as boosted topology, 
+In this case, referred to as the boosted topology, 
 jets reconstructed using anti-\kt algorithm with distance parameter 0.8, referred to as AK$8$ jets are used to identify \PH.
 Otherwise, \PH is reconstructed using AK$4$ jets initiated by its daughter \Pb quarks; 
-this is referred to as resolved topology.
+this is referred to as the resolved topology.
 In CMS, DNN-based taggers, henceforth referred to as DeepJet and DeepAK8 taggers, are used to identify AK4 jets initiated by \Pb quarks~\cite{Bols:2020bkb} and AK8 jets initiated by \PH decaying to a pair of \Pb quarks~\cite{Sirunyan:2020lcu}, respectively.
 DeepAK8 tagger actually provides multiple outputs that correspond to the probability of AK8 originating from top quark, \PW boson, light quark or gluon, etc.; this information is also used later.
 
-In resolved topology, the system of two AK4 jets with highest \Pb tagging scores, referred to as b1 and b2, is taken as the \PH candidate, whereas the AK8 jet with the highest \PH tagging score is taken as the \PH candidate in boosted topology.
-Signal region (SR), enriched by $\PW\left(\to \Pl \Pgn \right) \PH \left(\to \Pb \PAb \right)$ events, is constructed using the conditions listed in Table~\ref{Tab:Regions}.
+In the resolved topology, the system of two AK4 jets with highest \Pb tagging scores, referred to as b1 and b2, is taken as the \PH candidate, whereas the AK8 jet with the highest \PH tagging score is taken as the \PH candidate in the boosted topology.
+The signal region (SR), enriched by $\PW\left(\to \Pl \Pgn \right) \PH \left(\to \Pb \PAb \right)$ events, is constructed using the conditions listed in Table~\ref{Tab:Regions}.
 \begin{table}[t]
 \small
 \centering
@@ -427,34 +435,35 @@ In Table~\ref{Tab:Regions}, btag$^{\text{cut}}_{\text{max}}$ and btag$^{\text{cu
 Changing the conditions on variables in  Table~\ref{Tab:Regions}, one also gets control regions (CRs) enriched by different background processes. 
 For example, requiring no. of additional jets (no. of b-tagged jets outside the \PH candidate) $\geq 2$ in the resolved (boosted) category enables to select a phase space enriched by the events with pair production of top quarks ($\Pt\PAt$).
 The phase space one gets inverting the mass condition on the \PH candidate in the SR is dominated by vector boson in association with jets initiated by $\Pb$ and $\Pc$ quarks (${\PW}+\Pb/\Pc$). 
-Finally, events failing the condition of the presence of two b-tagged AK4 jets (one Higgs-tagged AK8 jet) are dominated by the production of vector boson in association with light quark jets (${\PW}+$j).
+Finally, events failing the condition of the presence of two b-tagged AK4 jets (one Higgs-tagged AK8 jet) are dominated by the production of vector boson in association with light quark or gluon jets (${\PW}+$j).
 These CRs can be used to measure the corresponding backgrounds and validate those using data.
 
-Distribution of \PW boson \pt in resolved and boosted categories of the SR are shown in Fig.~\ref{fig:RECO_Vpt_WH}, where the change in $\PW\PH$ signal with the operators ${\cal O}^{(3)}_{Hq}$ and ${\cal O}_{HW}$ turned on with the corresponding Wilson coefficients set to 1 are also overlaid. 
+Distribution of \PW boson \pt in the resolved and boosted categories of the SR are shown in Fig.~\ref{fig:RECO_Vpt_WH}, where the change in $\PW\PH$ signal with the operators ${\cal O}^{(3)}_{Hq}$ and ${\cal O}_{HW}$ turned on with the corresponding Wilson coefficients set to 1 are also overlaid. 
 \begin{figure*}[hbtp]
 \begin{center}
-\includegraphics[width=0.45\textwidth]{Figures/RECO/Plot_Resolved_SR_V_pt.png}
-\includegraphics[width=0.45\textwidth]{Figures/RECO/Plot_Boosted_SR_V_pt.png}
+\includegraphics[width=0.475\textwidth]{Figures/RECO/Plot_Resolved_SR_V_pt.png}
+\includegraphics[width=0.475\textwidth]{Figures/RECO/Plot_Boosted_SR_V_pt.png}
 \end{center}
 \caption{
-Distribution of \PW boson \pt in resolved (left) and boosted (left) categories of the SR. Impact of systematic uncertainties on jet energy scale and resolution, correction factor used to match the b-tagging and Higgs-tagging efficiencies in data and simulation are shown in the bottom panel.
+Distribution of \PW boson \pt in the resolved (left) and boosted (left) categories of the SR. Impact of systematic uncertainties on jet energy scale and resolution, correction factor used to match the b-tagging and Higgs-tagging efficiencies in data and simulation are shown in the bottom panel.
 }
 \label{fig:RECO_Vpt_WH}
 \end{figure*}
 Fig.~\ref{fig:RECO_Vpt_WH} shows that the main backgrounds to $\PW\PH$ signal are events from $\Pt\PAt$ and ${\PW}+\Pb/\Pc$ productions.
 
 The shape of the distribution of angular variables is also sensitive to some of the dimension-6 operators. As shown in Fig.~\ref{fig:angles}, 
-the SM production dominated by longitudinal polarization of \PW boson has some differences w.r.t the case when ${\cal O}_{HW}$  operator is turned on since it causes interference between amplitudes with longitudinal and transverse polarizations of \PW boson. 
-Variable $\phi$, on the other hand, is very sensitive to the CP-nature of the operators, and the difference in its modulation between CP-even and CP-odd operators is clearly visible in $\PZ\PH$ production. CP-sensitivity in $\phi$ is reduced in $\PW\PH$ production due to the ambiguity in neutrino reconstruction as will be shown in Sec.~\ref{sec:neu_reco} and the impact of other particles in the process on \ptmiss; this needs a dedicated study in future.
+the SM production dominated by longitudinal polarization of \PW boson has some differences w.r.t the case when ${\cal O}_{HW}$  operator is turned on since it also enhances the helicity amplitude of \PW\PH production with transverse polarizations of \PW boson. 
+Variable $\phi$, on the other hand, is very sensitive to the CP-nature of the operators, and the difference in its modulation between CP-even and CP-odd operators is clearly visible in $\PZ\PH$ production at the detector level. 
+CP-sensitivity in $\phi$ is reduced in $\PW\PH$ production due to the ambiguity in neutrino reconstruction as will be shown in Sec.~\ref{sec:neu_reco} and the impact of other particles in the process on \ptmiss; this needs a dedicated study in future.
 \begin{figure*}[hbtp]
 \begin{center}
-\includegraphics[width=0.45\textwidth]{Figures/RECO/Angle/WH/Boosted_Plot_Theta.png}
-\includegraphics[width=0.45\textwidth]{Figures/RECO/Angle/ZH/Boosted_Plot_Theta.png}
-\includegraphics[width=0.45\textwidth]{Figures/RECO/CP/WH/Resolved_Plot_phi.png}
-\includegraphics[width=0.45\textwidth]{Figures/RECO/CP/ZH/Resolved_Plot_phi.png}
+\includegraphics[width=0.475\textwidth]{Figures/RECO/Angle/WH/Boosted_Plot_Theta.png}
+\includegraphics[width=0.475\textwidth]{Figures/RECO/Angle/ZH/Boosted_Plot_Theta.png}
+\includegraphics[width=0.475\textwidth]{Figures/RECO/CP/WH/Resolved_Plot_phi.png}
+\includegraphics[width=0.475\textwidth]{Figures/RECO/CP/ZH/Resolved_Plot_phi.png}
 \end{center}
 \caption{
-Normalized distribution of polar angle $\Theta$ in $\PW\PH$ (top left) and $\PZ\PH$ (top right) productions for $cpW=1$ and SM scenarios in boosted category. 
+Normalized distribution of polar angle $\Theta$ in $\PW\PH$ (top left) and $\PZ\PH$ (top right) productions for $cpW=1$ and SM scenarios in the boosted category. 
 Normalized distribution of azimuthal angle $\phi$ in  $\PW\PH$ (bottom left) and $\PZ\PH$ (bottom right) productions for $cpW=1$ and $\tilde{cpW}=1$, respectively; SM component is subtracted from in these distributions.
 }
 \label{fig:angles}
@@ -473,18 +482,18 @@ Finally, we use $\PW$-mass constraint to calculate $\eta$ of \Pnu, denoted as ${
 where ${\Delta}^2 = \frac{m_W^2 - m_T^2 ({p^l},{p^\text{miss}\xspace})}{2 p_T^{l} p_T^{miss}}$. 
 When \PW boson has large \pt, which results to $\Delta << 1$, these two solutions become 
 \begin{equation}
-{\eta}^{\Pnu} \simeq {\eta}^{l} \pm \sqrt{2}{\Delta} + {\cal{O}} ({\Delta}^3)	\ ,
+{\eta}^{\Pnu} \simeq {\eta}^{l} \pm \sqrt{2}{\Delta} + {\cal{O}} ({\Delta}^3)	\ .
 \label{Eq:NeuEta2}
 \end{equation}
 In this limit,  the angular variable $\theta$ and $\Theta$ computed with these two solutions converge to the same values, whereas the variable $\phi$ does not. 
 It can be shown that $\phi$ computed with two solutions are related by the $\phi_{+} \simeq \pi - \phi_{-}$. This ambiguity is visible in Fig.~\ref{fig:neureco}.
 \begin{figure*}[hbtp]
 \begin{center}
-\includegraphics[width=0.45\textwidth]{Figures/RECO/Resolved_Plot_2D_phi_unweighted.png}
-\includegraphics[width=0.45\textwidth]{Figures/RECO/Boosted_Plot_2D_phi_unweighted.png}
+\includegraphics[width=0.495\textwidth]{Figures/RECO/Resolved_Plot_2D_phi_unweighted.png}
+\includegraphics[width=0.495\textwidth]{Figures/RECO/Boosted_Plot_2D_phi_unweighted.png}
 \end{center}
 \caption{
-Correlation between $\phi$ calculated at parton level and detector level in resolved (left) and boosted (right) categories in $\PW\PH$ production.
+Correlation between $\phi$ calculated at parton level and detector level in the resolved (left) and boosted (right) categories in $\PW\PH$ production.
 }
 \label{fig:neureco}
 \end{figure*}
@@ -497,7 +506,7 @@ The ambiguity in $\phi$ reduces the CP-sensitivity in $\PW\PH$ production. A ded
 As seen from Fig.~\ref{fig:RECO_Vpt_WH}, the region SR has a large number of background events.
 To separate the  $\PW\PH$ signal even more from the background events, particularly due to $\Pt\PAt$ production, 
 a multivariate (MVA) discriminator is constructed using a DNN with two fully connected dense layers. 
-Input variables to the DNN in the resolved category are listed in Table~\ref{Table:MVA_Vars}.
+Input variables to the DNN in the the resolved category are listed in Table~\ref{Table:MVA_Vars}.
 \begin{table}[t]
 \small
 \centering
@@ -520,30 +529,32 @@ $\Delta\phi(\PW,\PH)$ & $\Delta\phi(\text{b1},\text{b2})$ \\
 A similar discriminator is built in the boosted category using the variables in the left column of Table~\ref{Table:MVA_Vars} along with the following variables corresponding to the \PH candidate AK8 jet: 
 the output of DeepAK8 taggers quantifying the probability of the jet originated due to top quark, Higgs boson, \PW boson relative to the same originated from a light quark or gluon.
 Normalized distributions of MVA discriminators in SM $\PW\PH$ and $\Pt\PAt$ events are shown in Fig.~\ref{fig:MVA}. 
-Resistive operator characteristics (ROC) curves are obtained by computing the fraction of signal and background events varying thresholds on the MVA discriminators.
 \begin{figure*}[hbtp]
 \begin{center}
-\includegraphics[width=0.45\textwidth]{Figures/RECO/Plot_WH_MVA_WH_fast_resolved.png}
-\includegraphics[width=0.45\textwidth]{Figures/RECO/ROC_plot_TT_MVA_resolved.png}
-\includegraphics[width=0.45\textwidth]{Figures/RECO/Plot_WH_MVA_WH_fast_boosted.png}
-\includegraphics[width=0.45\textwidth]{Figures/RECO/ROC_plot_TT_MVA_boosted.png}
+\includegraphics[width=0.475\textwidth]{Figures/RECO/Plot_WH_MVA_WH_fast_resolved.png}
+\includegraphics[width=0.475\textwidth]{Figures/RECO/ROC_plot_TT_MVA_resolved.png}
+\includegraphics[width=0.475\textwidth]{Figures/RECO/Plot_WH_MVA_WH_fast_boosted.png}
+\includegraphics[width=0.475\textwidth]{Figures/RECO/ROC_plot_TT_MVA_boosted.png}
 \end{center}
 \caption{
 Normalized distributions of the MVA discriminator in signal ($\PW\PH$) and background ($\Pt\PAt$) events (left) and ROC curve characterizing the performance of MVA discriminator (right) in the resolved (top) and boosted (bottom) categories.
 }
 \label{fig:MVA}
 \end{figure*}
+Resistive operator characteristics curves, quantifying the performance of the MVA discriminator, are obtained by computing the fraction of signal and background events varying thresholds on the MVA discriminators, and are also shown in Fig.~\ref{fig:MVA}. 
+The discriminator constructed in the boosted category performs little better than the one build in the resolved category, 
+which is mainly due to the use of DeepAK8 tagger for AK8 jets.
 
 \subsection{Sensitivity results}
 
 Although the final condition on the MVA discriminator needs to be optimized, 
-we go on checking the sensitivity by choosing a threshold on the MVA discriminator, 
+we go on checking the sensitivity by putting a threshold on the MVA discriminator, 
 which corresponds to $80\%$ signal efficiency; this corresponds $\sim 30\%$ ($\sim 15\%$) background efficiency in the resolved (boosted) category.
 For simplicity, we use the efficiency numbers for different event samples as the first step and perform one-dimensional likelihood scans for two Wilson coefficients corresponding to operators ${\cal O}^{(3)}_{Hq}$ and ${\cal O}_{HW}$, respectively, while setting others to $0$. The results are shown in Fig.~\ref{fig:NLL} for the integrated luminosity of 300\fbinv.
 \begin{figure*}[hbtp]
 \begin{center}
-\includegraphics[width=0.45\textwidth]{Figures/RECO/Full_NLL_WC_cpq3i_fine_300fb_opt1.png}
-\includegraphics[width=0.45\textwidth]{Figures/RECO/Full_NLL_WC_cpW_fine_300fb.png}
+\includegraphics[width=0.495\textwidth]{Figures/RECO/Full_NLL_WC_cpq3i_fine_300fb_opt1.png}
+\includegraphics[width=0.495\textwidth]{Figures/RECO/Full_NLL_WC_cpW_fine_300fb.png}
 \end{center}
 \caption{
 Variation of the profile likelihood ratio $q$ as a function of Wilson coefficients corresponding operators ${\cal O}^{(3)}_{Hq}$ (left) and ${\cal O}_{HW}$ (right) for an integrated luminosity of 300\fbinv.
