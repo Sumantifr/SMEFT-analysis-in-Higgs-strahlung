@@ -1,282 +1,415 @@
-\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}%
+\makeatletter
+\providecommand{\hrefCMSnoop }[0]{\@secondoftwo}%
+\makeatother
+\providecommand{\doi}{\texttt{doi:}\begingroup \urlstyle{tt}\Url}
 
 \bibitem{CMS_ex}
-{\bf CMS} Collaboration, S.~Chatrchyan et~al., {\it {The CMS experiment at the
-  CERN LHC}},  {\em JINST} {\bf 3} (2008) S08004.
+\hrefCMSnoop {}{{CMS} Collaboration, ``{The CMS experiment at the CERN LHC}'',}
+  \textit{ JINST} \textbf{ 3} (2008) S08004,
+\href{http://dx.doi.org/10.1088/1748-0221/3/08/S08004}{\doi{10.1088/1748-0221/3/08/S08004}}.
+%%CITATION = JINST,3,S08004;%%.
 
 \bibitem{Aad:2012tfa}
-{\bf ATLAS} Collaboration, G.~Aad et~al., {\it {Observation of a new particle
-  in the search for the Standard Model Higgs boson with the ATLAS detector at
-  the LHC}},  {\em Phys. Lett.} {\bf B716} (2012) 1,
-  [\href{http://arxiv.org/abs/1207.7214}{{\tt arXiv:1207.7214}}].
+\hrefCMSnoop {}{{ATLAS} Collaboration, ``{Observation of a new particle in the
+  search for the Standard Model Higgs boson with the ATLAS detector at the
+  LHC}'',} \textit{ Phys. Lett.} \textbf{ B716} (2012) 1,
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{\doi{10.1016/j.physletb.2012.08.020}},
+\href{http://www.arXiv.org/abs/1207.7214}{\texttt{arXiv:1207.7214}}.
+%%CITATION = ARXIV:1207.7214;%%.
 
 \bibitem{Chatrchyan:2012ufa}
-{\bf CMS} Collaboration, S.~Chatrchyan et~al., {\it {Observation of a New Boson
-  at a Mass of 125 GeV with the CMS Experiment at the LHC}},  {\em Phys. Lett.
-  B} {\bf 716} (2012) 30--61, [\href{http://arxiv.org/abs/1207.7235}{{\tt
-  arXiv:1207.7235}}].
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Observation of a New Boson at a Mass of
+  125 GeV with the CMS Experiment at the LHC}'',} \textit{ Phys. Lett. B}
+  \textbf{ 716} (2012) 30--61,
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{\doi{10.1016/j.physletb.2012.08.021}},
+  \href{http://www.arXiv.org/abs/1207.7235}{\texttt{arXiv:1207.7235}}.
 
 \bibitem{CMS:2017dib}
-{\bf CMS} Collaboration, A.~M. Sirunyan et~al., {\it {Measurements of
-  properties of the Higgs boson decaying into the four-lepton final state in pp
-  collisions at $ \sqrt{s}=13 $ TeV}},  {\em JHEP} {\bf 11} (2017) 047,
-  [\href{http://arxiv.org/abs/1706.09936}{{\tt arXiv:1706.09936}}].
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Measurements of properties of the Higgs
+  boson decaying into the four-lepton final state in pp collisions at $
+  \sqrt{s}=13 $ TeV}'',} \textit{ JHEP} \textbf{ 11} (2017) 047,
+  \href{http://dx.doi.org/10.1007/JHEP11(2017)047}{\doi{10.1007/JHEP11(2017)047}},
+  \href{http://www.arXiv.org/abs/1706.09936}{\texttt{arXiv:1706.09936}}.
 
 \bibitem{CMS:2020xrn}
-{\bf CMS} Collaboration, A.~M. Sirunyan et~al., {\it {A measurement of the
-  Higgs boson mass in the diphoton decay channel}},  {\em Phys. Lett. B} {\bf
-  805} (2020) 135425, [\href{http://arxiv.org/abs/2002.06398}{{\tt
-  arXiv:2002.06398}}].
+\hrefCMSnoop {}{{CMS} Collaboration, ``{A measurement of the Higgs boson mass
+  in the diphoton decay channel}'',} \textit{ Phys. Lett. B} \textbf{ 805}
+  (2020) 135425,
+  \href{http://dx.doi.org/10.1016/j.physletb.2020.135425}{\doi{10.1016/j.physletb.2020.135425}},
+  \href{http://www.arXiv.org/abs/2002.06398}{\texttt{arXiv:2002.06398}}.
 
 \bibitem{CMS:2019jdw}
-{\bf CMS} Collaboration, A.~M. Sirunyan et~al., {\it {Constraints on anomalous
-  $HVV$ couplings from the production of Higgs bosons decaying to $\tau$ lepton
-  pairs}},  {\em Phys. Rev. D} {\bf 100} (2019), no.~11 112002,
-  [\href{http://arxiv.org/abs/1903.06973}{{\tt arXiv:1903.06973}}].
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Constraints on anomalous $HVV$
+  couplings from the production of Higgs bosons decaying to $\tau$ lepton
+  pairs}'',} \textit{ Phys. Rev. D} \textbf{ 100} (2019), no.~11, 112002,
+  \href{http://dx.doi.org/10.1103/PhysRevD.100.112002}{\doi{10.1103/PhysRevD.100.112002}},
+  \href{http://www.arXiv.org/abs/1903.06973}{\texttt{arXiv:1903.06973}}.
 
 \bibitem{CMS:2020cga}
-{\bf CMS} Collaboration, A.~M. Sirunyan et~al., {\it {Measurements of
-  $\mathrm{t\bar{t}}H$ Production and the CP Structure of the Yukawa
-  Interaction between the Higgs Boson and Top Quark in the Diphoton Decay
-  Channel}},  {\em Phys. Rev. Lett.} {\bf 125} (2020) 061801,
-  [\href{http://arxiv.org/abs/2003.10866}{{\tt arXiv:2003.10866}}].
-
-\bibitem{CMS-PAS-HIG-19-005}
-{\bf CMS Collaboration} Collaboration, {\it {Combined Higgs boson production
-  and decay measurements with up to 137 fb-1 of proton-proton collision data at
-  sqrts = 13 TeV}},  {CMS Physics Analysis Summary} CMS-PAS-HIG-19-005, 2020.
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Measurements of $\mathrm{t\bar{t}}H$
+  Production and the CP Structure of the Yukawa Interaction between the Higgs
+  Boson and Top Quark in the Diphoton Decay Channel}'',} \textit{ Phys. Rev.
+  Lett.} \textbf{ 125} (2020) 061801,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.125.061801}{\doi{10.1103/PhysRevLett.125.061801}},
+  \href{http://www.arXiv.org/abs/2003.10866}{\texttt{arXiv:2003.10866}}.
 
 \bibitem{Grinstein:1991cd}
-B.~Grinstein and M.~B. Wise, {\it {Operator analysis for precision electroweak
-  physics}},  {\em Phys. Lett. B} {\bf 265} (1991) 326.
+\hrefCMSnoop {}{B.~Grinstein and M.~B. Wise, ``{Operator analysis for precision
+  electroweak physics}'',} \textit{ Phys. Lett. B} \textbf{ 265} (1991) 326,
+  \href{http://dx.doi.org/10.1016/0370-2693(91)90061-T}{\doi{10.1016/0370-2693(91)90061-T}}.
 
 \bibitem{Chiu:2007dg}
-J.-y. Chiu, F.~Golf, R.~Kelley, and A.~V. Manohar, {\it {Electroweak
-  Corrections in High Energy Processes using Effective Field Theory}},  {\em
-  Phys. Rev. D} {\bf 77} (2008) 053004,
-  [\href{http://arxiv.org/abs/0712.0396}{{\tt arXiv:0712.0396}}].
+\hrefCMSnoop {}{J.-y. Chiu, F.~Golf, R.~Kelley, and A.~V. Manohar,
+  ``{Electroweak Corrections in High Energy Processes using Effective Field
+  Theory}'',} \textit{ Phys. Rev. D} \textbf{ 77} (2008) 053004,
+  \href{http://dx.doi.org/10.1103/PhysRevD.77.053004}{\doi{10.1103/PhysRevD.77.053004}},
+  \href{http://www.arXiv.org/abs/0712.0396}{\texttt{arXiv:0712.0396}}.
 
 \bibitem{Passarino:2016pzb}
-G.~Passarino and M.~Trott, {\it {The Standard Model Effective Field Theory and
-  Next to Leading Order}},  \href{http://arxiv.org/abs/1610.08356}{{\tt
-  arXiv:1610.08356}}.
-
-\bibitem{Appelquist:1974tg}
-T.~Appelquist and J.~Carazzone, {\it {Infrared Singularities and Massive
-  Fields}},  {\em Phys. Rev. D} {\bf 11} (1975) 2856.
-
-\bibitem{Gupta:2014rxa}
-R.~S. Gupta, A.~Pomarol, and F.~Riva, {\it {BSM Primary Effects}},  {\em Phys.
-  Rev. D} {\bf 91} (2015), no.~3 035001,
-  [\href{http://arxiv.org/abs/1405.0181}{{\tt arXiv:1405.0181}}].
-
-\bibitem{Ellis:2014jta}
-J.~Ellis, V.~Sanz, and T.~You, {\it {The Effective Standard Model after LHC Run
-  I}},  {\em JHEP} {\bf 03} (2015) 157,
-  [\href{http://arxiv.org/abs/1410.7703}{{\tt arXiv:1410.7703}}].
-
-\bibitem{Grojean:2018dqj}
-C.~Grojean, M.~Montull, and M.~Riembau, {\it {Diboson at the LHC vs LEP}},
-  {\em JHEP} {\bf 03} (2019) 020, [\href{http://arxiv.org/abs/1810.05149}{{\tt
-  arXiv:1810.05149}}].
-
-\bibitem{Panico:2017frx}
-G.~Panico, F.~Riva, and A.~Wulzer, {\it {Diboson interference resurrection}},
-  {\em Phys. Lett. B} {\bf 776} (2018) 473,
-  [\href{http://arxiv.org/abs/1708.07823}{{\tt arXiv:1708.07823}}].
+\hrefCMSnoop {}{G.~Passarino and M.~Trott, ``{The Standard Model Effective
+  Field Theory and Next to Leading Order}'',}
+  \href{http://www.arXiv.org/abs/1610.08356}{\texttt{arXiv:1610.08356}}.
 
 \bibitem{Jenkins:2013zja}
-E.~E. Jenkins, A.~V. Manohar, and M.~Trott, {\it {Renormalization Group
-  Evolution of the Standard Model Dimension Six Operators I: Formalism and
-  lambda Dependence}},  {\em JHEP} {\bf 10} (2013) 087,
-  [\href{http://arxiv.org/abs/1308.2627}{{\tt arXiv:1308.2627}}].
+\hrefCMSnoop {}{E.~E. Jenkins, A.~V. Manohar, and M.~Trott, ``{Renormalization
+  Group Evolution of the Standard Model Dimension Six Operators I: Formalism
+  and lambda Dependence}'',} \textit{ JHEP} \textbf{ 10} (2013) 087,
+  \href{http://dx.doi.org/10.1007/JHEP10(2013)087}{\doi{10.1007/JHEP10(2013)087}},
+  \href{http://www.arXiv.org/abs/1308.2627}{\texttt{arXiv:1308.2627}}.
 
 \bibitem{Alonso:2013hga}
-R.~Alonso, E.~E. Jenkins, A.~V. Manohar, and M.~Trott, {\it {Renormalization
-  Group Evolution of the Standard Model Dimension Six Operators III: Gauge
-  Coupling Dependence and Phenomenology}},  {\em JHEP} {\bf 04} (2014) 159,
-  [\href{http://arxiv.org/abs/1312.2014}{{\tt arXiv:1312.2014}}].
+\hrefCMSnoop {}{R.~Alonso, E.~E. Jenkins, A.~V. Manohar, and M.~Trott,
+  ``{Renormalization Group Evolution of the Standard Model Dimension Six
+  Operators III: Gauge Coupling Dependence and Phenomenology}'',} \textit{
+  JHEP} \textbf{ 04} (2014) 159,
+  \href{http://dx.doi.org/10.1007/JHEP04(2014)159}{\doi{10.1007/JHEP04(2014)159}},
+  \href{http://www.arXiv.org/abs/1312.2014}{\texttt{arXiv:1312.2014}}.
 
 \bibitem{Jenkins:2013wua}
-E.~E. Jenkins, A.~V. Manohar, and M.~Trott, {\it {Renormalization Group
-  Evolution of the Standard Model Dimension Six Operators II: Yukawa
-  Dependence}},  {\em JHEP} {\bf 01} (2014) 035,
-  [\href{http://arxiv.org/abs/1310.4838}{{\tt arXiv:1310.4838}}].
+\hrefCMSnoop {}{E.~E. Jenkins, A.~V. Manohar, and M.~Trott, ``{Renormalization
+  Group Evolution of the Standard Model Dimension Six Operators II: Yukawa
+  Dependence}'',} \textit{ JHEP} \textbf{ 01} (2014) 035,
+  \href{http://dx.doi.org/10.1007/JHEP01(2014)035}{\doi{10.1007/JHEP01(2014)035}},
+  \href{http://www.arXiv.org/abs/1310.4838}{\texttt{arXiv:1310.4838}}.
 
 \bibitem{Englert:2014cva}
-C.~Englert and M.~Spannowsky, {\it {Effective Theories and Measurements at
-  Colliders}},  {\em Phys. Lett. B} {\bf 740} (2015) 8--15,
-  [\href{http://arxiv.org/abs/1408.5147}{{\tt arXiv:1408.5147}}].
+\hrefCMSnoop {}{C.~Englert and M.~Spannowsky, ``{Effective Theories and
+  Measurements at Colliders}'',} \textit{ Phys. Lett. B} \textbf{ 740} (2015)
+  8--15,
+  \href{http://dx.doi.org/10.1016/j.physletb.2014.11.035}{\doi{10.1016/j.physletb.2014.11.035}},
+  \href{http://www.arXiv.org/abs/1408.5147}{\texttt{arXiv:1408.5147}}.
 
 \bibitem{Brivio:2017vri}
-I.~Brivio and M.~Trott, {\it {The Standard Model as an Effective Field
-  Theory}},  {\em Phys. Rept.} {\bf 793} (2019) 1,
-  [\href{http://arxiv.org/abs/1706.08945}{{\tt arXiv:1706.08945}}].
+\hrefCMSnoop {}{I.~Brivio and M.~Trott, ``{The Standard Model as an Effective
+  Field Theory}'',} \textit{ Phys. Rept.} \textbf{ 793} (2019) 1,
+  \href{http://dx.doi.org/10.1016/j.physrep.2018.11.002}{\doi{10.1016/j.physrep.2018.11.002}},
+  \href{http://www.arXiv.org/abs/1706.08945}{\texttt{arXiv:1706.08945}}.
 
-\bibitem{PhysRevLett.43.1566}
-S.~Weinberg, {\it Baryon- and lepton-nonconserving processes},  {\em Phys. Rev.
-  Lett.} {\bf 43} (Nov, 1979) 1566.
-
-\bibitem{Bonnet:2009ej}
-F.~Bonnet, D.~Hernandez, T.~Ota, and W.~Winter, {\it {Neutrino masses from
-  higher than d=5 effective operators}},  {\em JHEP} {\bf 10} (2009) 076,
-  [\href{http://arxiv.org/abs/0907.3143}{{\tt arXiv:0907.3143}}].
-
-\bibitem{Grzadkowski:2010es}
-B.~Grzadkowski, M.~Iskrzynski, M.~Misiak, and J.~Rosiek, {\it {Dimension-Six
-  Terms in the Standard Model Lagrangian}},  {\em JHEP} {\bf 10} (2010) 085,
-  [\href{http://arxiv.org/abs/1008.4884}{{\tt arXiv:1008.4884}}].
-
-\bibitem{Hagiwara:1993qt}
-K.~Hagiwara, R.~Szalapski, and D.~Zeppenfeld, {\it {Anomalous Higgs boson
-  production and decay}},  {\em Phys. Lett. B} {\bf 318} (1993) 155--162,
-  [\href{http://arxiv.org/abs/hep-ph/9308347}{{\tt hep-ph/9308347}}].
-
-\bibitem{Ellis:2014dva}
-J.~Ellis, V.~Sanz, and T.~You, {\it {Complete Higgs Sector Constraints on
-  Dimension-6 Operators}},  {\em JHEP} {\bf 07} (2014) 036,
-  [\href{http://arxiv.org/abs/1404.3667}{{\tt arXiv:1404.3667}}].
-
-\bibitem{Murphy:2017omb}
-C.~W. Murphy, {\it {Statistical approach to Higgs boson couplings in the
-  standard model effective field theory}},  {\em Phys. Rev. D} {\bf 97} (2018),
-  no.~1 015007, [\href{http://arxiv.org/abs/1710.02008}{{\tt
-  arXiv:1710.02008}}].
-
-\bibitem{Baglio:2020oqu}
-J.~Baglio, S.~Dawson, S.~Homiller, S.~D. Lane, and I.~M. Lewis, {\it {Validity
-  of standard model EFT studies of VH and VV production at NLO}},  {\em Phys.
-  Rev. D} {\bf 101} (2020) 115004, [\href{http://arxiv.org/abs/2003.07862}{{\tt
-  arXiv:2003.07862}}].
-
-\bibitem{Banerjee:2019twi}
-S.~Banerjee, R.~S. Gupta, J.~Y. Reiness, S.~Seth, and M.~Spannowsky, {\it
-  {Towards the ultimate differential SMEFT analysis}},  {\em JHEP} {\bf 09}
-  (2020) 170, [\href{http://arxiv.org/abs/1912.07628}{{\tt arXiv:1912.07628}}].
-
-\bibitem{Elias-Miro:2013mua}
-J.~Elias-Miro, J.~R. Espinosa, E.~Masso, and A.~Pomarol, {\it {Higgs windows to
-  new physics through d=6 operators: constraints and one-loop anomalous
-  dimensions}},  {\em JHEP} {\bf 11} (2013) 066,
-  [\href{http://arxiv.org/abs/1308.1879}{{\tt arXiv:1308.1879}}].
+\bibitem{Panico:2017frx}
+\hrefCMSnoop {}{G.~Panico, F.~Riva, and A.~Wulzer, ``{Diboson interference
+  resurrection}'',} \textit{ Phys. Lett. B} \textbf{ 776} (2018) 473,
+  \href{http://dx.doi.org/10.1016/j.physletb.2017.11.068}{\doi{10.1016/j.physletb.2017.11.068}},
+  \href{http://www.arXiv.org/abs/1708.07823}{\texttt{arXiv:1708.07823}}.
 
 \bibitem{CMS-PAS-SMP-20-005}
-{\bf CMS Collaboration} Collaboration, {\it {$\mathrm{W}^{\pm}\gamma$
-  differential cross sections and effective field theory constraints at
-  $\sqrt{s}=13\,\mathrm{TeV}$}},  {CMS Physics Analysis Summary}
-  CMS-PAS-SMP-20-005, 2021.
+\href {http://cds.cern.ch/record/2757267}{{CMS Collaboration} Collaboration,
+  ``{$\mathrm{W}^{\pm}\gamma$ differential cross sections and effective field
+  theory constraints at $\sqrt{s}=13\,\mathrm{TeV}$}'',} {CMS Physics Analysis
+  Summary} CMS-PAS-SMP-20-005, 2021.
+
+\bibitem{Banerjee:2019twi}
+S.~Banerjee\hrefCMSnoop {}{ {et~al.}, ``{Towards the ultimate differential
+  SMEFT analysis}'',} \textit{ JHEP} \textbf{ 09} (2020) 170,
+  \href{http://dx.doi.org/10.1007/JHEP09(2020)170}{\doi{10.1007/JHEP09(2020)170}},
+  \href{http://www.arXiv.org/abs/1912.07628}{\texttt{arXiv:1912.07628}}.
+
+\bibitem{PhysRevLett.43.1566}
+\hrefCMSnoop {}{S.~Weinberg, ``Baryon- and lepton-nonconserving processes'',}
+  \textit{ Phys. Rev. Lett.} \textbf{ 43} (Nov, 1979) 1566,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.43.1566}{\doi{10.1103/PhysRevLett.43.1566}}.
+
+\bibitem{Bonnet:2009ej}
+\hrefCMSnoop {}{F.~Bonnet, D.~Hernandez, T.~Ota, and W.~Winter, ``{Neutrino
+  masses from higher than d=5 effective operators}'',} \textit{ JHEP} \textbf{
+  10} (2009) 076,
+  \href{http://dx.doi.org/10.1088/1126-6708/2009/10/076}{\doi{10.1088/1126-6708/2009/10/076}},
+  \href{http://www.arXiv.org/abs/0907.3143}{\texttt{arXiv:0907.3143}}.
+
+\bibitem{Grzadkowski:2010es}
+\hrefCMSnoop {}{B.~Grzadkowski, M.~Iskrzynski, M.~Misiak, and J.~Rosiek,
+  ``{Dimension-Six Terms in the Standard Model Lagrangian}'',} \textit{ JHEP}
+  \textbf{ 10} (2010) 085,
+  \href{http://dx.doi.org/10.1007/JHEP10(2010)085}{\doi{10.1007/JHEP10(2010)085}},
+  \href{http://www.arXiv.org/abs/1008.4884}{\texttt{arXiv:1008.4884}}.
+
+\bibitem{Hagiwara:1993qt}
+\hrefCMSnoop {}{K.~Hagiwara, R.~Szalapski, and D.~Zeppenfeld, ``{Anomalous
+  Higgs boson production and decay}'',} \textit{ Phys. Lett. B} \textbf{ 318}
+  (1993) 155--162,
+  \href{http://dx.doi.org/10.1016/0370-2693(93)91799-S}{\doi{10.1016/0370-2693(93)91799-S}},
+  \href{http://www.arXiv.org/abs/hep-ph/9308347}{\texttt{arXiv:hep-ph/9308347}}.
+
+\bibitem{Ellis:2014dva}
+\hrefCMSnoop {}{J.~Ellis, V.~Sanz, and T.~You, ``{Complete Higgs Sector
+  Constraints on Dimension-6 Operators}'',} \textit{ JHEP} \textbf{ 07} (2014)
+  036,
+  \href{http://dx.doi.org/10.1007/JHEP07(2014)036}{\doi{10.1007/JHEP07(2014)036}},
+  \href{http://www.arXiv.org/abs/1404.3667}{\texttt{arXiv:1404.3667}}.
+
+\bibitem{Murphy:2017omb}
+\hrefCMSnoop {}{C.~W. Murphy, ``{Statistical approach to Higgs boson couplings
+  in the standard model effective field theory}'',} \textit{ Phys. Rev. D}
+  \textbf{ 97} (2018), no.~1, 015007,
+  \href{http://dx.doi.org/10.1103/PhysRevD.97.015007}{\doi{10.1103/PhysRevD.97.015007}},
+  \href{http://www.arXiv.org/abs/1710.02008}{\texttt{arXiv:1710.02008}}.
+
+\bibitem{Baglio:2020oqu}
+J.~Baglio\hrefCMSnoop {}{ {et~al.}, ``{Validity of standard model EFT studies
+  of VH and VV production at NLO}'',} \textit{ Phys. Rev. D} \textbf{ 101}
+  (2020) 115004,
+  \href{http://dx.doi.org/10.1103/PhysRevD.101.115004}{\doi{10.1103/PhysRevD.101.115004}},
+  \href{http://www.arXiv.org/abs/2003.07862}{\texttt{arXiv:2003.07862}}.
+
+\bibitem{Ellis:2014jta}
+\hrefCMSnoop {}{J.~Ellis, V.~Sanz, and T.~You, ``{The Effective Standard Model
+  after LHC Run I}'',} \textit{ JHEP} \textbf{ 03} (2015) 157,
+  \href{http://dx.doi.org/10.1007/JHEP03(2015)157}{\doi{10.1007/JHEP03(2015)157}},
+  \href{http://www.arXiv.org/abs/1410.7703}{\texttt{arXiv:1410.7703}}.
+
+\bibitem{Grojean:2018dqj}
+\hrefCMSnoop {}{C.~Grojean, M.~Montull, and M.~Riembau, ``{Diboson at the LHC
+  vs LEP}'',} \textit{ JHEP} \textbf{ 03} (2019) 020,
+  \href{http://dx.doi.org/10.1007/JHEP03(2019)020}{\doi{10.1007/JHEP03(2019)020}},
+  \href{http://www.arXiv.org/abs/1810.05149}{\texttt{arXiv:1810.05149}}.
+
+\bibitem{Gupta:2014rxa}
+\hrefCMSnoop {}{R.~S. Gupta, A.~Pomarol, and F.~Riva, ``{BSM Primary
+  Effects}'',} \textit{ Phys. Rev. D} \textbf{ 91} (2015), no.~3, 035001,
+  \href{http://dx.doi.org/10.1103/PhysRevD.91.035001}{\doi{10.1103/PhysRevD.91.035001}},
+  \href{http://www.arXiv.org/abs/1405.0181}{\texttt{arXiv:1405.0181}}.
+
+\bibitem{Manohar:1983md}
+\hrefCMSnoop {}{A.~Manohar and H.~Georgi, ``{Chiral Quarks and the
+  Nonrelativistic Quark Model}'',} \textit{ Nucl. Phys. B} \textbf{ 234} (1984)
+  189--212,
+  \href{http://dx.doi.org/10.1016/0550-3213(84)90231-1}{\doi{10.1016/0550-3213(84)90231-1}}.
+
+\bibitem{Falkowski:2014tna}
+\hrefCMSnoop {}{A.~Falkowski and F.~Riva, ``{Model-independent precision
+  constraints on dimension-6 operators}'',} \textit{ JHEP} \textbf{ 02} (2015)
+  039,
+  \href{http://dx.doi.org/10.1007/JHEP02(2015)039}{\doi{10.1007/JHEP02(2015)039}},
+  \href{http://www.arXiv.org/abs/1411.0669}{\texttt{arXiv:1411.0669}}.
+
+\bibitem{Banerjee:2018bio}
+\hrefCMSnoop {}{S.~Banerjee, C.~Englert, R.~S. Gupta, and M.~Spannowsky,
+  ``{Probing Electroweak Precision Physics via boosted Higgs-strahlung at the
+  LHC}'',} \textit{ Phys. Rev. D} \textbf{ 98} (2018), no.~9, 095012,
+  \href{http://dx.doi.org/10.1103/PhysRevD.98.095012}{\doi{10.1103/PhysRevD.98.095012}},
+  \href{http://www.arXiv.org/abs/1807.01796}{\texttt{arXiv:1807.01796}}.
+
+\bibitem{Elias-Miro:2013mua}
+\hrefCMSnoop {}{J.~Elias-Miro, J.~R. Espinosa, E.~Masso, and A.~Pomarol,
+  ``{Higgs windows to new physics through d=6 operators: constraints and
+  one-loop anomalous dimensions}'',} \textit{ JHEP} \textbf{ 11} (2013) 066,
+  \href{http://dx.doi.org/10.1007/JHEP11(2013)066}{\doi{10.1007/JHEP11(2013)066}},
+  \href{http://www.arXiv.org/abs/1308.1879}{\texttt{arXiv:1308.1879}}.
+
+\bibitem{Berger:2019wnu}
+\hrefCMSnoop {}{N.~Berger {et~al.}, ``{Simplified Template Cross Sections -
+  Stage 1.1}'',}
+  \href{http://www.arXiv.org/abs/1906.02754}{\texttt{arXiv:1906.02754}}.
 
 \bibitem{Chatterjee:2021nms}
-S.~Chatterjee, N.~Frohner, L.~Lechner, R.~Sch\"ofbeck, and D.~Schwarz, {\it
-  {Tree boosting for learning EFT parameters}},
-  \href{http://arxiv.org/abs/2107.10859}{{\tt arXiv:2107.10859}}.
-
-\bibitem{Fermi:1934hr}
-E.~Fermi, {\it {An attempt of a theory of beta radiation. 1.}},  {\em Z. Phys.}
-  {\bf 88} (1934) 161.
-
-\bibitem{Yukawa:1935xg}
-H.~Yukawa, {\it {On the Interaction of Elementary Particles I}},  {\em Proc.
-  Phys. Math. Soc. Jap.} {\bf 17} (1935) 48--57.
+S.~Chatterjee\hrefCMSnoop {}{ {et~al.}, ``{Tree boosting for learning EFT
+  parameters}'',}
+  \href{http://www.arXiv.org/abs/2107.10859}{\texttt{arXiv:2107.10859}}.
 
 \bibitem{Ellis:2018gqa}
-J.~Ellis, C.~W. Murphy, V.~Sanz, and T.~You, {\it {Updated Global SMEFT Fit to
-  Higgs, Diboson and Electroweak Data}},  {\em JHEP} {\bf 06} (2018) 146,
-  [\href{http://arxiv.org/abs/1803.03252}{{\tt arXiv:1803.03252}}].
+\hrefCMSnoop {}{J.~Ellis, C.~W. Murphy, V.~Sanz, and T.~You, ``{Updated Global
+  SMEFT Fit to Higgs, Diboson and Electroweak Data}'',} \textit{ JHEP} \textbf{
+  06} (2018) 146,
+  \href{http://dx.doi.org/10.1007/JHEP06(2018)146}{\doi{10.1007/JHEP06(2018)146}},
+  \href{http://www.arXiv.org/abs/1803.03252}{\texttt{arXiv:1803.03252}}.
 
 \bibitem{Ellis:2020unq}
-J.~Ellis, M.~Madigan, K.~Mimasu, V.~Sanz, and T.~You, {\it {Top, Higgs, Diboson
-  and Electroweak Fit to the Standard Model Effective Field Theory}},  {\em
-  JHEP} {\bf 04} (2021) 279, [\href{http://arxiv.org/abs/2012.02779}{{\tt
-  arXiv:2012.02779}}].
+J.~Ellis\hrefCMSnoop {}{ {et~al.}, ``{Top, Higgs, Diboson and Electroweak Fit
+  to the Standard Model Effective Field Theory}'',} \textit{ JHEP} \textbf{ 04}
+  (2021) 279,
+  \href{http://dx.doi.org/10.1007/JHEP04(2021)279}{\doi{10.1007/JHEP04(2021)279}},
+  \href{http://www.arXiv.org/abs/2012.02779}{\texttt{arXiv:2012.02779}}.
 
 \bibitem{Ethier:2021bye}
-J.~J. Ethier, G.~Magni, F.~Maltoni, L.~Mantani, E.~R. Nocera, J.~Rojo,
-  E.~Slade, E.~Vryonidou, and C.~Zhang, {\it {Combined SMEFT interpretation of
-  Higgs, diboson, and top quark data from the LHC}},
-  \href{http://arxiv.org/abs/2105.00006}{{\tt arXiv:2105.00006}}.
+J.~J. Ethier\hrefCMSnoop {}{ {et~al.}, ``{Combined SMEFT interpretation of
+  Higgs, diboson, and top quark data from the LHC}'',}
+  \href{http://www.arXiv.org/abs/2105.00006}{\texttt{arXiv:2105.00006}}.
 
 \bibitem{CMS:2021nnc}
-{\bf CMS} Collaboration, A.~M. Sirunyan et~al., {\it {Constraints on anomalous
-  Higgs boson couplings to vector bosons and fermions in its production and
-  decay using the four-lepton final state}},
-  \href{http://arxiv.org/abs/2104.12152}{{\tt arXiv:2104.12152}}.
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Constraints on anomalous Higgs boson
+  couplings to vector bosons and fermions in its production and decay using the
+  four-lepton final state}'',}
+  \href{http://www.arXiv.org/abs/2104.12152}{\texttt{arXiv:2104.12152}}.
 
 \bibitem{CMS:2021aly}
-{\bf CMS} Collaboration, A.~Tumasyan et~al., {\it {Probing effective field
-  theory operators in the associated production of top quarks with a Z boson in
-  multilepton final states at $\sqrt{s} = $ 13 TeV}},
-  \href{http://arxiv.org/abs/2107.13896}{{\tt arXiv:2107.13896}}.
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Probing effective field theory
+  operators in the associated production of top quarks with a Z boson in
+  multilepton final states at $\sqrt{s} = $ 13 TeV}'',}
+  \href{http://www.arXiv.org/abs/2107.13896}{\texttt{arXiv:2107.13896}}.
 
 \bibitem{CMS:2021gme}
-{\bf CMS} Collaboration, A.~Tumasyan et~al., {\it {Measurement of the
-  electroweak production of Z$\gamma$ and two jets in proton-proton collisions
-  at $\sqrt{s}=$ 13 TeV and constraints on anomalous quartic gauge couplings}},
-   \href{http://arxiv.org/abs/2106.11082}{{\tt arXiv:2106.11082}}.
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Measurement of the electroweak
+  production of Z$\gamma$ and two jets in proton-proton collisions at
+  $\sqrt{s}=$ 13 TeV and constraints on anomalous quartic gauge couplings}'',}
+  \href{http://www.arXiv.org/abs/2106.11082}{\texttt{arXiv:2106.11082}}.
 
 \bibitem{LHC_EFT_WG}
-``{LHC Effective Field Theory WG}.'' \url{https://lpcc.web.cern.ch/lhc-eft-wg}.
+\href {https://lpcc.web.cern.ch/lhc-eft-wg}{``{LHC Effective Field Theory
+  WG}''.} \url{https://lpcc.web.cern.ch/lhc-eft-wg}.
+\newblock \url {https://lpcc.web.cern.ch/lhc-eft-wg}.
 
 \bibitem{All_EFT}
-``{All Things EFT}.'' \url{https://sites.google.com/view/all-things-eft}.
+\hrefCMSnoop {}{``{All Things EFT}''.}
+  \url{https://sites.google.com/view/all-things-eft}.
+\newblock
+  \href{http://dx.doi.org/https://sites.google.com/view/all-things-eft}{\doi{https://sites.google.com/view/all-things-eft}},
+  \url {https://sites.google.com/view/all-things-eft}.
 
 \bibitem{Cohen:1997ac}
-A.~G. Cohen, A.~De~Rujula, and S.~Glashow, {\it {A matter - antimatter
-  universe?}},  {\em Astrophys. J.} {\bf 495} (1998) 539,
-  [\href{http://arxiv.org/abs/astro-ph/9707087}{{\tt astro-ph/9707087}}].
+\hrefCMSnoop {}{A.~G. Cohen, A.~De~Rujula, and S.~Glashow, ``{A matter -
+  antimatter universe?}'',} \textit{ Astrophys. J.} \textbf{ 495} (1998) 539,
+  \href{http://dx.doi.org/10.1086/305328}{\doi{10.1086/305328}},
+  \href{http://www.arXiv.org/abs/astro-ph/9707087}{\texttt{arXiv:astro-ph/9707087}}.
 
 \bibitem{Damgaard:2015con}
-P.~H. Damgaard, A.~Haarr, D.~O'Connell, and A.~Tranberg, {\it {Effective Field
-  Theory and Electroweak Baryogenesis in the Singlet-Extended Standard Model}},
-   {\em JHEP} {\bf 02} (2016) 107, [\href{http://arxiv.org/abs/1512.01963}{{\tt
-  arXiv:1512.01963}}].
+\hrefCMSnoop {}{P.~H. Damgaard, A.~Haarr, D.~O'Connell, and A.~Tranberg,
+  ``{Effective Field Theory and Electroweak Baryogenesis in the
+  Singlet-Extended Standard Model}'',} \textit{ JHEP} \textbf{ 02} (2016) 107,
+  \href{http://dx.doi.org/10.1007/JHEP02(2016)107}{\doi{10.1007/JHEP02(2016)107}},
+  \href{http://www.arXiv.org/abs/1512.01963}{\texttt{arXiv:1512.01963}}.
 
 \bibitem{Grzadkowski:2018nbc}
-B.~Grzadkowski and D.~Huang, {\it {Spontaneous $CP$-Violating Electroweak
-  Baryogenesis and Dark Matter from a Complex Singlet Scalar}},  {\em JHEP}
-  {\bf 08} (2018) 135, [\href{http://arxiv.org/abs/1807.06987}{{\tt
-  arXiv:1807.06987}}].
+\hrefCMSnoop {}{B.~Grzadkowski and D.~Huang, ``{Spontaneous $CP$-Violating
+  Electroweak Baryogenesis and Dark Matter from a Complex Singlet Scalar}'',}
+  \textit{ JHEP} \textbf{ 08} (2018) 135,
+  \href{http://dx.doi.org/10.1007/JHEP08(2018)135}{\doi{10.1007/JHEP08(2018)135}},
+  \href{http://www.arXiv.org/abs/1807.06987}{\texttt{arXiv:1807.06987}}.
 
-\bibitem{Bols:2020bkb}
-E.~Bols, J.~Kieseler, M.~Verzetti, M.~Stoye, and A.~Stakia, {\it {Jet flavour
-  classification using DeepJet}},  {\em JINST} {\bf 15} (2020) P12012,
-  [\href{http://arxiv.org/abs/2008.10519}{{\tt arXiv:2008.10519}}].
+\bibitem{deBlas:2014mba}
+\hrefCMSnoop {}{J.~de~Blas, M.~Chala, M.~Perez-Victoria, and J.~Santiago,
+  ``{Observable Effects of General New Scalar Particles}'',} \textit{ JHEP}
+  \textbf{ 04} (2015) 078,
+  \href{http://dx.doi.org/10.1007/JHEP04(2015)078}{\doi{10.1007/JHEP04(2015)078}},
+  \href{http://www.arXiv.org/abs/1412.8480}{\texttt{arXiv:1412.8480}}.
 
-\bibitem{Sirunyan:2020lcu}
-{\bf CMS} Collaboration, A.~M. Sirunyan et~al., {\it {Identification of heavy,
-  energetic, hadronically decaying particles using machine-learning
-  techniques}},  {\em JINST} {\bf 15} (2020) P06005,
-  [\href{http://arxiv.org/abs/2004.08262}{{\tt arXiv:2004.08262}}].
+\bibitem{Profumo:2014opa}
+\hrefCMSnoop {}{S.~Profumo, M.~J. Ramsey-Musolf, C.~L. Wainwright, and
+  P.~Winslow, ``{Singlet-catalyzed electroweak phase transitions and precision
+  Higgs boson studies}'',} \textit{ Phys. Rev. D} \textbf{ 91} (2015), no.~3,
+  035018,
+  \href{http://dx.doi.org/10.1103/PhysRevD.91.035018}{\doi{10.1103/PhysRevD.91.035018}},
+  \href{http://www.arXiv.org/abs/1407.5342}{\texttt{arXiv:1407.5342}}.
 
-\bibitem{CMS:2014tkl}
-{\bf CMS} Collaboration, V.~Khachatryan et~al., {\it {Study of Hadronic
-  Event-Shape Variables in Multijet Final States in pp Collisions at $\sqrt{s}$
-  = 7 TeV}},  {\em JHEP} {\bf 10} (2014) 087,
-  [\href{http://arxiv.org/abs/1407.2856}{{\tt arXiv:1407.2856}}].
+\bibitem{delAguila:2010mx}
+\hrefCMSnoop {}{F.~del Aguila, J.~de~Blas, and M.~Perez-Victoria,
+  ``{Electroweak Limits on General New Vector Bosons}'',} \textit{ JHEP}
+  \textbf{ 09} (2010) 033,
+  \href{http://dx.doi.org/10.1007/JHEP09(2010)033}{\doi{10.1007/JHEP09(2010)033}},
+  \href{http://www.arXiv.org/abs/1005.3998}{\texttt{arXiv:1005.3998}}.
 
-\bibitem{Brivio:2020onw}
-I.~Brivio, {\it {SMEFTsim 3.0 \textemdash{} a practical guide}},  {\em JHEP}
-  {\bf 04} (2021) 073, [\href{http://arxiv.org/abs/2012.11343}{{\tt
-  arXiv:2012.11343}}].
+\bibitem{delAguila:2000aa}
+\hrefCMSnoop {}{F.~del Aguila, M.~Perez-Victoria, and J.~Santiago, ``{Effective
+  description of quark mixing}'',} \textit{ Phys. Lett. B} \textbf{ 492} (2000)
+  98,
+  \href{http://dx.doi.org/10.1016/S0370-2693(00)01071-6}{\doi{10.1016/S0370-2693(00)01071-6}},
+  \href{http://www.arXiv.org/abs/hep-ph/0007160}{\texttt{arXiv:hep-ph/0007160}}.
 
-\bibitem{Degrande:2020evl}
-C.~Degrande, G.~Durieux, F.~Maltoni, K.~Mimasu, E.~Vryonidou, and C.~Zhang,
-  {\it {Automated one-loop computations in the standard model effective field
-  theory}},  {\em Phys. Rev. D} {\bf 103} (2021) 096024,
-  [\href{http://arxiv.org/abs/2008.11743}{{\tt arXiv:2008.11743}}].
+\bibitem{Dawson:2012di}
+\hrefCMSnoop {}{S.~Dawson and E.~Furlan, ``{A Higgs Conundrum with Vector
+  Fermions}'',} \textit{ Phys. Rev. D} \textbf{ 86} (2012) 015021,
+  \href{http://dx.doi.org/10.1103/PhysRevD.86.015021}{\doi{10.1103/PhysRevD.86.015021}},
+  \href{http://www.arXiv.org/abs/1205.4733}{\texttt{arXiv:1205.4733}}.
 
 \bibitem{Alwall:2014hca}
-J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
-  H.~S. Shao, T.~Stelzer, P.~Torrielli, and M.~Zaro, {\it {The automated
-  computation of tree-level and next-to-leading order differential cross
-  sections, and their matching to parton shower simulations}},  {\em JHEP} {\bf
-  07} (2014) 079, [\href{http://arxiv.org/abs/1405.0301}{{\tt
-  arXiv:1405.0301}}].
+J.~Alwall\hrefCMSnoop {}{ {et~al.}, ``{The automated computation of tree-level
+  and next-to-leading order differential cross sections, and their matching to
+  parton shower simulations}'',} \textit{ JHEP} \textbf{ 07} (2014) 079,
+  \href{http://dx.doi.org/10.1007/JHEP07(2014)079}{\doi{10.1007/JHEP07(2014)079}},
+\href{http://www.arXiv.org/abs/1405.0301}{\texttt{arXiv:1405.0301}}.
+%%CITATION = ARXIV:1405.0301;%%.
+
+\bibitem{Artoisenet:2008zz}
+\hrefCMSnoop {}{P.~Artoisenet and O.~Mattelaer, ``{MadWeight: Automatic event
+  reweighting with matrix elements}'',} \textit{ PoS} \textbf{ CHARGED2008}
+  (2008) 025,
+  \href{http://dx.doi.org/10.22323/1.073.0025}{\doi{10.22323/1.073.0025}}.
+
+\bibitem{Brivio:2017btx}
+\hrefCMSnoop {}{I.~Brivio, Y.~Jiang, and M.~Trott, ``{The SMEFTsim package,
+  theory and tools}'',} \textit{ JHEP} \textbf{ 12} (2017) 070,
+  \href{http://dx.doi.org/10.1007/JHEP12(2017)070}{\doi{10.1007/JHEP12(2017)070}},
+  \href{http://www.arXiv.org/abs/1709.06492}{\texttt{arXiv:1709.06492}}.
+
+\bibitem{Bols:2020bkb}
+E.~Bols\hrefCMSnoop {}{ {et~al.}, ``{Jet flavour classification using
+  DeepJet}'',} \textit{ JINST} \textbf{ 15} (2020) P12012,
+  \href{http://dx.doi.org/10.1088/1748-0221/15/12/P12012}{\doi{10.1088/1748-0221/15/12/P12012}},
+  \href{http://www.arXiv.org/abs/2008.10519}{\texttt{arXiv:2008.10519}}.
+
+\bibitem{Sirunyan:2020lcu}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Identification of heavy, energetic,
+  hadronically decaying particles using machine-learning techniques}'',}
+  \textit{ JINST} \textbf{ 15} (2020) P06005,
+  \href{http://dx.doi.org/10.1088/1748-0221/15/06/P06005}{\doi{10.1088/1748-0221/15/06/P06005}},
+  \href{http://www.arXiv.org/abs/2004.08262}{\texttt{arXiv:2004.08262}}.
+
+\bibitem{Larkoski:2014wba}
+\hrefCMSnoop {}{A.~J. Larkoski, S.~Marzani, G.~Soyez, and J.~Thaler, ``{Soft
+  Drop}'',} \textit{ JHEP} \textbf{ 05} (2014) 146,
+  \href{http://dx.doi.org/10.1007/JHEP05(2014)146}{\doi{10.1007/JHEP05(2014)146}},
+\href{http://www.arXiv.org/abs/1402.2657}{\texttt{arXiv:1402.2657}}.
+%%CITATION = ARXIV:1402.2657;%%.
+
+\bibitem{CMS:2019esx}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Measurement of $\mathrm{t\bar t}$
+  normalised multi-differential cross sections in pp collisions at $\sqrt s=13$
+  TeV, and simultaneous determination of the strong coupling strength, top
+  quark pole mass, and parton distribution functions}'',} \textit{ Eur. Phys.
+  J. C} \textbf{ 80} (2020), no.~7, 658,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-020-7917-7}{\doi{10.1140/epjc/s10052-020-7917-7}},
+  \href{http://www.arXiv.org/abs/1904.05237}{\texttt{arXiv:1904.05237}}.
+
+\bibitem{CMS:2014tkl}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Study of Hadronic Event-Shape Variables
+  in Multijet Final States in pp Collisions at $\sqrt{s}$ = 7 TeV}'',} \textit{
+  JHEP} \textbf{ 10} (2014) 087,
+  \href{http://dx.doi.org/10.1007/JHEP10(2014)087}{\doi{10.1007/JHEP10(2014)087}},
+  \href{http://www.arXiv.org/abs/1407.2856}{\texttt{arXiv:1407.2856}}.
+
+\bibitem{FAWCETT2006861}
+\hrefCMSnoop {}{T.~Fawcett, ``An introduction to roc analysis'',} \textit{
+  Pattern Recognition Letters} \textbf{ 27} (2006), no.~8, 861--874,
+  \href{http://dx.doi.org/https://doi.org/10.1016/j.patrec.2005.10.010}{\doi{https://doi.org/10.1016/j.patrec.2005.10.010}}.
+  ROC Analysis in Pattern Recognition.
+
+\bibitem{Brivio:2020onw}
+\hrefCMSnoop {}{I.~Brivio, ``{SMEFTsim 3.0 \textemdash{} a practical guide}'',}
+  \textit{ JHEP} \textbf{ 04} (2021) 073,
+  \href{http://dx.doi.org/10.1007/JHEP04(2021)073}{\doi{10.1007/JHEP04(2021)073}},
+  \href{http://www.arXiv.org/abs/2012.11343}{\texttt{arXiv:2012.11343}}.
+
+\bibitem{Degrande:2020evl}
+C.~Degrande\hrefCMSnoop {}{ {et~al.}, ``{Automated one-loop computations in the
+  standard model effective field theory}'',} \textit{ Phys. Rev. D} \textbf{
+  103} (2021) 096024,
+  \href{http://dx.doi.org/10.1103/PhysRevD.103.096024}{\doi{10.1103/PhysRevD.103.096024}},
+  \href{http://www.arXiv.org/abs/2008.11743}{\texttt{arXiv:2008.11743}}.
 
 \bibitem{Sjostrand:2014zea}
-T.~Sjöstrand, S.~Ask, J.~R. Christiansen, R.~Corke, N.~Desai, P.~Ilten,
-  S.~Mrenna, S.~Prestel, C.~O. Rasmussen, and P.~Z. Skands, {\it {An
-  Introduction to PYTHIA 8.2}},  {\em Comput. Phys. Commun.} {\bf 191} (2015)
-  159, [\href{http://arxiv.org/abs/1410.3012}{{\tt arXiv:1410.3012}}].
+T.~Sjöstrand\hrefCMSnoop {}{ {et~al.}, ``{An Introduction to PYTHIA 8.2}'',}
+  \textit{ Comput. Phys. Commun.} \textbf{ 191} (2015) 159,
+  \href{http://dx.doi.org/10.1016/j.cpc.2015.01.024}{\doi{10.1016/j.cpc.2015.01.024}},
+\href{http://www.arXiv.org/abs/1410.3012}{\texttt{arXiv:1410.3012}}.
+%%CITATION = ARXIV:1410.3012;%%.
 
 \end{thebibliography}\endgroup

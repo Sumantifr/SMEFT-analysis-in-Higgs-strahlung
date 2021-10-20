@@ -1,51 +1,50 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: VHeft.aux
-The style file: jhep.bst
+The style file: lucas_unsrt.bst
 Database file #1: VHeft.bib
-Warning--empty author in CMS-PAS-HIG-19-005
-Warning--empty institution in CMS-PAS-HIG-19-005
-Warning--empty author in CMS-PAS-SMP-20-005
+Warning--I didn't find a database entry for "Burdman:2006gy"
+Warning--I didn't find a database entry for "PhysRevD.10.275"
 Warning--empty institution in CMS-PAS-SMP-20-005
-You've used 52 entries,
-            2195 wiz_defined-function locations,
-            852 strings with 12302 characters,
-and the built_in function-call counts, 15005 in all, are:
-= -- 1498
-> -- 563
-< -- 2
-+ -- 208
-- -- 156
-* -- 1239
-:= -- 2080
-add.period$ -- 52
-call.type$ -- 52
-change.case$ -- 52
+You've used 62 entries,
+            2558 wiz_defined-function locations,
+            1102 strings with 17364 characters,
+and the built_in function-call counts, 18802 in all, are:
+= -- 1928
+> -- 505
+< -- 1
++ -- 166
+- -- 104
+* -- 1802
+:= -- 2346
+add.period$ -- 70
+call.type$ -- 62
+change.case$ -- 60
 chr.to.int$ -- 0
-cite$ -- 56
-duplicate$ -- 831
-empty$ -- 1349
-format.name$ -- 156
-if$ -- 3828
+cite$ -- 63
+duplicate$ -- 1264
+empty$ -- 1900
+format.name$ -- 113
+if$ -- 4895
 int.to.chr$ -- 0
-int.to.str$ -- 52
-missing$ -- 186
-newline$ -- 159
-num.names$ -- 48
-pop$ -- 228
+int.to.str$ -- 62
+missing$ -- 177
+newline$ -- 205
+num.names$ -- 46
+pop$ -- 356
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 557
+skip$ -- 668
 stack$ -- 0
-substring$ -- 593
-swap$ -- 358
-text.length$ -- 2
+substring$ -- 493
+swap$ -- 569
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 98
-width$ -- 54
-write$ -- 543
-(There were 4 warnings)
+warning$ -- 1
+while$ -- 107
+width$ -- 64
+write$ -- 773
+(There were 3 warnings)
