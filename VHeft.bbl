@@ -195,6 +195,19 @@ J.~Baglio\hrefCMSnoop {}{ {et~al.}, ``{Validity of standard model EFT studies
   189--212,
   \href{http://dx.doi.org/10.1016/0550-3213(84)90231-1}{\doi{10.1016/0550-3213(84)90231-1}}.
 
+\bibitem{Qu:2019gqs}
+\hrefCMSnoop {}{H.~Qu and L.~Gouskos, ``{ParticleNet: Jet Tagging via Particle
+  Clouds}'',}
+\href{http://www.arXiv.org/abs/1902.08570}{\texttt{arXiv:1902.08570}}.
+%%CITATION = ARXIV:1902.08570;%%.
+
+\bibitem{Sirunyan:2020lcu}
+\hrefCMSnoop {}{{CMS} Collaboration, ``{Identification of heavy, energetic,
+  hadronically decaying particles using machine-learning techniques}'',}
+  \textit{ JINST} \textbf{ 15} (2020) P06005,
+  \href{http://dx.doi.org/10.1088/1748-0221/15/06/P06005}{\doi{10.1088/1748-0221/15/06/P06005}},
+  \href{http://www.arXiv.org/abs/2004.08262}{\texttt{arXiv:2004.08262}}.
+
 \bibitem{Falkowski:2014tna}
 \hrefCMSnoop {}{A.~Falkowski and F.~Riva, ``{Model-independent precision
   constraints on dimension-6 operators}'',} \textit{ JHEP} \textbf{ 02} (2015)
@@ -317,6 +330,19 @@ J.~J. Ethier\hrefCMSnoop {}{ {et~al.}, ``{Combined SMEFT interpretation of
   \href{http://dx.doi.org/10.1007/JHEP09(2010)033}{\doi{10.1007/JHEP09(2010)033}},
   \href{http://www.arXiv.org/abs/1005.3998}{\texttt{arXiv:1005.3998}}.
 
+\bibitem{Burdman:2006gy}
+\hrefCMSnoop {}{G.~Burdman, B.~A. Dobrescu, and E.~Ponton, ``{Resonances from
+  two universal extra dimensions}'',} \textit{ Phys. Rev. D} \textbf{ 74}
+  (2006) 075008,
+  \href{http://dx.doi.org/10.1103/PhysRevD.74.075008}{\doi{10.1103/PhysRevD.74.075008}},
+\href{http://www.arXiv.org/abs/hep-ph/0601186}{\texttt{arXiv:hep-ph/0601186}}.
+%%CITATION = HEP-PH/0601186;%%.
+
+\bibitem{PhysRevD.10.275}
+\hrefCMSnoop {}{J.~C. Pati and A.~Salam, ``Lepton number as the fourth
+  color'',} \textit{ Phys. Rev. D} \textbf{ 10} (1974) 275,
+  \href{http://dx.doi.org/10.1103/PhysRevD.10.275}{\doi{10.1103/PhysRevD.10.275}}.
+
 \bibitem{delAguila:2000aa}
 \hrefCMSnoop {}{F.~del Aguila, M.~Perez-Victoria, and J.~Santiago, ``{Effective
   description of quark mixing}'',} \textit{ Phys. Lett. B} \textbf{ 492} (2000)
@@ -355,13 +381,6 @@ E.~Bols\hrefCMSnoop {}{ {et~al.}, ``{Jet flavour classification using
   DeepJet}'',} \textit{ JINST} \textbf{ 15} (2020) P12012,
   \href{http://dx.doi.org/10.1088/1748-0221/15/12/P12012}{\doi{10.1088/1748-0221/15/12/P12012}},
   \href{http://www.arXiv.org/abs/2008.10519}{\texttt{arXiv:2008.10519}}.
-
-\bibitem{Sirunyan:2020lcu}
-\hrefCMSnoop {}{{CMS} Collaboration, ``{Identification of heavy, energetic,
-  hadronically decaying particles using machine-learning techniques}'',}
-  \textit{ JINST} \textbf{ 15} (2020) P06005,
-  \href{http://dx.doi.org/10.1088/1748-0221/15/06/P06005}{\doi{10.1088/1748-0221/15/06/P06005}},
-  \href{http://www.arXiv.org/abs/2004.08262}{\texttt{arXiv:2004.08262}}.
 
 \bibitem{Larkoski:2014wba}
 \hrefCMSnoop {}{A.~J. Larkoski, S.~Marzani, G.~Soyez, and J.~Thaler, ``{Soft

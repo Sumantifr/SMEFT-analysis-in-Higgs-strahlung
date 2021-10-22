@@ -3,48 +3,51 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: VHeft.aux
 The style file: lucas_unsrt.bst
 Database file #1: VHeft.bib
-Warning--I didn't find a database entry for "Burdman:2006gy"
-Warning--I didn't find a database entry for "PhysRevD.10.275"
+You're missing a field name---line 2887 of file VHeft.bib
+ : 
+ : % note = "[Erratum: \DOI{10.1103/PhysRevD.11.703.2}]"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty institution in CMS-PAS-SMP-20-005
-You've used 62 entries,
+You've used 65 entries,
             2558 wiz_defined-function locations,
-            1102 strings with 17364 characters,
-and the built_in function-call counts, 18802 in all, are:
-= -- 1928
-> -- 505
+            1120 strings with 17783 characters,
+and the built_in function-call counts, 19696 in all, are:
+= -- 2023
+> -- 536
 < -- 1
-+ -- 166
-- -- 104
-* -- 1802
-:= -- 2346
-add.period$ -- 70
-call.type$ -- 62
-change.case$ -- 60
++ -- 176
+- -- 111
+* -- 1875
+:= -- 2460
+add.period$ -- 75
+call.type$ -- 65
+change.case$ -- 63
 chr.to.int$ -- 0
-cite$ -- 63
-duplicate$ -- 1264
-empty$ -- 1900
-format.name$ -- 113
-if$ -- 4895
+cite$ -- 66
+duplicate$ -- 1324
+empty$ -- 1985
+format.name$ -- 120
+if$ -- 5129
 int.to.chr$ -- 0
-int.to.str$ -- 62
-missing$ -- 177
-newline$ -- 205
-num.names$ -- 46
-pop$ -- 356
+int.to.str$ -- 65
+missing$ -- 186
+newline$ -- 218
+num.names$ -- 49
+pop$ -- 375
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 668
+skip$ -- 698
 stack$ -- 0
-substring$ -- 493
-swap$ -- 569
+substring$ -- 511
+swap$ -- 595
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 107
-width$ -- 64
-write$ -- 773
-(There were 3 warnings)
+while$ -- 112
+width$ -- 67
+write$ -- 808
+(There was 1 error message)
