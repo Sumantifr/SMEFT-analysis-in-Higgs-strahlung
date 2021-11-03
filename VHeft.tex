@@ -425,12 +425,12 @@ Also, an extensive and precise EFT measurement forms a basis that can be used be
 
 %Achieving goals in time requires setting up a concrete plan in advance. 
 We target to utilize the combined data set collected by the CMS experiment during LHC Run~2, corresponding to an integrated luminosity of 139\fbinv at $\sqrt{s}=13\TeV$, and LHC Run~3, currently expected to be about $160\fbinv$.
-With $45\%$ of the data available, we can develop and publish novel analysis techniques during the third running period. 
-When the full data set is available at the end of Run~3, we can obtain ultimate precision on a comparably short time scale and publish a benchmark result whose precision can not be surpassed until well into the upcoming high-luminosity LHC research program.
-
+%With $45\%$ of the data available, we can develop and publish novel analysis techniques during the third running period. 
+%When the full data set is available at the end of Run~3, we can obtain ultimate precision on a comparably short time scale and publish a benchmark result whose precision can not be surpassed until well into the upcoming high-luminosity LHC research program.
 In the following, we report 
 %the results of 
 a feasibility study of the proposed measurements and the key methodology to be used.
+Important sources of systematic uncertainty modeling the differences of the simulation with respect to data are considered. 
 %While the clean $\PZ\PH$ process serves as an independent search channel with orthogonal SM-EFT sensitivity, we focus on the more challenging $\PW\PH$ final states.
 We focus on the challenging $\PW\PH$ final states. The results are valid for the cleaner $\PZ\PH$ process, which serves as an independent search channel with orthogonal SM-EFT sensitivity.
 The results are equally valid for the $\PZ\PH$ case.
@@ -569,7 +569,7 @@ particularly, top quark pair production ($\Pt\PAt$), vector boson production in 
 %Finally, resolved~(boosted) events failing the requirement of the presence of two b-tagged AK4 jets (one Higgs-tagged AK8 jet) are dominated by vector boson production in association with light quark or gluon jets (${\PW}+$udsg).
 These CRs will be used to measure and validate the corresponding backgrounds in data.
 
-The distribution of $\pt(\PW)$ in the resolved and boosted SR are shown in Fig.~\ref{fig:RECO_Vpt_WH}, where alternate $\PW\PH$ signal hypothesis for the operators ${\cal O}^{(3)}_{Hq}$ and ${\cal O}_{HW}$  are overlaid. 
+The distribution of reconstructed $\pt(\PW)$ in the \VH signal and all relevant background processes in the resolved and boosted SR are shown in Fig.~\ref{fig:RECO_Vpt_WH}, where alternate $\PW\PH$ signal hypothesis for the operators ${\cal O}^{(3)}_{Hq}$ and ${\cal O}_{HW}$  are overlaid. 
 \begin{figure*}[hbtp]
 \begin{center}
 %\includegraphics[width=0.475\textwidth]{Figures/RECO/Plot_Resolved_SR_V_pt.png}
@@ -583,9 +583,13 @@ Distribution of \PW boson \pt in the resolved (left) and boosted (left) categori
 \label{fig:RECO_Vpt_WH}
 \end{figure*}
 The figure shows the importance of the $\Pt\PAt$, ${\PW}+\Pb/\Pc$, and ${\PW}+\textrm{udsg}$ backgrounds in the  $\PW\PH$ SRs.
+Fig.~\ref{fig:RECO_Vpt_WH} also shows that a large gain in sensitivity to the SM-EFT operators is expected from the high--\pt region, where signal-to-background ratio improves due to the fact their contributions grow with energy. 
 
 Next, we turn to the sensitivity of the angular observables after using the selection conditions summarized in Table~\ref{Tab:Regions}. 
-As shown in Fig.~\ref{fig:angles}, 
+%As shown in Fig.~\ref{fig:angles}, 
+Distributions of two angular variables $\Theta$ and $\phi$ in the $\PW\PH$ signal after applying the preselection conditions listed in Table~\ref{Tab:Regions} are shown in Fig.~\ref{fig:angles} for different SM-EFT hypotheses. 
+For completeness, distributions of $\Theta$ and $\phi$ in case of the $\PZ\PH$ signal sample are also shown.
+Fig.~\ref{fig:angles} shows that
 the SM production, dominated by the longitudinal polarization of the \PW boson, exhibits differences in $\Theta$ for nonzero ${\cal O}_{HW}$  coefficients because this operator  enhances the helicity amplitude of $\textrm{\PV}\PH$ production with transverse polarizations.%FIXME Please check the correctness. --> Done
 The observable $\varphi$, on the other hand, is very sensitive to the CP-nature of the \PV--\PH coupling and the difference in the modulation of CP-even and CP-odd operator coefficients is clearly visible.  
 The CP-sensitivity in the $\varphi$ observable is slightly affected by the ambiguities introduced by the unknown $z$ momentum of the neutrino entering the $\PW$ momentum reconstruction. 
@@ -593,7 +597,7 @@ This necessitates the development of an algorithm for the neutrino reconstructio
 %FIXME Suggest to motivate a selection MVA for the neutrino momentum as we do in tW reco ... adds an action item --> Done
 The $\varphi$ observable is weighted by $\sin2\Theta\sin2\theta$ to lift the cancellation otherwise enforced by the triple angular correlation. 
 For the first time, we thus resurrect the interference of the helicity amplitude in \PH final states at the detector level. 
-Comparing these predictions to the Run 2 and 3 data from the CMS experiment is a central goal of this proposal.
+%Comparing these predictions to the Run 2 and 3 data from the CMS experiment is a central goal of this proposal.
 
 \begin{figure*}[hbtp]
 \begin{center}
@@ -631,15 +635,15 @@ Large $\pt(\PW)$ leads to $\Delta \ll 1$, and the two solutions become
 In this limit,  the angular variable $\theta$ and $\Theta$ converge to the same values, whereas a two-fold ambiguity  $\varphi_{+} \simeq \pi - \varphi_{-}$ remains for $\varphi$. 
 \begin{figure*}[hbtp]
 \begin{center}
-\includegraphics[width=0.495\textwidth]{Figures/RECO/Resolved_Plot_2D_phi_unweighted.png}
-\includegraphics[width=0.495\textwidth]{Figures/RECO/Boosted_Plot_2D_phi_unweighted.png}
+\includegraphics[width=0.495\textwidth]{Figures/New/RECO/Resolved_Plot_2D_phi_unweighted.png}
+\includegraphics[width=0.495\textwidth]{Figures/New/RECO/Boosted_Plot_2D_phi_unweighted.png}
 \end{center}
 \caption{
 Relation between reconstructed- and parton-level $\varphi$ in the resolved (left) and boosted (right) categories in $\PW\PH$ production illustrating the effect of the ambiguity in the reconstruction of the neutrino momentum. 
 }
 \label{fig:neureco}
 \end{figure*}
-This ambiguity is visible in Fig.~\ref{fig:neureco} and currently reduces the CP-sensitivity in $\PW\PH$ production. 
+This ambiguity is visible in Fig.~\ref{fig:neureco} for the $\PW\PH$ signal sample and currently reduces the CP-sensitivity in $\PW\PH$ production. 
 No attempt was made to reduce the impact of the ambiguity for the purpose of this proposal. 
 As part of the analysis development, we will develop a multi-variate discriminator to select the correct solution based on the kinematic event properties. %FIXME Add a reference to a successful strategy. --> Added in earlier section
 
@@ -651,6 +655,7 @@ In this study, it comprises two fully connected dense layers, while the discrimi
 %in the analysis with real data.
 as part of the proposed work.
 A very preliminary set of input variables is listed in Table~\ref{Table:MVA_Vars}.
+\begin{comment}
 Variables in two columns in the upper group are used for the extraction of $\PW\PH$ and $\PZ\PH$ signals, respectively, while
 left and right columns in the lower group list variables characterizing the jet system in the resolved and boosted categories, respectively, for the separation of both $\PW\PH$ and $\PZ\PH$ signals from $\Pt\PAt$ background.
 
@@ -681,19 +686,40 @@ AK4 jet multiplicity \\ (satisfying $\pt>30\GeV$, $|\eta|<2.5$)  & \\
 \label{Table:MVA_Vars}
 \end{table}
 }
+\end{comment}
+The variables in left column of Table~\ref{Table:MVA_Vars} are common to both the resolved and the boosted categories, while the ones in the middle and right columns characterize the jet system in the resolved and the boosted categories, respectively, for the separation of the $\PW\PH$ signal from the $\Pt\PAt$ background.
+{\renewcommand{\arraystretch}{1.3}
+\begin{table}[t]
+\centering
+\caption{
+Input variables to the NN discriminator designed to separate events from $\textrm{\PV}\PH$ and $\Pt\PAt$ productions.}
+\begin{tabular}{l l l}
+\pt component of \ptvecmiss &  B-tagging scores of $\textrm{b}_1$ and $\textrm{b}_2$ & DeepAK8 top tagging score \\
+\pt and $\eta$ of the lepton &  $\textrm{Min}(\pt(\textrm{b}_1), \pt(\textrm{b}_2))$ & DeepAK8 \PW tagging score \\
+$\Delta\phi(\Pl,\ptvecmiss)$ &  $\textrm{Max}(\pt(\textrm{b}_1), \pt(\textrm{b}_2))$ & DeepAK8 \PH tagging score \\ 
+$\Delta\phi(\PW,\PH)$ & $\textrm{Max}(\pt(\textrm{b}_1)/\pt(\ell), \pt(\textrm{b}_2)/\pt(\ell))$ & \\
+Rapidity and mass of \PH  &  $\Delta\phi(\text{b}_1,\text{b}_2)$ & \\
+Event thrust  & AK4 jet multiplicity  & \\
+(see definition in~\cite{CMS:2014tkl}) & (satisfying $\pt>30\GeV$, $|\eta|<2.5$) & \\
+\end{tabular}
+\label{Table:MVA_Vars}
+\end{table}
+}
 %FIXME Add the following variables to the table. Add also a columns for ZH. --> Done
 %A similar discriminator is built in the boosted category using the variables in the left column of Table~\ref{Table:MVA_Vars} along with the following variables corresponding to the \PH candidate AK8 jet: 
 %the output of DeepAK8 taggers quantifying the probability of the jet originated due to top quark, Higgs boson, \PW boson relative to the same originated from a light quark or gluon.
-Normalized distributions of MVA discriminators in SM $\PW\PH$ and $\Pt\PAt$ events are shown in Fig.~\ref{fig:MVA}. 
+Normalized distributions of NN discriminators in SM $\PW\PH$ and $\Pt\PAt$ events are shown in Fig.~\ref{fig:MVA}. 
 \begin{figure*}[hbtp]
 \begin{center}
-\includegraphics[width=0.475\textwidth]{Figures/New/RECO/Plot_WH_MVA_WH_fast_resolved.png}
-\includegraphics[width=0.475\textwidth]{Figures/New/RECO/ROC_plot_TT_MVA_resolved.png}
-\includegraphics[width=0.475\textwidth]{Figures/New/RECO/Plot_WH_MVA_WH_fast_boosted.png}
-\includegraphics[width=0.475\textwidth]{Figures/New/RECO/ROC_plot_TT_MVA_boosted.png}
+\includegraphics[width=0.3\textwidth]{Figures/New/RECO/Plot_WH_MVA_WH_fast_resolved.png}
+\includegraphics[width=0.3\textwidth]{Figures/New/RECO/ROC_plot_TT_MVA_resolved.png}
+\includegraphics[width=0.3\textwidth]{Figures/New/RECO/Plot_Resolved_SR_V_pt_sigpurity.png}
+\includegraphics[width=0.3\textwidth]{Figures/New/RECO/Plot_WH_MVA_WH_fast_boosted.png}
+\includegraphics[width=0.3\textwidth]{Figures/New/RECO/ROC_plot_TT_MVA_boosted.png}
+\includegraphics[width=0.3\textwidth]{Figures/New/RECO/Plot_Boosted_SR_V_pt_sigpurity.png}
 \end{center}
 \caption{
-Normalized distributions of the MVA discriminator in signal ($\PW\PH$) and background ($\Pt\PAt$) events (left) and ROC curve characterizing the performance of MVA discriminator (right) in the resolved (top) and boosted (bottom) categories.
+Normalized distributions of the NN discriminator in signal ($\PW\PH$) and background ($\Pt\PAt$) events (left) and ROC curve characterizing the performance of NN discriminator (middle) and  distributions of the \PW boson \pt after appling a condition on the NN discriminator in the resolved (top) and boosted (bottom) categories.
 }
 \label{fig:MVA}
 \end{figure*}
@@ -703,16 +729,17 @@ Benefiting from the less combinatorial background,
 the discriminator constructed in the boosted category performs slightly better. 
 In both cases, the signal distribution is sharply peaked at high discriminator values and no overtraining is observed, indicating a successfully trained classifier.
 In the next section, we quantify the sensitivity gain from this strategy.
-In the final work, a machine learing based algorithm developed by the PI's group to separate the effects of SM-EFT operators from that from the SM~\cite{Chatterjee:2021nms} will be used.
+In the final work, a machine learing based algorithm developed by the applicant's group to separate the effects of SM-EFT operators from that from the SM~\cite{Chatterjee:2021nms} will be used.
 
 \subsection{Sensitivity results}
 
 Although the final condition on the MVA discriminator is subject to development during the project, 
-we can obtain a simple assessment of the sensitivity with a threshold on the MVA discriminator corresponding to a signal efficiency of $80\%$.
-This choice corresponds to a background efficiency of $\sim 30\%$ ($\sim 15\%$) in the resolved (boosted) category.
+we can obtain a simple assessment of the sensitivity with a threshold on the MVA discriminator corresponding to a $\PW\PH$ signal efficiency of $80\%$.
+This choice corresponds to a $\Pt\PAt$ background efficiency of $\sim 30\%$ ($\sim 15\%$) in the resolved (boosted) category.
 Next, we perform one-dimensional likelihood scans for the three Wilson coefficients corresponding to the operators ${\cal O}^{(3)}_{Hq}$, ${\cal O}_{HW}$, and ${\cal O}_{H\tilde{W}}$, respectively, while setting all other Wilson coefficients to $0$. 
 In the proposed work, sensitivity for a particular Wilson coefficient will also be measured by allowing others to vary.
 Normalizing the predicted yields to an integrated luminosity of 300\fbinv, we show the negative log-likelihood results in in Fig.~\ref{fig:NLL}. %FIXME Define q, is it profiled? --> Done
+For completeness, the results for the $\PZ\PH$ signal, obtained by following a similar analysis strategy as mentioned for the $\PW\PH$ process, are also combined. 
 \begin{figure*}[hbtp]
 \begin{center}
 %\includegraphics[width=0.495\textwidth]{Figures/RECO/Full_NLL_WC_cpq3i_fine_2019_opt2.pdf}
@@ -752,7 +779,11 @@ Quantitative bounds are presented in Table~\ref{Tab:Limits} at 68\% confidence l
 \end{comment}
 % Without the boosted category ... %FIXME <- Quantify the gain! --> Done
 An improvement due to a binning in $\varphi$ is obtained in the resolved category. 
-Simultaneous use of information about all three angles $\Theta$, $\theta$, $\varphi$ is expected to result in a large increase in sensitivity. 
+Addition of the results for the $\PZ\PH$ process improves the sensitivity, particularly for the Wilson coefficient corresponding to the ${\cal O}_{HW}$ operator.
+The results of this preliminary study are at a similar level as the recent ATLAS results~\cite{ATLAS-CONF-2021-051},
+however, a lot of improvements are expected in the proposed work during its execution.
+Also, simultaneous use of information about all three angles $\Theta$, $\theta$, $\varphi$ is expected to result in a large increase in sensitivity.
+The proposed work is also capable for disentangling the effects of CP-even and -odd SM-EFT operators, which is missing in Ref.~\cite{ATLAS-CONF-2021-051}. 
 %FIXME Let us discuss this statement in person. Is phi weighted with sinxsin? 
 
 \subsection{Ideas for possible extensions}
@@ -792,31 +823,32 @@ Tasks in chronological order are described in the following and summarized in Ta
 \small
   \begin{tabular}{l|c|c|c|c|c|c|c|c|c|c|c|c|c}
     \multirow{2}{*}{Task / Year} &
-      \multicolumn{4}{c|}{2022 ($\int \mathcal{L}dt \sim 30$\fbinv)}  &
+      \multicolumn{3}{c|}{2022 ($\int \mathcal{L}dt \sim 30$\fbinv)}  &
       \multicolumn{4}{c|}{2023 ($\int \mathcal{L}dt \sim 120$\fbinv)}  & 
-      \multicolumn{3}{c|}{2024 ($\int \mathcal{L}dt \sim 160$\fbinv)} \\
-    & Jan-Mar & Apr-Jun & Jul-Sep & Oct-Dec & Jan-Mar & Apr-Jun & Jul-Sep & Oct-Dec & Jan-Mar & Apr-Jun & Jul-Dec \\
+      \multicolumn{3}{c|}{2024 ($\int \mathcal{L}dt \sim 160$\fbinv)} &
+      \multicolumn{1}{c|}{2025} \\
+    & Apr-Jun & Jul-Sep & Oct-Dec & Jan-Mar & Apr-Jun & Jul-Sep & Oct-Dec & Jan-Mar & Apr-Jun & Jul-Dec & Jan-Mar \\
     \hline
     1. Signal simulation for Run~2 & \textcolor{orange}{\checkmark} &  &  &  &  &  &  &  &  &  &     \\
     2. SM-EFT parameterization & \textcolor{blue}{\checkmark} &  &  &  &  &  &  &  &  &  &     \\
     3. Optimization of lepton selection &  & \checkmark & & & &  &  &  &  &  &     \\
-    4. Optimization of \Pb tagging condition &  & \checkmark & & & &  &  &  &  &  &     \\
-    5. Optimization of \PH tagging condition  &  & \checkmark & & & &  &  &  &  &  &     \\
+    4. Optimization of \Pb tagging condition &  & \textcolor{blue}{\checkmark} & & & &  &  &  &  &  &     \\
+    5. Optimization of \PH tagging condition  &  & \textcolor{blue}{\checkmark}& & & &  &  &  &  &  &     \\
     6. Trigger efficiency measurement &  &  & \textcolor{blue}{\checkmark} & & &  &  &  &  &  &    \\
     7. Neutrino reconstruction  &  & & \textcolor{blue}{\checkmark} & & & &  &  &  &  &     \\
-    8. Background estimation &  &  &  & \checkmark & & &  &  &  &  &     \\
+    8. Background estimation &  &  &  & \textcolor{blue}{\checkmark} & & &  &  &  &  &     \\
     9. Multivariate analysis &  &  &  & \textcolor{blue}{\checkmark} & & &  &  &  &  &      \\
     10. SM-EFT to SM separation &  &  & & & \textcolor{orange}{\checkmark} & & &  &  &  &       \\
-    11. Exp. systematic uncertainties  &  &  &  &  & \checkmark & &  &  &  &  &      \\
-    12. Modeling uncertainties &  & &  &  & \checkmark & & &  &  &  &       \\
+    11. Exp. systematic uncertainties  &  &  &  &  & \textcolor{blue}{\checkmark} & &  &  &  &  &      \\
+    12. Modeling uncertainties &  & &  &  & \textcolor{blue}{\checkmark} & & &  &  &  &       \\
     13. Quantification of sensitivity &  & & & & & \textcolor{blue}{\checkmark} & &  &  &  &      \\
     14. SM-EFT effects in background & &  & & & & \textcolor{orange}{\checkmark} & &  &  &  &     \\
     15. Publication based on Run~2 data &  & & & & &  &  & \textcolor{blue}{\checkmark} &  &  &       \\
     16. Signal simulation for Run~3 &  &  & & & &  & \checkmark & &  &  &      \\
     17. Selections for Run~3 & &  & & & &  & \textcolor{blue}{\checkmark} & &  &  &       \\
     18. Choice of \PH tagger for Run~3 &  & & &  &  &  &  &\checkmark  &  &  &      \\    
-    19. Background estimation for Run~3 &  & & &  &  & &  & \textcolor{blue}{\checkmark} & &  &      \\
-    20. Systematic uncertainties for Run~3 &  & &  &  & &  &  &  & \checkmark &  &      \\
+    19. Background estimation for Run~3 &  & & &  &  & &  &  & \checkmark &  &      \\
+    20. Systematic uncertainties for Run~3 &  & &  &  & &  &  &  &  & \checkmark  &      \\
     21. Combination of Run~2 and~3 results &  & & &  &  &  &  &  &  & \textcolor{blue}{\checkmark}  &      \\
     22. Publication of final results &  & & &  &  &  &  & &  &   & \textcolor{blue}{\checkmark}    \\
   \end{tabular}
@@ -879,6 +911,7 @@ In the proposed measurement,
 the background prediction is primarily obtained
 from simulation with a thorough validation by comparing those with data in dedicated control regions. 
 Corrections need to be derived wherever needed, and the corresponding systematic uncertainties need to be quantified.   
+Different techniques for the background estimation, e.g., using the mass sidebands, will be tried.
 
 \item Multivariate analysis: 
 
@@ -975,7 +1008,7 @@ The PI has also worked on high energy physics phenomenology in collaboration wit
 
 Tasks will be carried out in consultation with the leader of CMS data analysis group of the institute: Dr. Robert Sch{\"o}fbeck (RS), who is also performing SM-EFT measurements in top quark physics in association with a post-doctoral researcher Dr. Dennis Schwartz (DS). Interaction with RS and DS will be extremely useful for this project. 
 Particularly, the simulation of SM-EFT operators (task 1), SM-EFT parameterization (task 2), and SM-EFT to SM separation (task 10) will be performed together with RS and DS. 
-RS is also the former convener of the 'top quark mass and properties' physics analysis group and the 'jet and MET' physics object group of the CMS Collaboration. 
+RS is also the former convener of the `top quark mass and properties' physics analysis group and the `jet and MET' physics object group of the CMS Collaboration. 
 His feedback on documentation and presentation of the results will be constructive. 
 
 \appendix
