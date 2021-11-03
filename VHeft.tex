@@ -295,6 +295,7 @@ The ratio $\sigma/\sigma_{\textrm{SM}}$ of the cross section of the $\PW\PH$ (to
 \end{figure*}
 The goal of the proposed measurement is to probe the SM-EFT operators in Table~\ref{Tab:Operators}  as precisely as possible using events from the \VH processes in the data collected by the CMS experiment. 
 In this proposal, the sensitivity to three most important operators at play is studied in detail. 
+In the final work, the optimum set of operators will be chosen using the Fisher information matrix.
 %The experimental work to excavate two distinct features, combined to achieve optimal sensitivity, are tackled separately.
 The experimental work to excavate two distinct features, change in cross section and CP nature, will be tackled separately.
 At the final state, those will be combined to achieve optimal sensitivity.
@@ -708,7 +709,7 @@ Event thrust  & AK4 jet multiplicity  & \\
 %FIXME Add the following variables to the table. Add also a columns for ZH. --> Done
 %A similar discriminator is built in the boosted category using the variables in the left column of Table~\ref{Table:MVA_Vars} along with the following variables corresponding to the \PH candidate AK8 jet: 
 %the output of DeepAK8 taggers quantifying the probability of the jet originated due to top quark, Higgs boson, \PW boson relative to the same originated from a light quark or gluon.
-Normalized distributions of NN discriminators in SM $\PW\PH$ and $\Pt\PAt$ events are shown in Fig.~\ref{fig:MVA}. 
+Normalized distributions of NN discriminators in SM $\PW\PH$ and $\Pt\PAt$ events are shown in Fig.~\ref{fig:MVA} (left). 
 \begin{figure*}[hbtp]
 \begin{center}
 \includegraphics[width=0.3\textwidth]{Figures/New/RECO/Plot_WH_MVA_WH_fast_resolved.png}
@@ -719,11 +720,11 @@ Normalized distributions of NN discriminators in SM $\PW\PH$ and $\Pt\PAt$ event
 \includegraphics[width=0.3\textwidth]{Figures/New/RECO/Plot_Boosted_SR_V_pt_sigpurity.png}
 \end{center}
 \caption{
-Normalized distributions of the NN discriminator in signal ($\PW\PH$) and background ($\Pt\PAt$) events (left) and ROC curve characterizing the performance of NN discriminator (middle) and  distributions of the \PW boson \pt after appling a condition on the NN discriminator in the resolved (top) and boosted (bottom) categories.
+Normalized distributions of the NN discriminator in signal ($\PW\PH$) and background ($\Pt\PAt$) events (left) and ROC curve characterizing the performance of NN discriminator (middle) and  distributions of the \PW boson \pt after appling a condition on the NN discriminator (right) in the resolved (top) and boosted (bottom) categories.
 }
 \label{fig:MVA}
 \end{figure*}
-The output discriminator shapes and the performance of the discriminator, quantified with ROC curves~\cite{FAWCETT2006861}, are shown in Fig.~\ref{fig:MVA}. 
+The output discriminator shapes and the performance of the discriminator, quantified with ROC curves~\cite{FAWCETT2006861}, are shown in Fig.~\ref{fig:MVA} (middle). 
 %Benefiting from the DeepAK8 tagger outputs, 
 Benefiting from the less combinatorial background,
 the discriminator constructed in the boosted category performs slightly better. 
@@ -733,9 +734,10 @@ In the final work, a machine learing based algorithm developed by the applicant'
 
 \subsection{Sensitivity results}
 
-Although the final condition on the MVA discriminator is subject to development during the project, 
-we can obtain a simple assessment of the sensitivity with a threshold on the MVA discriminator corresponding to a $\PW\PH$ signal efficiency of $80\%$.
+Although the final condition on the NN discriminator is subject to development during the project, 
+we can obtain a simple assessment of the sensitivity with a threshold on the NN discriminator corresponding to a $\PW\PH$ signal efficiency of $80\%$.
 This choice corresponds to a $\Pt\PAt$ background efficiency of $\sim 30\%$ ($\sim 15\%$) in the resolved (boosted) category.
+Distributions of the $\PW$ boson \pt after applying this threshold on the NN discriminator are shown in Fig.~\ref{fig:MVA} (right). 
 Next, we perform one-dimensional likelihood scans for the three Wilson coefficients corresponding to the operators ${\cal O}^{(3)}_{Hq}$, ${\cal O}_{HW}$, and ${\cal O}_{H\tilde{W}}$, respectively, while setting all other Wilson coefficients to $0$. 
 In the proposed work, sensitivity for a particular Wilson coefficient will also be measured by allowing others to vary.
 Normalizing the predicted yields to an integrated luminosity of 300\fbinv, we show the negative log-likelihood results in in Fig.~\ref{fig:NLL}. %FIXME Define q, is it profiled? --> Done
