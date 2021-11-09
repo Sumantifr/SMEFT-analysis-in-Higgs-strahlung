@@ -2,19 +2,25 @@
 \documentclass[a4paper,11pt]{article}
 \pdfoutput=1 % if your are submitting a pdflatex (i.e. if you have
              % images in pdf, png or jpg format)
+\usepackage[top=0.83in,right=1.6cm,left=1.6cm]{geometry}
+%\usepackage[a4paper, total={6in, 8in}]{geometry}
+
 \usepackage{jheppub} % for details on the use of the package, please
                      % see the JCAP-author-manual
 %\usepackage[english]{babel}
-\usepackage{amsmath,amssymb,mathtools,tabu}
-\usepackage{epsfig,epstopdf}  
-\usepackage{graphicx}
-\usepackage{slashed}             
-\usepackage{url}
-\usepackage{color,xcolor}
+\usepackage{tabu}
+
+%\usepackage{epsfig,epstopdf}  
+%\usepackage{graphicx}
+%\usepackage{slashed}             
+%\usepackage{url}
+\usepackage{xcolor}
 \usepackage{multirow}
-\usepackage{multicol}
+%\usepackage{multicol}
+
+\usepackage{enumitem}
 \usepackage{placeins}
-\usepackage{xspace}
+%\usepackage{xspace}
 %\usepackage{appendix}
 \usepackage{hepnames}
 %\usepackage{HEPparticles}
@@ -22,22 +28,19 @@
 \usepackage{tocloft}
 \usepackage{ptdr-definitions}
 \usepackage{rotating}
-\usepackage{subcaption}
+%\usepackage{subcaption}
 %\usepackage{hyperref}
 %\usepackage{cite}
+
 \clubpenalty=1000
 \widowpenalty=10000
 \allowdisplaybreaks
-
+%\setlength\textwidth{6.2in}
+%\setmargin\left{.6in}
+\newgeometry{width=16.5cm, left=2.2cm, top=2.5cm, bottom=3.5cm}
 \setlength{\bibsep}{0cm}
 \bibpunct{[}{]}{,}{n}{}{,}
-%\newcommand{\kt}{\ensuremath{k_{\text{T}}} \xspace}
-%\newcommand{\pt}{\ensuremath{p_{\text{T}}} \xspace}
-%\newcommand{\GeV}{\ensuremath{\,\text{Ge\hspace{-.08em}V}}\xspace}
-%\newcommand{\TeV}{\ensuremath{\,\text{Te\hspace{-.08em}V}}\xspace}
-%\newcommand{\ptmiss}{\ensuremath{\pt^\text{miss}}\xspace}
-%\newcommand{\ptvecmiss}{\ensuremath{{\vec p}_{\mathrm{T}}^{\kern1pt\text{miss}}}\xspace}
-%\newcommand{\fbinv} {\mbox{\ensuremath{\,\text{fb}^{-1}}}\xspace}
+
 \newcommand{\Wprime}{\PWpr\xspace}
 
 \newcommand{\Pb}{{{\Pqb}}\xspace}
@@ -69,7 +72,7 @@
 
 
 \begin{document}
-\title{SM-EFT analysis in Higgs-strahlung}
+\title{A SM-EFT analysis of Higgs-strahlung processes}
 
 \author[a]{Suman Chatterjee,}
 \emailAdd{suman.chatterjee@oeaw.ac.at}
@@ -375,7 +378,6 @@ In the $\textrm{\PV}\rightarrow\Pl\Pl$ and $\PH\rightarrow\Pb\PAb$ final state, 
 %So far, there exist very few measurements where all the efficiency and acceptance effects of object and event selection conditions are taken into account, and complete information contained in an event is used.
 %The proposed measurement will extend the scope of probing new physics scenarios in the following ways.
 
-
 \begin{itemize}
 
 \item the complete multi-dimensional event information is used in \VH production to directly probe dimension-6 SM-EFT operators inducing energy growth.
@@ -385,7 +387,10 @@ They disentangle the various SM-EFT effects and can largely boost the sensitivit
 \item the angular information, not explored previously in \VH production, is used to probe the CP structure of SM-EFT modifications of the \PH--\PV coupling. We can, therefore, measure new sources of CP violation beyond the SM.
 \end{itemize}
 
-Smaller novel items pertain to the multivariate analysis~(MVA) strategy employed to achieve these goals. 
+A recent differential cross section measurement with an EFT interpretation of the Run~2 data set by the ATLAS collaboration~\cite{ATLAS-CONF-2021-051} includes measurement regions with boosted \PH candidates but ignores the angular information. The most recent EFT interpretation of \VH measurement is restricted to inclusive measurements
+\cite{CMS-PAS-HIG-19-005}. The scope of this proposal significantly extends beyond both cases.
+
+Smaller novel items of this proposal pertain to the multivariate analysis~(MVA) strategy employed to achieve these goals. 
 %In the journey to achieve the goals, there will be possibilities to improve the techniques used in experimental measurements. 
 For example, the proposer's group has recently developed a new technique to train tree-based classifiers to optimally separate effects of SM-EFT operators from the SM background~\cite{Chatterjee:2021nms}.
 %Development of the methods and applying those in a CMS measurement by the same group will greatly accelerate the preparation of the results. 
@@ -437,21 +442,21 @@ New physics models with \PZprime or VLQs are in highlights in recent times to ex
 
 The phenomenological implications of the \PH--\PV coupling measurement thus radiate into neighboring research areas, while the proposed experimental program is self-contained.
 In the following section, I aim to establish that. 
-Also, an extensive and precise EFT measurement forms a basis that can be used beyond its immediate goals.
+%Also, an extensive and precise EFT measurement forms a basis that can be used beyond its immediate goals.
 
 \section{Method}
 \label{sec:method}
 
 %Achieving goals in time requires setting up a concrete plan in advance. 
-We target to use the combined data set collected by the CMS experiment during the LHC Run~2, corresponding to an integrated luminosity of 139\fbinv at $\sqrt{s}=13\TeV$, and the LHC Run~3, currently expected to be about $160\fbinv$.
+We target to use the combined data set collected by the CMS experiment during the LHC Run~2, corresponding to an integrated luminosity of 139\fbinv at $\sqrt{s}=13\TeV$, and the LHC Run~3, currently estimated at $160\fbinv$.
 %With $45\%$ of the data available, we can develop and publish novel analysis techniques during the third running period. 
 %When the full data set is available at the end of Run~3, we can obtain ultimate precision on a comparably short time scale and publish a benchmark result whose precision can not be surpassed until well into the upcoming high-luminosity LHC research program.
 In the following, we report 
 %the results of 
-a feasibility study of the proposed measurements and the key methodology to be used.
+a feasibility study of the proposed measurements and exemplify the key methodology.
 Important sources of systematic uncertainty modeling the differences of the simulation to data are considered. 
 %While the clean $\PZ\PH$ process serves as an independent search channel with orthogonal SM-EFT sensitivity, we focus on the more challenging $\PW\PH$ final states.
-We focus on the challenging $\PW\PH$ final states. The results are valid for the $\PZ\PH$ process, which serves as an independent channel with orthogonal SM-EFT sensitivity.
+We focus on the $\PW\PH$ final states with challenging background rates. The results are also valid for the $\PZ\PH$ process, which provides independent measurement channels with orthogonal SM-EFT sensitivity, higher signal purity, but lower signal yield.
 %The results are equally valid for the $\PZ\PH$ case.
 
 \subsection{Final states and observables}
@@ -461,7 +466,7 @@ Leptonic decay modes of the vector bosons help in reducing
 %difficult backgrounds 
 the contribution
 from multijet production in quantum chromodynamics (QCD).
-In summary, we consider the $\PW\PH$ and $\PZ\PH$ production processes with the $\PW\rightarrow\Pl\Pgn$, $\PZ\rightarrow{\Pl}^{+} {\Pl}^{-}$, and $\PH\rightarrow\Pb\PAb $ decay channels, where $\ell$ is either an electron or a muon.
+Therefore, we consider the $\PW\PH$ and $\PZ\PH$ production processes with the $\PW\rightarrow\Pl\Pgn$, $\PZ\rightarrow{\Pl}^{+} {\Pl}^{-}$, and $\PH\rightarrow\Pb\PAb $ decay channels, where $\ell=(\Pe, \Pmu)$.
 %=(\Pe, \Pmu)$.
 
 %The following final states are considered.
@@ -478,15 +483,12 @@ Amplitudes involving the longitudinal and transverse vector boson polarizations 
 The interference among helicity amplitudes, including CP effects, is preserved at the event level in subtle angular triple-correlations. 
 %FIXME Specify when table is there. --> Done
 For example, the cosinusoidal and sinusoidal modulations in $\varphi$ distributions shown in Fig.~\ref{fig:LHE_phi} are obtained after using the sign of $\sin\left(2\Theta\right)\sin\left(2\theta\right)$ as seen from $\tilde{f}^2_{LT}$ and $f^2_{LT}$ terms, respectively, in  Eq.~\ref{Eq:funcs}. 
-This allows extracting rich information about the event structure from a joint analysis of kinematic and angular variables.
+This triple angular correlation allows extracting rich information about the event structure from a joint analysis of kinematic and angular variables.
 %
 %Specifically, Ref.~\cite{Banerjee:2019twi} proposes to reconstruct the novel angular variables shown in Fig.~\ref{fig:HelicityFrame}. 
 It is important to note that traditional strategies can not disentangle the subtle angular triple-correlation: integrating over any of the angles in the final observables removes the interference effects~\cite{Panico:2017frx}.
 
-
-The SM-EFT effects in background processes are ignored for this feasibility study 
-since the operators considered here affect mainly the background from diboson production, which constitutes a very small background. This will be considered in the final measurement.
-
+While SM-EFT effects in background processes, e.g. from diboson production, are ignored for this simple feasibility study, they will be considered in the final measurement.
 
 \begin{comment}
 once calculates helicity amplitudes in \VH center-of-mass frame and the cross section has the following form:
@@ -559,6 +561,8 @@ In the resolved topology, the two AK4 jets with highest \Pb tagging scores, refe
 For AK8 jets, soft drop grooming~\cite{Larkoski:2014wba} is used to calculate the jet mass by removing the uncorrelated radiation clustered into the jet. 
 In boosted category, a condition on the number of {\Pb}-tagged jets outside the \PH candidate is applied, which reduces its overlap with the resolved category.
 The inclusive signal region (SR), enriched by $\PW\left(\rightarrow \Pl \Pgn \right) \PH \left(\rightarrow \Pb \PAb \right)$ events, is constructed using the conditions listed in Table~\ref{Tab:Regions}.
+In the following, the threshold values btag$^{\text{cut}}_{\text{max}}$ and btag$^{\text{cut}}_{\text{min}}$ are chosen to ensure a DeepJet \Pb tagging mistag rate of 1\% and 10\%  for light quark or gluon jets, respectively.
+The threshold value Htag$^{\text{cut}}$ corresponds to a \PH mistag rate of 1\%. These numerical values are preliminary and will be optimized in the context of the final analysis. 
 
 {\renewcommand{\arraystretch}{1.3}
 \begin{table}[t]
@@ -581,11 +585,11 @@ $M(\textrm{b}_1 + \textrm{b}_2) \in \left[90, 150\right]~\GeV$ & Soft-drop mass 
 \label{Tab:Regions}
 \end{table}
 }
-In Table~\ref{Tab:Regions}, the threshold values btag$^{\text{cut}}_{\text{max}}$ and btag$^{\text{cut}}_{\text{min}}$ are chosen to ensure a DeepJet \Pb tagging mistag rate of 1\% and 10\%  for light quark or gluon jets, respectively.
-The threshold value Htag$^{\text{cut}}$ corresponds to a \PH mistag rate of 1\%.
 
-Inverting specific requirements in  Table~\ref{Tab:Regions}, defines control regions (CRs), enriched by the various background processes, 
-particularly, top quark pair production ($\Pt\PAt$), vector boson production in association with $\Pb$- and $\Pc$-quark jets (${\PW}+\Pb/\Pc$), and also with light quark or gluon jets (${\PW}+$udsg). 
+
+By inverting specific requirements in  Table~\ref{Tab:Regions}, control regions (CRs) can be defined. 
+These enrich the various background processes 
+such as top quark pair production ($\Pt\PAt$), vector boson production in association with $\Pb$- and $\Pc$-quark jets (${\PW}+\Pb/\Pc$), and with light quark or gluon jets (${\PW}+$udsg). 
 %For example, requiring two or more additional AK4 jets  in the resolved category or the presence of b-tagged AK4 jets in the boosted category selects a sample enriched with top quark pair production ($\Pt\PAt$).
 %Inverting the mass window on the \PH candidate results in a CR dominated by vector boson production in association with $\Pb$- and $\Pc$-quark jets (${\PW}+\Pb/\Pc$). 
 %Finally, resolved~(boosted) events failing the requirement of the presence of two b-tagged AK4 jets (one Higgs-tagged AK8 jet) are dominated by vector boson production in association with light quark or gluon jets (${\PW}+$udsg).
@@ -800,7 +804,7 @@ Quantitative bounds are presented in Table~\ref{Tab:Limits} at 68\% confidence l
 	${\cal O}_{H\tilde{W}}$  & $\left[-0.24,+0.22\right]$  &  $\left[-0.22,+0.16\right]$  & $\left[-0.08,+0.06\right]$ \\
   \end{tabular}
 \label{Tab:Limits}
-\end{table}
+\end{table}}
 \end{comment}
 % Without the boosted category ... %FIXME <- Quantify the gain! --> Done
 An improvement due to a binning in $\varphi$ is achieved in the resolved category. 
@@ -811,39 +815,39 @@ Also, simultaneous use of information about all three angles $\Theta$, $\theta$,
 The proposed work is also capable of disentangling the effects of CP-even and -odd SM-EFT operators, which is missing in Ref.~\cite{ATLAS-CONF-2021-051}. 
 %FIXME Let us discuss this statement in person. Is phi weighted with sinxsin? 
 
-\subsection{Ideas for possible extensions}
+\subsection{Possible extensions}
 
-Here, the proposal is to probe SM-EFT operators in \VH production, where the gauge boson \PV decays to leptons. 
-But, the methodology developed also holds for hadronically decaying \PV; 
+The proposal centers around SM-EFT operators in \VH production, where the gauge boson \PV decays to leptons. 
+The methodology developed is also suitable for hadronically decaying \PV; 
 the only limitation in the case of $\textrm{\PV}={\PW}$ in sensitivity is the absence of knowledge on \PV charge. 
 Latest developments in DNN-based methods for vector boson tagging can be used to increase the sensitivity. 
 
-Technologies developed for the proposed measurement will also help searches with $\textrm{\PV}\rightarrow \Pl^{+}\Pl^{-} / \Pl \Pgn$ and $\PH \to \Pb \PAb$ in the final state, particularly in the context of a heavy resonance decaying to \PV and {\PH}.
-
+Technologies developed for the proposed measurement will also help searches with $\textrm{\PV}\rightarrow \Pl^{+}\Pl^{-} / \Pl \Pgn$ and $\PH \to \Pb \PAb$ in the final state, particularly in the context of a heavy resonance decaying to \PV~and~{\PH}. %FIXME This should be made more concrete.
 
 \section{Planned cooperation arrangement} 
 
-The work will be conducted within the CMS Collaboration. The reconstructed data and simulation, trigger information, object calibration factors provided centrally by the CMS Collaboration will be used. 
-Ideas and updates will be presented at regular intervals in internal meetings. 
+The work will be conducted by a PhD student~(N.N.) under the supervision of the principal investigator~(PI) Dr. Suman Chatterjee and within the  CMS data analysis group at the Institute of High Energy Physics (HEPHY) of the Austrian Academy of Sciences. The PI and the PhD student are members of the CMS Collaboration and will work full time on the project. 
+
+The reconstructed data, the simulated background samples, and the object calibration are provided centrally by the CMS Collaboration. 
+Ideas and updates will be presented at regular intervals in internal meetings at HEPHY and within the CMS working groups. 
 %In general, no cooperative arrangement is planned for this proposal. 
-No specific cooperation agreement is planned for this proposal. 
-However, there are synergies with ongoing activities within the CMS data analysis group at the Institute of High Energy Physics (HEPHY) of the Austrian Academy of Sciences. 
+
+There are synergies with ongoing activities within the HEPHY CMS data analysis group.
 The group recently submitted a paper on measuring the $\Pt\PAt\Pgg$ process and constraining the \Pt--\Pgg coupling in SM-EFT; this work was supported by FWF grant P31578.
 There is also ongoing work on constraining SM-EFT operators in the $\Pt\PW\PZ$ process supported by FWF grant P33771. 
 %Thus the proposed measurement will add a complementary direction in terms of the group's activities.
-Thus the existing expertise in the group will help in the smooth execution of the proposed measurement, which will also broaden the scope of the group's activities.
+The existing expertise in the group will help in the smooth execution of the proposed measurement, which will also broaden the scope of the group's activities.
 
-The CMS data analysis group at HEPHY consists of five staff scientists, three post-doctoral researchers, and five Ph.D. students working on supersymmetry, long-lived signatures, search for BSM Higgs boson decaying to a pair of $\tau$ leptons, top quark physics, among others. 
+The CMS data analysis group at HEPHY consists of five staff scientists, three post-doctoral researchers, and five PhD students working on supersymmetry, long-lived signatures, search for BSM Higgs boson decaying to a pair of $\tau$ leptons, and top quark physics. 
 %Diverse experience in the group helps 
 The wide-ranging expertise of the group members will help
 to develop new ideas and implement those in the CMS Collaboration.
 
 \section{Work and plan}
 
-The work will be carried out by a new Ph.D. student along with the applicant. 
-%Since the proposed work is on Higgs physics, which is one of the main centers of activities at LHC, the Ph.D. student will get high visibility within the CMS Collaboration.  
-
-Tasks in chronological order are described in the following and summarized in Table~\ref{tab:workplan}.%Fig.~\ref{fig:workplan}.
+The work will be carried out by a PhD student~(N.N.) and the applicant and PI Dr. Suman Chatterjee, both working full time on the project. 
+%Since the proposed work is on Higgs physics, which is one of the main centers of activities at LHC, the PhD student will get high visibility within the CMS Collaboration.  
+In the folloing, the tasks are described in approximate chronological order and are summarized in Table~\ref{tab:workplan}.%Fig.~\ref{fig:workplan}.
 \begin{sidewaystable}[t]
 \small
   \begin{tabular}{l|c|c|c|c|c|c|c|c|c|c|c|c|c}
@@ -878,69 +882,43 @@ Tasks in chronological order are described in the following and summarized in Ta
     22. Publication of final results &  & & &  &  &  &  & &  &   & \textcolor{blue}{\checkmark}    \\
   \end{tabular}
   \caption{
-Tasks shown using symbol \checkmark will be covered by the Ph.D. student, \textcolor{blue}{\checkmark} by the project applicant and Ph.D. student, \textcolor{orange}{\checkmark} by the project applicant and Ph.D. student in collaboration with other members in HEPHY CMS data analysis group.
+Tasks shown using symbol \checkmark will be covered by the PhD student, \textcolor{blue}{\checkmark} by the project applicant and PhD student, \textcolor{orange}{\checkmark} by the project applicant and PhD student in collaboration with other members in HEPHY CMS data analysis group.
 }
 \label{tab:workplan}
 \end{sidewaystable}
 
-\begin{enumerate}
-
-\item Signal simulation for Run~2:
-
-The proposed study requires the simulation of \VH events, including the effects of SM-EFT operators both at the levels of production and decay using recently developed software packages, e.g., \texttt{SMEFTsim}~\cite{Brivio:2020onw} at leading order or \texttt{SMEFT@NLO}~\cite{Degrande:2020evl} at next-to-leading order in perturbative QCD. 
+\begin{enumerate}[noitemsep,topsep=0pt]
+\item {\bf Signal simulation for the Run 2 analysis.} Simulate \VH event samples including the effects of SM-EFT operators both at in production and decay using with, e.g., \texttt{SMEFTsim}~\cite{Brivio:2020onw} at leading order or \texttt{SMEFT@NLO}~\cite{Degrande:2020evl} at next-to-leading order in perturbative QCD. 
 Particular care needs to be taken for the matching of the hard process generated using {\MGvATNLO}~\cite{Alwall:2014hca} and the parton shower with PYTHIA8~\cite{Sjostrand:2014zea} 
-since the parton shower does not involve higher-dimensional operators. 
+since the parton shower does not involve higher-dimensional operators. Event reconstruction is done within CMS reconstruction software (CMSSW).
 
-\item SM-EFT parameterization:
+\item {\bf SM-EFT parameterization.} Obtain polynomial parametrization of signal yields for arbitrary selections as a function of the Wilson coefficients. Validate the accuracy of the procedure with dedicated simulation of event samples with non-zero Wilson coefficients.
 
-Information about SMEFT operators will be simulated for each event using a second-order polynomial in Wilson coefficients involved. 
-%A number of weights will be stored for each event. 
-It needs to be checked if a second-order polynomial is sufficient to parameterize the effects of SM-EFT operators.
+\item {\bf Optimization of the lepton selection.} Optimize the lepton identification criteria  minimizing the total systematic uncertainty. The optimization is done separately for the resolved and the boosted signal regions, as well as for the analysis of the angular observables.
+Assess the systematic uncertainty in the angular observables associated with the lepton identification.
 
-\item Optimization of lepton selection:
-
-The conditions used for lepton identification need to be optimized so that the variation of acceptance for different operators and the total systematic uncertainty are minimized while not compromising on the statistical power of data. 
-Particularly, angular measurements are quite sensitive to lepton acceptance.
-
-\item Optimization of \Pb tagging condition: 
-
+\item {\bf Optimization of \Pb tagging criteria.} 
 The CMS Collaboration provides the correction to be applied to simulation to match the efficiency of DNN-based \Pb tagging in data and simulation in two variants. 
-The first one
-%the working point-based method, 
-requires using certain pre-defined centrally provided thresholds on \Pb tagging score of a jet to qualify as `\Pb-tagged', and the corresponding correction has small uncertainties. 
-In the second approach, 
-%the shape-based method, 
-one is free to choose the threshold, optimal for the analysis, on \Pb tagging discriminator, and the corrections have large uncertainties. 
-Since the \Pb tagging information is used for signal-to-background discrimination, it needs to be checked which of the two options provides better overall sensitivity.  
+The first method corrects the simulated efficiency of pre-defined  \Pb tagging working points. 
+The second approach is based on reweighting the simulated b-tagging discriminator shape to match the shape observed in data.
+Since the \Pb tagging information is used for signal-to-background discrimination, in this task we study the performance and resulting uncertainties for the two options in terms of better overall sensitivity.
 
-\newpage
+\item {\bf Optimization of \PH tagging criterion and scale-factor measurement.} Optimize the DNN-based \PH tagging criterion for signal-to-background separation. 
+Measure correction factors need to be measured in appropriate control samples, e.g. in $\PZ\rightarrow\bar \Pqb\Pqb$ event samples, to match the tagging efficiency in data.
 
-\item Optimization of \PH tagging condition and calculation of correction:
-
-The threshold on the DNN-based \PH tagging condition needs to be optimized for signal-to-background separation. 
-Correction factors need to be measured in appropriate control samples to match the tagging efficiency in data and simulation.
-
-\item Trigger efficiency measurement:
-
-The efficiencies of lepton-based triggers need to be measured in both data and simulation. 
-Corrections to match the trigger efficiency in simulation and data will be derived and applied to the simulation. 
+\item {\bf Trigger efficiency measurement.} The efficiencies of lepton-based triggers are measured in both data and simulation. 
+Corrections to match the trigger efficiency in simulation and data are derived and applied to the simulation. 
 %The same needs to be performed for the backup jet triggers. 
 
-\item Neutrino reconstruction:
-
-A careful analysis is required to assign the correct $\eta$ to the neutrino, which also benefits the CP-sensitivity of the \PH--\PW coupling measurements. 
+\item {\bf MVA based neutrino momentum reconstruction.}
+A finely tuned momentum reconstruction is required to resolve the ambiguities in neutrino momentum reconstruction. Using global event observables and kinematic properties of the reconstructed objects, we develop an MVA algorithm based on neural nets to select the correct solution. This task particularly benefits the CP-sensitivity of the \PH--\PW coupling measurements. 
 A powerful prescription developed for neutrino reconstruction 
 %will also help similar analyses ongoing in CMS. 
 will be a valuable asset beyond the scope of this proposal.
 
-\item Background estimation:
-
-In the proposed measurement, 
-%the backgrounds are primarily planned to be taken 
-the background prediction is primarily obtained
-from simulation with a thorough validation by comparing those with data in dedicated control regions. 
-Corrections need to be derived wherever needed, and the corresponding systematic uncertainties need to be quantified.   
-Different techniques for the background estimation, e.g., using the mass sidebands, will be checked.
+\item {\bf Background estimation.} Scaling simulation to measured yields in side band regions is an important method of estimating backgrounds. The procedure is validated in statistically independent selections defined by inverting appropriate selection requirements. %FIXME This item is a bit vague. Can we write 1-2 sentences on a realstic background prediction?
+Corrections accounting for  are derived wherever needed, and the corresponding systematic uncertainties are quantified.   
+Different techniques for the background estimation, e.g., using the mass sidebands, are be checked. 
 
 \item Multivariate analysis: 
 
@@ -999,8 +977,6 @@ For the same reason, object selection criteria need to be reevaluated for Run~3.
 
 With the fast progress in heavy particle tagging, more powerful taggers are expected to be available during the Run~3 schedule. An evaluation will be performed based on the available taggers, and the best performant one will be used. 
 
-\newpage
-
 \item Background estimation for Run~3:
 
 Improvements are expected in the Monte Carlo simulation of different processes in the next few years. Thus, the background estimation strategy to be developed for Run~2 analysis will need a validation for Run~3.
@@ -1025,26 +1001,28 @@ The final results will be reported in a paper, which will go through the interna
 The sole aim of the project is to improve the human understanding of nature. 
 The topic itself has no ethical, safety-related, or regulatory aspects that need to be considered.
 
-\section{Sex-specific and gender related issues}
-
-The sole aim of the project is to improve the human understanding of nature. 
-Thus the topic itself does not have any gender-related aspects. 
+\section{Sex-specific and gender-related issues}\label{sec:sex}
+The project aims to advance our fundamental understanding of nature. 
+Thus the topic itself has no gender-relevant aspects. 
+However, the PI is aware of the gender and diversity issues in sciences in general and actively engages in creating equal opportunities for all groups. 
+The hiring process at HEPHY is accompanied by a gender-and-diversity officer (Barbara Weber), employed by the institute, who ensures equal opportunities in all communications with candidates. 
+W. Adam from HEPHY is a member of the CMS committee for diversity and inclusion and will oversee the hiring process. 
 The job advertisement will be formulated gender neutrally. 
 In order to improve the gender balance at HEPHY
-($\sim 20\%$), a suitable female candidate will be given preference.
+($23\%$), a suitable female candidate will be given preference.
 
 \section{Human resources}
 
-A Ph.D. student will be recruited solely for this project to be conducted at HEPHY, Vienna. 
-The Ph.D. student will carry out the project under the supervision of the project applicant, PI Dr. S. Chatterjee. 
-The PI will spend $50\%$ of his time on this project. 
+A PhD student will be recruited solely for this project to be conducted at HEPHY, Vienna. 
+The PhD student will carry out the project under the supervision of the project applicant, PI Dr. S. Chatterjee. 
+The PI will spend $100\%$ of his time on this project. 
 The PI has five years of experience in CMS data analysis in the context of precision jet measurements, searches for new physics, detector calibration, and implementation of algorithms in the CMS software framework. 
 The PI has also worked on high energy physics phenomenology in collaboration with theorists and published papers in international journals. 
 
-Tasks will be carried out in consultation with the leader of CMS data analysis group of the institute: Dr. Robert Sch{\"o}fbeck (RS), who is also performing SM-EFT measurements in top quark physics in association with a post-doctoral researcher Dr. Dennis Schwartz (DS). Interaction with RS and DS will be beneficial for this project. 
-Particularly, SM-EFT parameterization (task 2) and SM-EFT to SM separation (task 10) will be performed together with RS and DS. 
-RS is also the former convener of the `top quark mass and properties' physics analysis group and the `jet and MET' physics object group of the CMS Collaboration. 
-His feedback on documentation and presentation of the results will be constructive. 
+The tasks will be carried out in consultation with the leader of CMS data analysis group of the institute: Dr. Robert Sch{\"o}fbeck (RS), who is also performing SM-EFT measurements in top quark physics in association with a post-doctoral researcher Dr. Dennis Schwartz (DS). 
+Particularly, SM-EFT parameterization (task 2) and SM-EFT to SM separation (task 10) will be performed in collaboration with RS and DS, but they do not take responsibility for the tasks in the work and time plan.
+RS is also the former convener of the ``top quark mass and properties'' physics analysis group and the ``Jets and MET'' physics object group of the CMS Collaboration. 
+His feedback on documentation and presentation of the results will be constructive. %We'll see.
 
 \appendix
 \renewcommand{\thesection}{Annex \arabic{section}} 
@@ -1067,7 +1045,7 @@ The Institute of High Energy Physics (HEPHY) of the Austrian Academy of Sciences
 Its main purpose is the research in high energy physics and to highlight Austria's membership at CERN. 
 On the hardware side, HEPHY has made significant contributions to the CMS inner tracker and to the trigger system. 
 The CMS data analysis group, led by Dr. R. Sch{\"o}fbeck, consists of 14 members based at offices in the Apostelgasse 23 in Vienna and at CERN. The successful candidate will be based in Vienna. 
-This choice will enable a direct collaboration with the other Ph.D. students and two master students doing data analysis in CMS, as well as with the scientist of the New Physics theory group.
+This choice will enable a direct collaboration with the other PhD students and two master students doing data analysis in CMS, as well as with the scientist of the New Physics theory group.
 Additionally, four members are based at CERN. 
 Among them is Dr. W. Adam, the former physics coordinator of the CMS experiment and the leader of the HEPHY team at CERN.
 
@@ -1079,17 +1057,17 @@ storage for analysis work.
 \item Video-conferencing equipment for daily communication with other CMS physicists and participation in CMS Collaboration meetings.
 \end{itemize}
 
-This project application requests funding for one Ph.D. student for 36
+This project application requests funding for one PhD student for 36
 months (EUR 39.780 per year in 2021). 
 The PI S. Chatterjee is a post-doctoral researcher at HEPHY.
-Upon a positive funding decision by the FWF, a call for the Ph.D. student will be opened, advertised inside and outside Austria, and made equally accessible to physicists regardless of their race, color, creed, national origin, religion, family status, sexual orientation, age, and political beliefs. 
+Upon a positive funding decision by the FWF, a call for the PhD student will be opened, advertised inside and outside Austria, and made equally accessible to physicists regardless of their race, color, creed, national origin, religion, family status, sexual orientation, age, and political beliefs. 
 In order to improve the gender balance at HEPHY ($\sim 20\%$), a suitable female candidate will be given preference.
 
 Furthermore, a total of EUR 5.155 per year for travel expenses between Vienna and CERN is requested. 
 These costs are justified as follows: 
-The Ph.D. student will travel four times a year (approximately every two months) to CERN for, on average, one week.
+The PhD student will travel four times a year (approximately every two months) to CERN for, on average, one week.
 The purpose of the four trips is the collaboration with the other experimentalists in the CMS HIG group and to present in person to the other members of the CMS Collaboration.
-Also, the Ph.D. student will get the opportunity to participate in the detector operation during the data-taking periods. 
+Also, the PhD student will get the opportunity to participate in the detector operation during the data-taking periods. 
 If possible, the CERN trips will overlap with a CMS Collaboration week (internal CMS working meeting occurring four
 times a year at CERN). 
 Furthermore, one trip to the annual Higgs conference is foreseen, where recent developments in experimental and theoretical results on the Higgs boson are presented. 
@@ -1128,8 +1106,8 @@ A summary of the total costs of the project is provided in Table~\ref{Tab:Total_
 \begin{tabular}{m{6 cm}| m{4 cm}}
 Item & Cost  \\
 \hline 
-Ph.D. student's salary & EUR 119340  \\
-Ph.D. student's travel costs of & EUR 15465 \\
+PhD student's salary & EUR 119340  \\
+PhD student's travel costs of & EUR 15465 \\
 MoE of the PI (for 3 years) & EUR 30000 \\
 \hline
 General costs ($5\%$) & EUR 8240  \\
@@ -1144,7 +1122,7 @@ Total & EUR 173045
 \newpage
 
 
-\section{CV of the principal investigator}
+\section{CV of the PI}
 
 \subsection*{\underline{Personal Data}}
 
@@ -1154,7 +1132,7 @@ Total & EUR 173045
 \textbf{Affiliation:} Institute of High Energy Physics of the Austrian Academy of Sciences, 1050 Vienna \\
 \textbf{Designation:} Post-doctoral researcher 
 
-%\textbf{Ph.D. Supervisor:} \\ Prof. Gobinda Majumder, \\ Department of High Energy Physics, \\
+%\textbf{PhD Supervisor:} \\ Prof. Gobinda Majumder, \\ Department of High Energy Physics, \\
 %Tata Institute of Fundamental Research, Mumbai \\
 
 \subsection*{\underline{Contact Details}}
@@ -1167,10 +1145,10 @@ Total & EUR 173045
 \subsection*{\underline{Academic Records}}
 
 \textbf{2016-2020:}
-Ph.D. in Experimental Particle Physics\\
+PhD in Experimental Particle Physics\\
 Department of High Energy Physics\\
 Tata Institute of Fundamental Research, Mumbai 400005, India\\
-\textbf{Ph.D. Supervisor:} Prof. Gobinda Majumder\\
+\textbf{PhD Supervisor:} Prof. Gobinda Majumder\\
 \\
 \textbf{2014-2016:}
 Master of Science in Physics (Rank: 1st)\\
@@ -1185,7 +1163,7 @@ Jadavpur University, Kolkata  700032, India\\
 
 \begin{tabular}{ p{2cm} p{13cm} }
 \textbf{2020} & {\textbf{Honorable mention} for the \textbf{IPA Rahul Basu Memorial Award for Best Thesis in High Energy Physics} for the period 2018--2020 in XXIV DAE-BRNS HEP Symposium 2020, India} \\
-\textbf{2015} & {\textbf{Professor Sukumar Biswas Ph.D. Student Award for Excellence in Physics} for scoring the highest grades in graduate courses in the Physics Integrated Ph.D. program in Tata Institute of Fundamental Research} \\
+\textbf{2015} & {\textbf{Professor Sukumar Biswas PhD Student Award for Excellence in Physics} for scoring the highest grades in graduate courses in the Physics Integrated PhD program in Tata Institute of Fundamental Research} \\
 %\textbf{2015} \ & Qualified CSIR-UGC National Eligibility Test in Physics with \textbf{All India Rank 43} \\
 \textbf{2014} \ & \textbf{All India Rank 3} in Joint Entrance Screening Test 2014 conducted by the research institutes in India  \\
 %\textbf{2011-2014} \ &  Awarded \textbf{INSPIRE SCHOLARSHIP} by Department of Science and Technology, India for being within top 1\% students appeared from West Bengal Board of Higher Secondary Education in Higher Secondary (10+2) Examination \\
@@ -1296,7 +1274,7 @@ Course: Advanced Electrodynamics at TIFR, Mumbai\\
 
 \subsection*{\underline{Supervision Experience}}
 
-\textbf{Anirban Bala} (Ph.D. student at TIFR, Mumbai, Advisor: Prof. M. Guchait):\\
+\textbf{Anirban Bala} (PhD student at TIFR, Mumbai, Advisor: Prof. M. Guchait):\\
 During his departmental project I (July-September, 2020) under Prof. G. Majumder \\
 Designed the project and mentored thoroughly during its implementation\\
 
