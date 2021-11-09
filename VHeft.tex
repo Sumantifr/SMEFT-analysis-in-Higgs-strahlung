@@ -175,10 +175,10 @@ The dimension-6 operators in the Warsaw basis~\cite{Grzadkowski:2010es} affectin
 \begin{tabular}{lcl|lcl}
 ${\cal O}^{(1)}_{Hq}$&&$i H^\dagger \overleftrightarrow{D}_\mu H \bar{q}   \gamma^\mu q$&${\cal O}_{HWB}$&&$ H^\dagger \sigma^a H W^a_{\mu\nu}B^{\mu\nu}$ \\
 \rule{0pt}{4ex} ${\cal O}^{(3)}_{Hq}$&&$i H^\dagger \sigma^a \overleftrightarrow{D}_\mu H \bar{q}  \sigma^a \gamma^\mu q$ &${\cal O}_{H\tilde{W}B}$&&$ H^\dagger \sigma^a H W^a_{\mu\nu}\tilde{B}^{\mu\nu}$\\
-\rule{0pt}{4ex} ${\cal O}_{Hu}$&&$i H^\dagger \overleftrightarrow{D}_\mu H \bar{u}_R  \gamma^\mu u_R$&${\cal O}_{H{W}}$&&$ |H|^2 W_{\mu\nu}{W}^{\mu\nu}$\\
-\rule{0pt}{4ex} ${\cal O}_{Hd}$&&$i H^\dagger \overleftrightarrow{D}_\mu H \bar{d}_R  \gamma^\mu d_R$&${\cal O}_{H\tilde{W}}$&&$ |H|^2 W^a_{\mu\nu}\tilde{W}^{a \mu\nu}$\\
-\rule{0pt}{4ex} ${\cal O}_{HD}$&&$(H^\dagger  {D}_\mu H)^*(H^\dagger  {D}_\mu H)$& ${\cal O}_{HB}$&&$|H|^2 B_{\mu\nu}B^{\mu\nu}$\\
-\rule{0pt}{4ex} ${\cal O}_{H\square}$&&$(H^\dagger H) \square (H^\dagger H)$& ${\cal O}_{H\tilde{B}}$&&$|H|^2 B_{\mu\nu}\tilde{B}^{\mu\nu}$
+\rule{0pt}{4ex} ${\cal O}_{Hu}$&&$i H^\dagger \overleftrightarrow{D}_\mu H \bar{u}_R  \gamma^\mu u_R$&${\cal O}_{H{W}}$&&$(H^\dagger H)\,W_{\mu\nu}{W}^{\mu\nu}$\\
+\rule{0pt}{4ex} ${\cal O}_{Hd}$&&$i H^\dagger \overleftrightarrow{D}_\mu H \bar{d}_R  \gamma^\mu d_R$&${\cal O}_{H\tilde{W}}$&&$ (H^\dagger H)\, W^a_{\mu\nu}\tilde{W}^{a \mu\nu}$\\
+\rule{0pt}{4ex} ${\cal O}_{HD}$&&$(H^\dagger  {D}_\mu H)^*(H^\dagger  {D}_\mu H)$& ${\cal O}_{HB}$&&$(H^\dagger H)\,B_{\mu\nu}B^{\mu\nu}$\\
+\rule{0pt}{4ex} ${\cal O}_{H\square}$&&$(H^\dagger H) \square (H^\dagger H)$& ${\cal O}_{H\tilde{B}}$&&$(H^\dagger H)\,B_{\mu\nu}\tilde{B}^{\mu\nu}$
 %\hline
 \end{tabular}}
 \label{Tab:Operators}
@@ -228,7 +228,7 @@ corresponds to a Lagrangian term  of the form $\frac{v^2}{{\Lambda}^2} V_{\mu} \
 The operators modifying \PH--\PV coupling (Fig.~\ref{fig:Feynman_digarams}, right) give rise to terms $vh {\partial}^{\mu}{\partial}^{\nu} V_{\mu}V_{\nu}$.
 %$\sim (\frac{v^2}{2}+vh+\frac{h^2}{2}) ({\partial}^{\mu}{\partial}^{\nu} V_{\mu}V_{\nu} + ...)$, 
 %which goes as $\frac{vE}{{\Lambda}^2}$ in high energy limit. 
-When interfering with the SM term ($(H^{\dagger}H) V^{\mu}V_{\mu}$), this gives rise to a linear increase of cross section with energy.
+When interfering with the SM term $(H^{\dagger}H) V^{\mu}V_{\mu}$, this gives rise to a linear increase of cross section with energy.
 %FIXME One sentence about power counting and energy growth. Then come the angles below ... --> Done
 %FIXME -> Drop? Is the BSM acceptance really relevant anywhere? --> Dropped for now
 %The methodology used in conventional measurements of SM-EFT operators assumes that all the object and event selection conditions have the same efficiency and acceptance for the SM and SM-EFT operators, which is known to be not the case always, and also miss important subtle effects by integrating over a number of important variables.% as will be shown in Sec.~\ref{sec:method}.
@@ -306,12 +306,9 @@ The ratio of the cross section of the $\PW\PH$ (top) and $\PZ\PH$ (bottom) proce
 }
 \label{fig:LHE_WZH}
 \end{figure*}
-The goal of the proposed measurement is to probe the SM-EFT operators in Table~\ref{Tab:Operators}  as precisely as possible using events from the \VH processes in the data collected by the CMS experiment. 
-In this proposal, the sensitivity to the three most important operators at play is studied in detail. 
-In the final work, the optimum set of operators will be chosen using the Fisher information matrix.
-%The experimental work to excavate two distinct features, combined to achieve optimal sensitivity, are tackled separately.
-The experimental work to excavate two distinct features, change in cross section and CP nature of \PH--\PV coupling, will be tackled separately.
-At the final state, those will be combined to achieve optimal sensitivity.
+The goal of the proposal is to probe the SM-EFT operators in Table~\ref{Tab:Operators} as precisely as possible using events from the \VH processes in the data collected by the CMS experiment during the LHC Run 2 and 3. 
+Two experimental objectives separately tackle the energy dependence of the EFT differential cross section and the CP nature of \PH--\PV coupling.
+At the final stage of the work, those will be combined to achieve optimal sensitivity.
 
 %In the first objective, I will exploit energy growth 
 The first objective is the exploitation of energy growth
@@ -362,7 +359,11 @@ two processes together can lead to evidence of the BSM signal if any of the Wils
 %corroborating evidence of the BSM signal.
 Also, as mentioned previously, $\PZ\PH$ production is affected by a number of operators which do not participate in $\PW\PH$ production. % because of the helicity structure of incoming quarks.
 Therefore, simultaneous measurements of the couplings in both the $\PW\PH$ and the $\PZ\PH$ processes are necessary to confidently probe the complete set of relevant operators~\cite{Banerjee:2019twi}.
-A preliminary sensitivity study is presented in Sec.~\ref{sec:method}. 
+
+In Sec.~\ref{sec:method}, I present a preliminary sensitivity study for the three most important operators. 
+%In the final work, the optimum set of operators will be chosen using the Fisher information matrix.
+%The experimental work to excavate two distinct features, combined to achieve optimal sensitivity, are tackled separately.
+
 
 \section{Scientific originality}
 
