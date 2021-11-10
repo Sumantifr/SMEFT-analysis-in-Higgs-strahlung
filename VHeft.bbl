@@ -222,22 +222,35 @@ J.~Baglio\hrefCMSnoop {}{ {et~al.}, ``{Validity of standard model EFT studies
   \href{http://dx.doi.org/10.1103/PhysRevD.98.095012}{\doi{10.1103/PhysRevD.98.095012}},
   \href{http://www.arXiv.org/abs/1807.01796}{\texttt{arXiv:1807.01796}}.
 
+\bibitem{Berger:2019wnu}
+\hrefCMSnoop {}{N.~Berger {et~al.}, ``{Simplified Template Cross Sections -
+  Stage 1.1}'',}
+  \href{http://www.arXiv.org/abs/1906.02754}{\texttt{arXiv:1906.02754}}.
+
+\bibitem{ATLAS-CONF-2021-051}
+\href {http://cds.cern.ch/record/2782535}{{ATLAS} Collaboration, ``{Combination
+  of measurements of Higgs boson production in association with a $W$ or $Z$
+  boson in the $ b\bar{b}$ decay channel with the ATLAS experiment at
+  $\sqrt{s}=13$ TeV}'',} Technical Report ATLAS-CONF-2021-051, CERN, Geneva,
+  2021.
+
+\bibitem{CMS-PAS-HIG-19-005}
+\href {http://cds.cern.ch/record/2706103}{{CMS Collaboration} Collaboration,
+  ``{Combined Higgs boson production and decay measurements with up to 137 fb-1
+  of proton-proton collision data at sqrts = 13 TeV}'',} {CMS Physics Analysis
+  Summary} CMS-PAS-HIG-19-005, 2020.
+
+\bibitem{Chatterjee:2021nms}
+S.~Chatterjee\hrefCMSnoop {}{ {et~al.}, ``{Tree boosting for learning EFT
+  parameters}'',}
+  \href{http://www.arXiv.org/abs/2107.10859}{\texttt{arXiv:2107.10859}}.
+
 \bibitem{Elias-Miro:2013mua}
 \hrefCMSnoop {}{J.~Elias-Miro, J.~R. Espinosa, E.~Masso, and A.~Pomarol,
   ``{Higgs windows to new physics through d=6 operators: constraints and
   one-loop anomalous dimensions}'',} \textit{ JHEP} \textbf{ 11} (2013) 066,
   \href{http://dx.doi.org/10.1007/JHEP11(2013)066}{\doi{10.1007/JHEP11(2013)066}},
   \href{http://www.arXiv.org/abs/1308.1879}{\texttt{arXiv:1308.1879}}.
-
-\bibitem{Berger:2019wnu}
-\hrefCMSnoop {}{N.~Berger {et~al.}, ``{Simplified Template Cross Sections -
-  Stage 1.1}'',}
-  \href{http://www.arXiv.org/abs/1906.02754}{\texttt{arXiv:1906.02754}}.
-
-\bibitem{Chatterjee:2021nms}
-S.~Chatterjee\hrefCMSnoop {}{ {et~al.}, ``{Tree boosting for learning EFT
-  parameters}'',}
-  \href{http://www.arXiv.org/abs/2107.10859}{\texttt{arXiv:2107.10859}}.
 
 \bibitem{Ellis:2018gqa}
 \hrefCMSnoop {}{J.~Ellis, C.~W. Murphy, V.~Sanz, and T.~You, ``{Updated Global
@@ -430,5 +443,11 @@ T.~Sjöstrand\hrefCMSnoop {}{ {et~al.}, ``{An Introduction to PYTHIA 8.2}'',}
   \href{http://dx.doi.org/10.1016/j.cpc.2015.01.024}{\doi{10.1016/j.cpc.2015.01.024}},
 \href{http://www.arXiv.org/abs/1410.3012}{\texttt{arXiv:1410.3012}}.
 %%CITATION = ARXIV:1410.3012;%%.
+
+\bibitem{PhysRevD.10.1145}
+\hrefCMSnoop {}{J.~M. Cornwall, D.~N. Levin, and G.~Tiktopoulos, ``Derivation
+  of gauge invariance from high-energy unitarity bounds on the s matrix'',}
+  \textit{ Phys. Rev. D} \textbf{ 10} (Aug, 1974) 1145,
+  \href{http://dx.doi.org/10.1103/PhysRevD.10.1145}{\doi{10.1103/PhysRevD.10.1145}}.
 
 \end{thebibliography}\endgroup
