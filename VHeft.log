@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.18)  10 NOV 2021 11:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.18)  10 NOV 2021 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1103,7 +1103,7 @@ Here is how much of TeX's memory you used:
  14351 multiletter control sequences out of 15000+600000
  17647 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,22n,35p,613b,744s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,22n,35p,628b,744s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -1122,7 +1122,7 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/symbols/msam10.pfb>
-Output written on VHeft.pdf (30 pages, 767357 bytes).
+Output written on VHeft.pdf (30 pages, 766743 bytes).
 PDF statistics:
  808 PDF objects out of 1000 (max. 8388607)
  693 compressed objects within 7 object streams
