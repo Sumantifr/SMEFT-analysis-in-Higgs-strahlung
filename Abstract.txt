@@ -3,23 +3,26 @@ Academic abstract
 
 Wider research context:
 
-At LHC,  the Higgs boson production is sensitive to a generalized extension of the standard model,  the standard model effective field theory (SM-EFT).  A measurement is proposed to study the SM-EFT operators of mass dimension six involved in the Higgs boson production in association with a vector boson, referred to as VH production,  where the vector boson decays leptonically and the Higgs boson decays to a pair of b quarks.
+At the LHC,  the Higgs boson production is sensitive to an effective extension of the standard model (SM-EFT).  
+Including the data from the LHC Run 3,  differential cross sections of Higgs boson production in association with a vector boson (WH or ZH,  collectively denoted as VH) can be measured up to high energies. 
+While simple kinematic spectra are already known,  the process is in fact sensitive to a large number of SM-EFT modifications that are discernible in boosted final states and subtle correlations of angular observables,  never before considered in an VH measurement.
 
 Objectives:
 
-The objective is to measure the SM-EFT operators,  some of which are accessible for the first time at LHC,  involved in VH production as well as the charge-parity (CP) structure of the H-V interaction in SM-EFT.
+The objective is to measure the SM-EFT operators involved in VH production,  some of which are accessible for the first time at LHC,   as well as the charge-parity (CP) structure of the H-V interaction up to the highest achievable energies.
 
 Method:
 
-Sensitivity to SM-EFT operators will be measured from the modifications in kinematic distributions,  particularly in the high-energy tail,  using the data collected by the CMS experiment during the LHC Run 2 (2016-2018) and Run 3 (2022-2024), amounting to an integrated luminosity of at least 300/fb. At high energy,  the Higgs boson,  produced with large transverse momentum,  is reconstructed using a single large-radius jet, which will be analyzed using jet substructure techniques.  Complementary angular variables,  unexplored so far in Higgs boson measurements,  will be utilized to access multi-dimensional information of the process and to look for the direct detection of additional sources of CP violation in the Higgs sector.
+Sensitivity to SM-EFT operators will be measured from the modifications in kinematic distributions,  including the highly energetic taisl,  using the data collected by the CMS experiment during the LHC Run 2 (2016-2018) and Run 3 (2022-2024),  amounting to an integrated luminosity of at least 300/fb. 
+At high energy,  the Higgs boson,  produced with large transverse momentum,  is reconstructed using a single large-radius jet,  which will be analyzed using jet substructure techniques.  Complementary angular variables,  unexplored so far in Higgs boson measurements,  will be utilized to access multi-dimensional information of the process and to look for the direct detection of additional sources of CP violation in the Higgs sector.
 
 Level of originality:
 
-Multi-dimensional event information is used to directly probe a large number of SM-EFT operators and,  for the first time,  the SM-EFT effects in CP nature of the H-V coupling.
+Multi-dimensional event information is used to directly probe,  for the first time,  a large number of SM-EFT operators exploiting their energy growth and simultaneously measure the CP structure of the H-V coupling.  
 
 
 Primary researchers involved:
 
-The project leader, applicant, and principal investigator (PI) is Dr. Suman Chatterjee. He will spend 100\% of his time on the project.  Dr. Chatterjee is a post-doctoral researcher at the Institute for High Energy Physics (HEPHY) of the ÖAW. The body of the work will be carried out by a PhD  student under the supervision of the PI.
+The project leader,  applicant, and principal investigator (PI) is Dr. Suman Chatterjee.  He will spend 100 % of his time on the project.  Dr. Chatterjee is a post-doctoral researcher at the Institute for High Energy Physics (HEPHY) of the ÖAW.  The PI and the PhD student will carry out the body of the work .
 
 
