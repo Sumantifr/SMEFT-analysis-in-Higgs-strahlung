@@ -1,21 +1,21 @@
 \contentsline {section}{\numberline {1}Science}{2}{section.1}
 \contentsline {section}{\numberline {2}Research hypothesis}{3}{section.2}
 \contentsline {section}{\numberline {3}Objectives}{5}{section.3}
-\contentsline {section}{\numberline {4}Scientific originality}{6}{section.4}
+\contentsline {section}{\numberline {4}Scientific originality}{7}{section.4}
 \contentsline {section}{\numberline {5}Relevance to the research field}{7}{section.5}
 \contentsline {section}{\numberline {6}Method}{8}{section.6}
 \contentsline {subsection}{\numberline {6.1}Final states and observables}{8}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Event preselection and categorization}{9}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}Neutrino reconstruction}{11}{subsection.6.3}
 \contentsline {subsection}{\numberline {6.4}Multivariate analysis}{13}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Sensitivity results}{13}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Possible extensions}{14}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.5}Sensitivity results}{14}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Possible extensions}{15}{subsection.6.6}
 \contentsline {section}{\numberline {7}Planned cooperation arrangement}{15}{section.7}
 \contentsline {section}{\numberline {8}Work and plan}{16}{section.8}
 \contentsline {section}{\numberline {9}Ethical, safety-related or regulatory aspects}{18}{section.9}
 \contentsline {section}{\numberline {10}Sex-specific and gender-related issues}{18}{section.10}
 \contentsline {section}{\numberline {11}Human resources}{18}{section.11}
 \cftsecnumwidth 11ex\relax 
-\contentsline {section}{\numberline {Annex 1}References}{21}{appendix.A}
-\contentsline {section}{\numberline {Annex 2}Research institution and required funding}{25}{appendix.B}
+\contentsline {section}{\numberline {Annex 1}References}{20}{appendix.A}
+\contentsline {section}{\numberline {Annex 2}Research institution and required funding}{24}{appendix.B}
 \contentsline {section}{\numberline {Annex 3}CV of the PI}{26}{appendix.C}
