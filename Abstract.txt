@@ -5,7 +5,7 @@ Wider research context:
 
 At the LHC,  the Higgs boson production is sensitive to an effective extension of the standard model (SM-EFT).  
 Including the data from the LHC Run 3,  differential cross sections of Higgs boson production in association with a vector boson (WH or ZH,  collectively denoted as VH) can be measured up to high energies. 
-While simple kinematic spectra are already known,  the process is in fact sensitive to a large number of SM-EFT modifications that are discernible in boosted final states and subtle correlations of angular observables,  never before considered in an VH measurement.
+While simple kinematic spectra are already known,  the process is in fact sensitive to a large number of SM-EFT modifications that are discernible in boosted final states and subtle correlations of angular observables,  never before considered in an VH measurement. 
 
 Objectives:
 
