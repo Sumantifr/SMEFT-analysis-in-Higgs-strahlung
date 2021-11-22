@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex VHeft"] 1637519424 "VHeft.aux" "VHeft.bbl" "VHeft" 1637519426
+["bibtex VHeft"] 1637519424 "VHeft.aux" "VHeft.bbl" "VHeft" 1637573832
   "./lucas_unsrt.bst" 1635935393 28303 bc5de134eac98d188c6ac3ef78ce1a20 ""
-  "VHeft.aux" 1637519425 18070 8dd061017bee3abd7d44ecc7be62e832 ""
+  "VHeft.aux" 1637573832 18070 8dd061017bee3abd7d44ecc7be62e832 ""
   "VHeft.bcf" 0 -1 0 ""
   "VHeft.bib" 1636535145 111603 f6a8fe22baeeda1ad79f39c86ec8e99f ""
   (generated)
-  "VHeft.blg"
   "VHeft.bbl"
-["pdflatex"] 1637519424 "VHeft.tex" "VHeft.pdf" "VHeft" 1637519426
+  "VHeft.blg"
+["pdflatex"] 1637573830 "VHeft.tex" "VHeft.pdf" "VHeft" 1637573832
   "/etc/texmf/web2c/texmf.cnf" 1600747158 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvbc7t.tfm" 1480098688 2672 88159036c64e674fcd9515bc9c7052d4 ""
@@ -147,10 +147,10 @@
   "Figures/New/RECO/Full_NLL_WC_cpW_2019_opt2.png" 1637517006 20639 8027b64ebded69da33443caf70453ece ""
   "Figures/New/RECO/Full_NLL_WC_cpWtilde_2019_opt2.png" 1637519420 19395 76b57e57a06f63d0caa74184c763cbc9 ""
   "Figures/New/RECO/Full_NLL_WC_cpq3i_2019_opt2.png" 1637517017 21484 ca863e92608e2086c27ca5091fd75a02 ""
-  "Figures/New/RECO/Plot_Boosted_SR_V_pt.pdf" 1637352319 1167502 d461b73f5c9b6b598ca6d03c14504181 ""
   "Figures/New/RECO/Plot_Boosted_SR_V_pt_WH.png" 1637366894 22187 8ae2ed619f72ebf37f348dc2e36b7264 ""
-  "Figures/New/RECO/Plot_Resolved_SR_V_pt.pdf" 1637352319 1057400 a4a62d3d0242b6ef18599d7adaeb1797 ""
+  "Figures/New/RECO/Plot_Boosted_SR_V_pt_sigpurity.png" 1637366529 18417 f744da5b6ff7200f56c509584318f444 ""
   "Figures/New/RECO/Plot_Resolved_SR_V_pt_WH.png" 1637366883 22963 4dd478dbce46cb06f88794a6a775fa4d ""
+  "Figures/New/RECO/Plot_Resolved_SR_V_pt_sigpurity.png" 1637366540 19752 3999843f98cddc862d2282cd4407f970 ""
   "Figures/New/RECO/Plot_WH_MVA_WH_fast_boosted.png" 1637504553 10971 22827be70ed1d2480baab679db01811b ""
   "Figures/New/RECO/Plot_WH_MVA_WH_fast_resolved.png" 1636409422 10765 a2f3e58ffe632db0ebbaf5d98a112199 ""
   "Figures/New/RECO/ROC_plot_TT_MVA_boosted.png" 1636409422 14094 bdf7bd3a1268ae552a452fe3fe0dede4 ""
@@ -159,17 +159,17 @@
   "Figures/New/RECO/Resolved_Plot_phi_WH_CP.png" 1637368670 17892 f6362d29765a7b29229e14218b4d8924 ""
   "Figures/New/RECO/Resolved_Plot_phi_ZH_CP.png" 1637368676 19062 a96aa9d8f24d11c9b45c0ccd5e5068a6 ""
   "Figures/New/RECO/Selection_285.png" 1637505502 12519 a1daba22e86df69d03e0f670ffabd60c ""
-  "VHeft.aux" 1637519425 18070 8dd061017bee3abd7d44ecc7be62e832 ""
+  "VHeft.aux" 1637573832 18070 8dd061017bee3abd7d44ecc7be62e832 ""
   "VHeft.bbl" 1637519424 23441 d956f18dc185deafc5f7b23f96ae7ac7 "bibtex VHeft"
-  "VHeft.out" 1637519425 1247 d145cdb6ec7421545e4be8892d6783a8 ""
-  "VHeft.tex" 1637518943 101733 b44005429af68401586ead20a451b816 ""
-  "VHeft.toc" 1637519425 1672 dbfb47defa4f7ca6aaad3ed502e28964 ""
+  "VHeft.out" 1637573832 1247 d145cdb6ec7421545e4be8892d6783a8 ""
+  "VHeft.tex" 1637573817 101918 39f430a164b3f5b05a337d5df7fd852d ""
+  "VHeft.toc" 1637573832 1672 dbfb47defa4f7ca6aaad3ed502e28964 ""
   "hepparticles.sty" 1635935393 15569 2d08d8234ee3eb602ea662e552d5a0f8 ""
   "jheppub.sty" 1635935393 11041 e36629b50e1418819f86cffa551dd9ff ""
   "ptdr-definitions.sty" 1635935393 17496 ab525839b85e768e4cba40a7d3966de5 ""
   (generated)
+  "VHeft.aux"
   "VHeft.pdf"
   "VHeft.log"
-  "VHeft.aux"
   "VHeft.out"
   "VHeft.toc"
