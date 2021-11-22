@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.18)  22 NOV 2021 10:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.18)  22 NOV 2021 20:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -581,12 +581,12 @@ LaTeX Info: Redefining \nameref on input line 74.
 \@outlinefile=\write4
 \openout4 = `VHeft.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 85.
+LaTeX Font Info:    Try loading font information for U+msa on input line 84.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 85.
+LaTeX Font Info:    Try loading font information for U+msb on input line 84.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -594,172 +594,170 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write5
 \openout5 = `VHeft.toc'.
 
-LaTeX Info: Redefining \HepProcess on input line 89.
-LaTeX Info: Redefining \HepProcess on input line 89.
+LaTeX Info: Redefining \HepProcess on input line 88.
+LaTeX Info: Redefining \HepProcess on input line 88.
 
 [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Info: Redefining \HepProcess on input line 92.
-
-Excluding 'comment' comment.
-LaTeX Info: Redefining \HepProcess on input line 151.
-LaTeX Info: Redefining \HepProcess on input line 159.
-LaTeX Info: Redefining \HepProcess on input line 159.
+LaTeX Info: Redefining \HepProcess on input line 91.
+LaTeX Info: Redefining \HepProcess on input line 122.
+LaTeX Info: Redefining \HepProcess on input line 128.
+LaTeX Info: Redefining \HepProcess on input line 128.
  [2]
 <Figures/New/LHE//qqVH.png, id=162, 252.945pt x 255.95625pt>
 File: Figures/New/LHE//qqVH.png Graphic file (type png)
 <use Figures/New/LHE//qqVH.png>
-Package pdftex.def Info: Figures/New/LHE//qqVH.png  used on input line 200.
+Package pdftex.def Info: Figures/New/LHE//qqVH.png  used on input line 162.
 (pdftex.def)             Requested size: 140.84256pt x 142.52216pt.
 <Figures/New/LHE//qqV.png, id=164, 289.08pt x 252.945pt>
 File: Figures/New/LHE//qqV.png Graphic file (type png)
 <use Figures/New/LHE//qqV.png>
-Package pdftex.def Info: Figures/New/LHE//qqV.png  used on input line 201.
+Package pdftex.def Info: Figures/New/LHE//qqV.png  used on input line 163.
 (pdftex.def)             Requested size: 140.84256pt x 123.23396pt.
 <Figures/New/LHE//VVh.png, id=165, 258.9675pt x 246.9225pt>
 File: Figures/New/LHE//VVh.png Graphic file (type png)
 <use Figures/New/LHE//VVh.png>
-Package pdftex.def Info: Figures/New/LHE//VVh.png  used on input line 202.
+Package pdftex.def Info: Figures/New/LHE//VVh.png  used on input line 164.
 (pdftex.def)             Requested size: 140.84256pt x 134.29692pt.
-LaTeX Info: Redefining \HepProcess on input line 236.
-LaTeX Info: Redefining \HepProcess on input line 236.
+LaTeX Info: Redefining \HepProcess on input line 188.
+LaTeX Info: Redefining \HepProcess on input line 188.
  [3]
 <Figures/LHE/TheThreeAnglesVh.pdf, id=200, 845.01837pt x 597.47943pt>
 File: Figures/LHE/TheThreeAnglesVh.pdf Graphic file (type pdf)
 <use Figures/LHE/TheThreeAnglesVh.pdf>
-Package pdftex.def Info: Figures/LHE/TheThreeAnglesVh.pdf  used on input line 2
-40.
+Package pdftex.def Info: Figures/LHE/TheThreeAnglesVh.pdf  used on input line 1
+91.
 (pdftex.def)             Requested size: 352.10284pt x 248.9613pt.
- Excluding 'comment' comment.
-LaTeX Info: Redefining \HepProcess on input line 288.
+
+Excluding 'comment' comment.
+LaTeX Info: Redefining \HepProcess on input line 239.
 <Figures/New/LHE/WH/Canv_cpq3i.png, id=203, 798.985pt x 574.145pt>
 File: Figures/New/LHE/WH/Canv_cpq3i.png Graphic file (type png)
 <use Figures/New/LHE/WH/Canv_cpq3i.png>
 Package pdftex.def Info: Figures/New/LHE/WH/Canv_cpq3i.png  used on input line 
-293.
+244.
 (pdftex.def)             Requested size: 150.69962pt x 108.29146pt.
 <Figures/New/LHE/WH/Canv_cpW.png, id=204, 798.985pt x 574.145pt>
 File: Figures/New/LHE/WH/Canv_cpW.png Graphic file (type png)
 <use Figures/New/LHE/WH/Canv_cpW.png>
-Package pdftex.def Info: Figures/New/LHE/WH/Canv_cpW.png  used on input line 29
-4.
+Package pdftex.def Info: Figures/New/LHE/WH/Canv_cpW.png  used on input line 24
+5.
 (pdftex.def)             Requested size: 150.69962pt x 108.29146pt.
 <Figures/New/LHE/WH/Canv_cpWB.png, id=205, 798.985pt x 574.145pt>
 File: Figures/New/LHE/WH/Canv_cpWB.png Graphic file (type png)
 <use Figures/New/LHE/WH/Canv_cpWB.png>
 Package pdftex.def Info: Figures/New/LHE/WH/Canv_cpWB.png  used on input line 2
-95.
+46.
 (pdftex.def)             Requested size: 150.69962pt x 108.29146pt.
 <Figures/New/LHE/ZH/Canv_cpq3i.png, id=206, 798.985pt x 574.145pt>
 File: Figures/New/LHE/ZH/Canv_cpq3i.png Graphic file (type png)
 <use Figures/New/LHE/ZH/Canv_cpq3i.png>
 Package pdftex.def Info: Figures/New/LHE/ZH/Canv_cpq3i.png  used on input line 
-296.
+247.
 (pdftex.def)             Requested size: 150.69962pt x 108.29146pt.
 <Figures/New/LHE/ZH/Canv_cpW.png, id=207, 798.985pt x 574.145pt>
 File: Figures/New/LHE/ZH/Canv_cpW.png Graphic file (type png)
 <use Figures/New/LHE/ZH/Canv_cpW.png>
-Package pdftex.def Info: Figures/New/LHE/ZH/Canv_cpW.png  used on input line 29
-7.
+Package pdftex.def Info: Figures/New/LHE/ZH/Canv_cpW.png  used on input line 24
+8.
 (pdftex.def)             Requested size: 150.69962pt x 108.29146pt.
 <Figures/New/LHE/ZH/Canv_cpWB.png, id=208, 798.985pt x 574.145pt>
 File: Figures/New/LHE/ZH/Canv_cpWB.png Graphic file (type png)
 <use Figures/New/LHE/ZH/Canv_cpWB.png>
 Package pdftex.def Info: Figures/New/LHE/ZH/Canv_cpWB.png  used on input line 2
-98.
+49.
 (pdftex.def)             Requested size: 150.69962pt x 108.29146pt.
-LaTeX Info: Redefining \HepProcess on input line 304.
-LaTeX Info: Redefining \HepProcess on input line 304.
+LaTeX Info: Redefining \HepProcess on input line 255.
+LaTeX Info: Redefining \HepProcess on input line 255.
  [4 <./Figures/New/LHE//qqVH.png> <./Figures/New/LHE//qqV.png> <./Figures/New/L
 HE//VVh.png>]
-LaTeX Info: Redefining \HepProcess on input line 308.
-LaTeX Info: Redefining \HepProcess on input line 308.
-
-[5 <./Figures/LHE/TheThreeAnglesVh.pdf> <./Figures/New/LHE/WH/Canv_cpq3i.png> <
-./Figures/New/LHE/WH/Canv_cpW.png> <./Figures/New/LHE/WH/Canv_cpWB.png> <./Figu
-res/New/LHE/ZH/Canv_cpq3i.png> <./Figures/New/LHE/ZH/Canv_cpW.png> <./Figures/N
-ew/LHE/ZH/Canv_cpWB.png>]
+LaTeX Info: Redefining \HepProcess on input line 259.
+LaTeX Info: Redefining \HepProcess on input line 259.
+ [5 <./Figures/LHE/TheThreeAnglesVh.pdf> <./Figures/New/LHE/WH/Canv_cpq3i.png> 
+<./Figures/New/LHE/WH/Canv_cpW.png> <./Figures/New/LHE/WH/Canv_cpWB.png> <./Fig
+ures/New/LHE/ZH/Canv_cpq3i.png> <./Figures/New/LHE/ZH/Canv_cpW.png> <./Figures/
+New/LHE/ZH/Canv_cpWB.png>]
 <Figures/New/LHE/LHE_Plot_phi_WH.png, id=291, 798.985pt x 574.145pt>
 File: Figures/New/LHE/LHE_Plot_phi_WH.png Graphic file (type png)
 <use Figures/New/LHE/LHE_Plot_phi_WH.png>
 Package pdftex.def Info: Figures/New/LHE/LHE_Plot_phi_WH.png  used on input lin
-e 354.
+e 290.
 (pdftex.def)             Requested size: 211.26027pt x 151.80603pt.
 <Figures/New/LHE/LHE_Plot_phi_ZH.png, id=292, 798.985pt x 574.145pt>
 File: Figures/New/LHE/LHE_Plot_phi_ZH.png Graphic file (type png)
 <use Figures/New/LHE/LHE_Plot_phi_ZH.png>
 Package pdftex.def Info: Figures/New/LHE/LHE_Plot_phi_ZH.png  used on input lin
-e 355.
+e 291.
 (pdftex.def)             Requested size: 211.26027pt x 151.80603pt.
-LaTeX Info: Redefining \HepProcess on input line 366.
-LaTeX Info: Redefining \HepProcess on input line 377.
-LaTeX Info: Redefining \HepProcess on input line 377.
+LaTeX Info: Redefining \HepProcess on input line 302.
+LaTeX Info: Redefining \HepProcess on input line 308.
+LaTeX Info: Redefining \HepProcess on input line 308.
  [6 <./Figures/New/LHE/LHE_Plot_phi_WH.png> <./Figures/New/LHE/LHE_Plot_phi_ZH.
 png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 377.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 308.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 377.
-LaTeX Info: Redefining \HepProcess on input line 396.
-LaTeX Info: Redefining \HepProcess on input line 420.
-LaTeX Info: Redefining \HepProcess on input line 420.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 308.
+LaTeX Info: Redefining \HepProcess on input line 323.
+LaTeX Info: Redefining \HepProcess on input line 340.
+LaTeX Info: Redefining \HepProcess on input line 340.
  [7]
-LaTeX Info: Redefining \HepProcess on input line 441.
-LaTeX Info: Redefining \HepProcess on input line 456.
-LaTeX Info: Redefining \HepProcess on input line 484.
-LaTeX Info: Redefining \HepProcess on input line 484.
+LaTeX Info: Redefining \HepProcess on input line 361.
+LaTeX Info: Redefining \HepProcess on input line 370.
+LaTeX Info: Redefining \HepProcess on input line 387.
+LaTeX Info: Redefining \HepProcess on input line 387.
  [8]
 Excluding 'comment' comment.
-LaTeX Info: Redefining \HepProcess on input line 519.
-LaTeX Info: Redefining \HepProcess on input line 560.
-LaTeX Info: Redefining \HepProcess on input line 560.
+LaTeX Info: Redefining \HepProcess on input line 422.
+LaTeX Info: Redefining \HepProcess on input line 452.
+LaTeX Info: Redefining \HepProcess on input line 452.
  [9]
 <Figures/New/RECO/Plot_Resolved_SR_V_pt_WH.png, id=387, 598.235pt x 752.8125pt>
 
 File: Figures/New/RECO/Plot_Resolved_SR_V_pt_WH.png Graphic file (type png)
 <use Figures/New/RECO/Plot_Resolved_SR_V_pt_WH.png>
 Package pdftex.def Info: Figures/New/RECO/Plot_Resolved_SR_V_pt_WH.png  used on
- input line 597.
+ input line 483.
 (pdftex.def)             Requested size: 223.00133pt x 280.62689pt.
 <Figures/New/RECO/Plot_Boosted_SR_V_pt_WH.png, id=388, 598.235pt x 752.8125pt>
 File: Figures/New/RECO/Plot_Boosted_SR_V_pt_WH.png Graphic file (type png)
 <use Figures/New/RECO/Plot_Boosted_SR_V_pt_WH.png>
 Package pdftex.def Info: Figures/New/RECO/Plot_Boosted_SR_V_pt_WH.png  used on 
-input line 598.
+input line 484.
 (pdftex.def)             Requested size: 223.00133pt x 280.62689pt.
 <Figures/New/RECO/Boosted_Plot_Theta_WH.png, id=395, 798.985pt x 574.145pt>
 File: Figures/New/RECO/Boosted_Plot_Theta_WH.png Graphic file (type png)
 <use Figures/New/RECO/Boosted_Plot_Theta_WH.png>
 Package pdftex.def Info: Figures/New/RECO/Boosted_Plot_Theta_WH.png  used on in
-put line 629.
+put line 507.
 (pdftex.def)             Requested size: 223.00133pt x 160.24261pt.
 <Figures/New/RECO/Boosted_Plot_Theta_ZH.png, id=396, 798.985pt x 574.145pt>
 File: Figures/New/RECO/Boosted_Plot_Theta_ZH.png Graphic file (type png)
 <use Figures/New/RECO/Boosted_Plot_Theta_ZH.png>
 Package pdftex.def Info: Figures/New/RECO/Boosted_Plot_Theta_ZH.png  used on in
-put line 630.
+put line 508.
 (pdftex.def)             Requested size: 223.00133pt x 160.24261pt.
 <Figures/New/RECO/Resolved_Plot_phi_WH_CP.png, id=397, 798.985pt x 574.145pt>
 File: Figures/New/RECO/Resolved_Plot_phi_WH_CP.png Graphic file (type png)
 <use Figures/New/RECO/Resolved_Plot_phi_WH_CP.png>
 Package pdftex.def Info: Figures/New/RECO/Resolved_Plot_phi_WH_CP.png  used on 
-input line 631.
+input line 509.
 (pdftex.def)             Requested size: 223.00133pt x 160.24261pt.
 <Figures/New/RECO/Resolved_Plot_phi_ZH_CP.png, id=398, 798.985pt x 574.145pt>
 File: Figures/New/RECO/Resolved_Plot_phi_ZH_CP.png Graphic file (type png)
 <use Figures/New/RECO/Resolved_Plot_phi_ZH_CP.png>
 Package pdftex.def Info: Figures/New/RECO/Resolved_Plot_phi_ZH_CP.png  used on 
-input line 632.
+input line 510.
 (pdftex.def)             Requested size: 223.00133pt x 160.24261pt.
-LaTeX Info: Redefining \HepProcess on input line 641.
-LaTeX Info: Redefining \HepProcess on input line 647.
-LaTeX Info: Redefining \HepProcess on input line 647.
+LaTeX Info: Redefining \HepProcess on input line 519.
+LaTeX Info: Redefining \HepProcess on input line 525.
+LaTeX Info: Redefining \HepProcess on input line 525.
  [10]
 <Figures/New/RECO/Resolved_Plot_2D_phi_unweighted.png, id=406, 798.985pt x 574.
 145pt>
@@ -767,7 +765,7 @@ File: Figures/New/RECO/Resolved_Plot_2D_phi_unweighted.png Graphic file (type p
 ng)
 <use Figures/New/RECO/Resolved_Plot_2D_phi_unweighted.png>
 Package pdftex.def Info: Figures/New/RECO/Resolved_Plot_2D_phi_unweighted.png  
-used on input line 659.
+used on input line 537.
 (pdftex.def)             Requested size: 232.38557pt x 166.98839pt.
 <Figures/New/RECO/Boosted_Plot_2D_phi_unweighted.png, id=407, 798.985pt x 574.1
 45pt>
@@ -775,19 +773,19 @@ File: Figures/New/RECO/Boosted_Plot_2D_phi_unweighted.png Graphic file (type pn
 g)
 <use Figures/New/RECO/Boosted_Plot_2D_phi_unweighted.png>
 Package pdftex.def Info: Figures/New/RECO/Boosted_Plot_2D_phi_unweighted.png  u
-sed on input line 660.
+sed on input line 538.
 (pdftex.def)             Requested size: 232.38557pt x 166.98839pt.
-LaTeX Info: Redefining \HepProcess on input line 671.
+LaTeX Info: Redefining \HepProcess on input line 549.
  Excluding 'comment' comment.
-LaTeX Info: Redefining \HepProcess on input line 733.
-LaTeX Info: Redefining \HepProcess on input line 733.
+LaTeX Info: Redefining \HepProcess on input line 606.
+LaTeX Info: Redefining \HepProcess on input line 606.
  [11 <./Figures/New/RECO/Plot_Resolved_SR_V_pt_WH.png> <./Figures/New/RECO/Plot
 _Boosted_SR_V_pt_WH.png>]
 
 LaTeX Warning: Text page 12 contains only floats.
 
-LaTeX Info: Redefining \HepProcess on input line 733.
-LaTeX Info: Redefining \HepProcess on input line 733.
+LaTeX Info: Redefining \HepProcess on input line 606.
+LaTeX Info: Redefining \HepProcess on input line 606.
 [12 <./Figures/New/RECO/Boosted_Plot_Theta_WH.png> <./Figures/New/RECO/Boosted_
 Plot_Theta_ZH.png> <./Figures/New/RECO/Resolved_Plot_phi_WH_CP.png> <./Figures/
 New/RECO/Resolved_Plot_phi_ZH_CP.png> <./Figures/New/RECO/Resolved_Plot_2D_phi_
@@ -798,13 +796,13 @@ File: Figures/New/RECO/Plot_WH_MVA_WH_fast_resolved.png Graphic file (type png)
 
 <use Figures/New/RECO/Plot_WH_MVA_WH_fast_resolved.png>
 Package pdftex.def Info: Figures/New/RECO/Plot_WH_MVA_WH_fast_resolved.png  use
-d on input line 736.
+d on input line 609.
 (pdftex.def)             Requested size: 140.84256pt x 101.20401pt.
 <Figures/New/RECO/ROC_plot_TT_MVA_resolved.png, id=425, 798.985pt x 574.145pt>
 File: Figures/New/RECO/ROC_plot_TT_MVA_resolved.png Graphic file (type png)
 <use Figures/New/RECO/ROC_plot_TT_MVA_resolved.png>
 Package pdftex.def Info: Figures/New/RECO/ROC_plot_TT_MVA_resolved.png  used on
- input line 737.
+ input line 610.
 (pdftex.def)             Requested size: 140.84256pt x 101.20401pt.
 <Figures/New/RECO/Plot_Resolved_SR_V_pt_sigpurity.png, id=426, 798.985pt x 574.
 145pt>
@@ -812,20 +810,20 @@ File: Figures/New/RECO/Plot_Resolved_SR_V_pt_sigpurity.png Graphic file (type p
 ng)
 <use Figures/New/RECO/Plot_Resolved_SR_V_pt_sigpurity.png>
 Package pdftex.def Info: Figures/New/RECO/Plot_Resolved_SR_V_pt_sigpurity.png  
-used on input line 739.
+used on input line 612.
 (pdftex.def)             Requested size: 140.84256pt x 101.20401pt.
 <Figures/New/RECO/Plot_WH_MVA_WH_fast_boosted.png, id=427, 798.985pt x 574.145p
 t>
 File: Figures/New/RECO/Plot_WH_MVA_WH_fast_boosted.png Graphic file (type png)
 <use Figures/New/RECO/Plot_WH_MVA_WH_fast_boosted.png>
 Package pdftex.def Info: Figures/New/RECO/Plot_WH_MVA_WH_fast_boosted.png  used
- on input line 740.
+ on input line 613.
 (pdftex.def)             Requested size: 140.84256pt x 101.20401pt.
 <Figures/New/RECO/ROC_plot_TT_MVA_boosted.png, id=428, 798.985pt x 574.145pt>
 File: Figures/New/RECO/ROC_plot_TT_MVA_boosted.png Graphic file (type png)
 <use Figures/New/RECO/ROC_plot_TT_MVA_boosted.png>
 Package pdftex.def Info: Figures/New/RECO/ROC_plot_TT_MVA_boosted.png  used on 
-input line 741.
+input line 614.
 (pdftex.def)             Requested size: 140.84256pt x 101.20401pt.
 <Figures/New/RECO/Plot_Boosted_SR_V_pt_sigpurity.png, id=429, 798.985pt x 574.1
 45pt>
@@ -833,35 +831,35 @@ File: Figures/New/RECO/Plot_Boosted_SR_V_pt_sigpurity.png Graphic file (type pn
 g)
 <use Figures/New/RECO/Plot_Boosted_SR_V_pt_sigpurity.png>
 Package pdftex.def Info: Figures/New/RECO/Plot_Boosted_SR_V_pt_sigpurity.png  u
-sed on input line 743.
+sed on input line 616.
 (pdftex.def)             Requested size: 140.84256pt x 101.20401pt.
 
-Overfull \hbox (4.82808pt too wide) in paragraph at lines 750--758
+Overfull \hbox (4.82808pt too wide) in paragraph at lines 623--630
 []\OT1/cmr/m/n/10.95 Normalized dis-tri-bu-tions of NN dis-crim-i-na-tors in SM
  $[][]$ and $[][]$ events are shown in Fig. [][]8[][] (left).
  []
 
-LaTeX Info: Redefining \HepProcess on input line 758.
-LaTeX Info: Redefining \HepProcess on input line 758.
+LaTeX Info: Redefining \HepProcess on input line 630.
+LaTeX Info: Redefining \HepProcess on input line 630.
 [13 <./Figures/New/RECO/Plot_WH_MVA_WH_fast_resolved.png> <./Figures/New/RECO/R
 OC_plot_TT_MVA_resolved.png> <./Figures/New/RECO/Plot_Resolved_SR_V_pt_sigpurit
 y.png> <./Figures/New/RECO/Plot_WH_MVA_WH_fast_boosted.png> <./Figures/New/RECO
 /ROC_plot_TT_MVA_boosted.png> <./Figures/New/RECO/Plot_Boosted_SR_V_pt_sigpurit
 y.png>]
-LaTeX Info: Redefining \HepProcess on input line 759.
+LaTeX Info: Redefining \HepProcess on input line 631.
 <Figures/New/RECO/Full_NLL_WC_cpq3i_2019_opt2.png, id=445, 798.985pt x 574.145p
 t>
 File: Figures/New/RECO/Full_NLL_WC_cpq3i_2019_opt2.png Graphic file (type png)
 <use Figures/New/RECO/Full_NLL_WC_cpq3i_2019_opt2.png>
 Package pdftex.def Info: Figures/New/RECO/Full_NLL_WC_cpq3i_2019_opt2.png  used
- on input line 775.
+ on input line 643.
 (pdftex.def)             Requested size: 230.04309pt x 165.30632pt.
 <Figures/New/RECO/Full_NLL_WC_cpW_2019_opt2.png, id=446, 798.985pt x 574.145pt>
 
 File: Figures/New/RECO/Full_NLL_WC_cpW_2019_opt2.png Graphic file (type png)
 <use Figures/New/RECO/Full_NLL_WC_cpW_2019_opt2.png>
 Package pdftex.def Info: Figures/New/RECO/Full_NLL_WC_cpW_2019_opt2.png  used o
-n input line 776.
+n input line 644.
 (pdftex.def)             Requested size: 230.04309pt x 165.30632pt.
 <Figures/New/RECO/Full_NLL_WC_cpWtilde_2019_opt2.png, id=447, 798.985pt x 574.1
 45pt>
@@ -869,53 +867,46 @@ File: Figures/New/RECO/Full_NLL_WC_cpWtilde_2019_opt2.png Graphic file (type pn
 g)
 <use Figures/New/RECO/Full_NLL_WC_cpWtilde_2019_opt2.png>
 Package pdftex.def Info: Figures/New/RECO/Full_NLL_WC_cpWtilde_2019_opt2.png  u
-sed on input line 777.
+sed on input line 645.
 (pdftex.def)             Requested size: 230.04309pt x 165.30632pt.
 <Figures/New/RECO/Selection_285.png, id=448, 565.11125pt x 270.00874pt>
 File: Figures/New/RECO/Selection_285.png Graphic file (type png)
 <use Figures/New/RECO/Selection_285.png>
 Package pdftex.def Info: Figures/New/RECO/Selection_285.png  used on input line
- 778.
+ 646.
 (pdftex.def)             Requested size: 232.38557pt x 111.02977pt.
- Excluding 'comment' comment.
-LaTeX Info: Redefining \HepProcess on input line 814.
-LaTeX Info: Redefining \HepProcess on input line 814.
+LaTeX Info: Redefining \HepProcess on input line 663.
+LaTeX Info: Redefining \HepProcess on input line 663.
  [14 <./Figures/New/RECO/Full_NLL_WC_cpq3i_2019_opt2.png> <./Figures/New/RECO/F
 ull_NLL_WC_cpW_2019_opt2.png> <./Figures/New/RECO/Full_NLL_WC_cpWtilde_2019_opt
 2.png> <./Figures/New/RECO/Selection_285.png>]
-LaTeX Info: Redefining \HepProcess on input line 815.
-LaTeX Info: Redefining \HepProcess on input line 824.
-LaTeX Info: Redefining \HepProcess on input line 843.
+LaTeX Info: Redefining \HepProcess on input line 664.
+LaTeX Info: Redefining \HepProcess on input line 674.
+LaTeX Info: Redefining \HepProcess on input line 690.
 
-Overfull \hbox (40.1929pt too wide) in paragraph at lines 850--883
+Overfull \hbox (40.1929pt too wide) in paragraph at lines 696--729
 [][] 
  []
 
-LaTeX Info: Redefining \HepProcess on input line 886.
-LaTeX Info: Redefining \HepProcess on input line 886.
+LaTeX Info: Redefining \HepProcess on input line 732.
+LaTeX Info: Redefining \HepProcess on input line 732.
 [15]
-Overfull \hbox (2.81099pt too wide) in paragraph at lines 888--891
-\OT1/cmr/m/n/10.95 needs to be taken for the match-ing of the hard pro-cess gen
--er-ated us-ing \OT1/cmtt/m/sc/10.95 MadGraph\OT1/cmtt/m/n/10.95 5[]a\OT1/cmtt/
-m/sc/10.95 mc@nlo \OT1/cmr/m/n/10.95 [[]]
- []
-
-LaTeX Info: Redefining \HepProcess on input line 927.
-LaTeX Info: Redefining \HepProcess on input line 927.
-[16]
-LaTeX Info: Redefining \HepProcess on input line 961.
-LaTeX Info: Redefining \HepProcess on input line 961.
+LaTeX Info: Redefining \HepProcess on input line 769.
+LaTeX Info: Redefining \HepProcess on input line 769.
+ [16]
+LaTeX Info: Redefining \HepProcess on input line 801.
+LaTeX Info: Redefining \HepProcess on input line 801.
  [17]
-LaTeX Info: Redefining \HepProcess on input line 970.
-LaTeX Info: Redefining \HepProcess on input line 975.
-LaTeX Info: Redefining \HepProcess on input line 985.
-LaTeX Info: Redefining \HepProcess on input line 1002.
-LaTeX Info: Redefining \HepProcess on input line 1002.
+LaTeX Info: Redefining \HepProcess on input line 810.
+LaTeX Info: Redefining \HepProcess on input line 815.
+LaTeX Info: Redefining \HepProcess on input line 825.
+LaTeX Info: Redefining \HepProcess on input line 842.
+LaTeX Info: Redefining \HepProcess on input line 842.
  [18]
-LaTeX Info: Redefining \HepProcess on input line 1002.
-LaTeX Info: Redefining \HepProcess on input line 1002.
+LaTeX Info: Redefining \HepProcess on input line 842.
+LaTeX Info: Redefining \HepProcess on input line 842.
  [19]
-LaTeX Info: Redefining \HepProcess on input line 1003.
+LaTeX Info: Redefining \HepProcess on input line 843.
  (./VHeft.bbl
 LaTeX Info: Redefining \HepProcess on input line 120.
 LaTeX Info: Redefining \HepProcess on input line 120.
@@ -931,182 +922,182 @@ LaTeX Info: Redefining \HepProcess on input line 379.
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¶ in font cmr10!
 )
-LaTeX Info: Redefining \HepProcess on input line 1011.
-LaTeX Info: Redefining \HepProcess on input line 1011.
+LaTeX Info: Redefining \HepProcess on input line 851.
+LaTeX Info: Redefining \HepProcess on input line 851.
  [23]
-LaTeX Info: Redefining \HepProcess on input line 1013.
-LaTeX Info: Redefining \HepProcess on input line 1096.
-LaTeX Info: Redefining \HepProcess on input line 1096.
+LaTeX Info: Redefining \HepProcess on input line 853.
+LaTeX Info: Redefining \HepProcess on input line 935.
+LaTeX Info: Redefining \HepProcess on input line 935.
  [24]
-LaTeX Info: Redefining \HepProcess on input line 1097.
-LaTeX Info: Redefining \HepProcess on input line 1097.
+LaTeX Info: Redefining \HepProcess on input line 936.
+LaTeX Info: Redefining \HepProcess on input line 936.
  [25]
-LaTeX Info: Redefining \HepProcess on input line 1099.
+LaTeX Info: Redefining \HepProcess on input line 938.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1135
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1135
+Underfull \hbox (badness 10000) in paragraph at lines 957--971
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1135
+Underfull \hbox (badness 10000) in paragraph at lines 957--971
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 957--971
 
  []
 
 Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1052
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1052
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1052
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1052
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1052
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1052
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1052
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1052
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1052
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1052
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1052
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1223
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1052
 
  []
 
-LaTeX Info: Redefining \HepProcess on input line 1223.
-LaTeX Info: Redefining \HepProcess on input line 1223.
+LaTeX Info: Redefining \HepProcess on input line 1052.
+LaTeX Info: Redefining \HepProcess on input line 1052.
 [26
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1226--1234
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1063
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1226--1234
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1063
 
  []
 
-LaTeX Info: Redefining \HepProcess on input line 1235.
-LaTeX Info: Redefining \HepProcess on input line 1235.
+LaTeX Info: Redefining \HepProcess on input line 1064.
+LaTeX Info: Redefining \HepProcess on input line 1064.
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 1237--1248
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1077
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1237--1248
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1077
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1237--1248
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1077
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1251--1254
+Underfull \hbox (badness 10000) in paragraph at lines 1080--1083
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1257--1262
+Underfull \hbox (badness 10000) in paragraph at lines 1086--1091
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1257--1262
+Underfull \hbox (badness 10000) in paragraph at lines 1086--1091
 
  []
 
-LaTeX Info: Redefining \HepProcess on input line 1263.
-LaTeX Info: Redefining \HepProcess on input line 1263.
+LaTeX Info: Redefining \HepProcess on input line 1092.
+LaTeX Info: Redefining \HepProcess on input line 1092.
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 1267--1310
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1267--1310
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1267--1310
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1267--1310
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1267--1310
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1267--1310
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1139
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1314.
-LaTeX Info: Redefining \HepProcess on input line 1314.
-LaTeX Info: Redefining \HepProcess on input line 1314.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1143.
+LaTeX Info: Redefining \HepProcess on input line 1143.
+LaTeX Info: Redefining \HepProcess on input line 1143.
 [29]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1314.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1143.
  (./VHeft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1314.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1314.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1143.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1143.
 
 Package rerunfilecheck Info: File `VHeft.out' has not changed.
 (rerunfilecheck)             Checksum: D145CDB6EC7421545E4BE8892D6783A8;1247.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1314.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1143.
  ) 
 Here is how much of TeX's memory you used:
  11151 strings out of 492982
@@ -1136,7 +1127,7 @@ dist/fonts/type1/public/amsfonts/cm/cmtcsc10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/symbols/msam10.pfb>
-Output written on VHeft.pdf (29 pages, 790218 bytes).
+Output written on VHeft.pdf (29 pages, 790542 bytes).
 PDF statistics:
  812 PDF objects out of 1000 (max. 8388607)
  696 compressed objects within 7 object streams
