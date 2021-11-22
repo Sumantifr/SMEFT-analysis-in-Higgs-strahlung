@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex VHeft"] 1637519424 "VHeft.aux" "VHeft.bbl" "VHeft" 1637609484
+["bibtex VHeft"] 1637611571 "VHeft.aux" "VHeft.bbl" "VHeft" 1637611572
   "./lucas_unsrt.bst" 1637608595 28303 bc5de134eac98d188c6ac3ef78ce1a20 ""
-  "VHeft.aux" 1637609484 18070 8dd061017bee3abd7d44ecc7be62e832 ""
+  "VHeft.aux" 1637611572 18070 3eceba680996437ae0668c61f9294778 ""
   "VHeft.bcf" 0 -1 0 ""
   "VHeft.bib" 1637608595 111603 f6a8fe22baeeda1ad79f39c86ec8e99f ""
   (generated)
   "VHeft.bbl"
   "VHeft.blg"
-["pdflatex"] 1637609483 "VHeft.tex" "VHeft.pdf" "VHeft" 1637609484
+["pdflatex"] 1637611571 "VHeft.tex" "VHeft.pdf" "VHeft" 1637611572
   "/etc/texmf/web2c/texmf.cnf" 1600747158 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvbc7t.tfm" 1480098688 2672 88159036c64e674fcd9515bc9c7052d4 ""
@@ -159,17 +159,17 @@
   "Figures/New/RECO/Resolved_Plot_phi_WH_CP.png" 1637608595 17892 f6362d29765a7b29229e14218b4d8924 ""
   "Figures/New/RECO/Resolved_Plot_phi_ZH_CP.png" 1637608595 19062 a96aa9d8f24d11c9b45c0ccd5e5068a6 ""
   "Figures/New/RECO/Selection_285.png" 1637608595 12519 a1daba22e86df69d03e0f670ffabd60c ""
-  "VHeft.aux" 1637609484 18070 8dd061017bee3abd7d44ecc7be62e832 ""
-  "VHeft.bbl" 1637608595 23441 d956f18dc185deafc5f7b23f96ae7ac7 "bibtex VHeft"
-  "VHeft.out" 1637609484 1247 d145cdb6ec7421545e4be8892d6783a8 ""
-  "VHeft.tex" 1637609478 84856 327255608611f95cdca4fea3d1437e5e ""
-  "VHeft.toc" 1637609484 1672 dbfb47defa4f7ca6aaad3ed502e28964 ""
+  "VHeft.aux" 1637611572 18070 3eceba680996437ae0668c61f9294778 ""
+  "VHeft.bbl" 1637611571 23441 d956f18dc185deafc5f7b23f96ae7ac7 "bibtex VHeft"
+  "VHeft.out" 1637611572 1247 d145cdb6ec7421545e4be8892d6783a8 ""
+  "VHeft.tex" 1637611563 82165 1a8be08eff95a68de02267a7b2765f43 ""
+  "VHeft.toc" 1637611572 1672 83182936c2bfedc25622b52fc32186d3 ""
   "hepparticles.sty" 1637608595 15569 2d08d8234ee3eb602ea662e552d5a0f8 ""
   "jheppub.sty" 1637608595 11041 e36629b50e1418819f86cffa551dd9ff ""
   "ptdr-definitions.sty" 1637608595 17496 ab525839b85e768e4cba40a7d3966de5 ""
   (generated)
-  "VHeft.aux"
   "VHeft.pdf"
-  "VHeft.toc"
-  "VHeft.log"
   "VHeft.out"
+  "VHeft.log"
+  "VHeft.toc"
+  "VHeft.aux"

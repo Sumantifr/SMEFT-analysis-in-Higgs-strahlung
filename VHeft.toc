@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {6.5}Sensitivity results}{14}{subsection.6.5}
 \contentsline {subsection}{\numberline {6.6}Possible extensions}{15}{subsection.6.6}
 \contentsline {section}{\numberline {7}Planned cooperation arrangement}{15}{section.7}
-\contentsline {section}{\numberline {8}Work and plan}{16}{section.8}
+\contentsline {section}{\numberline {8}Work and plan}{15}{section.8}
 \contentsline {section}{\numberline {9}Ethical, safety-related or regulatory aspects}{18}{section.9}
 \contentsline {section}{\numberline {10}Sex-specific and gender-related issues}{18}{section.10}
 \contentsline {section}{\numberline {11}Human resources}{18}{section.11}
