@@ -41,6 +41,27 @@
 \setlength{\bibsep}{0cm}
 \bibpunct{[}{]}{,}{n}{}{,}
 
+% for ORCID 
+\usepackage{tikz,xcolor,hyperref}
+
+\definecolor{lime}{HTML}{A6CE39}
+\DeclareRobustCommand{\orcidicon}{
+	\begin{tikzpicture}
+	\draw[lime, fill=lime] (0,0) 
+	circle [radius=0.15] 
+	node[white] {{\fontfamily{qag}\selectfont \tiny ID}};
+	\draw[white, fill=white] (-0.0625,0.095) 
+	circle [radius=0.01];
+	\end{tikzpicture}
+	\hspace{-2mm}
+}
+\foreach \x in {A, ..., Z}{\expandafter\xdef\csname orcid\x\endcsname{\noexpand\href{https://orcid.org/\csname orcidauthor\x\endcsname}
+			{\noexpand\orcidicon}}
+}
+
+\newcommand{\orcidauthorA}{0000-0003-2660-0349}
+\newcommand{\orcid}[1]{\href{https://orcid.org/#1}{\includegraphics[width=8pt]{Figures/ORCIDiD_icon16x16.png}}}
+
 \newcommand{\Wprime}{\PWpr\xspace}
 
 \newcommand{\Pb}{{{\Pqb}}\xspace}
@@ -357,7 +378,7 @@ New physics models with \PZprime or VLQs are in highlights in recent times to ex
 The phenomenological implications of the \PH--\PV coupling measurement thus radiate into neighboring research areas, while the proposed experimental program is self-contained.
 In the following section, I aim to establish that. 
 
-\section{Method}
+\section{Methods}
 \label{sec:method}
 
 We target to use the combined data set collected by the CMS experiment during the LHC Run~2, corresponding to an integrated luminosity of 139\fbinv at $\sqrt{s}=13\TeV$, and the LHC Run~3, currently estimated at $160\fbinv$.
@@ -634,7 +655,7 @@ Latest developments in DNN-based methods for vector boson tagging can be used to
 Strategies developed for the proposed measurement, e.g., background estimation, calibration of trigger efficiencies and \PH tagger, SM-EFT interpretation can also be extended to searches with $\textrm{\PV}\rightarrow \Pl^{+}\Pl^{-} / \Pl \Pgn$ and $\PH \to \Pb \PAb$ in the final state, particularly in the context of a heavy resonance decaying to \PV~and~{\PH}. 
 
 
-\section{Planned cooperation arrangement} 
+\section{Intended cooperation arrangement} 
 
 The work will be conducted by a PhD student~(N.N.) under the supervision of the principal investigator~(PI) Dr. Suman Chatterjee and within the  CMS data analysis group at the Institute of High Energy Physics (HEPHY) of the Austrian Academy of Sciences. The PI and the PhD student are members of the CMS Collaboration and will work full time on the project. 
 
@@ -646,11 +667,11 @@ The group recently submitted a paper on measuring the $\Pt\PAt\Pgg$ process and 
 There is also ongoing work on constraining SM-EFT operators in the $\Pt\PW\PZ$ process supported by FWF grant P33771. 
 The existing expertise in the group will help in the smooth execution of the proposed measurement, which will also broaden the scope of the group's activities.
 
-The CMS data analysis group at HEPHY consists of five staff scientists,  three post-doctoral researchers,  and five PhD students working on supersymmetry, long-lived signatures,  searches for BSM Higgs boson decaying to a pair of $\tau$ leptons,  and top quark physics. 
+The CMS data analysis group at HEPHY consists of five staff scientists,  three post-doctoral researchers,  and five PhD students working on supersymmetry, long-lived signatures, searches for additional neutral Higgs bosons decaying to a pair of $\tau$ leptons, and top quark physics. 
 The diverse expertise of the group members will help
 to develop new ideas and implement those in the CMS Collaboration.
 
-\section{Work and plan}
+\section{Work plan and timeline}
 
 The work will be carried out by a PhD student~(N.N.) and the applicant and PI Dr. Suman Chatterjee, both working full time on the project. 
 In the following, the tasks are described in approximate chronological order and are summarized in Table~\ref{tab:workplan}.%Fig.~\ref{fig:workplan}.
@@ -815,7 +836,7 @@ His feedback on documentation and presentation of the results will be constructi
 
 \newpage
 
-\section{Research institution and required funding}
+\section{Research institution and requested funding}
 
 The Institute of High Energy Physics (HEPHY) of the Austrian Academy of Sciences was founded in 1966. 
 Its main purpose is the research in high energy physics and to highlight Austria's membership at CERN. 
@@ -833,8 +854,7 @@ storage for analysis work.
 \item Video-conferencing equipment for daily communication with other CMS physicists and participation in CMS Collaboration meetings.
 \end{itemize}
 
-This project application requests funding for one PhD student for 48
-months (EUR 39.780 per year in 2021). 
+This project application requests funding for one PhD student for 48 months (EUR 39.780 per year in 2021). 
 The PI S. Chatterjee is a post-doctoral researcher at HEPHY.
 Upon a positive funding decision by the FWF, a call for the PhD student will be opened, advertised inside and outside Austria, and made equally accessible to physicists regardless of their race, color, creed, national origin, religion, family status, sexual orientation, age, and political beliefs. 
 In order to improve the gender balance at HEPHY ($\sim 23\%$), a suitable female candidate will be given preference.
@@ -872,9 +892,8 @@ Total & EUR & 20.620 & For 4 years in total
 
 Funding is also requested for computational costs amounting to EUR 1.250, assuming the use of 100 CPU hours per working day for four years, where each CPU hour costs about EUR 0,01.
 
-The institute needs to pay about EUR 10.000 per year to the CMS Collaboration on behalf of the PI for maintenance and operation (M$\&$O) of the experiment. This is also requested in the proposal.
-An extra $5\%$ of the total that amounts to EUR 220.990 is requested to cover other unexpected costs.  
-Total requested funding sums up to EUR 232.039.  
+An extra $5\%$ of the total that amounts to EUR 180.990 is requested to cover other unexpected costs.  
+Total requested funding sums up to EUR 190.040.  
 A summary of the total costs of the project is provided in Table~\ref{Tab:Total_cost}.
 \begin{table}
 \caption{The total amount of requested funding along with divisions for different items.}
@@ -886,11 +905,10 @@ Item & \multicolumn{2}{c}{ Cost } \\
 PhD student's salary & EUR & 159.120  \\
 PhD student's travel costs & EUR & 20.620 \\
 Computational costs & EUR & 1.250 \\
-M$\&$O of the PI (for 4 years) & EUR & 40.000 \\
 \hline
-General costs ($5\%$) & EUR & 11.049  \\
+General costs ($5\%$) & EUR & 9.050  \\
 \hline
-Total & EUR & 232.039
+Total & EUR & 190.040
 \end{tabular}
 }
 \end{center}
@@ -900,15 +918,16 @@ Total & EUR & 232.039
 \newpage
 \clearpage
 
-\section{CV of the PI}
+\section{Academic CV of the principal investigator Suman Chatterjee}
 
 \subsection*{\underline{Personal Data}}
 
-\textbf{Age:} 27 years (as of February 1, 2021)\\
+\textbf{Date of birth:} January 30, 1994\\
 \textbf{Nationality:} Indian \\
 \textbf{Sex:} Male \\
 \textbf{Affiliation:} Institute of High Energy Physics of the Austrian Academy of Sciences, 1050 Vienna \\
-\textbf{Designation:} Post-doctoral researcher 
+\textbf{Designation:} Post-doctoral researcher \\
+\textbf{ORCID \orcid:} {\href{https://orcid.org/0000-0003-2660-0349}{0000-0003-2660-0349} (also see the list of my all publications in {\href{https://inspirehep.net/authors/1471776}{inspirehep.net}})
 
 \subsection*{\underline{Contact Details}}
 
@@ -932,7 +951,7 @@ Tata Institute of Fundamental Research, Mumbai 400005, India\\
 \textbf{2011-2014:}
 Bachelor of Science in Physics (Remark: 1st class)\\
 Department of Physics\\
-Jadavpur University, Kolkata  700032, India\\
+Jadavpur University, Kolkata  700032, India
 
 \subsection*{\underline{Achievements}}
 
@@ -945,6 +964,21 @@ Jadavpur University, Kolkata  700032, India\\
 \textbf{2011} \ & Awarded by the Chief Minister of the state of West Bengal for securing \textbf{the 4$^{\rm{th}}$ rank in the state} in Higher Secondary (10+2) Examination (conducted by West Bengal Council for Higher Secondary Education)  \\
 \end{tabular}
 
+\subsection*{\underline{Research Experience}}
+
+\textbf{Search for MSSM $\PH\rightarrow \tau\tau$:}
+A search is being performed for additional Higgs bosons, predicted by minimal supersymmetric extensions of the standard model, in the $\tau\tau$ final state. I've measured the contribution of background processes where hadronic jets fake as $\tau$ leptons.~[ongoing]\\
+\textbf{Search for $\textrm{W}^\prime \rightarrow \Pt \Pb$:}
+A search is performed for W$^\prime$ bosons decaying to a bottom and a top quark followed in hadronic final state using deep neural network based algorithms for heavy-quark identification.
+Both left- and right-handed W$^\prime$ bosons of masses less than 3.4\,TeV are excluded.~[\href{https://doi.org/10.1016/j.physletb.2021.136535}{Phys. Lett. B 820 (2021) 136535}]\\
+\textbf{Radius scan for inclusive jets:}
+The dependence of inclusive jet production cross sections on the anti-$k_{\mathrm{T}}$ distance parameter in proton-proton collision at $\sqrt{s}=13$\,TeV is studied. The results are compared to calculations at leading and next-to-leading order in the strong coupling using different parton shower models, and also to fixed-order calculations including nonperturbative effects and resummation of soft gluons.~[\href{https://doi.org/10.1007/JHEP12(2020)082}{JHEP 12 (2020) 082}]. The first results from collider experiments is reported in the corresponding public document~\href{http://cds.cern.ch/record/2682598?ln=en}{CMS-PAS-SMP-19-003}.\\
+\textbf{Calibration of outer hadron calorimeter:}
+The utility of a correction on the calibration factor of the outer hadron calorimeter in CMS object reconstruction algorithm  has been explored with the collision data using hadronic jets. The analysis finds the calibration factor which results to the best resolution in jet transverse momentum.~[\href{https://doi.org/10.1088/1748-0221/15/05/P05002}{JINST 15 (2020) P05002}]\\
+\textbf{Tagging top quarks decaying to electrons:}
+A method is proposed to identify jets consisting of all the visible remnants of a boosted top quark where W boson from the top quark decays into an electron. The method not only reduces the backgrounds from standard model objects, but is also able to tell apart jets rich in electrons but not due to top quark decays.~[\href{https://doi.org/10.1007/JHEP01(2020)170}{JHEP 01 (2020) 170}]\\
+\textbf{Study of a two component dark matter model:}
+A detailed study of the phenomenology of a multicomponent dark matter scenario with a scalar weakly interacting massive particle and the QCD axion is performed in the light of the data from dark matter detection experiments and LHC results.~[\href{https://doi.org/10.1103/PhysRevD.100.115050}{Phys. Rev. D 100, 115050 (2019)}]
 
 \begin{comment}
 \subsection*{\underline{CMS Internal Notes \small{(excluding the notes corresponding to the papers)}}}
@@ -965,11 +999,14 @@ Jadavpur University, Kolkata  700032, India\\
 \end{comment}
 
 
-\subsection*{\underline{Oral Presentations at Conferences, Workshops}}
+\subsection*{\underline{Presentations at Conferences, Workshops}}
 
 \textbf{September 2021} \ \textbf{Joint annual meeting of Austrian and Swiss physical societies, Innsbruck, Austria} \\
 \textit{Parallel talk}\hspace{0.5cm}
 SM-EFT results in Higgs sector from the CMS experiment\\
+\\
+\textbf{June 2021} \ \textbf{Large Hadron Collider Physics conference 2021, Paris, France (online)}\\
+\textit{Poster}\hspace{0.5cm}Search for W$^{\prime}$ bosons decaying to a top and a bottom quark at $\sqrt{s}=13$\,TeV\\
 \\
 \textbf{July 2021} \ \textbf{European Conference on High Energy Physics 2021, Hamburg, Germany (online)} \\
 \textit{Parallel talk}\hspace{0.5cm}
@@ -1013,7 +1050,8 @@ Radius Scan for Inclusive Jets in CMS Experiment at $\sqrt{s} =$ 13\,TeV \\
 \\
 \textbf{Dec 2016} \ \textbf{XXII DAE-BRNS High Energy Physics Symposium, Delhi, India} \\
 \textit{Parallel talk}\hspace{0.5cm}
-Perspectives for a Radius Scan in Inclusive Jets at 13\,TeV with CMS  \\
+Perspectives for a Radius Scan in Inclusive Jets at 13\,TeV with CMS  
+\begin{comment}
 
 \subsection*{\underline{Poster Presentations}}
 
@@ -1026,6 +1064,7 @@ Radius scan for inclusive jets at $\sqrt{s}=$ 13\,TeV\\
 %\textbf{Dec 2016} \ \textbf{XXII DAE-BRNS High Energy Physics Symposium, Delhi, India}\\
 %HO weight factor in particle flow algorithm in CMS\\
 
+\end{comment}
 \subsection*{\underline{Teaching Experience}}
 
 \textbf{Autumn 2019: Teaching assistant}\\
@@ -1037,22 +1076,22 @@ Lecture and hands-on exercise on algorithms used in particle physics for event g
 at the XII School on Experimental High Energy Physics conducted by the Science and Engineering Research Board in India at TIFR, Mumbai \\
 \\
 \textbf{Autumn 2016: Teaching assistant}\\
-Course: Advanced Electrodynamics at TIFR, Mumbai\\
+Course: Advanced Electrodynamics at TIFR, Mumbai
 %Instructor: Prof. G. Ravindra Kumar, TIFR\\
 
 \subsection*{\underline{Supervision Experience}}
 
 \textbf{Anirban Bala} (PhD student at TIFR, Mumbai, Advisor: Prof. M. Guchait):\\
 During his departmental project I (July-September, 2020) under Prof. G. Majumder \\
-Designed the project and mentored thoroughly during its implementation\\
+Designed the project and mentored thoroughly during its implementation
 
 \subsection*{\underline{Organizational Responsibilities}}
 
-\textbf{XII School on Experimental High Energy Physics} at TIFR, Mumbai\\
+\textbf{XII School on Experimental High Energy Physics} at TIFR, Mumbai:
 Helped the organization at the institute level\\
 \\
-\textbf{SUSY 2017} conference at TIFR, Mumbai\\
-Led the team of volunteers \\
+\textbf{SUSY 2017} conference at TIFR, Mumbai:
+Led the team of volunteers for local organization\\
 
 \newpage
 
@@ -1061,7 +1100,7 @@ Led the team of volunteers \\
 \textbf{1:} {
 Search for a W$^\prime$ boson decaying to a top and a bottom quark at $\sqrt{s}=13$\,TeV}\\
 CMS Collaboration \\
-Phys. Lett. B 820 (2021) 136535 \\
+\href{https://doi.org/10.1016/j.physletb.2021.136535}{Phys. Lett. B 820 (2021) 136535} \\
 \textit{Most stringent limits published to date on right- and left-handed W$^\prime$ bosons decaying to a top and a bottom quark.}\\
 \\
 %\textbf{2:} \textit{
@@ -1072,22 +1111,22 @@ Phys. Lett. B 820 (2021) 136535 \\
 \textbf{2:} {
 Dependence of inclusive jet production on the anti$\mbox{-}k_T$ distance parameter in pp collisions at $\sqrt{s} = 13$\,TeV}\\
 CMS Collaboration \\
-JHEP 12 (2020) 082\\
-\textit{First public results from colliders on dependence of inclusive jet cross section on jet size.}\\
+\href{https://doi.org/10.1007/JHEP12(2020)082}{JHEP 12 (2020) 082}\\
+\textit{First public results from colliders on the dependence of inclusive jet cross section on jet size.}\\
 \\
 \textbf{3:} {Calibration of the CMS hadron calorimeters using proton-proton collision data at $\sqrt{s}= 13$\,TeV}\\
 CMS Collaboration \\
-JINST 15 (2020) P05002\\
-\textit{Absolute calibration of outer hadron calorimeter in particle-flow algorithm in CMS.}\\
+\href{https://doi.org/10.1088/1748-0221/15/05/P05002}{JINST 15 (2020) P05002}\\
+\textit{The first derivation of absolute calibration of outer hadron calorimeter in particle-flow algorithm in CMS using collider data.}\\
 \\
 \textbf{4:} {Jets with electrons from boosted top quarks}\\
 Suman Chatterjee, Rohini Godbole, and Tuhin S. Roy\\
-JHEP 01 (2020) 170\\
-\textit{An algorithm to identify boosted top quarks decaying where W boson from top quark decays to an electron using jet substructure techniques.}\\
+\href{https://doi.org/10.1007/JHEP01(2020)170}{JHEP 01 (2020) 170}\\
+\textit{A new algorithm to identify boosted top quarks where W boson from top quark decays to an electron using jet substructure techniques.}\\
 \\
 \textbf{5:} {Mixed WIMP-axion dark matter}\\
 Suman Chatterjee, Anirban Das, Tousik Samui, and Manibrata Sen\\
-Phys. Rev. D 100, 115050\\
+\href{https://doi.org/10.1103/PhysRevD.100.115050}{Phys. Rev. D 100, 115050}\\
 \textit{A detailed study of the phenomenology of a multi-component dark matter scenario with
 a scalar WIMP and the QCD axion in the light of the latest data from dark matter detection experiments and
 LHC results.}\\
@@ -1098,10 +1137,9 @@ LHC results.}\\
 %\\
 \textbf{6:} {Dose rate effects in the radiation damage of the plastic scintillators of the CMS hadron endcap calorimeter}\\
 CMS Collaboration \\
-2016 JINST 11 T10004\\
+\href{https://doi.org/10.1088/1748-0221/11/10/T10004}{2016 JINST 11 T10004}\\
 %arXiv:1608.07267\\
 \textit{Measurements of change in light output by plastic scintillators in the CMS hadron endcap due to irradiation during the collisions at LHC at $\sqrt{s} = 8$\,TeV.}\\
-
 
 %------------------------------------------------
 
