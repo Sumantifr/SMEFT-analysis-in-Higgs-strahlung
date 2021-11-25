@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.18)  24 NOV 2021 22:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.12.18)  25 NOV 2021 22:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -979,38 +979,38 @@ LaTeX Info: Redefining \HepProcess on input line 408.
 LaTeX Info: Redefining \HepProcess on input line 438.
 LaTeX Info: Redefining \HepProcess on input line 438.
  [9]
-<Figures/New/RECO/Plot_Resolved_SR_V_pt_WH.png, id=390, 598.235pt x 752.8125pt>
+<Figures/New/RECO/Plot_Resolved_SR_V_pt_WH.png, id=394, 598.235pt x 752.8125pt>
 
 File: Figures/New/RECO/Plot_Resolved_SR_V_pt_WH.png Graphic file (type png)
 <use Figures/New/RECO/Plot_Resolved_SR_V_pt_WH.png>
 Package pdftex.def Info: Figures/New/RECO/Plot_Resolved_SR_V_pt_WH.png  used on
  input line 467.
 (pdftex.def)             Requested size: 223.00133pt x 280.62689pt.
-<Figures/New/RECO/Plot_Boosted_SR_V_pt_WH.png, id=391, 598.235pt x 752.8125pt>
+<Figures/New/RECO/Plot_Boosted_SR_V_pt_WH.png, id=395, 598.235pt x 752.8125pt>
 File: Figures/New/RECO/Plot_Boosted_SR_V_pt_WH.png Graphic file (type png)
 <use Figures/New/RECO/Plot_Boosted_SR_V_pt_WH.png>
 Package pdftex.def Info: Figures/New/RECO/Plot_Boosted_SR_V_pt_WH.png  used on 
 input line 468.
 (pdftex.def)             Requested size: 223.00133pt x 280.62689pt.
-<Figures/New/RECO/Boosted_Plot_Theta_WH.png, id=398, 798.985pt x 574.145pt>
+<Figures/New/RECO/Boosted_Plot_Theta_WH.png, id=401, 798.985pt x 574.145pt>
 File: Figures/New/RECO/Boosted_Plot_Theta_WH.png Graphic file (type png)
 <use Figures/New/RECO/Boosted_Plot_Theta_WH.png>
 Package pdftex.def Info: Figures/New/RECO/Boosted_Plot_Theta_WH.png  used on in
 put line 491.
 (pdftex.def)             Requested size: 223.00133pt x 160.24261pt.
-<Figures/New/RECO/Boosted_Plot_Theta_ZH.png, id=399, 798.985pt x 574.145pt>
+<Figures/New/RECO/Boosted_Plot_Theta_ZH.png, id=402, 798.985pt x 574.145pt>
 File: Figures/New/RECO/Boosted_Plot_Theta_ZH.png Graphic file (type png)
 <use Figures/New/RECO/Boosted_Plot_Theta_ZH.png>
 Package pdftex.def Info: Figures/New/RECO/Boosted_Plot_Theta_ZH.png  used on in
 put line 492.
 (pdftex.def)             Requested size: 223.00133pt x 160.24261pt.
-<Figures/New/RECO/Resolved_Plot_phi_WH_CP.png, id=400, 798.985pt x 574.145pt>
+<Figures/New/RECO/Resolved_Plot_phi_WH_CP.png, id=403, 798.985pt x 574.145pt>
 File: Figures/New/RECO/Resolved_Plot_phi_WH_CP.png Graphic file (type png)
 <use Figures/New/RECO/Resolved_Plot_phi_WH_CP.png>
 Package pdftex.def Info: Figures/New/RECO/Resolved_Plot_phi_WH_CP.png  used on 
 input line 493.
 (pdftex.def)             Requested size: 223.00133pt x 160.24261pt.
-<Figures/New/RECO/Resolved_Plot_phi_ZH_CP.png, id=401, 798.985pt x 574.145pt>
+<Figures/New/RECO/Resolved_Plot_phi_ZH_CP.png, id=404, 798.985pt x 574.145pt>
 File: Figures/New/RECO/Resolved_Plot_phi_ZH_CP.png Graphic file (type png)
 <use Figures/New/RECO/Resolved_Plot_phi_ZH_CP.png>
 Package pdftex.def Info: Figures/New/RECO/Resolved_Plot_phi_ZH_CP.png  used on 
@@ -1020,7 +1020,7 @@ LaTeX Info: Redefining \HepProcess on input line 503.
 LaTeX Info: Redefining \HepProcess on input line 509.
 LaTeX Info: Redefining \HepProcess on input line 509.
  [10]
-<Figures/New/RECO/Resolved_Plot_2D_phi_unweighted.png, id=409, 798.985pt x 574.
+<Figures/New/RECO/Resolved_Plot_2D_phi_unweighted.png, id=412, 798.985pt x 574.
 145pt>
 File: Figures/New/RECO/Resolved_Plot_2D_phi_unweighted.png Graphic file (type p
 ng)
@@ -1028,7 +1028,7 @@ ng)
 Package pdftex.def Info: Figures/New/RECO/Resolved_Plot_2D_phi_unweighted.png  
 used on input line 521.
 (pdftex.def)             Requested size: 232.38557pt x 166.98839pt.
-<Figures/New/RECO/Boosted_Plot_2D_phi_unweighted.png, id=410, 798.985pt x 574.1
+<Figures/New/RECO/Boosted_Plot_2D_phi_unweighted.png, id=413, 798.985pt x 574.1
 45pt>
 File: Figures/New/RECO/Boosted_Plot_2D_phi_unweighted.png Graphic file (type pn
 g)
@@ -1052,7 +1052,7 @@ LaTeX Info: Redefining \HepProcess on input line 590.
 Plot_Theta_ZH.png> <./Figures/New/RECO/Resolved_Plot_phi_WH_CP.png> <./Figures/
 New/RECO/Resolved_Plot_phi_ZH_CP.png> <./Figures/New/RECO/Resolved_Plot_2D_phi_
 unweighted.png> <./Figures/New/RECO/Boosted_Plot_2D_phi_unweighted.png>]
-<Figures/New/RECO/Plot_WH_MVA_WH_fast_resolved.png, id=427, 798.985pt x 574.145
+<Figures/New/RECO/Plot_WH_MVA_WH_fast_resolved.png, id=430, 798.985pt x 574.145
 pt>
 File: Figures/New/RECO/Plot_WH_MVA_WH_fast_resolved.png Graphic file (type png)
 
@@ -1060,13 +1060,13 @@ File: Figures/New/RECO/Plot_WH_MVA_WH_fast_resolved.png Graphic file (type png)
 Package pdftex.def Info: Figures/New/RECO/Plot_WH_MVA_WH_fast_resolved.png  use
 d on input line 593.
 (pdftex.def)             Requested size: 140.84256pt x 101.20401pt.
-<Figures/New/RECO/ROC_plot_TT_MVA_resolved.png, id=428, 798.985pt x 574.145pt>
+<Figures/New/RECO/ROC_plot_TT_MVA_resolved.png, id=431, 798.985pt x 574.145pt>
 File: Figures/New/RECO/ROC_plot_TT_MVA_resolved.png Graphic file (type png)
 <use Figures/New/RECO/ROC_plot_TT_MVA_resolved.png>
 Package pdftex.def Info: Figures/New/RECO/ROC_plot_TT_MVA_resolved.png  used on
  input line 594.
 (pdftex.def)             Requested size: 140.84256pt x 101.20401pt.
-<Figures/New/RECO/Plot_Resolved_SR_V_pt_sigpurity.png, id=429, 798.985pt x 574.
+<Figures/New/RECO/Plot_Resolved_SR_V_pt_sigpurity.png, id=432, 798.985pt x 574.
 145pt>
 File: Figures/New/RECO/Plot_Resolved_SR_V_pt_sigpurity.png Graphic file (type p
 ng)
@@ -1074,20 +1074,20 @@ ng)
 Package pdftex.def Info: Figures/New/RECO/Plot_Resolved_SR_V_pt_sigpurity.png  
 used on input line 596.
 (pdftex.def)             Requested size: 140.84256pt x 101.20401pt.
-<Figures/New/RECO/Plot_WH_MVA_WH_fast_boosted.png, id=430, 798.985pt x 574.145p
+<Figures/New/RECO/Plot_WH_MVA_WH_fast_boosted.png, id=433, 798.985pt x 574.145p
 t>
 File: Figures/New/RECO/Plot_WH_MVA_WH_fast_boosted.png Graphic file (type png)
 <use Figures/New/RECO/Plot_WH_MVA_WH_fast_boosted.png>
 Package pdftex.def Info: Figures/New/RECO/Plot_WH_MVA_WH_fast_boosted.png  used
  on input line 597.
 (pdftex.def)             Requested size: 140.84256pt x 101.20401pt.
-<Figures/New/RECO/ROC_plot_TT_MVA_boosted.png, id=431, 798.985pt x 574.145pt>
+<Figures/New/RECO/ROC_plot_TT_MVA_boosted.png, id=434, 798.985pt x 574.145pt>
 File: Figures/New/RECO/ROC_plot_TT_MVA_boosted.png Graphic file (type png)
 <use Figures/New/RECO/ROC_plot_TT_MVA_boosted.png>
 Package pdftex.def Info: Figures/New/RECO/ROC_plot_TT_MVA_boosted.png  used on 
 input line 598.
 (pdftex.def)             Requested size: 140.84256pt x 101.20401pt.
-<Figures/New/RECO/Plot_Boosted_SR_V_pt_sigpurity.png, id=432, 798.985pt x 574.1
+<Figures/New/RECO/Plot_Boosted_SR_V_pt_sigpurity.png, id=435, 798.985pt x 574.1
 45pt>
 File: Figures/New/RECO/Plot_Boosted_SR_V_pt_sigpurity.png Graphic file (type pn
 g)
@@ -1109,21 +1109,21 @@ y.png> <./Figures/New/RECO/Plot_WH_MVA_WH_fast_boosted.png> <./Figures/New/RECO
 /ROC_plot_TT_MVA_boosted.png> <./Figures/New/RECO/Plot_Boosted_SR_V_pt_sigpurit
 y.png>]
 LaTeX Info: Redefining \HepProcess on input line 615.
-<Figures/New/RECO/Full_NLL_WC_cpq3i_2019_opt2.png, id=448, 798.985pt x 574.145p
+<Figures/New/RECO/Full_NLL_WC_cpq3i_2019_opt2.png, id=451, 798.985pt x 574.145p
 t>
 File: Figures/New/RECO/Full_NLL_WC_cpq3i_2019_opt2.png Graphic file (type png)
 <use Figures/New/RECO/Full_NLL_WC_cpq3i_2019_opt2.png>
 Package pdftex.def Info: Figures/New/RECO/Full_NLL_WC_cpq3i_2019_opt2.png  used
  on input line 627.
 (pdftex.def)             Requested size: 230.04309pt x 165.30632pt.
-<Figures/New/RECO/Full_NLL_WC_cpW_2019_opt2.png, id=449, 798.985pt x 574.145pt>
+<Figures/New/RECO/Full_NLL_WC_cpW_2019_opt2.png, id=452, 798.985pt x 574.145pt>
 
 File: Figures/New/RECO/Full_NLL_WC_cpW_2019_opt2.png Graphic file (type png)
 <use Figures/New/RECO/Full_NLL_WC_cpW_2019_opt2.png>
 Package pdftex.def Info: Figures/New/RECO/Full_NLL_WC_cpW_2019_opt2.png  used o
 n input line 628.
 (pdftex.def)             Requested size: 230.04309pt x 165.30632pt.
-<Figures/New/RECO/Full_NLL_WC_cpWtilde_2019_opt2.png, id=450, 798.985pt x 574.1
+<Figures/New/RECO/Full_NLL_WC_cpWtilde_2019_opt2.png, id=453, 798.985pt x 574.1
 45pt>
 File: Figures/New/RECO/Full_NLL_WC_cpWtilde_2019_opt2.png Graphic file (type pn
 g)
@@ -1131,7 +1131,7 @@ g)
 Package pdftex.def Info: Figures/New/RECO/Full_NLL_WC_cpWtilde_2019_opt2.png  u
 sed on input line 629.
 (pdftex.def)             Requested size: 230.04309pt x 165.30632pt.
-<Figures/New/RECO/Selection_285.png, id=451, 565.11125pt x 270.00874pt>
+<Figures/New/RECO/Selection_285.png, id=454, 565.11125pt x 270.00874pt>
 File: Figures/New/RECO/Selection_285.png Graphic file (type png)
 <use Figures/New/RECO/Selection_285.png>
 Package pdftex.def Info: Figures/New/RECO/Selection_285.png  used on input line
@@ -1260,7 +1260,7 @@ LaTeX Info: Redefining \HepProcess on input line 920.
 LaTeX Info: Redefining \HepProcess on input line 920.
  [25]
 LaTeX Info: Redefining \HepProcess on input line 922.
-<Figures/ORCIDiD_icon16x16.png, id=684, 16.06pt x 16.06pt>
+<Figures/ORCIDiD_icon16x16.png, id=699, 16.06pt x 16.06pt>
 File: Figures/ORCIDiD_icon16x16.png Graphic file (type png)
 <use Figures/ORCIDiD_icon16x16.png>
 Package pdftex.def Info: Figures/ORCIDiD_icon16x16.png  used on input line 931.
@@ -1363,63 +1363,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 1091--1096
 
  []
 
-LaTeX Info: Redefining \HepProcess on input line 1097.
-LaTeX Info: Redefining \HepProcess on input line 1097.
+LaTeX Info: Redefining \HepProcess on input line 1099.
+LaTeX Info: Redefining \HepProcess on input line 1099.
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 1101--1144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1101--1144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1101--1144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1101--1144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1101--1144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1101--1144
-
- []
-
-LaTeX Info: Redefining \HepProcess on input line 1147.
-LaTeX Info: Redefining \HepProcess on input line 1147.
-[29]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1147.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1147.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1099.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1099.
  (./VHeft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1147.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1147.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1099.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1099.
 
 Package rerunfilecheck Info: File `VHeft.out' has not changed.
 (rerunfilecheck)             Checksum: B73B97A1B69DEDEDD02B97A24B6EC0E2;1305.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1147.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1099.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 931 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 20578 strings out of 492982
- 356627 string characters out of 6134895
- 466929 words of memory out of 5000000
- 23574 multiletter control sequences out of 15000+600000
+ 20593 strings out of 492982
+ 356997 string characters out of 6134895
+ 467015 words of memory out of 5000000
+ 23587 multiletter control sequences out of 15000+600000
  17516 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,23n,54p,689b,746s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,23n,54p,687b,746s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/c
 mbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
@@ -1433,20 +1401,22 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive
 onts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmtcsc10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb>
-Output written on VHeft.pdf (29 pages, 810934 bytes).
+msfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmtcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/symbols/msam10.pfb>
+Output written on VHeft.pdf (28 pages, 823360 bytes).
 PDF statistics:
- 846 PDF objects out of 1000 (max. 8388607)
- 724 compressed objects within 8 object streams
- 172 named destinations out of 1000 (max. 500000)
+ 856 PDF objects out of 1000 (max. 8388607)
+ 733 compressed objects within 8 object streams
+ 174 named destinations out of 1000 (max. 500000)
  328 words of extra memory for PDF output out of 10000 (max. 10000000)
 

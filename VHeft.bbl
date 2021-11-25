@@ -369,6 +369,35 @@ J.~J. Ethier\hrefCMSnoop {}{ {et~al.}, ``{Combined SMEFT interpretation of
   \href{http://dx.doi.org/10.1103/PhysRevD.86.015021}{\doi{10.1103/PhysRevD.86.015021}},
   \href{http://www.arXiv.org/abs/1205.4733}{\texttt{arXiv:1205.4733}}.
 
+\bibitem{Kumar:2018kmr}
+\hrefCMSnoop {}{J.~Kumar, D.~London, and R.~Watanabe, ``{Combined Explanations
+  of the $b \to s \mu^+ \mu^-$ and $b \to c \tau^- {\bar\nu}$ Anomalies: a
+  General Model Analysis}'',} \textit{ Phys. Rev. D} \textbf{ 99} (2019),
+  no.~1, 015007,
+  \href{http://dx.doi.org/10.1103/PhysRevD.99.015007}{\doi{10.1103/PhysRevD.99.015007}},
+  \href{http://www.arXiv.org/abs/1806.07403}{\texttt{arXiv:1806.07403}}.
+
+\bibitem{Bhattacharya:2016mcc}
+B.~Bhattacharya\hrefCMSnoop {}{ {et~al.}, ``{Simultaneous Explanation of the
+  $R_K$ and $R_{D^{(*)}}$ Puzzles: a Model Analysis}'',} \textit{ JHEP}
+  \textbf{ 01} (2017) 015,
+  \href{http://dx.doi.org/10.1007/JHEP01(2017)015}{\doi{10.1007/JHEP01(2017)015}},
+  \href{http://www.arXiv.org/abs/1609.09078}{\texttt{arXiv:1609.09078}}.
+
+\bibitem{Buttazzo:2017ixm}
+\hrefCMSnoop {}{D.~Buttazzo, A.~Greljo, G.~Isidori, and D.~Marzocca,
+  ``{B-physics anomalies: a guide to combined explanations}'',} \textit{ JHEP}
+  \textbf{ 11} (2017) 044,
+  \href{http://dx.doi.org/10.1007/JHEP11(2017)044}{\doi{10.1007/JHEP11(2017)044}},
+  \href{http://www.arXiv.org/abs/1706.07808}{\texttt{arXiv:1706.07808}}.
+
+\bibitem{Crivellin:2017zlb}
+\hrefCMSnoop {}{A.~Crivellin, D.~M\"uller, and T.~Ota, ``{Simultaneous
+  explanation of R(D$^{(*)}$) and b $\rightarrow$ s ${\mu}^{+}{\mu}^{-}$: the
+  last scalar leptoquarks standing}'',} \textit{ JHEP} \textbf{ 09} (2017) 040,
+  \href{http://dx.doi.org/10.1007/JHEP09(2017)040}{\doi{10.1007/JHEP09(2017)040}},
+  \href{http://www.arXiv.org/abs/1703.09226}{\texttt{arXiv:1703.09226}}.
+
 \bibitem{Alwall:2014hca}
 J.~Alwall\hrefCMSnoop {}{ {et~al.}, ``{The automated computation of tree-level
   and next-to-leading order differential cross sections, and their matching to
