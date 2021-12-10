@@ -14,7 +14,7 @@
 %\usepackage{graphicx}
 %\usepackage{slashed}             
 %\usepackage{url}
-\usepackage{xcolor}
+\usepackage{xcolor,colortbl,hhline}
 \usepackage{multirow}
 %\usepackage{multicol}
 
@@ -76,6 +76,10 @@
 \newcommand{\PAc}{{{{\Paqc}}}\xspace}
 \newcommand{\PAd}{{{{\Paqd}}}\xspace}
 \newcommand{\PAu}{{{{\Paqu}}}\xspace}
+
+\newbox\strutbox
+\setbox\strutbox=\hbox{\vrule height10pt depth2.5pt width0.15pt}
+\def\strut{\relax\ifmmode\copy\strutbox\else\unhcopy\strutbox\fi}
 
 %\renewcommand{\Pl}{\ensuremath{\cmsSymbolFace{l}}\xspace}
 
@@ -408,7 +412,7 @@ While SM-EFT effects in background processes, e.g., from diboson production, are
 \subsection{Event preselection and categorization}
 
 All results are obtained from events generated with \texttt{Madgraph5\_aMC@NLO}~\cite{Alwall:2014hca} and simulated up to the CMS detector level. 
-The SM-EFT effects in the \VH signal are incorporated with \texttt{MadWeight}~\cite{Artoisenet:2008zz} and using the \texttt{SMEFTsim}~model~\cite{Brivio:2017btx}.
+The SM-EFT effects in the \VH signal are incorporated with \texttt{MadWeight}~\cite{Artoisenet:2008zz} and using the \texttt{SMEFTsim}~model~\cite{Brivio:2017btx,Brivio:2020onw}.
 
 The CMS trigger system selects the \VH events based on the presence of leptons~(electrons or muons) originating from the \PW or \PZ bosons.
 After the trigger decision, we select $\PW\PH$ candidate events by requiring an electron or a muon with \pt$>32$ and $>25$\GeV, respectively. 
@@ -658,6 +662,7 @@ Strategies developed for the proposed measurement, e.g., background estimation, 
 \section{Intended cooperation arrangement} 
 
 The work will be conducted by a PhD student~(N.N.) under the supervision of the principal investigator~(PI) Dr. Suman Chatterjee and within the  CMS data analysis group at the Institute of High Energy Physics (HEPHY) of the Austrian Academy of Sciences. The PI and the PhD student are members of the CMS Collaboration and will work full time on the project. 
+There are no national or international cooperation arrangements planned for the tasks in this proposal.
 
 The reconstructed data, the simulated background samples, and the object calibration are provided centrally by the CMS Collaboration. 
 Ideas and updates will be presented at regular intervals in internal meetings at HEPHY and within the CMS working groups. 
@@ -684,33 +689,61 @@ In the following, the tasks are described in approximate chronological order and
       \multicolumn{3}{c|}{2024 ($\int \mathcal{L}dt \sim 160$\fbinv)} &
       \multicolumn{3}{c|}{2025} &
       \multicolumn{1}{c|}{2026} \\
-    & Apr-Jun & July-Sep & Oct-Dec & Jan-Apr & May-Aug & Sep-Dec & Jan-Apr & May-Aug & Sep-Dec & Jan-Apr & May-Aug & Sep-Dec & Jan-Apr \\
+      \hhline{~|-|-|-|-|-|-|-|-|-|-|-|-|-}
+       & Apr-Jun & July-Sep & Oct-Dec & Jan-Apr & May-Aug & Sep-Dec & Jan-Apr & May-Aug & Sep-Dec & Jan-Apr & May-Aug & Sep-Dec & Jan-Apr \\
+	\hhline{-|-|-|-|-|-|-|-|-|-|-|-|-|-}
+    1. Signal simulation for Run~2 & \cellcolor{green} &   &  &  &  &  &  &  &  &  &  & &   \\
     \hline
-    1. Signal simulation for Run~2 & \hspace{0.25cm}\textcolor{blue}{\checkmark} &  &  &  &  &  &  &  &  &  &  & &   \\
-    2. SM-EFT parameterization & \hspace{0.25cm}\textcolor{orange}{\checkmark} &  &  &  &  &  &  &  &  &  &   &  &  \\
-    3. Optimization of lepton selection &  & \hspace{0.25cm}\checkmark & & & &  &  &  &  &  &  &  &   \\
-    4. Optimization of \Pb tagging condition &  & \hspace{0.25cm}\textcolor{blue}{\checkmark} & & & &  &  &  &  &  &  & &   \\
-    5. Optimization of \PH tagging condition &  & & \hspace{0.25cm}\textcolor{blue}{\checkmark} & & &  &  &  &  &  &   & &    \\
-    6. Trigger efficiency measurement &  &  & \hspace{0.25cm}\textcolor{blue}{\checkmark} & & &  &  &  &  &  &  & &  \\
-    7. Neutrino reconstruction  &  & &  & \hspace{0.25cm}\textcolor{blue}{\checkmark} & & &  &  &  &  &   & &    \\
-    8. Background estimation &  &  &  & \hspace{0.25cm}\hspace{0.25cm}\textcolor{blue}{\checkmark} & & &  &  &  &  &   & &    \\
-    9. Multivariate analysis &  &  &  &  & \hspace{0.25cm}\textcolor{blue}{\checkmark}  & &  &  &  &  &  & &      \\
-    10. SM-EFT to SM separation &  &  & & & \hspace{0.25cm}\textcolor{orange}{\checkmark} & & &  &  &  &    & &     \\
-    11. Exp. systematic uncertainties  &  &  &  &  &  & \hspace{0.25cm}\textcolor{blue}{\checkmark} &  &  &  &  &  & &       \\
-    12. Modeling uncertainties &  & &  &  &  & \hspace{0.25cm}\textcolor{blue}{\checkmark} & &  &  &  &     & &    \\
-    13. Sensitivity report &  & & & & & &  \hspace{0.25cm}\textcolor{blue}{\checkmark} &  &  &  &   & &     \\
-    14. SM-EFT effects in background & &  & & & &  & \hspace{0.25cm}\textcolor{blue}{\checkmark} &  &  &  &   &  &    \\
-    15. Publication based on Run~2 data &  & & & & &  &  & \hspace{0.25cm}\textcolor{blue}{\checkmark}  &  &  &   & &     \\
-    16. Signal simulation for Run~3 &  &  & & & &  & &  \hspace{0.25cm}\checkmark  &  &  &   & &     \\
-    17. Selections for Run~3 & &  & & & &  &  & & \hspace{0.25cm}\textcolor{blue}{\checkmark} &  &  & &       \\
-    18. Choice of \PH tagger for Run~3 &  & & &  &  &  &  &  & \hspace{0.25cm}\checkmark  &  &   & &     \\    
-    19. Background estimation for Run~3 &  & & &  &  & &  &  & & \hspace{0.25cm}\textcolor{blue}{\checkmark} &   & &     \\
-    20. Systematic uncertainties for Run~3 &  & &  &  & &  &  &  &  &  & \hspace{0.25cm}\checkmark   & &     \\
-    21. Combination of Run~2 and~3 results &  & & &  &  &  &  &  &  &   & & \hspace{0.25cm}\textcolor{blue}{\checkmark} &       \\
-    22. Publication of final results &  & & &  &  &  &  & &  &   &  & & \hspace{0.25cm}\textcolor{blue}{\checkmark}  \\
+    2. SM-EFT parameterization & \cellcolor{orange} &  &  &  &  &  &  &  &  &  &   &  &  \\
+    \hline
+    3. Optimization of lepton selection &  & \cellcolor{gray} & & & &  &  &  &  &  &  &  &   \\
+    \hline
+    4. Optimization of \Pb tagging condition &  & \cellcolor{green} &  &  &  &  &  &  &  &  &  & &   \\
+    \hline
+    \hhline{~|~|~|~|~|~|~|~|~|~|~|~|~|~}
+    5. Optimization of \PH tagging condition &  & \cellcolor{green} &  &  &  &  &  &  &  &  &   & &    \\
+    \hline
+    \hhline{~|~|~|~|~|~|~|~|~|~|~|~|~|~}
+    6. Trigger efficiency measurement &  &  & \cellcolor{green} &  &  &  &  &  &  &  &  & &  \\
+    \hline
+    \hhline{~|~|~|~|~|~|~|~|~|~|~|~|~|~}
+    7. Neutrino reconstruction  &  & & \cellcolor{green}  &  & & &  &  &  &  &   & &    \\
+    \hline
+    8. Background estimation &  &  &  & \cellcolor{green} & & &  &  &  &  &   & &    \\
+    \hline
+    9. Multivariate analysis &  &  &  &  & \cellcolor{green}  & &  &  &  &  &  & &      \\
+    \hline
+    10. SM-EFT to SM separation &  &  & & & \cellcolor{orange} & & &  &  &  &    & &     \\
+    \hline
+    11. Exp. systematic uncertainties  &  &  &  &  &  & \cellcolor{green} &  &  &  &  &  & &   \\
+    \hline
+    \hhline{~|~|~|~|~|~|~|~|~|~|~|~|~|~}
+    12. Modeling uncertainties &  & &  &  &  & \cellcolor{green} & &  &  &  &     & &    \\
+    \hline
+    13. SM-EFT effects in background &  & & & & & & \cellcolor{green} &  &  &  &   & &     \\
+    \hline
+    \hhline{~|~|~|~|~|~|~|~|~|~|~|~|~|~}
+    14. Sensitivity report & &  & & & &  & \cellcolor{green} &  &  &  &   &  &    \\
+    \hline
+    15. Publication based on Run~2 data &  & & & & &  &  & \cellcolor{green}  &  &  &   & &     \\
+    \hline
+    16. Signal simulation for Run~3 &  &  & & & &  & &  \cellcolor{gray}  &  &  &   & &     \\
+    \hline
+    17. Selections for Run~3 & &  & & & &  &  & & \cellcolor{green} &  &  & &       \\
+    \hline
+    18. Choice of \PH tagger for Run~3 &  & & &  &  &  &  &  & \cellcolor{gray}  &  &   & &     \\    
+    \hline
+    19. Background estimation for Run~3 &  & & &  &  & &  &  & & \cellcolor{green} &   & &     \\
+    \hline
+    20. Systematic uncertainties for Run~3 &  & &  &  & &  &  &  &  &  & \cellcolor{gray}   & &     \\
+    \hline
+    21. Combination of Run~2 and~3 results &  & & &  &  &  &  &  &  &   & & \cellcolor{green} &       \\
+    \hline
+    22. Publication of final results &  & & &  &  &  &  & &  &   &  & & \cellcolor{green}  \\
+    \hline
   \end{tabular}
   \caption{
-Tasks shown using symbol \checkmark will be covered by the PhD student, \textcolor{blue}{\checkmark} by the project applicant and PhD student, \textcolor{orange}{\checkmark} by the project applicant and PhD student in collaboration with other members in HEPHY CMS data analysis group.
+Tasks shown using \colorbox{gray}{ \makebox[0.01\textwidth][20cm]{\strut}} will be covered by the PhD student, \colorbox{green}{ \makebox[0.01\textwidth][20cm]{\strut}} by the project applicant and PhD student, \colorbox{orange}{ \makebox[0.01\textwidth][20cm]{\strut}} by the project applicant and PhD student in collaboration with other members in HEPHY CMS data analysis group.
 }
 \label{tab:workplan}
 \end{sidewaystable}
@@ -732,7 +765,7 @@ The second approach is based on reweighting the simulated b-tagging discriminato
 Since the \Pb tagging information is used for signal-to-background discrimination, in this task, we study the performance and resulting uncertainties for the two options in terms of better overall sensitivity.
 
 \item {\bf Optimization of \PH tagging criterion and scale-factor measurement.} Optimize the DNN-based \PH tagging criterion for signal-to-background separation. 
-Measure correction factors need to be measured in appropriate control samples, e.g., in $\PZ\rightarrow\bar \Pqb\Pqb$ event samples, to match the tagging efficiency in data.
+Measure correction factors in appropriate control samples, e.g., in $\PZ\rightarrow\bar \Pqb\Pqb$ event samples, to match the tagging efficiency in data.
 
 \item {\bf Trigger efficiency measurement.} The efficiencies of lepton-based triggers are measured in both data and simulation. 
 Corrections to match the trigger efficiency in simulation and data are derived and applied to the simulation. 
@@ -756,7 +789,7 @@ and data-to-simulation corrections will be derived if needed.
 
 \item {\bf SM-EFT to SM separation.} In the feasibility study, the constraints on Wilson coefficients are derived just by using a few kinematic variables.
 A more sophisticated study with a larger number of observables, taking into account their correlation, needs to be performed. 
-This will be a test-bed of a method developed by the proposer's group using decision trees~\cite{Chatterjee:2021nms}. 
+This will be a testbed of a method developed by the proposer's group using decision trees~\cite{Chatterjee:2021nms}. 
 
 \item {\bf Experimental systematic uncertainties.} Systematic uncertainties related to different objects, e.g., leptons and jets, and corrections at the event level need to be applied. 
 The systematic uncertainties need to be properly derived for the corrections developed during this particular analysis. 
@@ -766,13 +799,13 @@ It will be carefully checked if some of the systematic uncertainties are unexpec
 \item {\bf Modeling uncertainties.} Systematic uncertainties in prediction from the choice of renormalization and factorization scales,  parton distribution function,  and the parton shower need to be derived. 
 The neutrino reconstruction is also expected to be affected by the modeling uncertainties. 
 
-\item {\bf Sensitivity report.} Results from different years of Run~2 will be combined and
-the sensitivity of the analysis will be quantified using likelihood scans, taking into account correlations between the operators. 
-
 \item {\bf SM-EFT effects in the background.} So far, all the discussions regarding the SM-EFT operators are made for \VH production, which is the signal targeted. However, some of the operators in Table~\ref{Tab:Operators} also affect some of the background processes. 
 For example, ${\cal O}^{(1)}_{Hq}$, ${\cal O}^{(3)}_{Hq}$ affect the diboson production, which is related to \VH production by Goldstone equivalence theorem~\cite{PhysRevD.10.1145} at high energy. 
 These are also expected to affect {\PV}+jets production. 
 A significant amount of effort needs to be dedicated to the simulation of SM-EFT effects for the backgrounds, followed by a joint analysis of signal and background to report the final sensitivity to the corresponding Wilson coefficients. 
+
+\item {\bf Sensitivity report.} Results from different years of Run~2 will be combined and
+the sensitivity of the analysis will be quantified using likelihood scans, taking into account correlations between the operators. 
 
 \item {\bf Publication based on Run~2 data.} A first paper will be written reporting the results based on Run~2 data. This involves a series of reviews within the CMS Collaboration and finally by the journal reviewers. 
 
@@ -894,7 +927,7 @@ Total & EUR & 20.620 & For 4 years in total
 Funding is also requested for computational costs amounting to EUR 1.250, assuming the use of 100 CPU hours per working day for four years, where each CPU hour costs about EUR 0,01.
 
 An extra $5\%$ of the total that amounts to EUR 180.990 is requested to cover other unexpected costs.  
-Total requested funding sums up to EUR 190.039.  
+Total requested funding sums up to EUR 190.039,50.  
 A summary of the total costs of the project is provided in Table~\ref{Tab:Total_cost}.
 \begin{table}
 \caption{The total amount of requested funding along with divisions for different items.}
@@ -907,9 +940,9 @@ PhD student's salary & EUR & 159.120  \\
 PhD student's travel costs & EUR & 20.620 \\
 Computational costs & EUR & 1.250 \\
 \hline
-General costs ($5\%$) & EUR & 9.049  \\
+General costs ($5\%$) & EUR & 9.049,50  \\
 \hline
-Total & EUR & 190.039
+Total & EUR & 190.039,50
 \end{tabular}
 }
 \end{center}
@@ -939,6 +972,10 @@ Total & EUR & 190.039
 
 \subsection*{\underline{Academic Records}}
 
+\textbf{2020-present:}
+Post-doctoral researcher\\
+Institute of High Energy Physics of the Austrian Academy of Sciences, 1050 Vienna\\
+\\
 \textbf{2016-2020:}
 PhD in Experimental Particle Physics\\
 Department of High Energy Physics\\
@@ -999,6 +1036,14 @@ A detailed study of the phenomenology of a multicomponent dark matter scenario w
 \textit{Implementation of a new jet grooming algorithm, named `recursive soft drop' (JHEP 06 (2018) 093) in CMS software framework and monitoring its performance at HL-LHC}\\
 \end{comment}
 
+\subsection*{\underline{Presentations at Conferences, Workshops}}
+
+\begin{itemize}
+\item Eight parallel, one plenary, and two invited talks at international conferences and workshops
+\item Three poster presentations at international conferences and workshops
+\end{itemize}
+
+\begin{comment}
 
 \subsection*{\underline{Presentations at Conferences, Workshops}}
 
@@ -1052,6 +1097,8 @@ Radius Scan for Inclusive Jets in CMS Experiment at $\sqrt{s} =$ 13\,TeV \\
 \textbf{Dec 2016} \ \textbf{XXII DAE-BRNS High Energy Physics Symposium, Delhi, India} \\
 \textit{Parallel talk}\hspace{0.5cm}
 Perspectives for a Radius Scan in Inclusive Jets at 13\,TeV with CMS  
+\end{comment}
+
 \begin{comment}
 
 \subsection*{\underline{Poster Presentations}}
@@ -1092,7 +1139,48 @@ Designed the project and mentored thoroughly during its implementation
 Helped the organization at the institute level\\
 \\
 \textbf{SUSY 2017} conference at TIFR, Mumbai:
-Led the team of volunteers for local organization\\
+Led the team of volunteers for local organization
+
+\subsection*{\underline{Selected Publications}}
+
+\textbf{1:} {
+Search for a W$^\prime$ boson decaying to a top and a bottom quark at $\sqrt{s}=13$\,TeV}\\
+CMS Collaboration \\
+\href{https://doi.org/10.1016/j.physletb.2021.136535}{Phys. Lett. B 820 (2021) 136535} \\
+\textit{Most stringent limits published to date on right- and left-handed W$^\prime$ bosons decaying to a top and a bottom quark.}\\
+%\textbf{2:} \textit{
+%Tree boosting for learning EFT parameters}\\
+%arXiv:2107.10859\\
+%\textit{A new tree boosting algorithm designed for the measurement of parameters in the context of effective field theory.}
+%\\
+\textbf{2:} {
+Dependence of inclusive jet production on the anti$\mbox{-}k_T$ distance parameter in pp collisions at $\sqrt{s} = 13$\,TeV}\\
+CMS Collaboration \\
+\href{https://doi.org/10.1007/JHEP12(2020)082}{JHEP 12 (2020) 082}\\
+\textit{First public results from colliders on the dependence of inclusive jet cross section on jet size.}\\
+\textbf{3:} {Calibration of the CMS hadron calorimeters using proton-proton collision data at $\sqrt{s}= 13$\,TeV}\\
+CMS Collaboration \\
+\href{https://doi.org/10.1088/1748-0221/15/05/P05002}{JINST 15 (2020) P05002}\\
+\textit{The first derivation of absolute calibration of outer hadron calorimeter in particle-flow algorithm in CMS using collider data.}\\
+\textbf{4:} {Jets with electrons from boosted top quarks}\\
+Suman Chatterjee, Rohini Godbole, and Tuhin S. Roy\\
+\href{https://doi.org/10.1007/JHEP01(2020)170}{JHEP 01 (2020) 170}\\
+\textit{A new algorithm to identify boosted top quarks where W boson from top quark decays to an electron using jet substructure techniques.}\\
+\textbf{5:} {Mixed WIMP-axion dark matter}\\
+Suman Chatterjee, Anirban Das, Tousik Samui, and Manibrata Sen\\
+\href{https://doi.org/10.1103/PhysRevD.100.115050}{Phys. Rev. D 100, 115050}\\
+\textit{A detailed study of the phenomenology of a multi-component dark matter scenario with
+a scalar WIMP and the QCD axion in the light of the latest data from dark matter detection experiments and
+LHC results.}\\
+%\textbf{7:} \textit{Les Houches 2017: Physics at TeV Colliders Standard Model Working Group Report}\\
+%arXiv:1803.07977 \\
+%\textit{A detailed study of two-prong taggers and measurement of strong coupling using jet substructure}
+%\\
+\textbf{6:} {Dose rate effects in the radiation damage of the plastic scintillators of the CMS hadron endcap calorimeter}\\
+CMS Collaboration \\
+\href{https://doi.org/10.1088/1748-0221/11/10/T10004}{2016 JINST 11 T10004}\\
+%arXiv:1608.07267\\
+\textit{Measurements of change in light output by plastic scintillators in the CMS hadron endcap due to irradiation during the collisions at LHC at $\sqrt{s} = 8$\,TeV.}\\
 
 %------------------------------------------------
 
