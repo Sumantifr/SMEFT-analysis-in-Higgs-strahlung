@@ -418,6 +418,12 @@ J.~Alwall\hrefCMSnoop {}{ {et~al.}, ``{The automated computation of tree-level
   \href{http://dx.doi.org/10.1007/JHEP12(2017)070}{\doi{10.1007/JHEP12(2017)070}},
   \href{http://www.arXiv.org/abs/1709.06492}{\texttt{arXiv:1709.06492}}.
 
+\bibitem{Brivio:2020onw}
+\hrefCMSnoop {}{I.~Brivio, ``{SMEFTsim 3.0 \textemdash{} a practical guide}'',}
+  \textit{ JHEP} \textbf{ 04} (2021) 073,
+  \href{http://dx.doi.org/10.1007/JHEP04(2021)073}{\doi{10.1007/JHEP04(2021)073}},
+  \href{http://www.arXiv.org/abs/2012.11343}{\texttt{arXiv:2012.11343}}.
+
 \bibitem{Bols:2020bkb}
 E.~Bols\hrefCMSnoop {}{ {et~al.}, ``{Jet flavour classification using
   DeepJet}'',} \textit{ JINST} \textbf{ 15} (2020) P12012,
@@ -452,12 +458,6 @@ E.~Bols\hrefCMSnoop {}{ {et~al.}, ``{Jet flavour classification using
   Pattern Recognition Letters} \textbf{ 27} (2006), no.~8, 861--874,
   \href{http://dx.doi.org/https://doi.org/10.1016/j.patrec.2005.10.010}{\doi{https://doi.org/10.1016/j.patrec.2005.10.010}}.
   ROC Analysis in Pattern Recognition.
-
-\bibitem{Brivio:2020onw}
-\hrefCMSnoop {}{I.~Brivio, ``{SMEFTsim 3.0 \textemdash{} a practical guide}'',}
-  \textit{ JHEP} \textbf{ 04} (2021) 073,
-  \href{http://dx.doi.org/10.1007/JHEP04(2021)073}{\doi{10.1007/JHEP04(2021)073}},
-  \href{http://www.arXiv.org/abs/2012.11343}{\texttt{arXiv:2012.11343}}.
 
 \bibitem{Degrande:2020evl}
 C.~Degrande\hrefCMSnoop {}{ {et~al.}, ``{Automated one-loop computations in the
