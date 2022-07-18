@@ -2,30 +2,47 @@ Reviewer A:
 
 1. 'this proposal does not include any completely novel techniques ...'
 
---> Need to add the BIT idea and references (using the full event information, optimal observable, ...)
+--> Added references to the new BIT paper in Sec. 4.
 
 2. 'mixing & running of EFT operators have not been addressed ...'
 
---> The mixing of the SM-EFT operator via RG equation can change the results of final interpretation. While therunning  effects  are  generically  small  at  the  percent  level  and  can  be  neglected  for our purpose, except for 4-fermion operators. Work  is  ongoingto include their renormalization-group evolution to bet-ter describe distributions spanning a wide range of scalesand to automatically determine full scale uncertainties. In general, we recommend that the experimental collaborations restrict the bulk of their efforts to defining and reporting clean measurements that can be interpretedin any (actual) basis, and at LO or NLO in the SMEFT. By this we mean thatthe focus for data reporting should be on real observables, fiducial cross sectionsand/or  pseudo-observables.
-
+--> Added the following text to the work package 14 in Sec. 8. 
+"The mixing of SM-EFT operators through renormalization group equations can change the sensitivity results. 
+The matrix of anomalous dimensions are theoretically known~\cite{Alonso:2013hga,Jenkins:2013wua,Jenkins:2013sda} and the effects are expected to be at the percent level.
+These effects can be important if some poorly constrained operator leads to the running of strongly constrained one. 
+However, the exisiting constrains on the SM-EFT operators considered in this proposal are generally weak, so these effects are expected to be small~\cite{Elias-Miro:2013eta}.
+Nevertheless, there are on-going efforts in the theory community to check the RGE-effects on interpretation of LHC data in the context of global SM-EFT fits and we leave it to theorists."
 
 3. 'the usage of state-of-the-art SM predictions and what is the best way to obtain SMEFT predictions and extract the SMEFT coefficients (e.g. using ratios and/or higher-order calculations)
 
---> We plan to generate the VH production and background processes using state-of-the-art generators, mostly at NLO accuracy, and normalize them to cross section calculated at the high level of theoretical precision achieved. Then, we apply the EFT effects as a K-factor.
+--> Added the following text to the Sec. 6.2.
+"We consider one opetator insertion at a time for the \VH production followed by the decay of \PH. 
+In \texttt{SMEFTsim}~model, the correction to the total Higgs decay width is computed using separate $K$ factors for each decay channel following Ref.~\cite{Brivio:2019myy}.
+
+For the final measurement, both the SM \VH signal and the backgrounds will be generated at next-to-leading order in QCD using \texttt{POWHEG} or \texttt{Madgraph5\_aMC@NLO} and will be normalized using cross section calculated at the highest theoretical precision available. These event samples are produced centrally in the CMS Collaboration.
+Electroweak corrections, important at high energy, will be applied to the SM \VH signal. 
+The SM-EFT effects for quark initiated processes ($\PW\PH$ and $\PZ\PH$) will be calculated at LO using the \texttt{SMEFTsim}~model and at NLO with the \texttt{SMEFTatNLO}~model for the gluon-initiated process ($\PZ\PH$). 
+The SM-EFT effects for the $\PZ\PH$ production with $\PZ \rightarrow  \Pl^{+}\Pl^{-}$ and $\PH \rightarrow \Pb\PAb$ decays are now known at the next-to-NLO (NNLO) in QCD for six operators~\cite{Haisch:2022nwz}. "
 
 4. There are some operators missing as soon as higher-order corrections are included (e.g. a point-like Higgs-gluon coupling in tree-level amplitudes with one radiated gluon, or a chromomagnetic dipole operator in the Higgs to bottom quark decay) ...
 
---> True. Vhtt, ttg (ctg), tth (ctH) couplings appear in loop. However, in one measurement, we can only constrain a small set of operators. Those operators can be probed with much better sensitivity in other measurement like tt production, ttH production. Nevertheless, in the global combination, the results of this analysis might be useful to constrain those operators as well.
+--> Added the following text to the work package 2 in Sec. 8. 
+"All the SM-EFT effects parameterized as functions of Wilson coefficients will be applied as $K$ factors on the \VH production in the SM. 
+At NLO and NNLO, there are additional operators beyond the list presented in Table~\ref{Tab:Operators} affecting the VH production. Some of them, e.g., gluon--top and Higgs--top contact terms are expected to be probed with much better sensitivity in other measurements (e.g., of tt, ttH productions), so we don't plan to consider those. Nevertheless, in the global combination, the results of this analysis might be useful to improve the sensitivity to those operators as well.
+At NNLO, the Higgs--bottom quark chromomagnetic operator is expected to result in a significant change in the shape of important kinematic variables~\cite{Haisch:2022nwz} and we plan to include acceptance correction for that."
 
 5. A minor criticism in the planning concerns the list of work packages, which all have the exact same timeframe, despite some of them, like it is explicitly written for number 13, require more effort than others. Similarly, there is no clear dependence among the different work packages indicated, if one of them turns out to br not feasible or delayed, will the other become not possible or delayed?
 The proposal lacks some risk assessment and contigency plans.
 
---> 
+--> ***Need to answer***
 
 6. Very little information is given on how this process (even in the SM) is generated, apart from the fact that MG5_aMC@NLO with additional SMEFT operators, in particular for ZH production, which also proceeds via gluon-gluon fusion with additional SMEFT operators. There are already more accurate tools to simulatte the SM signal (and backgrounds), which will be crucial in order to achieve the level of precision the proposal envisages to achieve. 
 
---> ggZH process will be simulated using SMEFT@NLO at next-to-leading order in QCD. We plan to generate the VH production and background processes using state-of-the-art generators, mostly at NLO accuracy, and normalize them to cross section calculated at the high level of theoretical precision achieved.
-Also, SMEFT effects for the ggZH process is now known at NNLO for six operators and it is shown that chromomagnetic operator has a significant effect on mbb. Therefore, either a acceptance correction needs to be applied and SR and HFCR need to be fitted together.
+--> Added the following text to the Sec. 6.2.
+"For the final measurement, both the SM \VH signal and the backgrounds will be generated at next-to-leading order in QCD using \texttt{POWHEG} or \texttt{Madgraph5\_aMC@NLO} and will be normalized using cross section calculated at the highest theoretical precision available. These event samples are produced centrally in the CMS Collaboration.
+Electroweak corrections, important at high energy, will be applied to the SM \VH signal. 
+The SM-EFT effects for quark initiated processes ($\PW\PH$ and $\PZ\PH$) will be calculated at LO using the \texttt{SMEFTsim}~model and at NLO with the \texttt{SMEFTatNLO}~model for the gluon-initiated process ($\PZ\PH$). 
+The SM-EFT effects for the $\PZ\PH$ production with $\PZ \rightarrow  \Pl^{+}\Pl^{-}$ and $\PH \rightarrow \Pb\PAb$ decays are now known at the next-to-NLO (NNLO) in QCD for six operators~\cite{Haisch:2022nwz}. "
 
 7. Theory developments are mentioned only under work package 16, but they should be considered already at the beginning of the project, 
 
@@ -33,15 +50,17 @@ Also, SMEFT effects for the ggZH process is now known at NNLO for six operators 
 
 8. No information is given how SMEFT effects will be included in the background. 
 
---> The operators considered does not affect tt production at the tree level, which is the major background of WH production and an important one for the ZH production. Vector coupling operators affect V+jets production and most of the operators affect the diboson production. Those effects will be parameterized as similar to for the VH signal.  
+--> Added the following text to the work package 13 in Sec. 8. 
+"Gauge coupling operators ${\cal O}_{HW}$, ${\cal O}_{HWB}$, ${\cal O}_{HB}$ also affect the diboson production. We plan to take into the SM-EFT effects on backgrounds in the same manner as for the VH signal."
 
 9. For the VH process, it is not discussed how production and decay are actually combined, since also the Higgs width receives SMEFT corrections, but again these are merely theoretical questions. 
 
---> We consider one opetator insertion for the full process, including production and decay. It is checked that except for the Yukawa-type operators, the change in the Higgs decay width is small. 
+--> Added the following text to the Sec. 6.2.
+"We consider one opetator insertion at a time for the \VH production followed by the decay of H. In SMEFTsim model, the correction to the total Higgs decay width is computed using separate K factors for each decay channel following Ref.~\cite{Brivio:2019myy}."
 
 10. I don't see the PI to be completely independent in his work yet, which however is not to be expected at his scinetific age ...
 
---> Added a few more names in the supervison experience
+--> Added a few more names in the supervison experience.
 
 11. For the proposal to be excellent I miss some additional innovative ideas and a more complete/consistent theoretical treatment of the SMEFT operators. Indeed, the main weakness concerns only theoretical aspects of the SMEFT framework and theoretical predictions, because in precision analyses not  only accurate measurements, but accurate theoretical predictions are crucial. 
 
@@ -49,21 +68,26 @@ Reviewer B:
 
 1. Since the detailed use of angular variables is new, it would have been interesting to have more details about the possible tuning of backgrounds Monte Carlo if needed, 
 
---> 
+--> ***Not sure if I understood what the referee wants here ***
 
 2. The authors clearly mention the possibility of inverting some cuts to get a background enriched sample, but don't discuss what should be done in case of discrepancies. 
 
---> In the final analysis, results will be extracted from a simultaneous maximum-likelihood fit of the signal-plus-background model to the data distributions in all SRs and CRs.  The shape and normalization of all distributions for the signal and for the background components will be allowed to vary within the systematic and statistical uncertainties.
+--> Added the following text in Sec. 6.2.
+"In the final analysis, results will be extracted from a simultaneous maximum-likelihood fit of the signal-plus-background model to the data distributions in all SRs and CRs. The shape and
+normalization of all distributions for the signal and for the background components will be allowed to vary within the statistical and systematic uncertainties."
 
 3. I would rather like to see a short discussion about the systematics on the MET determination, angular variable measurements as well and how they will influence the reach of the method. 
 
---> Systematic uncertainties on jet and lepton energy calibration affect MET determination, thus the reconstructed neutrino momentum. Those also affect the measurement of angular variabes. It is checked that those systematics don't reduce the power of the measurement significantly.
+--> Added the following text to the work package 11 in Sec. 8. 
+"Systematic uncertainties on jet and lepton energy calibration affect MET determination, thus the reconstructed neutrino momentum. Those also affect the measurement of angular variabes. It is checked that those systematics don't reduce the power of the measurement significantly."
 
 4. Do authors want to use a data oriented approach if the MCs do not reproduce well enough the backgrounds? Or is there already confidence with present measurements that the description well be good enough. 
 
---> Following the previous measurements, in the final analysis, results will be extracted from a simultaneous maximum-likelihood fit of the signal-plus-background model to the data distributions in all SRs and CRs.  The shape and normalization of all distributions for the signal and for the background components will be allowed to vary within the systematic and statistical uncertainties.
+--> Added the following text in Sec. 6.2.
+"In the final analysis, results will be extracted from a simultaneous maximum-likelihood fit of the signal-plus-background model to the data distributions in all SRs and CRs. The shape and
+normalization of all distributions for the signal and for the background components will be allowed to vary within the statistical and systematic uncertainties."
 
 5. While it (preson-power) seems a bit weak given the number of tasks to be accomplished ...' It would have been nice to have a few more people involved in this project (even as advisor) given the scope and importance of the project. 
 
---> Wolfgang Adam has kindly agreed to montior the progress and provide necessary advices. 
-
+--> Wolfgang Adam has kindly agreed to montior the progress and provide necessary advices. Thus, the following text is added in Sec. 11.
+"Wolfgang Adam, a senior scientist at the HEPHY CMS group, will montior the progress of the project and provide necessary advice. He has a vast experience of reviewing CMS publications as the former Physics coordinator of the CMS Collaboration. His role will be purely advisory and he will not do any technical work."
