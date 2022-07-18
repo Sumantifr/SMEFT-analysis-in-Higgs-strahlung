@@ -342,7 +342,9 @@ A recent differential cross section measurement with an EFT interpretation of th
 \cite{CMS-PAS-HIG-19-005}. The scope of this proposal significantly extends beyond both cases.
 
 Smaller novel items of this proposal pertain to the multivariate analysis~(MVA) strategy employed to achieve these goals. 
-For example, the proposer's group has recently developed a new technique to train tree-based classifiers to optimally separate effects of SM-EFT operators from the SM background~\cite{Chatterjee:2021nms}.
+%For example, 
+The proposer's group has recently developed  \textcolor{blue}{a new technique to design tree-based classifiers, which learn the likelihood ratio between SM-EFT and SM hypothesis exploiting the complete event information and optimally separate effects of SM-EFT operators from the SM background~\cite{Chatterjee:2021nms,Chatterjee:2022oco}. It has been already shown that this new technique provides a significant improvement in sensitvity to the SM-EFT operators under consideration with respect to traditional approaches of using a single kinematic distribution in regions optimzed for the SM signal~\cite{Chatterjee:2022oco}
+}.
 The combined data sets from the LHC Run~2 and the future LHC Run~3 provide an opportunity to measure SM-EFT operators involving the Higgs field~\cite{Elias-Miro:2013mua,Gupta:2014rxa} with unprecedented precision.
 
 \section{Relevance to the research field}
@@ -412,7 +414,24 @@ While SM-EFT effects in background processes, e.g., from diboson production, are
 \subsection{Event preselection and categorization}
 
 All results are obtained from events generated with \texttt{Madgraph5\_aMC@NLO}~\cite{Alwall:2014hca} and simulated up to the CMS detector level. 
-The SM-EFT effects in the \VH signal are incorporated with \texttt{MadWeight}~\cite{Artoisenet:2008zz} and using the \texttt{SMEFTsim}~model~\cite{Brivio:2017btx,Brivio:2020onw}.
+The SM-EFT effects in the \VH signal are incorporated with \texttt{MadWeight}~\cite{Artoisenet:2008zz} and using the \texttt{SMEFTsim}~model~\cite{Brivio:2017btx,Brivio:2020onw}. 
+\textcolor{blue}{
+We consider one opetator insertion at a time for the \VH production followed by the decay of \PH. 
+In \texttt{SMEFTsim}~model, the correction to the total Higgs decay width is computed using separate $K$ factors for each decay channel following Ref.~\cite{Brivio:2019myy}.
+}
+
+\textcolor{blue}{
+For the final measurement, both the SM \VH signal and the backgrounds will be generated at next-to-leading order in QCD using \texttt{POWHEG} or \texttt{Madgraph5\_aMC@NLO} and will be normalized using cross section calculated at the highest theoretical precision available. Electroweak corrections, important at high energy, will be applied to the SM \VH signal. 
+The SM-EFT effects for quark initiated processes ($\PW\PH$ and $\PZ\PH$) will be calculated at LO using the \texttt{SMEFTsim}~model and at NLO with the \texttt{SMEFTatNLO}~model for the gluon-initiated process ($\PZ\PH$). 
+The SM-EFT effects on $\PZ\PH$ effects are now known at NNLO in QCD for six operators. 
+All the SM-EFT effects parameterized as functions of Wilson coefficients will be applied as $K$ factors on the \VH production in the SM. 
+At NLO and NNLO, there are additional operators beyond the list presented in Table 1 affecting the VH production. Some of them, e.g., gluon--top and Higgs--top contact terms are expected to be probed with better sensitivity in other measurements, so we don't plan to consider those. 
+At NNLO, the Higgs--bottom quark chromomagnetic operator is expected to result in a significant change in the shape of important kinematic variables and we plan to include acceptance correction for that.
+}
+
+\textcolor{blue}{
+The set of SM-EFT operators considered also affect certain background events. For example, the $\PV+$jets production affected only the vector coupling operators, whereas the diboson production is affected by most of the operators considered. We plan to take into the SM-EFT effects on backgrounds in the same manner as for the \VH signal.
+}
 
 The CMS trigger system selects the \VH events based on the presence of leptons~(electrons or muons) originating from the \PW or \PZ bosons.
 After the trigger decision, we select $\PW\PH$ candidate events by requiring an electron or a muon with \pt$>32$ and $>25$\GeV, respectively. 
@@ -464,6 +483,8 @@ By inverting specific requirements in  Table~\ref{Tab:Regions}, control regions 
 These enrich the various background processes 
 such as top quark pair production ($\Pt\PAt$), vector boson production in association with $\Pb$- and $\Pc$-quark jets (${\PW}+\Pb/\Pc$), and with light quark or gluon jets (${\PW}+$udsg). 
 These CRs will be used to measure and validate the corresponding backgrounds in data.
+\textcolor{blue}{
+In the final analysis, results will be extracted from a simultaneous maximum-likelihood fit of the signal-plus-background model to the data distributions in all SRs and CRs.  The shape and normalization of all distributions for the signal and for the background components will be allowed to vary within the systematic and statistical uncertainties.}
 
 The distribution of reconstructed $\pt(\PW)$ in the $\PW\PH$ signal and all relevant background processes in the resolved and boosted SR are shown in Fig.~\ref{fig:RECO_Vpt_WH}, where alternate $\PW\PH$ signal hypothesis for the operators ${\cal O}^{(3)}_{Hq}$ and ${\cal O}_{HW}$  are overlaid. 
 \begin{figure*}[hbtp]
@@ -619,7 +640,7 @@ In the final work, a machine learning based algorithm developed by the applicant
 \subsection{Sensitivity results}
 
 Although the final condition on the NN discriminator is subject to development during the project, 
-we can obtain a simple assessment of the sensitivity with a threshold on the NN discriminator corresponding to a $\PW\PH$ signal efficiency of $30\%$.
+we can obtain a simple assessment of the sensitivity with a threshold on the NN discriminator corresponding to a $\PW\PH$ signal efficiency of $40\%$.
 This choice corresponds to a $\Pt\PAt$ background efficiency of $\sim 2\%$ ($\sim 1\%$) in the resolved (boosted) category.
 Distributions of the $\PW$ boson \pt after applying this threshold on the NN discriminator are shown in Fig.~\ref{fig:MVA} (right). 
 Next, we perform one-dimensional likelihood scans for the Wilson coefficients corresponding to three operators ${\cal O}^{(3)}_{Hq}$, ${\cal O}_{HW}$, and ${\cal O}_{H\widetilde{W}}$, respectively, while setting all other Wilson coefficients to $0$. 
@@ -648,6 +669,15 @@ The results of this preliminary study are already better than the recent results
 however, many developments are expected in the proposed work during its execution.
 Also, simultaneous use of information about all three angles $\Theta$, $\theta$, $\varphi$ is expected to increase sensitivity significantly.
 The proposed work is also capable of disentangling the effects of CP-even and -odd SM-EFT operators, which is missing in Ref.~\cite{ATLAS-CONF-2021-051}. 
+
+\textcolor{blue}
+{
+The mixing of SM-EFT operators through renormalization group equation can change the sensitivity results. 
+The matrix of anomalous dimensions are theoretically calculated~\cite{Alonso:2013hga,Jenkins:2013wua,Jenkins:2013sda} and the effects are expected to be at the percent level.
+These effects can be important if some poorly constrained operator leads to the running of strongly constrained one. 
+However, the constrains on the SM-EFT operators considered in this proposal are generally, so these effects are expected to be small~\cite{Elias-Miro:2013eta}.
+Nevertheless, there are on-going efforts in the theory community to check the RG-effects on interpretation of LHC data in terms of SM-EFT operators and we leave it to them.
+}
 
 \subsection{Possible extensions}
 
@@ -789,12 +819,13 @@ and data-to-simulation corrections will be derived if needed.
 
 \item {\bf SM-EFT to SM separation.} In the feasibility study, the constraints on Wilson coefficients are derived just by using a few kinematic variables.
 A more sophisticated study with a larger number of observables, taking into account their correlation, needs to be performed. 
-This will be a testbed of a method developed by the proposer's group using decision trees~\cite{Chatterjee:2021nms}. 
+This will be a testbed of a method developed by the proposer's group using decision trees~\cite{Chatterjee:2021nms,Chatterjee:2022oco}. 
 
 \item {\bf Experimental systematic uncertainties.} Systematic uncertainties related to different objects, e.g., leptons and jets, and corrections at the event level need to be applied. 
 The systematic uncertainties need to be properly derived for the corrections developed during this particular analysis. 
 The correlation between systematic uncertainty sources in different years needs to be appropriately defined. 
 It will be carefully checked if some of the systematic uncertainties are unexpectedly constrained. 
+\textcolor{blue}{Systematic uncertainties on jet and lepton energy calibration affect MET determination, thus the reconstructed neutrino momentum. Those also affect the measurement of angular variabes. It is checked that those systematics don't reduce the power of the measurement significantly.}
 
 \item {\bf Modeling uncertainties.} Systematic uncertainties in prediction from the choice of renormalization and factorization scales,  parton distribution function,  and the parton shower need to be derived. 
 The neutrino reconstruction is also expected to be affected by the modeling uncertainties. 
@@ -854,6 +885,8 @@ The tasks will be carried out in consultation with the leader of CMS data analys
 Particularly, SM-EFT parameterization (task 2) and SM-EFT to SM separation (task 10) will be performed in collaboration with RS and DS, but they do not take responsibility for the tasks in the work and time plan.
 RS is also the former convener of the ``top quark mass and properties'' physics analysis group and the ``Jets and MET'' physics object group of the CMS Collaboration. 
 His feedback on documentation and presentation of the results will be constructive. 
+
+\textcolor{blue}{Wolfgang Adam, a senior scientist of the HEPHY group, will montior the progress and provide necessary advice. He has a vast experience of reviewing CMS publications as the former Physics coordinator of the CMS Collaboration. His role will be purely advisory and he will not do any technical work.}
 
 \appendix
 \renewcommand{\thesection}{Annex \arabic{section}} 
@@ -1039,7 +1072,7 @@ A detailed study of the phenomenology of a multicomponent dark matter scenario w
 \subsection*{\underline{Presentations at Conferences, Workshops}}
 
 \begin{itemize}
-\item Eight parallel, one plenary, and two invited talks at international conferences and workshops
+\item Eight parallel and three plenary talks at international conferences and workshops
 \item Three poster presentations at international conferences and workshops
 \end{itemize}
 
@@ -1129,9 +1162,16 @@ Course: Advanced Electrodynamics at TIFR, Mumbai
 
 \subsection*{\underline{Supervision Experience}}
 
+\textbf{Andreas Gruber} (M.Sc. student at TU Wien, Thesis advisor: Dr. R. Sch{\"o}fbeck):\\
+Designed and supervising his thesis project on \textit{lepton identification using a graph neural network}~(ongoing)\\
+
+\textbf{Ritik Saxena} (PhD student at TIFR, Mumbai, Advisor: Prof. G. Majumder)\\
+Supervise his ongoing analysis on \textit{cross section measurement of top pair production in dileptonic final states in boosted phase space} and provide technical guidance~(ongoing)\\
+
 \textbf{Anirban Bala} (PhD student at TIFR, Mumbai, Advisor: Prof. M. Guchait):\\
-During his departmental project I (July-September, 2020) under Prof. G. Majumder \\
-Designed the project and mentored thoroughly during its implementation
+%During his departmental project I (July-September, 2020) under Prof. G. Majumder \\
+%Designed the project and mentored thoroughly during its implementation
+Designed his departmental project on \textit{performance of different pileup subtraction algorithms for jet reconstruction} and mentored thoroughly during its implementation~(July-September, 2020)\\
 
 \subsection*{\underline{Organizational Responsibilities}}
 

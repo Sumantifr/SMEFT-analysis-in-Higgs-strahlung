@@ -245,6 +245,11 @@ S.~Chatterjee\hrefCMSnoop {}{ {et~al.}, ``{Tree boosting for learning EFT
   parameters}'',}
   \href{http://www.arXiv.org/abs/2107.10859}{\texttt{arXiv:2107.10859}}.
 
+\bibitem{Chatterjee:2022oco}
+\hrefCMSnoop {}{S.~Chatterjee, S.~Rohshap, R.~Sch\"ofbeck, and D.~Schwarz,
+  ``{Learning the EFT likelihood with tree boosting}'',}
+  \href{http://www.arXiv.org/abs/2205.12976}{\texttt{arXiv:2205.12976}}.
+
 \bibitem{Elias-Miro:2013mua}
 \hrefCMSnoop {}{J.~Elias-Miro, J.~R. Espinosa, E.~Masso, and A.~Pomarol,
   ``{Higgs windows to new physics through d=6 operators: constraints and
@@ -424,6 +429,12 @@ J.~Alwall\hrefCMSnoop {}{ {et~al.}, ``{The automated computation of tree-level
   \href{http://dx.doi.org/10.1007/JHEP04(2021)073}{\doi{10.1007/JHEP04(2021)073}},
   \href{http://www.arXiv.org/abs/2012.11343}{\texttt{arXiv:2012.11343}}.
 
+\bibitem{Brivio:2019myy}
+\hrefCMSnoop {}{I.~Brivio, T.~Corbett, and M.~Trott, ``{The Higgs width in the
+  SMEFT}'',} \textit{ JHEP} \textbf{ 10} (2019) 056,
+  \href{http://dx.doi.org/10.1007/JHEP10(2019)056}{\doi{10.1007/JHEP10(2019)056}},
+  \href{http://www.arXiv.org/abs/1906.06949}{\texttt{arXiv:1906.06949}}.
+
 \bibitem{Bols:2020bkb}
 E.~Bols\hrefCMSnoop {}{ {et~al.}, ``{Jet flavour classification using
   DeepJet}'',} \textit{ JINST} \textbf{ 15} (2020) P12012,
@@ -458,6 +469,20 @@ E.~Bols\hrefCMSnoop {}{ {et~al.}, ``{Jet flavour classification using
   Pattern Recognition Letters} \textbf{ 27} (2006), no.~8, 861--874,
   \href{http://dx.doi.org/https://doi.org/10.1016/j.patrec.2005.10.010}{\doi{https://doi.org/10.1016/j.patrec.2005.10.010}}.
   ROC Analysis in Pattern Recognition.
+
+\bibitem{Jenkins:2013sda}
+\hrefCMSnoop {}{E.~E. Jenkins, A.~V. Manohar, and M.~Trott, ``{Naive
+  Dimensional Analysis Counting of Gauge Theory Amplitudes and Anomalous
+  Dimensions}'',} \textit{ Phys. Lett. B} \textbf{ 726} (2013) 697,
+  \href{http://dx.doi.org/10.1016/j.physletb.2013.09.020}{\doi{10.1016/j.physletb.2013.09.020}},
+  \href{http://www.arXiv.org/abs/1309.0819}{\texttt{arXiv:1309.0819}}.
+
+\bibitem{Elias-Miro:2013eta}
+\hrefCMSnoop {}{J.~Elias-Mir\'o, C.~Grojean, R.~S. Gupta, and D.~Marzocca,
+  ``{Scaling and tuning of EW and Higgs observables}'',} \textit{ JHEP}
+  \textbf{ 05} (2014) 019,
+  \href{http://dx.doi.org/10.1007/JHEP05(2014)019}{\doi{10.1007/JHEP05(2014)019}},
+  \href{http://www.arXiv.org/abs/1312.2928}{\texttt{arXiv:1312.2928}}.
 
 \bibitem{Degrande:2020evl}
 C.~Degrande\hrefCMSnoop {}{ {et~al.}, ``{Automated one-loop computations in the
