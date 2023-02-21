@@ -37,12 +37,12 @@
 \allowdisplaybreaks
 %\setlength\textwidth{6.2in}
 %\setmargin\left{.6in}
-\newgeometry{width=17.0cm, left=2cm, top=2.5cm, bottom=3.15cm}
+\newgeometry{width=18.05cm, left=1.5cm, right=1.4cm, top=2.5cm, bottom=3.1cm}
 \setlength{\bibsep}{0cm}
 \bibpunct{[}{]}{,}{n}{}{,}
 
 % for ORCID 
-\usepackage{tikz,xcolor,hyperref}
+\usepackage{tikz,xcolor,hyperref,url}
 
 \definecolor{lime}{HTML}{A6CE39}
 \DeclareRobustCommand{\orcidicon}{
@@ -87,6 +87,8 @@
 \renewcommand{\PV}{{{{V}}}\xspace}
 %\providecommand{\PV}{{V}\Xspace} % generic vector boson
 \newcommand{\VH}{{{\PV}{\PH}}\xspace}
+\newcommand{\pp}{{{\Pp}{\Pp}}\xspace}
+\newcommand{\lplp}{{{\Pl}{\Pl}}\xspace}
 
 %\renewcommand{\Pl}{\textrm{\Pl}}
 
@@ -117,7 +119,7 @@
 
 Since the start of operations in 2008, the Large Hadron Collider (LHC) at CERN has provided a data set amounting to about $10^{16}$ proton-proton collisions that is expected to double, once more, until 2024.
 During the LHC Run~2 (2015--2018), the CMS experiment~\cite{CMS_ex} collected  $137\fbinv$ of proton-proton collision data at $\sqrt{s}=13\TeV$ and is now performing extensive analyses to extract the maximum knowledge on fundamental particle physics processes at the \TeV scale.
-The most prominent milestone in the LHC experiments' history is the discovery of the Higgs boson~(\PH), jointly announced by the ATLAS and CMS Collaborations in 2012~\cite{Aad:2012tfa,Chatrchyan:2012ufa}.
+The most prominent milestone in the LHC experiments' history is the discovery of the Higgs~(\PH) boson, jointly announced by the ATLAS and CMS Collaborations in 2012~\cite{Aad:2012tfa,Chatrchyan:2012ufa}.
 It completed the particle content of the standard model (SM) of particle physics. 
 Since then, precision measurements of the Higgs boson's mass~\cite{CMS:2017dib,CMS:2020xrn}, its charge-parity (CP) nature~\cite{CMS:2019jdw,CMS:2020cga}, its couplings to electroweak gauge bosons ($\PW^{\pm}$, \PZ,~\Pgg), and other couplings have been at the center of the LHC research program with many already entering the precision regime.
 At the same time, the lack of smoking-gun evidence for resonant phenomena beyond the SM~(BSM) has restricted many sophisticated models, like supersymmetry or models with extra dimensions, that were conceived to cure the SM's shortcomings: 
@@ -156,7 +158,7 @@ The SM-EFT progressively includes operators of mass dimension greater than four 
 It captures all non-resonant BSM phenomena below an arbitrarily chosen energy scale $\Lambda$.
 The dimensionless Wilson coefficients $\text{c}^{\left(n\right)}$ are used to parameterize the effects on observables, while the terms $\mathcal{O}_5$ and $\mathcal{O}_6$ are  the operators at mass dimensions 5 and 6, respectively.
 The only possible dimension-5 candidate is the  Weinberg operator~\cite{PhysRevLett.43.1566}, not relevant for the phenomenology of this proposal ~\cite{Bonnet:2009ej}.
-The number of baryon and lepton number conserving dimension-6 operators is 2499 when all flavor degrees of freedom are counted. There are 76 operators respecting a $\textrm{U}(3)^5$ flavor symmetry~\cite{Alonso:2013hga} among which the 12 listed in Table~\ref{Tab:Operators} affect the \VH process \textcolor{blue}{at the tree level}.
+The number of baryon and lepton number conserving dimension-6 operators is 2499 when all flavor degrees of freedom are counted. There are 76 operators respecting a $\textrm{U}(3)^5$ flavor symmetry~\cite{Alonso:2013hga} among which the 12 listed in Table~\ref{Tab:Operators} affect the \VH process at the tree level.
 The operators are written in the so-called Warsaw basis~\cite{Grzadkowski:2010es}, and it is the central aim of this proposal to constrain their Wilson coefficients via their effects on the Higgs boson production properties and decay kinematics~\cite{Hagiwara:1993qt,Ellis:2014dva,Murphy:2017omb,Baglio:2020oqu}.
 \begin{table}[t]
 \caption{
@@ -244,7 +246,6 @@ The functions $f_i$ depend on the three angles in Fig.~\ref{fig:HelicityFrame}
 \phantom{x}\label{Eq:funcs}\end{equation}
 \noindent where indices refer to the polarizations of the intermediate vector boson.
 
-
 A traditional inclusive measurement implicitly integrates over $\Theta, \theta, \varphi$, thus removing all the terms in Eq.~\eqref{Eq:funcs}, except $f_{LL}$ and $f^2_{TT}$. 
 This is the cause of loss of important information, which can be recovered for $f^2_{LT}$, $\tilde f^{\,2}_{LT}$, $f_{TT'}$, and $\tilde f_{TT'}$  by using a triple differential analysis with respect to all three angles. 
 Because the incoming quark and anti-quark direction is not known at the LHC, the terms proportional to $f^1_{TT}$, $f^1_{LT}$, and $\tilde{f}^1_{LT}$ can not be extracted.
@@ -290,7 +291,7 @@ The dependence of the production cross section on the first three Wilson coeffic
 The energy growth is visible as an increased dependence on the Wilson coefficient for selections with higher $\pt(\PV)$. 
 The operators ${\cal O}^{(1)}_{Hq}$, ${\cal O}_{Hu}$, ${\cal O}_{Hd}$, ${\cal O}_{HB}$, and ${\cal O}_{H\widetilde{B}}$ affect only the $\PZ\PH$ production, 
 because both left- and right-handed initial-state quarks of the same flavor take part in $\PZ\PH$ production, while only the left-handed quarks of different flavors are involved in $\PW\PH$ production~\cite{Falkowski:2014tna,Banerjee:2018bio}. 
-Therefore, simultaneous measurements of the couplings in both the $\PW\PH$ and the $\PZ\PH$ processes are necessary to confidently probe the complete set of relevant operators~\cite{Banerjee:2019twi}.
+Therefore, simultaneous measurements of the couplings in both the $\PW\PH$ and the $\PZ\PH$ productions are necessary to confidently probe the complete set of relevant operators~\cite{Banerjee:2019twi}.
 The SM cross section for $\PW\PH$ production with  $\PH\rightarrow\Pb\PAb$ and $\PW\rightarrow\ell\nu$  is 0.28\pb, whereas it is only 0.05\pb for $\PZ\PH$ production, where $\PZ\rightarrow\ell\ell$.
 Thus, the $\PW\PH$ process provides better statistical precision in the measurements. 
 The \PZ final state has limited statistics, 
@@ -307,6 +308,7 @@ As an example,  the
 distribution of one of the angular variables, $\varphi$, is shown in Fig.~\ref{fig:LHE_phi}. 
 Here,  the leading contribution for the CP-even and -odd operators come from the terms corresponding to $f^{2}_{LT}$ and $\tilde{f}^2_{LT}$ in Eq.~\eqref{Eq:funcs}, respectively, which have $\cos\varphi$ and $\sin\varphi$ dependence.
 In the simpler $\PW\gamma$ final state, the technique increased the sensitivity to interference between the SM and the SM-EFT operator of interest by about a factor of 10~\cite{CMS-PAS-SMP-20-005}.
+The final aim is to exploit the complete event information to build optimal observables with likelihood-free inference methods~\cite{Brehmer:2018kdj,Brehmer:2018hga,Chen:2020mev,Chatterjee:2021nms,Chatterjee:2022oco,GomezAmbrosio:2022mpm} extracting the SM-EFT effects.
 Section~\ref{sec:method} presents a preliminary sensitivity study for the three most important operators. 
 
 \begin{figure*}[tph]
@@ -337,20 +339,22 @@ They disentangle the various SM-EFT effects and can largely boost the sensitivit
 
 \end{itemize}
 
-A recent differential cross section measurement with an EFT interpretation of the Run~2 data set by the ATLAS Collaboration~\cite{ATLAS-CONF-2021-051} includes measurement regions with boosted \PH candidates but ignores the angular information. The most recent EFT interpretation of \VH measurement is restricted to inclusive measurements
+A recent differential cross section measurement with an EFT interpretation of the Run~2 data set by the ATLAS Collaboration~\cite{ATLAS-CONF-2021-051} includes measurement regions with boosted \PH boson candidates but ignores the angular information. The most recent EFT interpretation of \VH measurement is restricted to inclusive measurements
 \cite{CMS-PAS-HIG-19-005}. The scope of this proposal significantly extends beyond both cases.
 
 Smaller novel items of this proposal pertain to the multivariate analysis~(MVA) strategy employed to achieve these goals. 
 %For example, 
-The proposer's group has recently developed  \textcolor{blue}{an algorithm to design tree-based classifiers, which learn the likelihood ratio between SM-EFT and SM hypothesis exploiting the complete event information and optimally separate effects of SM-EFT operators from the SM background~\cite{Chatterjee:2021nms,Chatterjee:2022oco}. It has already been shown that this novel technique provides a significant improvement in sensitivity to the SM-EFT operators under consideration with respect to traditional approaches of using a single kinematic distribution in regions optimized for the SM signal~\cite{Chatterjee:2022oco}.}
+The proposer's group has recently developed a likelihood-free inference method using decision trees, which parametrically learn the likelihood ratio of SM-EFT and SM hypotheses, exploiting the complete event information and optimally separate effects of SM-EFT operators from the SM background~\cite{Chatterjee:2021nms,Chatterjee:2022oco}. It has already been shown that this novel technique provides a significant improvement in sensitivity to the SM-EFT operators under consideration with respect to traditional approaches of using a single kinematic distribution in regions optimized for the SM signal~\cite{Chatterjee:2022oco}.
+Recently, authors of Ref~\cite{GomezAmbrosio:2022mpm} have shown that a similar multi-variate approach using neural networks can improve the sensitivity on the SM-EFT parameter space by an order of magnitude compared to using a few kinematic variables, when the effects of a large number of SM-EFT operators are considered simultaneously.
 The combined data sets from the LHC Run~2 and the future LHC Run~3 provide an opportunity to measure SM-EFT operators involving the Higgs field~\cite{Elias-Miro:2013mua,Gupta:2014rxa} with unprecedented precision.
 
 \section{Relevance to the research field}
+\label{sec:relevance}
 
 On a broad scale, the measurements provide a new piece of the {\TeV}-scale SM-EFT puzzle. 
 The findings will be interpreted in the context of SM-EFT, which guarantees maximal independence from model assumptions and a smooth interface for theory interpretations.  
 
-The absence of hints for resonant BSM phenomena has shifted the focus from ultraviolet-complete theories to EFTs, with first attempts at complete {\TeV}-scale characterizations emerging relatively recently~\cite{Ellis:2018gqa,Ellis:2020unq,Ethier:2021bye}.
+The absence of hints for resonant BSM phenomena has shifted the focus from theories satisfying ultraviolet (UV) completion to EFTs, with first attempts at complete {\TeV}-scale characterizations emerging relatively recently~\cite{Ellis:2018gqa,Ellis:2020unq,Ethier:2021bye}.
 At the experimental collaborations, the measurements of SM-EFT operator coefficients have just arrived at the center stage of the LHC physics program~\cite{CMS:2021nnc,CMS:2021aly,CMS:2021gme}.
 The interest from the theoretical and experimental communities is still growing, reflected in various new working groups (e.g., the  LHC EFT working group~\cite{LHC_EFT_WG}) and lecture series (e.g., ``All things EFT''~\cite{All_EFT}).
 
@@ -363,7 +367,7 @@ For example, specific assumptions of the BSM flavor structure provide a tight co
 Moreover, the SM electroweak symmetry breaking relates the 4-point interactions in Table~\ref{Tab:Operators} to complementary measurements of the fermion--gauge boson couplings. 
 An example of this link can be obtained from Fig.~\ref{fig:Feynman_digarams}~(left) when replacing the \PH boson line with $v$.
 
-The results obtained from the proposed measurements can also be reinterpreted as constraints on ultraviolet-complete new physics models describing the underlying dynamics at high energy.
+The results obtained from the proposed measurements can also be reinterpreted as constraints on UV-complete new physics models describing the underlying dynamics at high energy.
 Examples of models the proposed analysis will be capable of probing are the following:
 \begin{itemize}
 
@@ -375,7 +379,7 @@ If the new bosons coupling to both fermions and gauge bosons have large masses (
 
 \item Colored extensions of the SM with vector-like quarks (VLQs), triplet under SU(3) and singlet under SU(2)$_L$~\cite{delAguila:2000aa,Dawson:2012di}. 
 When VLQs are allowed to couple to light quarks, they can give rise to ${\cal O}^{(1)}_{Hq}$ and ${\cal O}^{(3)}_{Hq}$ operators.
-New physics models with \PZprime or VLQs are in highlights in recent times to explain the anomalies in the flavor sector~\cite{Kumar:2018kmr,Bhattacharya:2016mcc,Buttazzo:2017ixm,Crivellin:2017zlb}. 
+New physics models with \PZprime or VLQs are in highlights in recent times to explain the anomalies in the flavor sector~\cite{Kumar:2018kmr,Bhattacharya:2016mcc,Buttazzo:2017ixm}.%,Crivellin:2017zlb}. 
 
 \end{itemize}
 
@@ -385,20 +389,21 @@ In the following section, I aim to establish that.
 \section{Methods}
 \label{sec:method}
 
-We target to use the combined data set collected by the CMS experiment during the LHC Run~2, corresponding to an integrated luminosity of 139\fbinv at $\sqrt{s}=13\TeV$, and the LHC Run~3, currently estimated at $160\fbinv$.
+We target to use the combined data set collected by the CMS experiment during the LHC Run~2, corresponding to an integrated luminosity of 139\fbinv at $\sqrt{s}=13\TeV$, and the LHC Run~3, currently estimated to be at least $160\fbinv$.
+Recently, a decision is taken to extend the data-taking period of LHC during Run~3 is by an additional year, and this is considered in the work plan and timeline. 
 In the following, we report a feasibility study of the proposed measurements and exemplify the key methodology.
 Important sources of systematic uncertainty modeling the differences of the simulation to data are considered. 
-We focus on the $\PW\PH$ final states with challenging background rates. The results are also valid for the $\PZ\PH$ process, which provides independent measurement channels with orthogonal SM-EFT sensitivity, higher signal purity, but lower signal yield.
+We mostly focus on the $\PW\PH$ final states with challenging background rates. 
+The results are also valid for the $\PZ\PH$ process, which provides independent measurement channels with orthogonal SM-EFT sensitivity, higher signal purity, but lower signal yield.
+Since the ultimate data volume to be deliverd by the LHC during Run~3 is not finalized yet, we perform the feasibility study considering only an integrated luminosity of $300\fbinv$. 
 
 \subsection{Final states and observables}
 
 In the SM, the $\PH\rightarrow\Pb \PAb$ decay channel has the largest branching ratio, motivating to choose it for improving  the statistical precision of the measurement.
-Leptonic decay modes of the vector bosons help in reducing 
-the contribution
-from multijet production in quantum chromodynamics (QCD).
+Leptonic decay modes of the vector bosons help in reducing the contribution from multijet production in quantum chromodynamics (QCD).
 Therefore, we consider the $\PW\PH$ and $\PZ\PH$ production processes with the $\PW\rightarrow\Pl\Pgn$, $\PZ\rightarrow{\Pl}^{+} {\Pl}^{-}$, and $\PH\rightarrow\Pb\PAb $ decay channels, where $\ell=(\Pe, \Pmu)$.
 
-As shown in Sec.~\ref{sec:objective} and Fig.~\ref{fig:LHE_WZH}, the 4-point interactions provided by the operators in Table~\ref{Tab:Operators} induce  energy growth, modifying the high-energy tail of distributions of kinematic observables such as the transverse momenta, $\pt(\PW)$, $\pt(\PZ)$, or $\pt(\PH)$. 
+As shown in Sec.~\ref{sec:objective} and Fig.~\ref{fig:LHE_WZH}, the 4-point interactions provided by the operators in Table~\ref{Tab:Operators} induce energy growth, modifying the high-energy tail of distributions of kinematic observables such as the transverse momenta, $\pt(\PW)$, $\pt(\PZ)$, or $\pt(\PH)$. 
 However, these kinematic observables alone are not sufficient to disentangle the various effects from a large number of possible SM-EFT operators. 
 A systematic analysis of helicity amplitudes in \VH production followed by the vector boson decay is provided in Ref.~\cite{Banerjee:2019twi}. 
 Amplitudes involving the longitudinal and transverse vector boson polarizations contribute differently to \VH production in SM and SM-EFT. 
@@ -413,43 +418,40 @@ While SM-EFT effects in background processes, e.g., from diboson production, are
 
 All results are obtained from events generated with \texttt{Madgraph5\_aMC@NLO}~\cite{Alwall:2014hca} and simulated up to the CMS detector level. 
 The SM-EFT effects in the \VH signal are incorporated with \texttt{MadWeight}~\cite{Artoisenet:2008zz} and using the \texttt{SMEFTsim}~model~\cite{Brivio:2017btx,Brivio:2020onw} at leading order (LO) in perturbative QCD. 
-\textcolor{blue}{
-We consider one operator insertion at a time for the \VH production followed by the decay of \PH. 
-In \texttt{SMEFTsim}~model, the correction to the total Higgs decay width is computed using separate $K$ factors for each decay channel following Ref.~\cite{Brivio:2019myy}.
-}
+We consider single-operator insertions in the simulation of both, the \VH production and the decay in {\pp$\rightarrow$\VH$\rightarrow$ \lplp \Pb\PAb}. Both effects are, therefore, included. In the \texttt{SMEFTsim}~model, the correction to the total Higgs decay width is computed using separate $K$ factors for each decay channel following Ref.~\cite{Brivio:2019myy}.
 
-\textcolor{blue}{
-For the final measurement, both the SM \VH signal and the backgrounds will be generated at next-to-leading order in QCD using \texttt{Madgraph5\_aMC@NLO} or \texttt{POWHEG}~\cite{Nason:2004rx,Powheg_ref,PowhegBox_ref} generators and will be normalized using cross sections calculated at the highest theoretical accuracy available (both in QCD and electroweak). These event samples are produced centrally in the CMS Collaboration.
-The next-to-leading-order (NLO) accurate electroweak corrections, important at high energy, and effects of finite bottom quark mass, known at next-to-next-to-leading order (NNLO) in QCD, will be applied to the SM \VH signal. 
+For the final measurement, both the SM \VH signal and the backgrounds will be generated at next-to-leading order (NLO) in QCD using \texttt{Madgraph5\_aMC@NLO} or \texttt{POWHEG}~\cite{Nason:2004rx,Powheg_ref,PowhegBox_ref} generators and will be normalized using cross sections calculated at the highest theoretical accuracy available (both in QCD and electroweak). These event samples are produced centrally in the CMS Collaboration.
+The NLO accurate electroweak corrections, important at high energy, and effects of finite bottom quark mass, known at next-to-next-to-leading order (NNLO) in QCD, will be applied to the SM \VH signal. 
 The SM-EFT effects for quark-initiated processes ($\PW\PH$ and $\PZ\PH$) will be simulated at LO using the \texttt{SMEFTsim}~model and at NLO with the \texttt{SMEFT@NLO}~model~\cite{Degrande:2020evl} for the gluon-initiated process ($\PZ\PH$). 
-The \texttt{SMEFT@NLO}~model, so far, includes only the CP-even SM-EFT operators. Therefore, we can only test the CP nature of SM-EFT effects at LO in QCD.
-The SM-EFT effects for the $\PZ\PH$ production with $\PZ \rightarrow  \Pl^{+}\Pl^{-}$ and $\PH \rightarrow \Pb\PAb$ decays are now known at NNLO accuracy in QCD for six operators~\cite{Haisch:2022nwz}. }
+The \texttt{SMEFT@NLO}~model, so far, includes only the CP-even SM-EFT operators. 
+Therefore, we can only test the CP nature of SM-EFT effects at LO in QCD.
+When the CP-odd effects become available at the NLO, we will incorporate those.
+The SM-EFT effects for the $\PZ\PH$ production with $\PZ \rightarrow  \Pl^{+}\Pl^{-}$ and $\PH \rightarrow \Pb\PAb$ decays are now known at NNLO accuracy in QCD for six operators~\cite{Haisch:2022nwz}. 
 The CMS trigger system selects the \VH events based on the presence of leptons~(electrons or muons) originating from the \PW or \PZ bosons.
 After the trigger decision, we select $\PW\PH$ candidate events by requiring an electron or a muon with \pt$>32$ and $>25$\GeV, respectively. 
 As will be discussed in Sec.~\ref{sec:neu_reco}, the four-momentum of the neutrino from the $\PW$ decay is reconstructed using the missing transverse momentum vector (\ptvecmiss), assuming that the invariant mass of the neutrino-lepton system equals the \PW boson mass $m_{\PW}$.
 
 A sample enriched in boosted \PW bosons is selected by the requirement $\pt(\PW) > 150$\GeV. 
-After this selection, the level of QCD multijet production is negligible.
+After this selection, the level of contamination from QCD multijet production is negligible.
 Requiring a minimum difference between the azimuthal lepton- and \ptmiss angles, $\Delta\phi(\vec{\ell},\ptvecmiss)>2$, removes spurious events from detector noise and reconstruction failure while retaining good signal efficiency.
-Finally, 
-events must not contain additional leptons with $\pt>25$\GeV.
+Finally, events must not contain additional leptons with $\pt>25$\GeV.
 
 The selected events are further categorized into measurement regions depending on quantities from the jet system. 
-If the \PH boson has large \pt, its decay products are merged into a jet with a large cone size. 
+If the \PH boson has a large \pt, its decay products are merged into a jet with a large cone size. 
 In this ``boosted topology'', the \PH boson is reconstructed and identified in the set of jets provided by the anti-\kt algorithm with a distance parameter of $R=0.8$~(AK8 jets).
 Otherwise, the \PH boson is in the ``resolved topology'', 
-where it can be reconstructed using the standard anti-\kt jets with distance parameter of $R=0.4$~(AK$4$ jets) originating from the \Pb quark pair. 
+where it can be reconstructed using the anti-\kt jets with a distance parameter of $R=0.4$~(AK$4$ jets) originating from the \Pb quark pair. 
 Deep neural network~(DNN) based algorithms DeepJet~\cite{Bols:2020bkb} and DeepAK8~\cite{Sirunyan:2020lcu} are used to identify AK4 jets initiated by \Pb quarks and the AK8 jet from $\PH \rightarrow \Pb \PAb$ decay, respectively.
 The DeepAK8 tagger also provides probability-normalized classifier values for the top quark, \PW boson, light quark, or gluon hypothesis for each AK8 jet. 
-We use this information later for signal-to-background discrimination in the boosted topology. % FIXME Be specific --> Done
+We use this information later for signal-to-background discrimination in the boosted topology. 
 
-In the resolved topology, the two AK4 jets with highest \Pb tagging scores, referred to as $\textrm{b}_{1,2}$, form the \PH candidate, while the AK8 jet ($\textrm{J}$) with the highest DeepAK8 score for \PH tagging provides the \PH candidate in the boosted topology.
+In the resolved topology, the two AK4 jets with the highest \Pb tagging scores, referred to as $\textrm{b}_{1,2}$, form the \PH boson candidate, while the AK8 jet ($\textrm{J}$) with the highest DeepAK8 score for \PH tagging provides the \PH boson candidate in the boosted topology.
 For AK8 jets, soft drop grooming~\cite{Larkoski:2014wba} is used to calculate the jet mass by removing the uncorrelated radiation clustered into the jet. 
-In boosted category, a condition on the number of {\Pb}-tagged jets outside the \PH candidate is applied, which reduces its overlap with the resolved category.
+In boosted category, a condition on the number of {\Pb}-tagged jets outside the \PH boson candidate is applied, which reduces its overlap with the resolved category.
 The inclusive signal region (SR), enriched by $\PW\left(\rightarrow \Pl \Pgn \right) \PH \left(\rightarrow \Pb \PAb \right)$ events, is constructed using the conditions listed in Table~\ref{Tab:Regions}.
 In the following, the threshold values btag$^{\text{cut}}_{\text{max}}$ and btag$^{\text{cut}}_{\text{min}}$ are chosen to ensure a DeepJet \Pb tagging mistag rate of 1\% and 10\%  for light quark or gluon jets, respectively.
-The threshold value Htag$^{\text{cut}}$ corresponds to a \PH mistag rate of 1\%. These numerical values are preliminary and will be optimized in the context of the final analysis. 
-
+The threshold value Htag$^{\text{cut}}$ corresponds to a \PH mistag rate of 1\%. 
+These numerical values are preliminary and will be optimized in the context of the final analysis. 
 {\renewcommand{\arraystretch}{1.3}
 \begin{table}[t]
 \centering
@@ -457,7 +459,6 @@ The threshold value Htag$^{\text{cut}}$ corresponds to a \PH mistag rate of 1\%.
 Selection conditions targeted for $\PW\PH$ events.
 }
 \begin{tabular}{p{60mm}|p{60mm}}
-%\begin{tabular}{lcl |lcl}
 Resolved category & Boosted category \\
 \hline
 At least 2 {\Pb}-tagged AK$4$ jets \newline (satisfying $\pt>30\GeV$, $|\eta|<2.5$)  & At least 1 AK8 jets \newline (satisfying $\pt>250\GeV$, $|\eta|<2.5$) \\
@@ -471,52 +472,50 @@ $M(\textrm{b}_1 + \textrm{b}_2) \in \left[90, 150\right]~\GeV$ & Soft-drop mass 
 }
 
 By inverting specific requirements in  Table~\ref{Tab:Regions}, control regions (CRs) can be defined. 
-These enrich the various background processes 
-such as top quark pair production ($\Pt\PAt$), vector boson production in association with $\Pb$- and $\Pc$-quark jets (${\PW}+\Pb/\Pc$), and with light quark or gluon jets (${\PW}+$udsg). 
+These enrich the various background processes such as top quark pair production ($\Pt\PAt$), vector boson production in association with $\Pb$- and $\Pc$-quark jets (${\PW}+\Pb/\Pc$), and with light quark or gluon jets (${\PW}+$udsg). 
 These CRs will be used to measure and validate the corresponding backgrounds in data.
-\textcolor{blue}{
-In the final analysis, results will be extracted from a simultaneous maximum-likelihood fit of the signal-plus-background model to the data distributions in all SRs and CRs.  The shape and normalization of all distributions for the signal and for the background components will be allowed to vary within the statistical and systematic uncertainties.}
+In the final analysis, results will be extracted from a simultaneous maximum-likelihood fit of the signal-plus-background model to the data distributions in all SRs and CRs. The shape and normalization of all distributions for the signal and for the background components will be allowed to vary within the statistical and systematic uncertainties. In case of significant discrepancies in control regions, we will obtain suitable correction factors and the associated systematic uncertainties to calibrate the simulation.
 
-The distribution of reconstructed $\pt(\PW)$ in the $\PW\PH$ signal and all relevant background processes in the resolved and boosted SR are shown in Fig.~\ref{fig:RECO_Vpt_WH}, where alternate $\PW\PH$ signal hypothesis for the operators ${\cal O}^{(3)}_{Hq}$ and ${\cal O}_{HW}$  are overlaid. 
+The distribution of reconstructed $\pt^{\PW}$ in the $\PW\PH$ signal and all relevant background processes in the resolved and boosted SR are shown in Fig.~\ref{fig:RECO_Vpt_WH}, where alternate $\PW\PH$ signal hypothesis for the operators ${\cal O}^{(3)}_{Hq}$ and ${\cal O}_{HW}$  are overlaid. 
 \begin{figure*}[hbtp]
 \begin{center}
-\includegraphics[width=0.475\textwidth]{Figures/New/RECO/Plot_Resolved_SR_V_pt_WH.png}
-\includegraphics[width=0.475\textwidth]{Figures/New/RECO/Plot_Boosted_SR_V_pt_WH.png}
+\includegraphics[width=0.45\textwidth]{Figures/New/RECO/Plot_Resolved_SR_V_pt_WH.png}
+\includegraphics[width=0.45\textwidth]{Figures/New/RECO/Plot_Boosted_SR_V_pt_WH.png}
 \end{center}
 \caption{
-Distribution of \PW boson \pt in the resolved (left) and boosted (left) categories of the SR. Impact of systematic uncertainties on jet energy scale and resolution as well as correction factors used to match the \Pb tagging and Higgs tagging efficiencies in data and simulation are shown in the bottom panel.
+Distribution of \PW boson \pt in the resolved (left) and boosted (right) categories of the SR. Impact of systematic uncertainties on jet energy scale and resolution as well as correction factors used to match the \Pb tagging and Higgs tagging efficiencies in data and simulation are shown in the bottom panel.
 }
 \label{fig:RECO_Vpt_WH}
 \end{figure*}
-The figure shows the importance of the $\Pt\PAt$, ${\PW}+\Pb/\Pc$, and ${\PW}+\textrm{udsg}$ backgrounds in the  $\PW\PH$ SRs.
+The figure shows the importance of the $\Pt\PAt$, ${\PW}+\Pb/\Pc$, and ${\PW}+\textrm{udsg}$ backgrounds in the $\PW\PH$ SRs.
 Fig.~\ref{fig:RECO_Vpt_WH} also shows that a large gain in sensitivity to the SM-EFT operators is expected from the high-\pt region, where the signal-to-background ratio improves due to their characteristic energy growth.
 
 Next, we turn to the sensitivity of the angular observables. 
 Distributions of two angular variables $\Theta$ and $\varphi$ in the $\PW\PH$ signal after applying the preselection conditions summarized in Table~\ref{Tab:Regions} are shown in Fig.~\ref{fig:angles} for different SM-EFT hypotheses. 
-For completeness, similar distributions in the case of the $\PZ\PH$ signal sample are also shown.
+For completeness, distribution of $\varphi$ in the case of the $\PZ\PH$ signal sample is also shown.
+\begin{figure*}[hbtp]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/New/RECO/Boosted_Plot_Theta_WH.png}
+%\includegraphics[width=0.45\textwidth]{Figures/New/RECO/Boosted_Plot_Theta_ZH.png}
+\includegraphics[width=0.45\textwidth]{Figures/New/RECO/Resolved_Plot_phi_WH_CP.png}
+\includegraphics[width=0.45\textwidth]{Figures/New/RECO/Resolved_Plot_phi_ZH_CP.png}
+\includegraphics[width=0.45\textwidth]{Figures/New/RECO/Resolved_Plot_2D_phi_unweighted.png}
+\end{center}
+\caption{
+Normalized distribution of polar angle $\Theta$ in the $\PW\PH$ (top left) signal sample for $c_{HW}=1$ and SM scenarios in the boosted category. 
+Normalized distribution of azimuthal angle $\varphi$ in  $\PW\PH$  (top right) and $\PZ\PH$ (bottom left) productions for $c_{HW}=1$ and $c_{H\widetilde{W}}=1$, respectively, after subtracting the SM component.% is subtracted from these distributions.
+Relation between reconstructed- and parton-level $\varphi$ in the resolved category in $\PW\PH$ production (bottom right) illustrating the effect of the ambiguity in the reconstruction of the neutrino momentum.
+}
+\label{fig:angles}
+\end{figure*}
 Fig.~\ref{fig:angles} shows that
-the SM production, dominated by the longitudinal polarization of \PW bosons, exhibits differences in $\Theta$ for nonzero ${\cal O}_{HW}$ coefficients because this operator  enhances the helicity amplitude of $\PW\PH$ production with transversely polarized {\PW} bosons. 
+the SM production, dominated by the longitudinal polarization of \PW bosons, exhibits differences in $\Theta$ for nonzero ${\cal O}_{HW}$ coefficients because this operator enhances the helicity amplitude of $\PW\PH$ production with transversely polarized {\PW} bosons. 
 The observable $\varphi$, on the other hand, is very sensitive to the CP-nature of the \PH--\PV coupling, and the difference in the modulation of CP-even and CP-odd operator coefficients is clearly visible.  
 The CP-sensitivity in the $\varphi$ observable is slightly affected by the ambiguities introduced by the unknown $z$-component of the neutrino momentum. 
 This necessitates the development of an algorithm for the neutrino reconstruction, possibly similar to the MVA-based techniques designed in top quark analyses for assigning reconstructed objects to particles produced in the hard interaction~\cite{CMS:2019esx}.
 The $\varphi$ observable is weighted by $\sin2\Theta\sin2\theta$ to lift the cancellation otherwise enforced by the triple angular correlation. 
 For the first time, we thus resurrect the interference of the helicity amplitudes in \PH final states at the detector level. 
-\textcolor{blue}{
-It has been checked that the angular variables are modeled well by the simulations in control regions.}
-
-\begin{figure*}[hbtp]
-\begin{center}
-\includegraphics[width=0.475\textwidth]{Figures/New/RECO/Boosted_Plot_Theta_WH.png}
-\includegraphics[width=0.475\textwidth]{Figures/New/RECO/Boosted_Plot_Theta_ZH.png}
-\includegraphics[width=0.475\textwidth]{Figures/New/RECO/Resolved_Plot_phi_WH_CP.png}
-\includegraphics[width=0.475\textwidth]{Figures/New/RECO/Resolved_Plot_phi_ZH_CP.png}
-\end{center}
-\caption{
-Normalized distribution of polar angle $\Theta$ in $\PW\PH$ (top left) and $\PZ\PH$ (top right) signal samples for $c_{HW}=1$ and SM scenarios in the boosted category. 
-Normalized distribution of azimuthal angle $\varphi$ in  $\PW\PH$ (bottom left) and $\PZ\PH$ (bottom right) productions for $c_{HW}=1$ and $c_{H\widetilde{W}}=1$, respectively; the SM component is subtracted from these distributions.
-}
-\label{fig:angles}
-\end{figure*}
+It has been checked that the angular variables are modeled well by the simulations in control regions.
 
 \subsection{Neutrino reconstruction}
 \label{sec:neu_reco}
@@ -524,29 +523,38 @@ Normalized distribution of azimuthal angle $\varphi$ in  $\PW\PH$ (bottom left) 
 In order to reconstruct the momentum of the invisible neutrino in $\PW\rightarrow\Pl\Pgn$, we assume that the \Pnu is the only source of $\ptvecmiss$ in the event and, hence, $\ptvecmiss$ to be equal to the transverse momentum vector of \Pnu. 
 In a simple approach, we use the quadratic equation from the $\PW$-mass constraint to calculate $\eta(\Pnu)$. 
 The two possible solutions are
+\begin{comment}
 \begin{eqnarray}
 \eta(\Pnu) &=& {\eta}(l) \pm \cosh^{-1}(1+{\Delta}^2),\;\textrm{where}\label{Eq:NeuEta}\\
 {\Delta}^2 &=& \frac{m_W^2 - m_\textrm{T}^2 (\ell,{p_\textrm{T}^\text{miss}\xspace})}{2 p_\textrm{T}^{l}\, p_\textrm{T}^\textrm{miss}}. 
 \end{eqnarray}
+\end{comment}
+\begin{equation}
+\eta(\Pnu) = {\eta}(l) \pm \cosh^{-1}(1+{\Delta}^2),\;\textrm{where}\;{\Delta}^2 = \frac{m_W^2 - m_\textrm{T}^2 (\ell,{p_\textrm{T}^\text{miss}\xspace})}{2 p_\textrm{T}^{l}\, p_\textrm{T}^\textrm{miss}}. 
+\label{Eq:NeuEta}
+\end{equation}
 Large $\pt(\PW)$ leads to $\Delta \ll 1$, and the two solutions become 
 \begin{equation}
 {\eta}(\Pnu) \simeq {\eta}(\ell) \pm \sqrt{2}{\Delta} + {\cal{O}} ({\Delta}^3)	\ .
 \label{Eq:NeuEta2}
 \end{equation}
-In this limit,  the angular variable $\theta$ and $\Theta$ converge to the same values, whereas a two-fold ambiguity  $\varphi_{+} \simeq \pi - \varphi_{-}$ remains for $\varphi$. 
+In this limit,  the angular variable $\theta$ and $\Theta$ converge to the same values, whereas a two-fold ambiguity  $\varphi_{+} \simeq \pi - \varphi_{-}$ remains for $\varphi$ as shown in Fig.~\ref{fig:angles} (bottom right) for the $\PW\PH$ signal sample.
+\begin{comment}
 \begin{figure*}[hbtp]
 \begin{center}
-\includegraphics[width=0.495\textwidth]{Figures/New/RECO/Resolved_Plot_2D_phi_unweighted.png}
-\includegraphics[width=0.495\textwidth]{Figures/New/RECO/Boosted_Plot_2D_phi_unweighted.png}
+\includegraphics[width=0.45\textwidth]{Figures/New/RECO/Resolved_Plot_2D_phi_unweighted.png}
+\includegraphics[width=0.45\textwidth]{Figures/New/RECO/Boosted_Plot_2D_phi_unweighted.png}
 \end{center}
 \caption{
 Relation between reconstructed- and parton-level $\varphi$ in the resolved (left) and boosted (right) categories in $\PW\PH$ production illustrating the effect of the ambiguity in the reconstruction of the neutrino momentum. 
 }
 \label{fig:neureco}
 \end{figure*}
-This ambiguity is visible in Fig.~\ref{fig:neureco} for the $\PW\PH$ signal sample and currently reduces the CP-sensitivity in $\PW\PH$ production. 
+\end{comment}
+%This ambiguity is visible in Fig.~\ref{fig:neureco} for the $\PW\PH$ signal sample and 
+This currently reduces the CP-sensitivity in $\PW\PH$ production. 
 No attempt was made to reduce the impact of the ambiguity for the purpose of this proposal. 
-As part of the analysis development, we will develop a multi-variate discriminator to select the correct solution based on the kinematic event properties. %FIXME Add a reference to a successful strategy. --> Added in earlier section
+As part of the analysis development, we will develop a multi-variate discriminator to select the correct solution based on the kinematic event properties.
 
 \subsection{Multivariate analysis}
 
@@ -578,9 +586,9 @@ Event thrust (see definition in~\cite{CMS:2014tkl}) & Event thrust\\
 B tagging scores of $\textrm{b}_1$ and $\textrm{b}_2$ & DeepAK8 top tagging score \\
 $\textrm{Min}(\pt(\textrm{b}_1), \pt(\textrm{b}_2))$ and $\textrm{b}_2$ & DeepAK8 \PW tagging score \\
 $\textrm{Max}(\pt(\textrm{b}_1), \pt(\textrm{b}_2))$ & DeepAK8 \PH tagging score \\ 
-$\textrm{Max}(\pt(\textrm{b}_1)/\pt(\ell), \pt(\textrm{b}_2)/\pt(\ell))$ & Rapidity and mass of \PH candidate \\
+$\textrm{Max}(\pt(\textrm{b}_1)/\pt(\ell), \pt(\textrm{b}_2)/\pt(\ell))$ & Rapidity and mass of \PH boson candidate \\
 $\Delta\phi(\text{b}_1,\text{b}_2)$ & \\
-Rapidity and mass of \PH candidate & \\
+Rapidity and mass of \PH boson candidate & \\
 AK4 jet multiplicity \\ (satisfying $\pt>30\GeV$, $|\eta|<2.5$)  & \\
 \end{tabular}
 \label{Table:MVA_Vars}
@@ -606,6 +614,7 @@ Event thrust  & AK4 jet multiplicity  & \\
 \end{table}
 }
 
+Normalized distributions of NN discriminators in SM $\PW\PH$ and $\Pt\PAt$ events are shown in Fig.~\ref{fig:MVA}~(left). 
 \begin{figure*}[hbtp]
 \begin{center}
 \includegraphics[width=0.3\textwidth]{Figures/New/RECO/Plot_WH_MVA_WH_fast_resolved.png}
@@ -622,7 +631,6 @@ Normalized distributions of the NN discriminator in signal ($\PW\PH$) and backgr
 }
 \label{fig:MVA}
 \end{figure*}
-Normalized distributions of NN discriminators in SM $\PW\PH$ and $\Pt\PAt$ events are shown in Fig.~\ref{fig:MVA}~(left). 
 The performance of the discriminator, quantified with receiver operating characteristic (ROC) curves~\cite{FAWCETT2006861}, are shown in Fig.~\ref{fig:MVA} (middle). 
 Benefiting from the less combinatorial background,
 the discriminator constructed in the boosted category performs slightly better. 
@@ -642,10 +650,10 @@ Normalizing the predicted yields to an integrated luminosity of 300\fbinv, we sh
 For completeness, the results for the $\PZ\PH$ signal, obtained by following a similar analysis strategy as mentioned for the $\PW\PH$ process, are also combined. 
 \begin{figure*}[t]
 \begin{center}
-\includegraphics[width=0.49\textwidth]{Figures/New/RECO/Limits/Full_NLL_WC_cpq3i_2019_opt1.png}
-\includegraphics[width=0.49\textwidth]{Figures/New/RECO/Limits/Full_NLL_WC_cpW_2019_opt2.png}
-\includegraphics[width=0.49\textwidth]{Figures/New/RECO/Limits/Full_NLL_WC_cpWtilde_2019_opt2.png}
-\includegraphics[width=0.495\textwidth]{Figures/New/RECO/Selection_285.png}
+\includegraphics[width=0.45\textwidth]{Figures/New/RECO/Limits/Full_NLL_WC_cpq3i_2019_opt1.png}
+\includegraphics[width=0.45\textwidth]{Figures/New/RECO/Limits/Full_NLL_WC_cpW_2019_opt2.png}
+\includegraphics[width=0.45\textwidth]{Figures/New/RECO/Limits/Full_NLL_WC_cpWtilde_2019_opt2.png}
+\includegraphics[width=0.45\textwidth]{Figures/New/RECO/Selection_285.png}
 \end{center}
 \caption{
 The profiled negative log-likelihood ratio test statistic %$q$
@@ -655,14 +663,31 @@ as a function of the Wilson coefficient ${\cal O}^{(3)}_{Hq}$ (top left), ${\cal
 \label{fig:NLL}
 \end{figure*}
 Fig.~\ref{fig:NLL} shows that a large gain in sensitivity is obtained by adding the boosted category due to the energy growth induced by the operators:
-The coefficient corresponding to ${\cal O}^{(3)}_{Hq}$ can be constrained to percent level and the ones corresponding to ${\cal O}_{HW}$ and ${\cal O}_{H\widetilde{W}}$ within tens of percent at 95\% confidence level with luminosity amounting to 300\fbinv. 
+The coefficient corresponding to ${\cal O}^{(3)}_{Hq}$ can be constrained to the percent level and the ones corresponding to ${\cal O}_{HW}$ and ${\cal O}_{H\widetilde{W}}$ within tens of percent at 95\% confidence level with luminosity amounting to 300\fbinv. 
 An improvement due to a binning in $\varphi$ is achieved in the resolved category. 
 The addition of the results for the $\PZ\PH$ process improves the sensitivity, particularly for the ${\cal O}_{HW}$ operator coefficient.
 The results of this preliminary study are already better than the recent results from the ATLAS Collaboration~\cite{ATLAS-CONF-2021-051},
 however, many developments are expected in the proposed work during its execution.
-Also, simultaneous use of information about all three angles $\Theta$, $\theta$, $\varphi$ is expected to increase sensitivity significantly.
+Also, simultaneous use of information about all three angles $\Theta$, $\theta$, and $\varphi$ is expected to increase sensitivity significantly.
 The proposed work is also capable of disentangling the effects of CP-even and -odd SM-EFT operators, which is missing in Ref.~\cite{ATLAS-CONF-2021-051}. 
 
+\subsection{Sensitivity to specific UV models}
+\label{sec:Zprime}
+
+As mentioned in Sec.~\ref{sec:relevance}, the proposed analysis is expected to probe a number of UV models. 
+As an explicit example, production of a vector boson $\PZ^{\prime}$ in heavy vector triplet~\cite{Pappadopulo:2014qza} model is considered.
+In the chosen example, the  $\PZ^{\prime}$ bosons have a narrow decay width and predominantly decay into pairs of \PZ and \PH bosons, givig rise to one of the final states considered in the proposed measurement. 
+As shown in Fig.~\ref{fig:Zprime}, the resolved category is sensitive to  signartures from $\PZ^{\prime}$ bosons of relatively low masses, whereas the boosted category enhaces the sensitivitly greatly to the production of massive $\PZ^{\prime}$ bosons.
+\begin{figure*}[t]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{Figures/RECO/ZH/ZPrime/Plot_Resolved_SR_V_pt.png}
+\includegraphics[width=0.45\textwidth]{Figures/RECO/ZH/ZPrime/Plot_Boosted_SR_V_pt.png}
+\end{center}
+\caption{
+Distribution of \PZ boson \pt in the resolved (left) and boosted (right) categories of the SR. Distributions expected from $\PZ^{\prime}$ bosons of masses 1, 2, and 4\TeV, decaying to a \PZ and a \PH boson, are shown asssuming a cross section of 1\pb for the $\PZ^{\prime}$ production at all masses. 
+}
+\label{fig:Zprime}
+\end{figure*}
 
 \subsection{Possible extensions}
 
@@ -671,7 +696,8 @@ The methodology developed is also suitable for hadronically decaying \PV;
 the only limitation in the case of $\textrm{\PV}={\PW}$ in sensitivity is the absence of knowledge on \PV charge. 
 Latest developments in DNN-based methods for vector boson tagging can be used to increase the sensitivity. 
 
-Strategies developed for the proposed measurement, e.g., background estimation, calibration of trigger efficiencies and \PH tagger, SM-EFT interpretation can also be extended to searches with $\textrm{\PV}\rightarrow \Pl^{+}\Pl^{-} / \Pl \Pgn$ and $\PH \to \Pb \PAb$ in the final state, particularly in the context of a heavy resonance decaying to \PV~and~{\PH}. 
+Strategies developed for the proposed measurement, e.g., background estimation, calibration of trigger efficiencies and \PH tagger, SM-EFT interpretation can also be extended to searches with $\textrm{\PV}\rightarrow \Pl^{+}\Pl^{-} / \Pl \Pgn$ and $\PH \to \Pb \PAb$ in the final state, particularly in the context of a heavy resonance decaying to \PV~and~{\PH} bosons. 
+As already shown in Sec.~\ref{sec:Zprime}, the proposed analysis can sense the presence of such a resonance. 
 
 
 \section{Intended cooperation arrangement} 
@@ -683,13 +709,12 @@ The reconstructed data, the simulated background samples, and the object calibra
 Ideas and updates will be presented at regular intervals in internal meetings at HEPHY and within the CMS working groups. 
 
 There are synergies with ongoing activities within the HEPHY CMS data analysis group.
-The group recently submitted a paper on measuring the $\Pt\PAt\Pgg$ process and constraining the \Pt--\Pgg coupling in SM-EFT; this work was supported by FWF grant P31578.
-There is also ongoing work on constraining SM-EFT operators in the $\Pt\PW\PZ$ process supported by FWF grant P33771. 
+%The group recently submitted a paper on measuring the $\Pt\PAt\Pgg$ process and constraining the \Pt--\Pgg coupling in SM-EFT; this work was supported by FWF grant P31578.
+There are also ongoing works on constraining SM-EFT operators in the $\Pt\PW\PZ$ and 4-\Pt productions supported by FWF grant P33771 and I5687, respectively. 
 The existing expertise in the group will help in the smooth execution of the proposed measurement, which will also broaden the scope of the group's activities.
 
 The CMS data analysis group at HEPHY consists of five staff scientists,  three post-doctoral researchers,  and five PhD students working on supersymmetry, long-lived signatures, searches for additional neutral Higgs bosons decaying to a pair of $\tau$ leptons, and top quark physics. 
-The diverse expertise of the group members will help
-to develop new ideas and implement those in the CMS Collaboration.
+The diverse expertise of the group members will help to develop new ideas and implement those in the CMS Collaboration.
 
 \section{Work plan and timeline}
 
@@ -697,15 +722,15 @@ The work will be carried out by a PhD student~(N.N.) and the applicant and PI Dr
 In the following, the tasks are described in approximate chronological order and are summarized in Table~\ref{tab:workplan}.%Fig.~\ref{fig:workplan}.
 \begin{sidewaystable}[t]
 \small
-  \begin{tabular}{l|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|}
+  \begin{tabular}{l|m{0.9cm}|m{1.5cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|m{0.9cm}|}
     \multirow{2}{*}{Task / Year} &
-      \multicolumn{1}{c|}{2022} & % ($\int \mathcal{L}dt \sim 30$\fbinv)}  &
-      \multicolumn{4}{c|}{2023 ($\int \mathcal{L}dt \sim 120$\fbinv)}  & 
-      \multicolumn{4}{c|}{2024 ($\int \mathcal{L}dt \sim 160$\fbinv)} &
-      \multicolumn{3}{c|}{2025} &
-      \multicolumn{2}{c|}{2026} \\
+      \multicolumn{2}{c|}{\shortstack {2023 \\ ($\int \mathcal{L}dt \sim 110$\fbinv)}}  & 
+      \multicolumn{4}{c|}{\shortstack {2024 \\ ($\int \mathcal{L}dt \sim 200$\fbinv)}} &
+      \multicolumn{3}{c|}{\shortstack {2025 \\ \textcolor{teal}{($\int \mathcal{L}dt \sim 300$\fbinv)}}} &
+      \multicolumn{3}{c|}{2026} &
+      \multicolumn{2}{c|}{2027} \\
       \hhline{~|-|-|-|-|-|-|-|-|-|-|-|-|-|-}
-       & Oct-Dec & Jan-Mar & Apr-Jun & Jul-Sep & Oct-Dec & Jan-Mar & Apr-Jun & Jul-Sep & Oct-Dec & Jan-Apr & May-Aug & Sep-Dec & Jan-Apr & May-Sep \\
+       & Jul-Sep & Oct-Dec & Jan-Mar & Apr-Jun & Jul-Sep & Oct-Dec & Jan-Apr & May-Aug & Sep-Dec & Jan-Apr & May-Aug & Sep-Dec & Jan-Mar & Apr-Jun \\
 	\hhline{-|-|-|-|-|-|-|-|-|-|-|-|-|-|-}
     1. Signal simulation for Run~2 & \cellcolor{green} &   &  &  &  &  &  &  &  &  &  & &   &  \\
     \hline
@@ -739,7 +764,7 @@ In the following, the tasks are described in approximate chronological order and
     11. Exp. systematic uncertainties  &  &  &  &  &  & \cellcolor{green} &  &  &  &  &  &  &   &  \\
     \hline
     \hhline{~|~|~|~|~|~|~|~|~|~|~|~|~|~|~}
-    12. Modeling uncertainties &  & &  &  &  & \cellcolor{green} & &  &  &  &   &  &   &   \\
+    12. Modeling uncertainties &  & &  &  &  &  & \cellcolor{green} &  &  &  &   &  &   &   \\
     \hline
     \hhline{~|~|~|~|~|~|~|~|~|~|~|~|~|~|~}
     13. SM-EFT effects in background &  & & & & & & \cellcolor{green} & \cellcolor{green}  &  &  &   &  &    &   \\
@@ -773,23 +798,24 @@ In the following, the tasks are described in approximate chronological order and
     \hline
   \end{tabular}
   \caption{
-Tasks shown using \colorbox{gray}{ \makebox[0.01\textwidth][20cm]{\strut}} will be covered by the PhD student, \colorbox{green}{ \makebox[0.01\textwidth][20cm]{\strut}} by the project applicant and PhD student, \colorbox{orange}{ \makebox[0.01\textwidth][20cm]{\strut}} by the project applicant and PhD student in collaboration with other members in HEPHY CMS data analysis group.
+Tasks shown using \colorbox{gray}{ \makebox[0.01\textwidth][20cm]{\strut}} will be covered by the PhD student, \colorbox{green}{ \makebox[0.01\textwidth][20cm]{\strut}} by the project applicant and PhD student, \colorbox{orange}{ \makebox[0.01\textwidth][20cm]{\strut}} by the project applicant and PhD student in collaboration with other members in HEPHY CMS data analysis group. 
+%The possibility of extending the LHC data-taking period by an additional year is shown using a different color. 
+The final volume of data to be expected  is shown using a different color. 
 }
 \label{tab:workplan}
 \end{sidewaystable}
 
 \begin{enumerate}[noitemsep,topsep=0pt]
-\item {\bf Signal simulation for the Run 2 analysis.} Simulate \VH event samples including the effects of SM-EFT operators both in production and decay using, e.g., \texttt{SMEFTsim} at LO or \texttt{SMEFT@NLO} at NLO in perturbative QCD. 
+\item {\bf Signal simulation for the Run~2 analysis.} Simulate \VH event samples including the effects of SM-EFT operators both in production and decay using, e.g., \texttt{SMEFTsim} at LO or \texttt{SMEFT@NLO} at NLO in perturbative QCD. 
 Particular care needs to be taken for the matching of the hard process generated using \texttt{\MGvATNLO}~\cite{Alwall:2014hca} and the parton shower with \texttt{PYTHIA8}~\cite{Sjostrand:2014zea} 
 since the parton shower does not involve higher-dimensional operators. Event reconstruction is done within CMS reconstruction software.
 
-\item {\bf SM-EFT parameterization.} Obtain polynomial parameterization of signal yields for arbitrary selections as a function of the Wilson coefficients. Validate the accuracy of the procedure with the dedicated simulation of event samples with non-zero Wilson coefficients.
-\textcolor{blue}{
+\item {\bf SM-EFT parameterization.} Obtain polynomial parameterization of signal yields for arbitrary selections as functions of the Wilson coefficients. Validate the accuracy of the procedure with the dedicated simulation of event samples with non-zero Wilson coefficients.
 All the SM-EFT effects parameterized as functions of Wilson coefficients will be applied as $K$ factors on the \VH production in the SM. 
-At NLO and NNLO, additional operators beyond the list presented in Table~\ref{Tab:Operators} affect the VH production. Although some of those, e.g., gluon--top and Higgs--top contact terms, are expected to be probed with better sensitivity in other measurements (e.g., of \Pt\PAt, \Pt\PAt\PH productions), we still plan to consider those in case simulating SM-EFT effects for \PZ\PH production at NLO. 
-At NNLO, the Higgs--bottom quark chromomagnetic dipole operator ($\sim \bar{Q} {\sigma}_{\mu\nu} T^a H b G^{\mu\nu}_{a}$ with $T^a$ as the generators of SU(3)$_C$ group) is expected to result in a significant change in the shape of important kinematic variables~\cite{Haisch:2022nwz}. We plan to communicate with the authors of Ref.~\cite{Haisch:2022nwz} to check if it is possible to simulate MC samples including these effects; otherwise, we will include an acceptance correction.}
+At NLO and NNLO, additional operators beyond the list presented in Table~\ref{Tab:Operators} affect the VH production. Although some of those, e.g., gluon--top and Higgs--top contact terms, are expected to be probed with better sensitivity in other measurements (e.g., of $\Pt\PAt$, $\Pt\PAt\PH$ productions), we still plan to consider those in case simulating SM-EFT effects for the $\PZ\PH$ production at NLO. 
+At NNLO, the Higgs--bottom quark chromomagnetic dipole operator ($\sim \bar{Q} {\sigma}_{\mu\nu} T^a H b G^{\mu\nu}_{a}$ where $T^a$ are the generators of SU(3)$_C$ group) is expected to result in a significant change in the shape of important kinematic variables~\cite{Haisch:2022nwz}. We plan to communicate with the authors of Ref.~\cite{Haisch:2022nwz} to check if it is possible to simulate MC samples including these effects; otherwise, we will include an acceptance correction for it.
 
-\item {\bf Optimization of the lepton selection.} Optimize the lepton identification criteria  minimizing the total systematic uncertainty. The optimization is done separately for the resolved and the boosted signal regions, as well as for the analysis of the angular observables.
+\item {\bf Optimization of the lepton selection.} Optimize the lepton identification criteria minimizing the total systematic uncertainty. The optimization is done separately for the resolved and the boosted signal regions, as well as for the analysis of the angular observables.
 Assess the systematic uncertainty in the angular observables associated with the lepton identification.
 
 \item {\bf Optimization of \Pb tagging criteria.} 
@@ -804,66 +830,60 @@ Measure correction factors in appropriate control samples, e.g., in $\PZ\rightar
 \item {\bf Trigger efficiency measurement.} The efficiencies of lepton-based triggers are measured in both data and simulation. 
 Corrections to match the trigger efficiency in simulation and data are derived and applied to the simulation. 
 
-\item {\bf Neutrino momentum reconstruction using MVA.}
-A finely tuned momentum reconstruction is required to resolve the ambiguities in neutrino momentum reconstruction. 
-Using global event observables and kinematic properties of the reconstructed objects, we develop an MVA algorithm based on neural nets to select the correct solution. 
+\item {\bf Neutrino reconstruction using MVA.}
+A finely tuned strategy is required to resolve the ambiguities in neutrino reconstruction. 
+Using event observables and kinematic properties of the reconstructed objects, we develop an MVA algorithm based on neural nets to select the correct solution. 
 This task particularly benefits the CP-sensitivity of the \PH--\PW coupling measurements. 
-A powerful prescription developed for neutrino reconstruction 
-will be a valuable asset beyond the scope of this proposal.
+A powerful prescription developed for neutrino reconstruction will be a valuable asset beyond the scope of this proposal.
 
 \item {\bf Background estimation.} 
 Contributions of background processes will be primarily estimated from the simulation. Orthogonal regions, enriched in important background processes ($\Pt\PAt$, {\PV}+\Pb/\Pc, {\PV}+udsg) will be constructed by inverting the criteria listed in Table~\ref{Tab:Regions}, where the consistency of the simulated background with data will be checked. 
 Corrections accounting for mismodeling, if needed, will be derived and the corresponding systematic uncertainties will be quantified. 
-Different techniques for the background estimation, e.g., using the mass sidebands, are to be checked. 
+%Different techniques for the background estimation, e.g., using the mass sidebands, are to be checked. 
 
 \item {\bf Multivariate analysis.} Modeling of the variables used for signal-to-background separation in DNN-based multivariate analysis and their correlations need to be properly checked. 
 The architecture of the DNN and the threshold on the NN discriminator need to be optimized. 
-The modeling of the NN discriminator for different background processes will be checked, 
-and data-to-simulation corrections will be derived if needed. 
+%The modeling of the NN discriminator for different background processes will be checked, 
+%and data-to-simulation corrections will be derived if needed. 
+Data-to-simulation corrections for the modeling of the NN discriminator for different background processes will be derived if needed. 
 
 \item {\bf SM-EFT to SM separation.} In the feasibility study, the constraints on Wilson coefficients are derived just by using a few kinematic variables.
 A more sophisticated study with a larger number of observables, taking into account their correlation, is performed in this task. 
-\textcolor{blue}{A novel machine-learning method ``Boosted Information Trees'', proposed by the PI and his group, provides optimal observables for SM-EFT parameter measurements~\cite{Chatterjee:2021nms,Chatterjee:2022oco}. 
-Ref.~\cite{Chatterjee:2022oco} contains a study of the $\PZ\PH$ process using simplified simulation with 20-50\% improvement on 95\% CL limits.  }
+A novel machine-learning method, ``Boosted Information Trees'', proposed by the PI and his group, provides optimal observables for SM-EFT parameter measurements~\cite{Chatterjee:2021nms,Chatterjee:2022oco}. 
+Ref.~\cite{Chatterjee:2022oco} contains a study of the $\PZ\PH$ process using simplified simulation with 20-50\% improvement at 95\% CL limits.
+Recently, Ref.~\cite{GomezAmbrosio:2022mpm}, which uses a very similar methodology as the Boosted Information Trees, has shown that such an approach improves the sensitivity to SM-EFT operators enormously when the effects from a large number of SM-EFT operators are considered together. 
+It uses neural networks instead of decision trees. 
+It will be investigated if a network capable of using variable-sized inputs brings an improvement in performance.
 
 \item {\bf Experimental systematic uncertainties.} Systematic uncertainties related to different objects, e.g., leptons and jets, and corrections at the event level need to be applied. 
 The systematic uncertainties need to be properly derived for the corrections developed during this particular analysis. 
 The correlation between systematic uncertainty sources in different years needs to be appropriately defined. 
 It will be carefully checked if some of the systematic uncertainties are unexpectedly constrained. 
-\textcolor{blue}{Systematic uncertainties on jet and lepton energy calibration affect the determination of $\ptvecmiss$, thus the reconstructed neutrino momentum. Those also affect the measurement of angular variables. It is checked that those systematic uncertainties don't change the shape of distributions of angular variables considerably and do not reduce the power of the measurement significantly.}
+Systematic uncertainties on jet and lepton energy calibration affect the determination of $\ptvecmiss$, thus the reconstructed neutrino momentum. Those also affect the measurement of angular variables. It is checked that those systematic uncertainties don't change the shape of distributions of angular variables considerably and do not reduce the power of the measurement significantly.
 
 \item {\bf Modeling uncertainties.} Systematic uncertainties in prediction from the choice of renormalization and factorization scales,  parton distribution function,  and the parton shower need to be derived. 
 The neutrino reconstruction is also expected to be affected by the modeling uncertainties. 
 
-\item {\bf SM-EFT effects in the background.} So far, all the discussions regarding the SM-EFT operators are made for \VH production, which is the signal targeted. However, some of the operators in Table~\ref{Tab:Operators} also affect some of the background processes. 
-For example, ${\cal O}^{(1)}_{Hq}$, ${\cal O}^{(3)}_{Hq}$ affect the diboson production, which is related to \VH production by Goldstone equivalence theorem~\cite{PhysRevD.10.1145} at high energy. 
-These are also expected to affect {\PV}+jets production. 
-\textcolor{blue}{
-Gauge coupling operators ${\cal O}_{HW}$, ${\cal O}_{HWB}$, ${\cal O}_{HB}$ also affect the diboson production.
+\item {\bf SM-EFT effects in the background.} So far, all the discussions regarding the SM-EFT operators are made for \VH production, which is the signal targeted. However, a number of the operators in Table~\ref{Tab:Operators} also affect some of the background processes. 
+Vector coupling operators, e.g., ${\cal O}^{(1)}_{Hq}$, ${\cal O}^{(3)}_{Hq}$, affect the diboson production, which is related to \VH production by Goldstone equivalence theorem~\cite{PhysRevD.10.1145} at high energy, as well as {\PV}+jets production. 
+Gauge coupling operators ${\cal O}_{HW}$, ${\cal O}_{HWB}$, ${\cal O}_{HB}$ affect the diboson production.
+%Smaller effects can be present in events from $\Pt\PAt$ production.
 We plan to take into the SM-EFT effects on backgrounds in the same manner as for the \VH signal.
-}
-
 A significant amount of effort needs to be dedicated to the simulation of SM-EFT effects for the backgrounds, followed by a joint analysis of signal and background to report the final sensitivity to the corresponding Wilson coefficients. 
 
 \item {\bf Sensitivity report.} Results from different years of Run~2 will be combined and
 the sensitivity of the analysis will be quantified using likelihood scans, taking into account correlations between the operators. 
-\textcolor{blue}
-{
-Mixing SM-EFT operators through renormalization group equations can change the sensitivity results. 
-The matrix of anomalous dimensions is theoretically known~\cite{Alonso:2013hga,Jenkins:2013wua,Jenkins:2013sda} and the effects are expected to be at the percent level.
-These effects can be important if some poorly constrained operator leads to the running of a strongly constrained one. 
-However, the existing constraints on the SM-EFT operators considered in this proposal are generally weak, so these effects are expected to be small~\cite{Elias-Miro:2013eta}.
-Nevertheless, there are ongoing efforts in the theory community to check the RGE effects on the interpretation of LHC data in the context of global SM-EFT fits, and we leave it to theorists.
-}
+Mixing of the SM-EFT operators through renormalization group equations (RGE) can indeed change the sensitivity results. 
+The matrix of anomalous dimensions is theoretically known~\cite{Alonso:2013hga,Jenkins:2013wua,Jenkins:2013sda}.
+These effects, neglected for the purpose of the proposal, can be important if some poorly constrained operator leads to the running of a strongly constrained one. 
+Nevertheless, the ongoing efforts in the theory community on RGE effects and on the interpretation of LHC data in the context of global SM-EFT fits will be adapted in the project by keeping the interpretation at the state-of-the-art by including all relevant effects available now or in the future. Future recommendations of to LHC EFT working group in this regard will be followed.
 
 \item {\bf Publication based on Run~2 data.} A first paper will be written reporting the results based on Run~2 data. This involves a series of reviews within the CMS Collaboration and finally by the journal reviewers. 
-\textcolor{blue}{
-We plan to release the measurement results in a format that the particle physics community can use to combine the results with other measurements. Since the expected number of \VH signal events is small in SM, we don't plan to perform the unfolding of detector effects. Also, the underlying theoretical assumptions used to create the response matrices needed for unfolding may change the sensitivity to the SM-EFT effects. Instead, we aim to publish the raw (unprofiled) likelihood information.
-}
+We plan to release the measurement results in a format that the particle physics community can use to combine the results with other measurements. Since the expected number of VH signal events is small in SM, unfolding of detector effects is not currently a priority. If it is done, SM-EFT effects in the unfolding matrix must be accounted for. Instead, we aim to publish the raw (unprofiled) likelihood information. This is the preferred format from, e.g., the SMEFiT Collaboration~\cite{SMEFTFiT} and we plan to reflect future changes in the recommendations from, e.g., the LHC EFT working group~\cite{LHC_EFT_WG}.
 
-\item {\bf Signal simulation for Run~3.} The setup developed for the signal simulation for Run~2 will be used in Run~3. However, options will be kept open to incorporate the developments in the theory community by this period. 
+\item {\bf Signal simulation for Run~3.} The the signal simulation setup for Run~2 will be used in Run~3. However, we will be open to incorporate the developments in the theory community by this period. 
 
-\item {\bf Trigger efficiency measurement and optimization of object selection for Run~3.} The triggers which were operational during Run~2 are expected to be available for Run~3 also, but the pileup condition is likely to change. So, the trigger efficiency and corresponding corrections need to be also derived for Run~3. 
+\item {\bf Trigger efficiency measurement and optimization of object selection for Run~3.} The triggers which were operational during Run~2 will be available for Run~3 also, but the pileup condition is expected to change. So, the trigger efficiency and corresponding corrections need to be also derived for Run~3. 
 For the same reason, object selection criteria need to be reevaluated for Run~3. 
 
 \item {\bf Choice of \PH tagger for Run~3.} With the fast progress in heavy particle tagging, more powerful taggers are expected to be available during the Run~3 schedule. An evaluation will be performed based on the available taggers, and the best performant one will be used. 
@@ -874,14 +894,19 @@ For the same reason, object selection criteria need to be reevaluated for Run~3.
 
 \item {\bf Combination of Run~2 and~3 results.} Results from the analyses based on Run~2 and Run~3 data samples will be combined. Final sensitivity on Wilson coefficients will be reported using the combined data set. 
 
-\item {\bf Publication of final results.} The final results will be reported in a paper, which will go through the internal review process by the CMS Collaboration and finally be submitted to the journal for publication. 
+\item {\bf Publication of final results.} The final results will be reported in a paper, which will go through the review process by the CMS Collaboration and finally be submitted to the journal for publication. 
 
 \end{enumerate}
 
-\textcolor{blue}{
-The timescales for the last two tasks, e.g., work packages 21 and 22, are conservative, so there is a contingency in case some previous tasks take more time than anticipated.
-It is worth mentioning that some of the tasks are correlated with others. For example, signal simulation and SMEFT parameterization have a strong interlink; the same is true for work packages 4 and 5. These kinds of tasks are put in similar time slots so that feedback of one of those immediately propagates to the others.
-}
+It is worth mentioning that some of the tasks are correlated with others, while others are not. 
+Tasks 1 and 2 have a strong interlink, while tasks 3-7, which can be performed independently, do not critically depend on tasks 1-2. 
+Tasks 8 and 9 can be set up even if the previous tasks are not completely finished.
+Task 10 and 13 depend on task 1-2 but not on the others, whereas task 11 and 12 significantly depends on most of the previous tasks.
+Completing tasks 14 and 15, of course, relies on all the preceding work packages. 
+For Run~3, tasks 16-19 are primarily independent, while tasks 20-22, by construction, do depend on the success of the previous ones.
+%Successive interconnected tasks are put in similar time slots so that the feedback of one immediately propagates to the others.
+The timescales for the last two tasks, i.e., work packages 21 and 22, are conservative, so there is some buffer time in case some previous studies take more time than anticipated.
+The LHC Run~3 has already started, and the planning of the data taking already factors in Covid-related delays. Further delays are unlikely, but there is a full year of contingency in the work and time plan.
 
 
 \section{Ethical, safety-related or regulatory aspects}
@@ -897,22 +922,23 @@ The hiring process at HEPHY is accompanied by a gender-and-diversity officer (Ba
 W. Adam from HEPHY is a member of the CMS committee for diversity and inclusion and will oversee the hiring process. 
 The job advertisement will be formulated gender neutrally. 
 In order to improve the gender balance at HEPHY
-($23\%$), a suitable female candidate will be given preference.
+($26\%$), a suitable female candidate will be given preference.
 
 \section{Human resources}
 
 A PhD student will be recruited solely for this project to be conducted at HEPHY, Vienna. 
 The PhD student will carry out the project under the supervision of the project applicant, PI Dr. S. Chatterjee. 
 The PI will spend $100\%$ of his time on this project. 
-The PI has five years of experience in CMS data analysis in the context of precision jet measurements, searches for new physics, detector calibration, and implementation of algorithms in the CMS software framework. 
+The PI has six years of experience in CMS data analysis in the context of precision jet measurements, searches for new physics, design of object-identification techniques, detector and object calibration, and implementation of algorithms in the CMS software framework. 
 The PI has also worked on high energy physics phenomenology in collaboration with theorists and published papers in international journals. 
+He is also involved in the hardware activities being conducted at HEPHY.% for the upgrade of the CMS detector.
 
 The tasks will be carried out in consultation with the leader of CMS data analysis group of the institute: Dr. Robert Sch{\"o}fbeck (RS), who is also performing SM-EFT measurements in top quark physics in association with a post-doctoral researcher Dr. Dennis Schwartz (DS). 
 Particularly, SM-EFT parameterization (task 2) and SM-EFT to SM separation (task 10) will be performed in collaboration with RS and DS, but they do not take responsibility for the tasks in the work and time plan.
 RS is also the former convener of the ``top quark mass and properties'' physics analysis group and the ``Jets and MET'' physics object group of the CMS Collaboration. 
 His feedback on documentation and presentation of the results will be constructive. 
 
-\textcolor{blue}{Wolfgang Adam, a senior scientist at the HEPHY CMS group, will monitor the progress of the project and provide the necessary advice. He has vast experience in reviewing CMS publications as the former Physics coordinator of the CMS Collaboration. His role will be purely advisory, and he will not do any technical work.}
+Wolfgang Adam, a senior scientist at the HEPHY CMS group, will monitor the progress of the project and provide the necessary advice. He has vast experience in reviewing CMS publications as the former Physics coordinator and the present deputy spokesperson of the CMS Collaboration. His role will be purely advisory, and he will not do any technical work.
 
 \appendix
 \renewcommand{\thesection}{Annex \arabic{section}} 
@@ -934,25 +960,26 @@ His feedback on documentation and presentation of the results will be constructi
 The Institute of High Energy Physics (HEPHY) of the Austrian Academy of Sciences was founded in 1966. 
 Its main purpose is the research in high energy physics and to highlight Austria's membership at CERN. 
 On the hardware side, HEPHY has made significant contributions to the CMS inner tracker and the trigger system. 
-The CMS data analysis group, led by Dr. R. Sch{\"o}fbeck, consists of 14 members based at offices in the Apostelgasse 23 in Vienna and at CERN. The successful candidate will be based in Vienna. 
-This choice will enable a direct collaboration with the other PhD students and two master students doing data analysis in CMS, as well as with the scientist of the New Physics theory group.
+The CMS data analysis group, led by Dr. R. Sch{\"o}fbeck, consists of 14 members based at offices in the Georg-Coch-Platz 2 Vienna and at CERN. The successful candidate will be based in Vienna. 
+This choice will enable a direct collaboration with the other PhD students and several master students doing data analysis in CMS, as well as with the scientist of the New Physics theory group.
 Four members are based at CERN. 
-\textcolor{red}{Among them is  W. Adam, the former physics coordinator of the CMS experiment and the leader of the HEPHY team at CERN. (Do we need this sentence now, since we have already mentioned Wolfgang's name in Sec. 11?)}
+Among them is  W. Adam, the former physics coordinator and the present deputy spokesperson of the CMS experiemnt.
 
 The infrastructure available to the HEPHY CMS analysis group comprises:
 \begin{itemize}
-\item Office space with personal workstations at Apostelgasse 23.
+\item Office space with personal workstations at Georg-Coch-Platz 2.
 \item Access to an LHC-Grid (LCG) Tier-2 cluster with 1000 CPU cores and 500 TByte storage. Access to the CLIP computing cluster at the Gregor Mendel Institute of the Austrian Academy of sciences with approx. 10k CPU cores and 50 TB of
 storage for analysis work.
 \item Video-conferencing equipment for daily communication with other CMS physicists and participation in CMS Collaboration meetings.
 \end{itemize}
 
-This project application requests funding for one PhD student for 48 months (EUR 39.780 per year in 2021). 
+This project application requests funding for one PhD student for 48 months, from mid-2023 till the mid-2027 (EUR 43.650 per year in 2023 for 30-hour working week). 
+%Working time for the PhD student is 30 hours per week.
 The PI S. Chatterjee is a post-doctoral researcher at HEPHY.
 Upon a positive funding decision by the FWF, a call for the PhD student will be opened, advertised inside and outside Austria, and made equally accessible to physicists regardless of their race, color, creed, national origin, religion, family status, sexual orientation, age, and political beliefs. 
 In order to improve the gender balance at HEPHY ($\sim 23\%$), a suitable female candidate will be given preference.
 
-Furthermore, a total of EUR 5.155 per year for travel expenses between Vienna and CERN is requested. 
+Furthermore, a total of EUR 5.655 per year for travel expenses between Vienna and CERN is requested. 
 These costs are justified as follows: 
 The PhD student will travel four times a year (approximately every two months) to CERN for, on average, one week.
 The purpose of the four trips is the collaboration with the other experimentalists in the CMS HIG group and to present in person to the other members of the CMS Collaboration.
@@ -969,24 +996,25 @@ A breakdown of the expected costs of a working trip to CERN is provided in Table
 \begin{tabular}{m{5 cm}| r r| m {4 cm}}
 Item & \multicolumn{2}{c}{Cost} & Comment \\
 \hline 
-Flight VIE-GVA-VIE & EUR & 300 & \\
+Flight VIE-GVA-VIE & EUR & 400 & \\
 7 per diem at EUR 28,10 & EUR & 196,70 & \\
 7 per noctem at EUR 24,90 & EUR & 174,30 & \\
 6 hotel nights at EUR 60 & EUR & 360  & \\
 \hline
-Total per year & EUR & 5.155 & 5 trips per year \\
+Total per year & EUR & 5.655 & 5 trips per year \\
 \hline
-Total & EUR & 20.620 & For 4 years in total
+Total & EUR & 22.620 & For 4 years in total
 \end{tabular}
 }
 \end{center}
 \label{Tab:Travel_cost}
 \end{table}
 
-Funding is also requested for computational costs amounting to EUR 1.250, assuming the use of 100 CPU hours per working day for four years, where each CPU hour costs about EUR 0,01.
+%Funding is also requested for computational costs amounting to EUR 1.250, assuming the use of 100 CPU hours per working day for four years, where each CPU hour costs about EUR 0,01. 
+Funding is also requested for computational costs amounting to EUR 1.250, assuming the use of 50 CPU hours per working day for four years with roughly 270 working days per year. Each CPU hour costs about EUR 0,019 excluding VAT; thus, after including VAT, it becomes EUR 0,023. 
 
-An extra $5\%$ of the total that amounts to EUR 180.990 is requested to cover other unexpected costs.  
-Total requested funding sums up to EUR 190.039,50.  
+An extra $5\%$ of the total that amounts to EUR 198.470 is requested to cover other unexpected costs.  
+Total requested funding sums up to EUR 208.393,50. 
 A summary of the total costs of the project is provided in Table~\ref{Tab:Total_cost}.
 \begin{table}
 \caption{The total amount of requested funding along with divisions for different items.}
@@ -995,13 +1023,14 @@ A summary of the total costs of the project is provided in Table~\ref{Tab:Total_
 \begin{tabular}{m{6 cm}| r r}
 Item & \multicolumn{2}{c}{ Cost } \\
 \hline 
-PhD student's salary & EUR & 159.120  \\
-PhD student's travel costs & EUR & 20.620 \\
+PhD student's salary for 48 months (Jul 2023 -- Jun 2027, 30 hrs/week) & EUR & 174.600  \\
+PhD student's travel costs & EUR & 22.620 \\
 Computational costs & EUR & 1.250 \\
+%Other costs & EUR & 1.250 \\
 \hline
-General costs ($5\%$) & EUR & 9.049,50  \\
+General costs ($5\%$) & EUR & 9.923,50  \\
 \hline
-Total & EUR & 190.039,50
+Total & EUR & 208.393,50
 \end{tabular}
 }
 \end{center}
@@ -1027,7 +1056,6 @@ Total & EUR & 190.039,50
 \textbf{Email:} suman.chatterjee@oeaw.ac.at, suman.chatterjee@cern.ch\\
 \textbf{Phone: } +91-7710835260, +43-6769390476\\
 \textbf{Personal website: } \href{https://sumanchatterjeetifr.wordpress.com}{https://sumanchatterjeetifr.wordpress.com}
-
 
 \subsection*{\underline{Academic Records}}
 
@@ -1064,7 +1092,10 @@ Jadavpur University, Kolkata  700032, India
 \subsection*{\underline{Research Experience}}
 
 \textbf{Search for MSSM $\PH\rightarrow \tau\tau$:}
-A search is being performed for additional Higgs bosons, predicted by minimal supersymmetric extensions of the standard model, in the $\tau\tau$ final state. I've measured the contribution of background processes where hadronic jets fake as $\tau$ leptons.~[ongoing]\\
+A search is being performed for additional Higgs bosons, predicted by minimal supersymmetric extensions of the standard model, in the $\tau\tau$ final state. I've measured the contribution of background processes where hadronic jets fake as $\tau$ leptons.~[\href{https://arxiv.org/abs/2208.02717}{arXiv:2208.02717}]\\
+\textbf{Likelihood-free inference for extracting effective field theory parameters:}
+An algorithm based on boosted decision tree is designed to regress on the reconstruction- and parton-level joint likelhood ratio providing optimal observables to probe the size of coefficients of operators in standard model effective field theory.
+~[\href{https://arxiv.org/abs/2205.12976}{arXiv:2205.12976},\href{https://doi.org/10.1016/j.cpc.2022.108385}{Comput.Phys.Commun. 277 (2022) 108385}]\\
 \textbf{Search for $\textrm{W}^\prime \rightarrow \Pt \Pb$:}
 A search is performed for W$^\prime$ bosons decaying to a bottom and a top quark followed in hadronic final state using deep neural network based algorithms for heavy-quark identification.
 Both left- and right-handed W$^\prime$ bosons of masses less than 3.4\,TeV are excluded.~[\href{https://doi.org/10.1016/j.physletb.2021.136535}{Phys. Lett. B 820 (2021) 136535}]\\
@@ -1098,7 +1129,7 @@ A detailed study of the phenomenology of a multicomponent dark matter scenario w
 \subsection*{\underline{Presentations at Conferences, Workshops}}
 
 \begin{itemize}
-\item Eight parallel and three plenary talks at international conferences and workshops
+\item Eleven parallel and five plenary talks at international conferences and workshops and two seminar talks
 \item Three poster presentations at international conferences and workshops
 \end{itemize}
 
@@ -1185,14 +1216,15 @@ at the XII School on Experimental High Energy Physics conducted by the Science a
 \textbf{Autumn 2016: Teaching assistant}\\
 Course: Advanced Electrodynamics at TIFR, Mumbai
 %Instructor: Prof. G. Ravindra Kumar, TIFR\\
+\\
 
 \subsection*{\underline{Supervision Experience}}
 
-\textbf{Andreas Gruber} (M.Sc. student at TU Wien, Thesis advisor: Dr. R. Sch{\"o}fbeck):\\
-Designed and supervising thesis project on \textit{lepton identification using a graph neural network}~(ongoing)\\
+\textbf{Andreas Gruber} (M.Sc. student at TU Wien, Thesis advisor: Dr. R. Sch{\"o}fbeck $\rightarrow$ CERN PhD program):\\
+Designed his Master's thesis project on \textit{lepton identification using a graph neural network} and supervised his thesis work ~(May, 2022 - Jan, 2023)\\
 %\textbf{Ritik Saxena} (PhD student at TIFR, Mumbai, Advisor: Prof. G. Majumder)\\
 %Supervise his ongoing analysis on \textit{cross section measurement of top pair production in dileptonic final states in boosted phase space} and provide technical guidance~(ongoing)\\
-%\\
+\\
 \textbf{Anirban Bala} (PhD student at TIFR, Mumbai, Advisor: Prof. M. Guchait):\\
 %During his departmental project I (July-September, 2020) under Prof. G. Majumder \\
 %Designed the project and mentored thoroughly during its implementation
@@ -1202,13 +1234,18 @@ Designed his departmental project on \textit{performance of different pileup sub
 
 \textbf{XII School on Experimental High Energy Physics} at TIFR, Mumbai:
 Helped the organization at the institute level\\
-%\\
+\\
 \textbf{SUSY 2017} conference at TIFR, Mumbai:
 Led the team of volunteers for local organization
 
 \subsection*{\underline{Selected Publications}}
+\textbf{1:}
 
-\textbf{1:} {
+\textbf{1:} {Tree boosting for learning EFT parameters}\\
+Suman Chatterjee, Nikolaus Frohner, Lukas Lechner, Robert Sch{\"o}fbeck, Dennis Schwarz\\
+\href{https://doi.org/10.1103/PhysRevD.100.115050}{Phys. Rev. D 100, 115050}\\
+\textit{Likelihood-free inference method using boosted decision trees to build optimal observable for extracting parameters of effective field theory.}\\
+\textbf{2:} {
 Search for a W$^\prime$ boson decaying to a top and a bottom quark at $\sqrt{s}=13$\,TeV}\\
 CMS Collaboration \\
 \href{https://doi.org/10.1016/j.physletb.2021.136535}{Phys. Lett. B 820 (2021) 136535} \\
